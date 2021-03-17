@@ -2,7 +2,9 @@
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px;
+  padding-bottom: 3px !important;
+  /* margin-top: 20px; */
 }
 
 #header.header-scrolled {
@@ -11,7 +13,7 @@
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -54,7 +56,7 @@
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: #6a7489;
   white-space: nowrap;
@@ -255,6 +257,23 @@
   display: block;
 }
 
+.left-padding{
+  padding-left: 8px !important;
+  padding-right: 5px !important;
+}
+
+.navbar>ul>li{
+  border-right: 1px solid #e5e5e7;
+}
+
+.left-line{
+  border-right: 1px solid #e5e5e7;
+}
+
+.navbar>ul>li:last-child{
+  border: none;
+}
+
 
 /* mega menu */
 /* .dropdown .dropbtn {
@@ -319,3 +338,47 @@
     height: auto;
   }
 } */
+
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+/* #topbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  height: 40px;
+  padding: 0;
+} */
+
+.contact-info a {
+  line-height: 0;
+  color: #444;
+  transition: 0.3s;
+}
+
+.contact-info a:hover {
+  color: #16df7e;
+}
+
+.contact-info i {
+  color: #428bca;
+  line-height: 0;
+  margin-right: 5px;
+}
+
+.contact-info .phone-icon {
+  margin-left: 15px;
+}
+
+.social-links a {
+  color: #5c768d;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #16df7e;
+}
