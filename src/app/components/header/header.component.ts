@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 declare const navOpen: any;
 declare const dropdownOpen: any;
 
@@ -8,24 +8,45 @@ declare const dropdownOpen: any;
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+public innerWidth:any;
+public width=false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event:any) {
+    if(window.innerWidth<991){
+      this.width=true;
+    }else{
+      this.width=false;
+    }
+  }
+
   public toggle = false;
   constructor() { }
 
   ngOnInit(): void {
+    if(window.innerWidth<991){
+      this.width=true;
+    }else{
+      this.width=false;
+    }
   }
 
-  nav(event:any){
-    this.toggle=true;
+  nav(event: any) {
+    this.toggle = true;
+    // let node = document.createElement("li");
+    // node.innerHTML = '<a class="nav-link left-padding scrollto" href="#hero">About Us</a>';
+    // let ul = document.getElementById('ul');
+    // ul?.appendChild(node);
+    // console.log(ul)
     navOpen(event);
     // console.log('event in nav',event);
   }
 
-  close(event:any){
+  close(event: any) {
     navOpen(event);
-    this.toggle=false;
+    this.toggle = false;
   }
 
-  dropdown(event:any){
+  dropdown(event: any) {
     console.log(event)
     dropdownOpen(event)
   }
