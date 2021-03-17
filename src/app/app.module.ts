@@ -12,6 +12,7 @@ import { AboutComponent } from './components/content/about/about.component';
 import { ServiceSectionComponent } from './components/content/service-section/service-section.component';
 import { CtaSectionComponent } from './components/content/cta-section/cta-section.component';
 import { TeamSectionComponent } from './components/content/team-section/team-section.component';
+import { ClientsComponent } from "./components/content/clients/clients.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -25,7 +26,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AboutComponent,
     ServiceSectionComponent,
     CtaSectionComponent,
-    TeamSectionComponent
+    TeamSectionComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
