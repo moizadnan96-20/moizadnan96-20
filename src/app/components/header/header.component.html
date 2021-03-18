@@ -79,7 +79,12 @@
     <h1 *ngIf="width" class="logo"><a href="index.html">Perception IT</a></h1>
     <nav id="navbar" class="navbar">
       <ul id="ul">
-        <li><a class="nav-link left-padding scrollto active" href="#hero">Managed Services</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">About Us</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Our Tech Lead</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Portfolio</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Jobs</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Queries</a></li>
+        <li><a class="nav-link left-padding scrollto" href="#hero">Managed Services</a></li>
         <li><a class="nav-link left-padding scrollto" href="#about">Customised Softwares</a></li>
         <li><a class="nav-link left-padding scrollto" href="#services">Consulting</a></li>
         <li><a class="nav-link left-padding scrollto " href="#portfolio">Dev Ops</a></li>
@@ -88,12 +93,6 @@
         <li><a class="nav-link left-padding scrollto" href="#team">Technology</a></li>
         <li><a class="nav-link left-padding scrollto" href="#team">Product</a></li>
         <li><a class="nav-link left-padding scrollto" href="#team">Industry Section</a></li>
-
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">About Us</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Our Tech Lead</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Portfolio</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Jobs</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Queries</a></li>
         
         <!-- <li><div ngbDropdown class="d-inline-block">
           <a id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</a>
