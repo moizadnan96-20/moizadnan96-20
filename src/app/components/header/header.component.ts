@@ -12,7 +12,7 @@ public innerWidth:any;
 public width=false;
   @HostListener('window:resize', ['$event'])
   onResize(event:any) {
-    if(window.innerWidth<991){
+    if(window.innerWidth<=991){
       this.width=true;
     }else{
       this.width=false;
@@ -23,7 +23,7 @@ public width=false;
   constructor() { }
 
   ngOnInit(): void {
-    if(window.innerWidth<991){
+    if(window.innerWidth<=991){
       this.width=true;
     }else{
       this.width=false;
