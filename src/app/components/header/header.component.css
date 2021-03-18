@@ -29,11 +29,14 @@
   max-height: 40px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1160px) {
   #header {
-    padding: 12px 0;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
   }
 }
+
+
 .navbar {
   padding: 0;
 }
@@ -153,6 +156,15 @@
   }
 }
 
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+
 /**
 * Mobile Navigation 
 */
@@ -169,7 +181,7 @@
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1160px) {
   .mobile-nav-toggle {
     display: block;
   }
