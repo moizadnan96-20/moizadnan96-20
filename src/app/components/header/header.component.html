@@ -75,7 +75,7 @@
   </div>
   <div class="margin-left-right d-flex align-items-center justify-content-between">
     <!-- <h1 class="logo"><a href="index.html">Perception IT</a></h1> -->
-    <div></div>
+    <div *ngIf="!width"></div>
     <h1 *ngIf="width" class="logo"><a href="index.html">Perception IT</a></h1>
     <nav id="navbar" class="navbar">
       <ul id="ul">
