@@ -395,3 +395,50 @@
 .social-links a:hover {
   color: #16df7e;
 }
+
+#bellow-bar{
+ background-color: #0c2f70;
+ color: white;
+}
+
+#bellow-bar > div{
+  color: white;
+}
+
+.paragraph-margin{
+  margin-top: 10px;
+}
+
+.news {
+  width: 180px
+}
+
+.news-scroll a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  margin-top: 5px;
+}
+
+.news-scroll{
+  height: 40px;
+  background: rgb(12, 12, 102);
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  margin-right: 100px;
+  margin-top: 2px !important;
+  display: inline-block
+}
+
+@media (max-width: 1160px) {
+  #scroller{
+    margin-top: 68px !important;
+  }
+}
+
+#scroller{
+  margin-top: 80px;
+}
