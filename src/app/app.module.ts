@@ -14,6 +14,8 @@ import { CtaSectionComponent } from './components/content/cta-section/cta-sectio
 import { TeamSectionComponent } from './components/content/team-section/team-section.component';
 import { ClientsComponent } from "./components/content/clients/clients.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ServicesComponent } from './components/content/services/services.component';
+import { PortfolioComponent } from './components/content/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ServiceSectionComponent,
     CtaSectionComponent,
     TeamSectionComponent,
-    ClientsComponent
+    ClientsComponent,
+    ServicesComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
