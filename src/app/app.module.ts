@@ -15,6 +15,7 @@ import { TeamSectionComponent } from './components/content/team-section/team-sec
 import { ClientsComponent } from "./components/content/clients/clients.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServicesComponent } from './components/content/services/services.component';
+import { PortfolioComponent } from './components/content/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ServicesComponent } from './components/content/services/services.compon
     CtaSectionComponent,
     TeamSectionComponent,
     ClientsComponent,
-    ServicesComponent
+    ServicesComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
