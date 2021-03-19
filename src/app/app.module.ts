@@ -16,6 +16,7 @@ import { ClientsComponent } from "./components/content/clients/clients.component
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServicesComponent } from './components/content/services/services.component';
 import { PortfolioComponent } from './components/content/portfolio/portfolio.component';
+import { NgMarqueeModule } from 'ng-marquee';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PortfolioComponent } from './components/content/portfolio/portfolio.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgMarqueeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
