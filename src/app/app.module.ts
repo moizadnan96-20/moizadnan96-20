@@ -14,6 +14,7 @@ import { CtaSectionComponent } from './components/content/cta-section/cta-sectio
 import { TeamSectionComponent } from './components/content/team-section/team-section.component';
 import { ClientsComponent } from "./components/content/clients/clients.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgMarqueeModule } from 'ng-marquee';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgMarqueeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -417,11 +417,11 @@
   text-decoration: none;
   color: white;
   font-size: large;
-  margin-top: 5px;
+  margin-top: 30px !important;
 }
 
 .news-scroll{
-  height: 40px;
+  height: 50px;
   background: rgb(12, 12, 102);
 }
 
@@ -441,4 +441,17 @@
 
 #scroller{
   margin-top: 80px;
+}
+
+.news-height{
+  padding-top: 10px;
+height: 45px;
+}
+
+.blue-background{
+background-color: rgb(16, 16, 97);
+}
+.text-white{
+  color: white;
+  font-size: large;
 }
