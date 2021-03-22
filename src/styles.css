@@ -1,6 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+@font-face {
+  font-family: "SFPro";
+  src: local("SFPro"), url(./assets/fonts/SFProDisplay-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif-Regular";
+  src: local("IBMPlexSerif-Regular"), url(./assets/fonts/IBMPlexSerif-Regular.ttf) format("truetype");
+}
+
 .margin-left-right {
   margin-left: 10px;
   margin-right: 10px;
@@ -8,7 +18,7 @@
 
 /* @import '~font-awesome/css/font-awesome.css'; */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "SFPro";
   color: #444444;
 }
 
@@ -28,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "IBMPlexSerif-Regular";
 }
 
 section {
