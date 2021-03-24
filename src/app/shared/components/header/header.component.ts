@@ -1,4 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
+
 declare const navOpen: any;
 declare const dropdownOpen: any;
 
@@ -20,7 +22,7 @@ public width=false;
   }
 
   public toggle = false;
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
     if(window.innerWidth<=1160){
@@ -49,6 +51,10 @@ public width=false;
   dropdown(event: any) {
     console.log(event)
     dropdownOpen(event)
+  }
+
+  public routeTo(path:any){
+    this.router.navigate([path]);
   }
 
 }
