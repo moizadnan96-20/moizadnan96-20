@@ -28,12 +28,25 @@
   color: #16df7e;
 } */
 
+.blue-background{
+  background-color: rgb(16, 16, 97);
+}
+
+.main-heading{
+ padding-bottom: 20px;
+}
 
 .description {
   color: white;
   line-height: 24px;
   font-size: 16px;
   font-family: "SFPro";
+  margin-bottom: 0px !important;
+}
+
+.links-tab{
+  background-color: black;
+  padding: 5px 0px 5px 0px;
 }
 
 .social-links a {
@@ -44,12 +57,24 @@
     transition: 0.3s;
   }
 
+  .question-div{
+   /* margin-top: 10px; */
+   padding: 5px 0px 5px 0px;
+  }
+
+  .answer-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
   .icon-box {
     height: 500px;
     color: white;
     background: #bdc0c5;
     border: 1px solid rgb(155, 152, 152);
     transition: 0.3s;
+    margin-bottom: 10px;
   }
 
   .box-2-1{
@@ -66,7 +91,8 @@
     color: white;
     background: #bdc0c5;
     border: 1px solid rgb(155, 152, 152);
-    transition: 0.3s; 
+    transition: 0.3s;
+    margin-bottom: 10px;
   }
 
   /*--------------------------------------------------------------
@@ -108,15 +134,31 @@
     color: #2c4964;
   }
   
-  .doctors .member span {
+  .doctors .member span{
     display: block;
     font-size: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     position: relative;
     font-weight: 500;
   }
+
+  #customer{
+    font-size: 12px !important;
+  }
+
+  #customer::after {
+    width: 130px;
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    left: 0;
+  }
   
-  .doctors .member span::after {
+  
+  /* .doctors .member span::after {
     content: '';
     position: absolute;
     display: block;
@@ -125,11 +167,11 @@
     background: #b2c8dd;
     bottom: 0;
     left: 0;
-  }
+  } */
   
   .doctors .member p {
-    margin: 10px 0 0 0;
-    font-size: 14px;
+    margin: 5px 0 0 0;
+    font-size: 12px;
   }
   
   .doctors .member .social {
@@ -163,40 +205,3 @@
   .doctors .member .social a + a {
     margin-left: 8px;
   }
-
-  /* section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-
-  .section-title {
-    padding-bottom: 30px;
-  }
-  
-  .section-title h4 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-  }
-  
-  .section-title h2::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #009970;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .section-title p {
-    margin-bottom: 0;
-  }
-  
-   */
-  
-  
