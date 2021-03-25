@@ -1,0 +1,313 @@
+.devops {
+  padding-top: 5px !important;
+}
+
+.first-div{
+  background-color: gray;
+  margin-bottom: 5px;
+  color:white;
+  height: 250px;
+}
+
+.title {
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.testimonial-heading{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 22px;
+    color: black;
+}
+
+.title a {
+  color: white;
+  transition: 0.3s;
+}
+
+.left-line {
+    border-right: 1px solid #e5e5e7;
+  }
+
+/* .title a:hover {
+  color: #16df7e;
+} */
+
+.blue-background{
+  background-color: rgb(16, 16, 97);
+}
+
+.main-heading{
+ padding-bottom: 20px;
+}
+
+.img-height{
+  height: 100%;;
+}
+
+.description {
+  color: white;
+  line-height: 24px;
+  font-size: 16px;
+  font-family: "SFPro";
+  margin-bottom: 0px !important;
+}
+
+.links-tab{
+  background-color: black;
+  padding: 5px 0px 5px 0px;
+}
+
+.social-links a {
+    color: white;
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+  }
+
+  .question-div{
+   /* margin-top: 10px; */
+   padding: 5px 0px 5px 0px;
+  }
+
+  .answer-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  
+.last-box{
+  height: 350px;
+  background-color: gray;
+}
+
+  .icon-box {
+    height: 740px;
+    color: white;
+    background: rgba(58, 83, 155, 1);
+    border: 1px solid rgb(16, 16, 97);
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+
+  .header-bg{
+    background-color: rgb(117, 137, 199); height: 30px;
+  }
+
+  .center-divs{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .box-2-1{
+    height: 365px;
+    color: white;
+    background: rgba(58, 83, 155, 1);
+    border: 1px solid rgb(16, 16, 97);
+    transition: 0.3s; 
+  }
+
+  .box-2{
+    margin-top: 10px;
+    height: 365px;
+    color: white;
+    background: rgba(58, 83, 155, 1);
+    border: 1px solid rgb(16, 16, 97);
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+
+
+/* .devops {
+  padding-top: 5px !important;
+}
+
+.title {
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.testimonial-heading {
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 22px;
+  color: black;
+}
+
+.title a {
+  color: white;
+  transition: 0.3s;
+}
+
+.blue-background{
+  background-color: rgb(16, 16, 97);
+}
+
+.main-heading{
+ padding-bottom: 20px;
+}
+
+.left-line {
+  border-right: 1px solid #e5e5e7;
+} */
+
+/* .title a:hover {
+  color: #16df7e;
+} */
+/* 
+
+.description {
+  color: white;
+  line-height: 24px;
+  font-size: 16px;
+  font-family: "SFPro";
+}
+
+.social-links a {
+  color: white;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+.icon-box {
+  height: 35rem;
+  color: white;
+  background: #bdc0c5;
+  border: 1px solid rgb(155, 152, 152);
+  transition: 0.3s;
+}
+
+.box-2-1 {
+  height: 17rem;
+  color: white;
+  background: #bdc0c5;
+  border: 1px solid rgb(155, 152, 152);
+  transition: 0.3s;
+}
+
+.box-2 {
+  margin-top: 0.8rem;
+  height: 17rem;
+  color: white;
+  background: #bdc0c5;
+  border: 1px solid rgb(155, 152, 152);
+  transition: 0.3s;
+} */
+
+ /*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.doctors {
+  background: #fff;
+}
+
+.doctors .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.doctors .member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.doctors .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.doctors .member:hover img {
+  transform: scale(1.1);
+}
+
+.doctors .member .member-info {
+  padding-left: 30px;
+}
+
+.doctors .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #2c4964;
+}
+
+.doctors .member span{
+  display: block;
+  font-size: 15px;
+  padding-bottom: 5px;
+  position: relative;
+  font-weight: 500;
+}
+
+#customer{
+  font-size: 12px !important;
+}
+
+#customer::after {
+  width: 130px;
+  content: '';
+  position: absolute;
+  display: block;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+}
+
+
+/* .doctors .member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+} */
+
+.doctors .member p {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+}
+
+.doctors .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.doctors .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a0bcd5;
+}
+
+.doctors .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.doctors .member .social a:hover {
+  background: #1977cc;
+}
+
+.doctors .member .social a + a {
+  margin-left: 8px;
+}

@@ -1,5 +1,123 @@
 .devops {
-  padding: 1rem !important;
+  padding-top: 5px !important;
+}
+
+.first-div{
+  background-color: black;
+  margin-bottom: 5px;
+  color:white;
+  height: 200px;
+}
+
+.img-height{
+  height: 100%;;
+}
+
+.title {
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.testimonial-heading{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 22px;
+    color: black;
+}
+
+.title a {
+  color: white;
+  transition: 0.3s;
+}
+
+.left-line {
+    border-right: 1px solid #e5e5e7;
+  }
+
+/* .title a:hover {
+  color: #16df7e;
+} */
+
+.blue-background{
+  background-color: rgb(16, 16, 97);
+}
+
+.main-heading{
+ padding-bottom: 20px;
+}
+
+.description {
+  color: white;
+  line-height: 24px;
+  font-size: 16px;
+  font-family: "SFPro";
+  margin-bottom: 0px !important;
+}
+
+.links-tab{
+  background-color: black;
+  padding: 5px 0px 5px 0px;
+}
+
+.social-links a {
+    color: white;
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+  }
+
+  .question-div{
+   /* margin-top: 10px; */
+   padding: 5px 0px 5px 0px;
+  }
+
+  .answer-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  .icon-box {
+    height: 535px;
+    color: white;
+    background: rgba(58, 83, 155, 1);
+    border: 1px solid rgb(16, 16, 97);
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+
+  .header-bg{
+    background-color: rgb(117, 137, 199); height: 30px;
+  }
+
+  .center-divs{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .box-2-1{
+    height: 225px;
+    color: white;
+    background: rgba(58, 83, 155, 1);
+    border: 1px solid rgb(16, 16, 97);
+    transition: 0.3s; 
+  }
+
+  .box-2{
+    margin-top: 10px;
+    height: 300px;
+    color: white;
+    background: rgba(58, 83, 155, 1);
+    border: 1px solid rgb(16, 16, 97);
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+
+
+/* .devops {
+  padding-top: 5px !important;
 }
 
 .title {
@@ -20,14 +138,22 @@
   transition: 0.3s;
 }
 
+.blue-background{
+  background-color: rgb(16, 16, 97);
+}
+
+.main-heading{
+ padding-bottom: 20px;
+}
+
 .left-line {
   border-right: 1px solid #e5e5e7;
-}
+} */
 
 /* .title a:hover {
   color: #16df7e;
 } */
-
+/* 
 
 .description {
   color: white;
@@ -67,9 +193,9 @@
   background: #bdc0c5;
   border: 1px solid rgb(155, 152, 152);
   transition: 0.3s;
-}
+} */
 
-/*--------------------------------------------------------------
+ /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .doctors {
@@ -108,15 +234,31 @@
   color: #2c4964;
 }
 
-.doctors .member span {
+.doctors .member span{
   display: block;
   font-size: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   position: relative;
   font-weight: 500;
 }
 
-.doctors .member span::after {
+#customer{
+  font-size: 12px !important;
+}
+
+#customer::after {
+  width: 130px;
+  content: '';
+  position: absolute;
+  display: block;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+}
+
+
+/* .doctors .member span::after {
   content: '';
   position: absolute;
   display: block;
@@ -125,11 +267,11 @@
   background: #b2c8dd;
   bottom: 0;
   left: 0;
-}
+} */
 
 .doctors .member p {
-  margin: 10px 0 0 0;
-  font-size: 14px;
+  margin: 5px 0 0 0;
+  font-size: 12px;
 }
 
 .doctors .member .social {
@@ -160,41 +302,6 @@
   background: #1977cc;
 }
 
-.doctors .member .social a+a {
+.doctors .member .social a + a {
   margin-left: 8px;
 }
-
-/* section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-
-  .section-title {
-    padding-bottom: 30px;
-  }
-
-  .section-title h4 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-  }
-
-  .section-title h2::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #009970;
-    bottom: 0;
-    left: 0;
-  }
-
-  .section-title p {
-    margin-bottom: 0;
-  }
-
-   */
