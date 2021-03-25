@@ -21,6 +21,10 @@ const routes: Routes = [
   {
     path:"manage-services",
     loadChildren:()=>import('./manage-services/manage-services.module').then(m=>m.ManageServicesModule)
+  },
+  {
+    path:"cloud-computing",
+    loadChildren:()=>import('./cloud-computing/cloud-computing.module').then(m=>m.CloudComputingModule)
   }
 ];
 
