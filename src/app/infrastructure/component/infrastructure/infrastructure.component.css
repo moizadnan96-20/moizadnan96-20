@@ -2,6 +2,17 @@
   padding-top: 5px !important;
 }
 
+.first-div{
+  background-color: black;
+  margin-bottom: 5px;
+  color:white;
+  height: 200px;
+}
+
+.img-height{
+  height: 100%;;
+}
+
 .title {
   padding-top: 20px;
   font-weight: 800;
@@ -78,8 +89,7 @@
   }
 
   .header-bg{
-    background-color: rgb(117, 137, 199); 
-    height: 30px;
+    background-color: rgb(117, 137, 199); height: 30px;
   }
 
   .center-divs{
