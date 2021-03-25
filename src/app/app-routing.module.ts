@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path:"it-consultancy",
     loadChildren:()=>import('./consultancy/consultancy.module').then(m=>m.ConsultancyModule)
+  },
+  {
+    path:"manage-services",
+    loadChildren:()=>import('./manage-services/manage-services.module').then(m=>m.ManageServicesModule)
   }
 ];
 
