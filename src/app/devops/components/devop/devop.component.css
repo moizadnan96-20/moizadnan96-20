@@ -1,5 +1,10 @@
 .devops {
-  padding-top: 5px !important;
+  padding-top: 2px !important;
+}
+
+#devop1{
+  height: 300px;
+  background-image: url(../../../../assets/img/devop1.svg);
 }
 
 .title {
@@ -29,7 +34,8 @@
 } */
 
 .blue-background{
-  background-color: rgb(16, 16, 97);
+  background-color:#132D6F;
+  border: #132D6F;
 }
 
 .main-heading{
@@ -45,8 +51,36 @@
 }
 
 .links-tab{
-  background-color: black;
+  background-color: #406CA0;
+  border: #2D3C60;
   padding: 5px 0px 5px 0px;
+}
+
+#devop3{
+  height: 200px;
+  background-image: url(../../../../assets/img/devop6.svg);
+  background-size: contain;
+}
+
+#devop3-1{
+ background-color: #F7F7F7;
+}
+
+#devop3-2{
+  background-color: #F7F7F7;
+  background-image: url(../../../../assets/img/devop2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#devop-content-banner{
+  height: 40px;
+  background-color: #707070;
+  color: #D0D1D3;
+}
+
+#devop-content{
+background-color: #3C3E45;
 }
 
 .social-links a {
@@ -103,43 +137,39 @@
   /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.doctors {
-    background: #fff;
-  }
-  
-  .doctors .member {
+
+ .member {
     position: relative;
-    box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+    /* box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08); */
     padding: 30px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
   
-  .doctors .member .pic {
+.member .pic {
     overflow: hidden;
     width: 180px;
     border-radius: 50%;
   }
   
-  .doctors .member .pic img {
+.member .pic img {
     transition: ease-in-out 0.3s;
   }
   
-  .doctors .member:hover img {
+.member:hover img {
     transform: scale(1.1);
   }
   
-  .doctors .member .member-info {
+.member .member-info {
     padding-left: 30px;
   }
   
-  .doctors .member h4 {
+.member h4 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #2c4964;
   }
-  
-  .doctors .member span{
+.member span{
     display: block;
     font-size: 15px;
     padding-bottom: 5px;
@@ -174,19 +204,19 @@
     left: 0;
   } */
   
-  .doctors .member p {
+.member p {
     margin: 5px 0 0 0;
     font-size: 12px;
   }
   
-  .doctors .member .social {
+.member .social {
     margin-top: 12px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
   
-  .doctors .member .social a {
+.member .social a {
     transition: ease-in-out 0.3s;
     display: flex;
     align-items: center;
@@ -196,17 +226,16 @@
     height: 32px;
     background: #a0bcd5;
   }
-  
-  .doctors .member .social a i {
+.member .social a i {
     color: #fff;
     font-size: 16px;
     margin: 0 2px;
   }
   
-  .doctors .member .social a:hover {
+.member .social a:hover {
     background: #1977cc;
   }
   
-  .doctors .member .social a + a {
+.member .social a + a {
     margin-left: 8px;
   }

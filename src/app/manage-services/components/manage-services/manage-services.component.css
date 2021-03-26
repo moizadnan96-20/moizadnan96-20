@@ -120,6 +120,44 @@
       transition: 0.3s;
       margin-bottom: 10px;
     }
+
+    .box-3-1{
+      height: 260px;
+      color: white;
+      background: rgba(58, 83, 155, 1);
+      border: 1px solid rgb(16, 16, 97);
+      transition: 0.3s; 
+    }
+
+    .box-3-2{
+      margin-top: 10px;
+      height: 230px;
+      color: white;
+      background: rgba(58, 83, 155, 1);
+      border: 1px solid rgb(16, 16, 97);
+      transition: 0.3s;
+      margin-bottom: 10px;
+    }
+
+    .box-3-3{
+      margin-top: 10px;
+      height: 230px;
+      color: white;
+      background: rgba(58, 83, 155, 1);
+      border: 1px solid rgb(16, 16, 97);
+      transition: 0.3s;
+      margin-bottom: 10px;
+    }
+
+    .box-2{
+      margin-top: 10px;
+      height: 365px;
+      color: white;
+      background: rgba(58, 83, 155, 1);
+      border: 1px solid rgb(16, 16, 97);
+      transition: 0.3s;
+      margin-bottom: 10px;
+    }
   
   
   /* .devops {
