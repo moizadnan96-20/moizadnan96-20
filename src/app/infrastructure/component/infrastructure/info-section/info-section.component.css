@@ -1,0 +1,31 @@
+.header {
+  background-color: #707070;
+  color: white;
+
+
+}
+
+.box-1 {
+  border: 1px solid white;
+  height: 20rem;
+  background-color: #3c3e45;
+  color: white;
+}
+
+.box {
+  border: 1px solid white;
+  height: 20rem;
+  background-color: #3c3e45;
+  color: white;
+}
+
+.box-0 {
+  border: 1px solid white;
+  height: 40rem;
+  background-color: #3c3e45;
+  color: white;
+}
+
+.font {
+  font-family: SF Pro;
+}
