@@ -3,7 +3,6 @@
 }
 
 #devop1{
-  height: 300px;
   background-image: url(../../../../assets/img/devop1.svg);
 }
 
@@ -62,12 +61,7 @@
   background-size: contain;
 }
 
-#devop3-1{
- background-color: #F7F7F7;
-}
-
 #devop3-2{
-  background-color: #F7F7F7;
   background-image: url(../../../../assets/img/devop2.svg);
   background-size: contain;
   background-repeat: no-repeat;
