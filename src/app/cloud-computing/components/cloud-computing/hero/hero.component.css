@@ -1,0 +1,20 @@
+.first-div{
+  background-color: #191c20;
+  margin-bottom: 5px;
+  color:white;
+  height: 250px;
+}
+.blue-background{
+  background-color: #020a2c;
+}
+
+.main-heading{
+ padding-bottom: 20px;
+}
+.title{
+  color: white;
+}
+
+#main{
+  margin: 0.1em;
+}
