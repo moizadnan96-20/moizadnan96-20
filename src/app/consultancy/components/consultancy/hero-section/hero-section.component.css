@@ -1,0 +1,22 @@
+.first-div{
+  background-color: #74716C;
+  margin-bottom: 5px;
+  color:white;
+  height: 250px;
+  font-family: IBM Plex Serif;
+}
+.blue-background{
+  background-color: #020a2c;
+}
+
+.main-heading{
+ padding-bottom: 20px;
+}
+.title{
+  color: white;
+  font-family: SF Pro;
+}
+
+#main{
+  margin: 0.1em;
+}
