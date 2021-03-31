@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path:"cloud-computing",
     loadChildren:()=>import('./cloud-computing/cloud-computing.module').then(m=>m.CloudComputingModule)
+  },
+  {
+    path:"aboutus",
+    loadChildren:()=>import('./about-us/about-us.module').then(m=>m.AboutUsModule)
   }
 ];
 
