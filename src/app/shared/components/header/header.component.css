@@ -436,12 +436,18 @@ a {
 
 @media (max-width: 1160px) {
   #scroller {
-    margin-bottom: 68px !important;
+    margin-bottom: 76px !important;
   }
 }
 
+.header-botton-border{
+background-color: #132D6F;
+height: 8px;
+margin-top: 80px;
+}
+
 #scroller {
-  margin-bottom: 80px;
+  margin-bottom: 88px;
 }
 
 .news-height {

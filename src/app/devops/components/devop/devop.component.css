@@ -2,6 +2,18 @@
   padding-top: 2px !important;
 }
 
+.sticky {
+  position: fixed;
+  top: 88px;
+  width: 100%;
+}
+
+@media (max-width: 1160px) {
+  .sticky {
+    top: 76px !important;
+  }
+}
+
 #devop1 {
   background-image: url(../../../../assets/img/devop1.svg);
 }
