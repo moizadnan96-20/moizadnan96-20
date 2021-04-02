@@ -104,6 +104,7 @@
 
 
 #devop-content-banner {
+  margin-top: 3px;
   height: 40px;
   background-color: #707070;
   color: #D0D1D3;
@@ -184,13 +185,13 @@
 
 .light-gray-box1 {
   background-color: #D4D4D4;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 .light-gray-box {
   background-color: #D4D4D4;
-  border: 2px solid white;
-  border-top: 1px solid white !important;
+  border: 3px solid white;
+  border-top: 0px solid white !important;
 }
 
 .blog-padding {
