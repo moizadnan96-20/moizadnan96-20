@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { NgMarqueeModule } from 'ng-marquee';
 import { LandingRoutingModule } from './landing-routing.module';
 import { SharedModule } from '../shared/shared.module';
 
@@ -28,12 +28,14 @@ import { ClientsComponent } from "./components/clients/clients.component";
     TeamSectionComponent,
     ClientsComponent,
     ServicesComponent,
-    PortfolioComponent
+    PortfolioComponent,
+
   ],
   imports: [
     CommonModule,
     LandingRoutingModule,
-    SharedModule
+    SharedModule,
+    NgMarqueeModule
   ]
 })
 export class LandingModule { }
