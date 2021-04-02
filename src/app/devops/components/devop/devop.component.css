@@ -104,6 +104,7 @@
 
 
 #devop-content-banner {
+  margin-top: 3px;
   height: 40px;
   background-color: #707070;
   color: #D0D1D3;
@@ -184,13 +185,13 @@
 
 .light-gray-box1 {
   background-color: #D4D4D4;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 .light-gray-box {
   background-color: #D4D4D4;
-  border: 2px solid white;
-  border-top: 1px solid white !important;
+  border: 3px solid white;
+  border-top: 0px solid white !important;
 }
 
 .blog-padding {
@@ -304,4 +305,51 @@
 
 .member .social a+a {
   margin-left: 8px;
+}
+
+
+
+.dropdown span {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+
+.dropdown:hover>span {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+ .dropdown span {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+ .dropdown:hover>span {
+  opacity: 1;
+  top: 3;
+  left: 100%;
+  visibility: visible;
+}
+
+.drop-menue > a{
+  color: #060F33;
+}
+
+.drop-left-line {
+  border-right: 1px solid #060F33;
+}
+
+.drop-right-line{
+  border-left: 1px solid #060F33;
 }
