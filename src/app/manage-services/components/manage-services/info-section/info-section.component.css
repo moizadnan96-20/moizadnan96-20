@@ -2,6 +2,7 @@
   background-color: #707070;
   color: white;
 
+
 }
 
 .box-1 {
@@ -26,4 +27,7 @@
 }
 .font{
  font-family: SF Pro;
+}
+#main{
+  background-color:white ;
 }

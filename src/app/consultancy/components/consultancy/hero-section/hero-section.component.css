@@ -1,6 +1,6 @@
 .first-div{
   background-color: #74716C;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   color:white;
   height: 250px;
   font-family: IBM Plex Serif;
@@ -18,5 +18,8 @@
 }
 
 #main{
-  margin: 0.1em;
+  margin: 0.1rem;
 }
+/* .links-tab {
+
+} */
