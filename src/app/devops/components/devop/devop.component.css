@@ -348,9 +348,9 @@
 }
 
  .dropdown:hover>span {
-  opacity: 1;
   top: 3;
-  left: 100%;
+  left: 0%;
+  right: 40%;
   visibility: visible;
 }
 

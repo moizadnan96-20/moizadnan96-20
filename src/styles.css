@@ -8,8 +8,18 @@
 }
 
 @font-face {
+  font-family: "SFPro-SemiBold";
+  src: local("SFPro-SemiBold"), url(./assets/fonts/SFProDisplay-Semibold.ttf) format("truetype");
+}
+
+@font-face {
   font-family: "IBMPlexSerif-Regular";
   src: local("IBMPlexSerif-Regular"), url(./assets/fonts/IBMPlexSerif-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif-ExtraLight";
+  src: local("IBMPlexSerif-ExtraLight"), url(./assets/fonts/IBMPlexSerif-ExtraLight.ttf) format("truetype");
 }
 
 .margin-left-right {
