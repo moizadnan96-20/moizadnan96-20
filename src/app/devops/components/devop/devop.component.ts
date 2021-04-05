@@ -14,7 +14,7 @@ export class DevopComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event']) 
   onScrollEvent($event:any){
-    if(window.pageYOffset+90 > this.headerOfset){
+    if(window.pageYOffset+86 > this.headerOfset){
       this.header.classList.add("sticky");
     } else {
       this.header.classList.remove("sticky");

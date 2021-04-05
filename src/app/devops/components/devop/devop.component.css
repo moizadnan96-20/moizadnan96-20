@@ -4,13 +4,13 @@
 
 .sticky {
   position: fixed;
-  top: 88px;
+  top: 86px;
   width: 100%;
 }
 
 @media (max-width: 1160px) {
   .sticky {
-    top: 76px !important;
+    top: 74px !important;
   }
 }
 
