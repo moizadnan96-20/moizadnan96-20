@@ -436,7 +436,7 @@ a {
 
 @media (max-width: 1160px) {
   #scroller {
-    margin-bottom: 76px !important;
+    margin-bottom: 74px !important;
   }
   .header-botton-border{
     margin-top: 68px !important;
@@ -445,12 +445,12 @@ a {
 
 .header-botton-border{
 background-color: #132D6F;
-height: 8px;
+height: 6px;
 margin-top: 80px;
 }
 
 #scroller {
-  margin-bottom: 88px;
+  margin-bottom: 86px;
 }
 
 .news-height {
