@@ -1,23 +1,88 @@
 .first-div {
   background-color: #080501;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
+  margin-top: 3px;
+  /* color: white;
+  height: 250px; */
+}
+
+.padding-left{
+  padding-left: 70px;
+}
+
+.first-h1{
+  font-size: 40px;
+  line-height: 50px;
+  font-family: IBMPlexSerif-ExtraLight;
+  margin-top: 143px;
+  margin-bottom: 70px;
   color: white;
-  height: 250px;
+}
+
+.first-h2{
+  font-size: 35px;
+  line-height: 50px;
+  font-family: IBMPlexSerif-ExtraLight;
+  margin-bottom: 115px;
+  color: white;
+}
+
+.second-h3{
+  font-family: SFPro-SemiBold;
+  font-size: 40px;
+}
+
+.second-h4{
+  font-family: SFPro;
+  font-size: 20px;
+  color: white;
+  line-height: 35px;
+}
+
+.third{
+  background-color: #CB942D;
+  height: 45px;
+  margin-bottom: 6px;
+}
+
+.third-h5{
+  font-family: SFPro;
+  font-size: 22px;
+  color: white;
+  line-height: 35px;
 }
 
 .blue-background {
   background-color: #020a2c;
+  height: 130px;
+  color: white;
+  line-height: 35px;
+  position: relative;
 }
 
-.main-heading {
-  padding-bottom: 20px;
+.social-links a {
+  color: white;
+  display: inline-block;
+  padding: 0 12px
 }
+
+.social-links a:first-child{
+  padding-left: 0px !important;
+}
+
+.left-line {
+  border-right: 1px solid #e5e5e7;
+}
+
+/* .main-heading {
+  padding-bottom: 20px;
+} */
 
 .title {
   color: white;
   font-family: SF Pro;
 }
 
-#main {
+/* #main {
   margin: 0.1rem;
-}
+} */
