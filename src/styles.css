@@ -13,14 +13,84 @@
 }
 
 @font-face {
+  font-family: "SFPro-Bold";
+  src: local("SFPro-Bold"), url(./assets/fonts/SFProDisplay-Bold.ttf) format("truetype");
+}
+
+@font-face {
   font-family: "IBMPlexSerif-Regular";
   src: local("IBMPlexSerif-Regular"), url(./assets/fonts/IBMPlexSerif-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSerif-Medium";
+  src: local("IBMPlexSerif-Medium"), url(./assets/fonts/IBMPlexSerif-Medium.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "IBMPlexSerif-ExtraLight";
   src: local("IBMPlexSerif-ExtraLight"), url(./assets/fonts/IBMPlexSerif-ExtraLight.ttf) format("truetype");
 }
+
+.padding-left{
+  padding-left: 30px;
+}
+
+.header-height{
+  height: 35px;
+}
+
+.margin-top-3{
+  margin-top: 3px;
+}
+
+.page-heading {
+  background-color: #020a2c;
+  height: 90px;
+  color: white;
+  position: relative;
+}
+
+.margin-top-1{
+  margin-top: 1px;
+}
+
+h1{
+  font-family: "IBMPlexSerif-ExtraLight";
+  font-size: 35px;
+}
+
+h2{
+  font-family: "IBMPlexSerif-ExtraLight";
+  font-size: 25px;
+}
+
+h3{
+  font-family: "SFPro-SemiBold";
+  font-size: 25px;
+}
+
+h4{
+  font-family: "SFPro";
+  font-size: 18px;
+}
+
+h5{
+  font-family: "SFPro";
+  font-size: 20px;
+}
+
+.body-1{
+  font-family:"SFPro-Bold";
+  font-size: 18px;
+}
+
+.body-2{
+  font-family: "SFPro";
+  font-size: 16px;
+}
+
+
 
 .margin-left-right {
   margin-left: 10px;
@@ -43,14 +113,14 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "IBMPlexSerif-Regular";
-}
+} */
 
 section {
   padding: 60px 0;
