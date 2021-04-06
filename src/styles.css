@@ -36,6 +36,26 @@
   padding-left: 30px;
 }
 
+.padding-right{
+  padding-right: 30px;
+}
+
+.padding-header-top{
+  padding-top: 15px;
+}
+
+.padding-top{
+  padding-top: 50px;
+}
+
+.padding-botton{
+  padding-bottom: 30px;
+}
+
+.padding-header-botton{
+  padding-bottom: 15px;
+}
+
 .header-height{
   height: 35px;
 }
@@ -58,36 +78,48 @@
 h1{
   font-family: "IBMPlexSerif-ExtraLight";
   font-size: 35px;
+  margin: 0px;
 }
 
 h2{
   font-family: "IBMPlexSerif-ExtraLight";
   font-size: 25px;
+  margin: 0px;
 }
 
 h3{
   font-family: "SFPro-SemiBold";
   font-size: 25px;
+  margin: 0px;
 }
 
 h4{
   font-family: "SFPro";
   font-size: 18px;
+  margin: 0px;
 }
 
 h5{
   font-family: "SFPro";
   font-size: 20px;
+  margin:0px;
 }
 
 .body-1{
   font-family:"SFPro-Bold";
   font-size: 18px;
+  line-height: 28px;
 }
 
 .body-2{
   font-family: "SFPro";
   font-size: 16px;
+  line-height: 25px;
+}
+
+.subtitle-1{
+  font-family: "SFPro";
+  font-size: 21px;
 }
 
 

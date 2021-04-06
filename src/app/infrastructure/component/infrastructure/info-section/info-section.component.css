@@ -1,36 +1,35 @@
 .header {
   background-color: #707070;
   color: white;
-
-
+  padding-top: 3px;
 }
 
 h5 {
   margin: 0 !important;
 }
 
-p{
+/* p{
   font-size: 14px!important;
   line-height: 30px !important;
-}
+} */
 
 .box-1 {
   border: 0.5px solid #BCB8B8;
-  height: 480px;
+  /* height: 480px; */
   background-color: #3c3e45;
   color: white;
 }
 
 .box {
   border: 0.5px solid #BCB8B8;
-  height: 480px;
+  /* height: 480px; */
   background-color: #3c3e45;
   color: white;
 }
 
 .box-0 {
   border: 0.5px solid #BCB8B8;
-  height: 480px;
+  /* height: 480px; */
   background-color: #3c3e45;
   color: white;
 }
@@ -40,17 +39,14 @@ p{
   padding: 25px 70px 0 70px
 }
 
-.sub-header {
-  font-family: SF Pro;
-  height: 45px;
+/* .sub-header {
   padding: 18px 70px 0 70px
-}
+} */
 
 #main {
   margin: 0.1rem
 }
 
 .divider {
-  height: 45px;
   background-color: #084527;
 }
