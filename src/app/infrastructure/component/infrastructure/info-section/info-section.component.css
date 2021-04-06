@@ -9,6 +9,11 @@ h5 {
   margin: 0 !important;
 }
 
+p{
+  font-size: 14px!important;
+  line-height: 30px !important;
+}
+
 .box-1 {
   border: 0.5px solid #BCB8B8;
   height: 480px;
