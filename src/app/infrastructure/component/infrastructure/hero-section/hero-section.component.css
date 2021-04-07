@@ -27,11 +27,15 @@
   
 }
 
-
+@media (max-width: 550px) {
+  .first-padding-right {
+    padding-right: 30px !important;
+  }
+}
 
 
 .first-padding-right {
-  padding-right: 40px !important;
+  padding-right: 80px;
 }
 
 .first-h2 {
