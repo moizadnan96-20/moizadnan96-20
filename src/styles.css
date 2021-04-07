@@ -36,6 +36,13 @@
   padding-left: 30px;
 }
 
+.col-paddig-left{
+  padding-left: 42px;
+}
+.col-paddig-right{
+  padding-right: 40px !important;
+}
+
 .padding-right{
   padding-right: 30px;
 }
@@ -71,8 +78,8 @@
   position: relative;
 }
 
-.margin-top-1{
-  margin-top: 1px;
+.margin-top-white{
+  height: 2px;
 }
 
 h1{

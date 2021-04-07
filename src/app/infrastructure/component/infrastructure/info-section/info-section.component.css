@@ -20,6 +20,12 @@ h5 {
   color: white;
 }
 
+/* @media (min-width: 770px) {
+  .box-1 {
+    padding: 0px !important;
+  }
+} */
+
 .box {
   border: 0.5px solid #BCB8B8;
   /* height: 480px; */
@@ -29,7 +35,6 @@ h5 {
 
 .box-0 {
   border: 0.5px solid #BCB8B8;
-  /* height: 480px; */
   background-color: #3c3e45;
   color: white;
 }
@@ -42,10 +47,6 @@ h5 {
 /* .sub-header {
   padding: 18px 70px 0 70px
 } */
-
-#main {
-  margin: 0.1rem
-}
 
 .divider {
   background-color: #084527;
