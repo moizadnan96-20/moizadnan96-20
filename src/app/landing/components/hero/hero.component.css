@@ -133,7 +133,7 @@
 
 #main {
   background-color: rgb(16, 16, 97);
-  margin: 0.1rem;
+  margin: auto;
   height: 30px;
   width: 100% !important;
 }
