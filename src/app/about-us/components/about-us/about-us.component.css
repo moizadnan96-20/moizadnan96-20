@@ -1,61 +1,30 @@
 .first-div {
   background-color: black;
   background-image: url(../../../../assets/img/about1.svg);
-  margin-top: 1px;
 }
 
-.first-inner {
+.first-h1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
   color: white;
 }
 
-.title {
-  padding-top: 20px;
-  font-weight: 800;
-  font-size: 22px;
+.first-h2 {
+  padding-bottom: 30px;
+  color: white;
 }
 
-.title a {
+.third {
+  background-color: black;
   color: white;
-  transition: 0.3s;
 }
 
-.description {
-  color: white;
-  line-height: 24px;
-  font-size: 16px;
-  font-family: "SFPro";
-  margin-bottom: 0px !important;
-}
 
 .blue-background {
   background-color: #04103E;
   border: #132D6F;
   margin-top: 1px;
 }
-
-.main-heading {
-  padding-bottom: 20px;
-}
-
-.links-tab {
-  margin-top: 1px;
-  background-color: black;
-  border: black;
-  padding: 5px 0px 5px 0px;
-}
-
-.social-links a {
-  color: white;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
-  transition: 0.3s;
-}
-
-.left-line {
-  border-right: 1px solid #e5e5e7;
-}
-
 .third-div{
     background-image: url(../../../../assets/img/about2.PNG);
     background-color: #FFA217;
