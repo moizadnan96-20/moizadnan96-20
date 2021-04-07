@@ -8,6 +8,16 @@
 }
 
 @font-face {
+  font-family: "SFPro-UltraLight";
+  src: local("UltraLight"), url(./assets/fonts/SFProDisplay-Ultralight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SFPro-Light";
+  src: local("SFPro-Light"), url(./assets/fonts/SFProDisplay-Thin.ttf) format("truetype");
+}
+
+@font-face {
   font-family: "SFPro-SemiBold";
   src: local("SFPro-SemiBold"), url(./assets/fonts/SFProDisplay-Semibold.ttf) format("truetype");
 }
@@ -36,16 +46,23 @@
   padding-left: 30px;
 }
 
+.col-paddig-left{
+  padding-left: 42px;
+}
+.col-paddig-right{
+  padding-right: 40px !important;
+}
+
 .padding-right{
   padding-right: 30px;
 }
 
 .padding-header-top{
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .padding-top{
-  padding-top: 50px;
+  padding-top: 65px;
 }
 
 .padding-botton{
@@ -53,7 +70,7 @@
 }
 
 .padding-header-botton{
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .header-height{
@@ -61,7 +78,7 @@
 }
 
 .margin-top-3{
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .page-heading {
@@ -71,8 +88,8 @@
   position: relative;
 }
 
-.margin-top-1{
-  margin-top: 1px;
+.margin-top-white{
+  height: 2px;
 }
 
 h1{
@@ -107,19 +124,19 @@ h5{
 
 .body-1{
   font-family:"SFPro-Bold";
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .body-2{
   font-family: "SFPro";
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
 }
 
 .subtitle-1{
-  font-family: "SFPro";
-  font-size: 21px;
+  font-family: "SFPro-Light";
+  font-size: 26px;
 }
 
 
