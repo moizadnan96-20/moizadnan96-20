@@ -20,7 +20,6 @@ export class DevopComponent implements OnInit {
     }else{
       a=107;
     }
-    console.log(window.innerWidth)
     if(window.pageYOffset+a > this.headerOfset){
       this.header.classList.add("sticky");
     } else {
