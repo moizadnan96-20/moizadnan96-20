@@ -11,6 +11,24 @@
   color: white;
 }
 
+@media (max-width: 490px) {
+  .page-heading{
+    height: 110px !important;
+  }
+}
+
+@media (max-width: 670px) {
+  #links-tab{
+    height: 60px !important;
+  }
+
+  .dropdown{
+    padding-left: 0px !important;
+  }
+
+}
+
+
 
 #devop1 {
   background-image: url(../../../../assets/img/devop1.svg);
@@ -277,7 +295,9 @@
   margin-left: 8px;
 }
 
-
+.dropdown{
+  padding: 0 12px;
+}
 
 .dropdown div {
   display: block;
