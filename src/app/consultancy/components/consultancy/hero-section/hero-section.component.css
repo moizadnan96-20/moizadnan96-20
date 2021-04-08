@@ -13,6 +13,17 @@
   width: 100%;
 }
 
+@media (max-width: 610px) {
+  #links-tab{
+    height: 60px !important;
+    padding-top: 5px !important;
+  }
+
+  #down{
+    padding-left: 0px !important;
+  }
+}
+
 @media (max-width: 1110px) {
   #first-img {
     height: 357px !important;

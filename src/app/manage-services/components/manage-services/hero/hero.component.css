@@ -13,11 +13,16 @@
   width: 100%;
 }
 
-@media (max-width: 1110px) {
-  #first-img {
-    height: 357px !important;
+@media (max-width: 1490px) {
+  #links-tab{
+    height: auto !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
   }
 
+  #abc{
+    padding-left: 0px !important;
+  }
 }
 
 @media (max-width: 950px) {
