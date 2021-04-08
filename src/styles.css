@@ -92,6 +92,17 @@
   height: 2px;
 }
 
+.header {
+  background-color: #707070;
+  color: white;
+  padding-top: 8px;
+}
+
+.box-background{
+  background-color: #3c3e45;
+  color: white;
+}
+
 h1{
   font-family: "IBMPlexSerif-ExtraLight";
   font-size: 35px;
@@ -137,6 +148,10 @@ h5{
 .subtitle-1{
   font-family: "SFPro-Light";
   font-size: 26px;
+}
+
+.gray-text{
+  color: #6a7489;
 }
 
 .social-links {

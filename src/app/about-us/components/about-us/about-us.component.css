@@ -29,20 +29,30 @@
     background-image: url(../../../../assets/img/about2.PNG);
     background-color: #FFA217;
     background-repeat: no-repeat;
+    color: #060F33;
 }
 
 .forth-div{
-  margin-top: 1px;
   background-color: #3C3E45;
-  color: #F7F7F8;
+  color: white;
 }
 
 .fifth-div{
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
-.fifth-1{
-  height: 40px; background-color: #66686D; color: #D0D1D3;
+.box-1 {
+  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+}
+
+.box {
+  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+}
+
+.box-0 {
+  border-top: 0.1px solid #BCB8B8;
+  border-left: 0.1px solid #BCB8B8;
+  border-right: 0.1px solid #BCB8B8;
 }
 
 .blog-padding {
