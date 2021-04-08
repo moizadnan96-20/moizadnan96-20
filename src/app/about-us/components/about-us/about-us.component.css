@@ -1,79 +1,58 @@
 .first-div {
   background-color: black;
   background-image: url(../../../../assets/img/about1.svg);
-  margin-top: 1px;
 }
 
-.first-inner {
+.first-h1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
   color: white;
 }
 
-.title {
-  padding-top: 20px;
-  font-weight: 800;
-  font-size: 22px;
+.first-h2 {
+  padding-bottom: 30px;
+  color: white;
 }
 
-.title a {
+.third {
+  background-color: black;
   color: white;
-  transition: 0.3s;
 }
 
-.description {
-  color: white;
-  line-height: 24px;
-  font-size: 16px;
-  font-family: "SFPro";
-  margin-bottom: 0px !important;
-}
 
 .blue-background {
   background-color: #04103E;
   border: #132D6F;
   margin-top: 1px;
 }
-
-.main-heading {
-  padding-bottom: 20px;
-}
-
-.links-tab {
-  margin-top: 1px;
-  background-color: black;
-  border: black;
-  padding: 5px 0px 5px 0px;
-}
-
-.social-links a {
-  color: white;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
-  transition: 0.3s;
-}
-
-.left-line {
-  border-right: 1px solid #e5e5e7;
-}
-
 .third-div{
     background-image: url(../../../../assets/img/about2.PNG);
     background-color: #FFA217;
     background-repeat: no-repeat;
+    color: #060F33;
 }
 
 .forth-div{
-  margin-top: 1px;
   background-color: #3C3E45;
-  color: #F7F7F8;
+  color: white;
 }
 
 .fifth-div{
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
-.fifth-1{
-  height: 40px; background-color: #66686D; color: #D0D1D3;
+.box-1 {
+  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+}
+
+.box {
+  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+}
+
+.box-0 {
+  border-top: 0.1px solid #BCB8B8;
+  border-left: 0.1px solid #BCB8B8;
+  border-right: 0.1px solid #BCB8B8;
 }
 
 .blog-padding {

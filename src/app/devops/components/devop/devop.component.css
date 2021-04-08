@@ -1,28 +1,21 @@
-.devops {
-  padding-top: 2px !important;
+.first-h1 {
+  padding-top: 70px;
 }
 
-.sticky {
-  position: fixed;
-  top: 86px;
-  width: 100%;
+.first-h2 {
+  padding-bottom: 70px;
 }
 
-@media (max-width: 1160px) {
-  .sticky {
-    top: 74px !important;
-  }
+.third {
+  background-color: #406CA0;
+  color: white;
 }
+
 
 #devop1 {
   background-image: url(../../../../assets/img/devop1.svg);
 }
 
-.title {
-  padding-top: 20px;
-  font-weight: 800;
-  font-size: 22px;
-}
 
 .testimonial-heading {
   padding-top: 20px;
@@ -31,37 +24,6 @@
   color: black;
 }
 
-.title a {
-  color: white;
-  transition: 0.3s;
-}
-
-.left-line {
-  border-right: 1px solid #e5e5e7;
-}
-
-.blue-background {
-  background-color: #132D6F;
-  border: #132D6F;
-}
-
-.main-heading {
-  padding-bottom: 20px;
-}
-
-.description {
-  color: white;
-  line-height: 24px;
-  font-size: 16px;
-  font-family: "SFPro";
-  margin-bottom: 0px !important;
-}
-
-.links-tab {
-  background-color: #406CA0;
-  border: #2D3C60;
-  padding: 5px 0px 5px 0px;
-}
 
 .gradient {
   background: rgb(247, 247, 247);
@@ -72,12 +34,14 @@
   #pl-6 {
     padding-left: 15px !important;
   }
-  #cutom-col1{
+
+  #cutom-col1 {
     padding-left: 30px;
   }
-  #devop2{
+
+  #devop2 {
     background: rgb(247, 247, 247);
-    background: linear-gradient(90deg, rgba(247, 247, 247, 1) 65%, rgba(205, 215, 242, 1) 100%);  
+    background: linear-gradient(90deg, rgba(247, 247, 247, 1) 65%, rgba(205, 215, 242, 1) 100%);
   }
 }
 
@@ -114,32 +78,22 @@
   font-size: small;
 }
 
-
-#devop-content-banner {
-  margin-top: 3px;
-  height: 40px;
-  background-color: #707070;
-  color: #D0D1D3;
+.box-body {
+  background-color: #3c3e45;
+  color: #6EC1C7;
 }
 
-#devop-content {
-  background-color: #3C3E45;
+.box-header {
+  color: #6EC1C7;
 }
+
 
 .gray-text {
   color: #D0D1D3;
 }
 
-.social-links a {
-  color: white;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
-  transition: 0.3s;
-}
 
 .question-div {
-  /* margin-top: 10px; */
   padding: 5px 0px 5px 0px;
 }
 
@@ -161,6 +115,24 @@
 .center-divs {
   padding-right: 0px !important;
   padding-left: 0px !important;
+}
+
+@media (max-width: 990px) {
+  .img-right {
+    width: 100%;
+    height: 400px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 42px !important;
+  }
+}
+
+.img-right {
+  width: 100%;
+  height: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 250px;
 }
 
 .box-2-1 {
@@ -217,9 +189,7 @@
 
 .member {
   position: relative;
-  /* box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08); */
   padding: 30px;
-  /* border-radius: 10px; */
 }
 
 .member .pic {
@@ -270,18 +240,6 @@
   left: 0;
 }
 
-
-/* .doctors .member span::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 1px;
-    background: #b2c8dd;
-    bottom: 0;
-    left: 0;
-  } */
-
 .member p {
   margin: 5px 0 0 0;
   font-size: 12px;
@@ -321,47 +279,25 @@
 
 
 
-.dropdown span {
+.dropdown div {
   display: block;
   position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s;
-}
-
-
-.dropdown:hover>span {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
- .dropdown span {
-  top: 0;
-  left: calc(100% - 30px);
+  left: 8px;
   visibility: hidden;
 }
 
- .dropdown:hover>span {
-  top: 3;
-  left: 0%;
-  right: 40%;
+
+.dropdown:hover>div {
+  top: 31px;
+  width: 85%;
   visibility: visible;
+  background-color: #fff;
+  border: 2px solid rgb(211, 208, 208);
 }
 
-.drop-menue > a{
-  color: #060F33;
-}
-
-.drop-left-line {
-  border-right: 1px solid #060F33;
-}
-
-.drop-right-line{
-  border-left: 1px solid #060F33;
+.drop-menue >a{
+  display: block;
+  padding:5px;
+  padding-left: 10px;
+  color: black;
 }
