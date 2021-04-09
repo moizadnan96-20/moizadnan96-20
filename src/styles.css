@@ -46,6 +46,7 @@
   position: fixed;
   top: 107px;
   width: 100%;
+  z-index: 9999;
 }
 
 @media (max-width: 1160px) {
