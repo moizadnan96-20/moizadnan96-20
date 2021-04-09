@@ -1,6 +1,7 @@
-.header {
+/* .header {
   background-color: #707070;
   color: white;
+
 
 }
 
@@ -24,3 +25,84 @@
   background-color: #3c3e45;
   color: white;
 }
+.font{
+ font-family: SF Pro;
+}
+#main{
+  background-color:white ;
+} */
+.header {
+  background-color: #707070;
+  color: white;
+  padding-top: 8px;
+}
+
+h5 {
+  margin: 0 !important;
+}
+
+p{
+  margin: 0px;
+}
+
+.box-1 {
+  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+  /* height: 480px; */
+  background-color: #3c3e45;
+  color: white;
+}
+
+/* @media (min-width: 770px) {
+  .box-1 {
+    padding: 0px !important;
+  }
+} */
+
+.box {
+  border-top: 0.1px solid #BCB8B8;
+  border-left: 0.1px solid #BCB8B8;
+  /* border-right: 0.1px solid #BCB8B8; */
+  background-color: #3c3e45;
+  color: white;
+}
+
+.box-0 {
+  border-top: 0.1px solid #BCB8B8;
+  border-left: 0.1px solid #BCB8B8;
+  border-right: 0.1px solid #BCB8B8;
+  background-color: #3c3e45;
+  color: white;
+}
+
+.font {
+  font-family: SF Pro;
+  padding: 25px 70px 0 70px
+}
+
+/* .sub-header {
+  padding: 18px 70px 0 70px
+} */
+
+.divider {
+  background-color: #75563C;
+}
+.body-3{
+
+  height: 320px ;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 780px) {
+ .body-3{
+   height: 200px;
+ }
+}
+@media only screen and (max-width: 779px) {
+  .body-3{
+    height: auto;
+  }
+  .body-4{
+    margin-top: -40px;
+  }
+ }
+
+
