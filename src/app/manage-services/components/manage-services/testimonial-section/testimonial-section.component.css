@@ -11,13 +11,13 @@
   border-radius: 50%;
 }
 
-.member .pic img {
+/* .member .pic img {
   transition: ease-in-out 0.3s;
-}
+} */
 
-.member:hover img {
+/* .member:hover img {
   transform: scale(1.1);
-}
+} */
 
 .member .member-info {
   padding-left: 30px;
