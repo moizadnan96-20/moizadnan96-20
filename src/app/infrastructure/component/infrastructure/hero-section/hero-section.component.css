@@ -13,14 +13,14 @@
   width: 100%;
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 1200px) {
   #first-img {
     height: 357px !important;
   }
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1010px) {
   #first-img {
     height: 417px !important;
   }
