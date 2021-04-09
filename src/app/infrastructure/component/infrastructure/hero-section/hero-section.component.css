@@ -33,6 +33,16 @@
   }
 }
 
+@media (max-width: 835px) {
+  #links-tab{
+    height: auto !important;
+    padding-bottom: 5px !important;
+  }
+
+  #down{
+    padding-left: 0px !important;
+  }
+}
 
 .first-padding-right {
   padding-right: 80px;
