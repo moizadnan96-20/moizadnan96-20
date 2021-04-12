@@ -53,8 +53,11 @@ public width=false;
     dropdownOpen(event)
   }
 
-  public routeTo(path:any){
+  public routeTo(path:any,event:any){
     this.router.navigate([path]);
+    if(window.innerWidth<=1160){
+      this.close(event);
+    }
   }
 
 }
