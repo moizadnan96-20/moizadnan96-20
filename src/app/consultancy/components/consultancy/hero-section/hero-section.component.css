@@ -70,11 +70,11 @@
   padding-top: 3px;
 }
 
-.social-links a {
+/* .social-links a {
   color: white;
   display: inline-block;
   padding: 0 12px;
-}
+} */
 
 .social-links a:first-child {
   padding-left: 0px !important;
