@@ -34,4 +34,8 @@ export class DevopComponent implements OnInit {
   this.headerOfset=this.header?.offsetTop;
   }
 
+  scroll(el: HTMLElement) {
+    el.scrollIntoView(false);
+}
+
 }

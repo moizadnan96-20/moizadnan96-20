@@ -30,7 +30,6 @@
 
 @media (max-width: 1160px) {
   #header {
-    /* padding-bottom: 12px !important; */
     padding-top: 20px !important;
   }
 }
@@ -56,11 +55,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family:"SFPro-Bold";
+  font-family:"SFPro-SemiBold";
   padding-bottom: 0px !important;
   padding-top: 0px !important;
   font-size: 18px;
-  color: #6a7489;
+  color: #5c768d;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -78,7 +77,9 @@ a {
 .navbar a:hover,
 .navbar .active,
 .navbar li:hover>a {
-  color: #16df7e;
+  color: #929496;
+  border-bottom: 3px solid #929496;
+  background-color: #e7eaee;
 }
 
 .navbar .getstarted {
@@ -109,7 +110,7 @@ a {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25); */
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -132,7 +133,9 @@ a {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #16df7e;
+  color: #929496;
+  border-bottom: 3px solid #929496;
+  background-color: #e7eaee;
 }
 
 .navbar .dropdown:hover>ul {
@@ -195,7 +198,7 @@ a {
 }
 
 .padding-bottom-20{
-  padding-bottom: 12px;
+  padding-bottom: 20px;
 }
 
 
@@ -221,7 +224,7 @@ a {
   }
   
   .padding-bottom-20{
-    padding-bottom: 12px !important;
+    padding-bottom: 20px !important;
   }
   
 }
@@ -267,7 +270,9 @@ a {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #16df7e;
+  color: #929496;
+  border-bottom: 3px solid #929496;
+  background-color: #e7eaee;
 }
 
 .navbar-mobile .getstarted {
@@ -302,7 +307,9 @@ a {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #16df7e;
+  color: #929496;
+  border-bottom: 3px solid #929496;
+  background-color: #e7eaee;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -410,7 +417,9 @@ a {
 }
 
 .contact-info a:hover {
-  color: #16df7e;
+  color: #929496;
+  border-bottom: 3px solid #929496;
+  background-color: #e7eaee;
 }
 
 .contact-info i {
@@ -432,7 +441,9 @@ a {
 }
 
 .social-links a:hover {
-  color: #16df7e;
+  color: #929496;
+  border-bottom: 3px solid #929496;
+  background-color: #e7eaee;
 }
 
 #bellow-bar {
@@ -472,7 +483,7 @@ margin-top: 99px;
 }
 
 #scroller {
-  margin-top: 107px;
+  margin-top: 100px;
 }
 
 .news-height {

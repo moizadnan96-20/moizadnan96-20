@@ -296,7 +296,7 @@
 }
 
 .dropdown{
-  padding: 0 12px;
+  padding: 2px 12px;
 }
 
 .dropdown div {
@@ -308,8 +308,9 @@
 
 
 .dropdown:hover>div {
-  top: 24px;
-  width: 85%;
+  top: 32px;
+  width: 102%;
+  left: -2px;
   visibility: visible;
   background-color: #fff;
   border: 2px solid rgb(211, 208, 208);

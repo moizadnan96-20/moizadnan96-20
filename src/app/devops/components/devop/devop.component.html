@@ -21,19 +21,19 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);">
-     <h3>DevOps And Cloud</h3>
+     <h3 class="pb-1">DevOps And Cloud</h3>
      <h4>
        Architect your bussiness for real-time adaptability,teamwork and automation accross a range of industries
      </h4>
    </div>
  </div>
- <div class="links-tab padding-left third header-height" id="links-tab">
+ <div class="links-tab padding-left third header-height border-bottom-1" id="links-tab">
    <div class="social-links">
-     <a href="#" class="left-line  align-middle">
+     <a (click)="scroll(devop)" class="left-line  align-middle">
        <h5>
          DevOps</h5>
      </a>
-     <a href="#" class="left-line align-middle">
+     <a (click)="scroll(cloudMigration)" class="left-line align-middle">
        <h5>
          Cloud Migration</h5>
      </a>
@@ -126,7 +126,7 @@
    </div>
  </div>
 
- <div class="devop-content-banner header header-height">
+ <div #devop class="devop-content-banner header header-height">
    <div class="body-1 padding-right padding-right padding-left">
      DevOps
    </div>
@@ -199,7 +199,7 @@
  <div class="margin-top-white">
 
  </div>
- <div class="header header-height">
+ <div #cloudMigration class="header header-height">
    <div class="body-1 padding-left padding-right">
      Cloud Migration
    </div>
