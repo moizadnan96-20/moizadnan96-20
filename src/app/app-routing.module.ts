@@ -29,6 +29,10 @@ const routes: Routes = [
   {
     path:"aboutus",
     loadChildren:()=>import('./about-us/about-us.module').then(m=>m.AboutUsModule)
+  },
+  {
+    path:"technology",
+    loadChildren:()=>import('./technology/technology.module').then(m=>m.TechnologyModule)
   }
 ];
 
