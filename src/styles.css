@@ -50,7 +50,7 @@
 
 .sticky {
   position: fixed;
-  top: 107px;
+  top: 103px;
   width: 100%;
   z-index: 99;
 }
