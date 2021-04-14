@@ -53,7 +53,7 @@
 }
 
 .third {
-  background-color: #4C5E62;
+  background-color: #1f96b1;
 }
 
 .third-h5 {
@@ -61,7 +61,15 @@
 }
 
 .social-links {
-  padding-top: 3px;
+  padding-top: 9px;
+}
+
+.social-links a {
+  padding: 0px 12px !important;
+}
+
+.header-height-1{
+  height: 50px;
 }
 
 /* .social-links a {
