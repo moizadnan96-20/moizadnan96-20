@@ -32,9 +32,10 @@
   color: #5f687b;
   transition: 0.3s;
 }
-a:hover{
+.featured-services .icon-box:hover h4 a {
   color: rgb(16, 16, 97)
 }
+
 
 .featured-services .icon-box:hover {
   border-color: #eaecef;
