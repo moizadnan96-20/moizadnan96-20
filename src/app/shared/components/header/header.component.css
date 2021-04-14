@@ -500,3 +500,7 @@ margin-top: 99px;
 .text-white {
   color: white;
 }
+
+.pointer{
+  cursor: pointer;
+}

@@ -63,12 +63,12 @@
       <h1 *ngIf="!width" class="logo"><a (click)="routeTo('/',$event)">Perception IT</a></h1>
     </div>
     <div class="social-links d-none d-md-block" *ngIf="!width">
-      <a (click)="routeTo('/aboutus',$event)" class="twitter left-line"><h4>About Us</h4></a>
-      <a href="#" class="left-line"><h4>Our Tech Lead</h4></a>
-      <a href="#" class="left-line"><h4>Portfolio</h4></a>
-      <a href="#" class="left-line"><h4>Jobs</h4></a>
-      <a href="#" class="left-line"><h4>Queries</h4></a>
-      <a href="#"><i class="bi bi-linkedin"></i></a>
+      <a (click)="routeTo('/aboutus',$event)" class="twitter left-line pointer"><h4>About Us</h4></a>
+      <a  class="left-line pointer"><h4>Our Tech Lead</h4></a>
+      <a  class="left-line pointer"><h4>Portfolio</h4></a>
+      <a  class="left-line pointer"><h4>Jobs</h4></a>
+      <a  class="left-line pointer"><h4>Queries</h4></a>
+      <a><i class="bi bi-linkedin pointer"></i></a>
     </div>
   </div>
   <div class="d-flex align-items-center justify-content-between  padding-left padding-right padding-bottom-20 one-edge-shadow">
@@ -77,18 +77,18 @@
     <h1 *ngIf="width" class="logo"><a (click)="routeTo('/',$event)">Perception IT</a></h1>
     <nav id="navbar" class="navbar">
       <ul id="ul">
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" (click)="routeTo('/aboutus',$event)">About Us</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Our Tech Lead</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Portfolio</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Jobs</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto" href="#team">Queries</a></li>
-        <li (click)="routeTo('/manage-services',$event)" ><a class="body-1 nav-link left-padding scrollto">Managed Services</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" (click)="routeTo('/aboutus',$event)">About Us</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Our Tech Lead</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Portfolio</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Jobs</a></li>
+        <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Queries</a></li>
+        <li (click)="routeTo('/manage-services',$event)" ><a class="body-1 nav-link left-padding scrollto pointer">Managed Services</a></li>
         <!-- <li><a class="nav-link left-padding scrollto" href="#about">Customised Softwares</a></li> -->
-        <li (click)="routeTo('/consulting',$event)"><a class="nav-link left-padding scrollto">Consulting</a></li>
-        <li (click)="routeTo('/devops',$event)"><a class="nav-link left-padding scrollto ">DevOps</a></li>
-        <li (click)="routeTo('/infrastructure',$event)"><a class="nav-link left-padding scrollto" >Infrastructure Services</a></li>
+        <li (click)="routeTo('/consulting',$event)"><a class="nav-link left-padding scrollto pointer">Consulting</a></li>
+        <li (click)="routeTo('/devops',$event)"><a class="nav-link left-padding scrollto pointer">DevOps</a></li>
+        <li (click)="routeTo('/infrastructure',$event)"><a class="nav-link left-padding scrollto pointer" >Infrastructure Services</a></li>
         <!-- <li><a class="nav-link left-padding scrollto" href="#team">Specialised Services</a></li> -->
-        <li (click)="routeTo('/technology',$event)"><a class="nav-link left-padding scrollto">Technology</a></li>
+        <li (click)="routeTo('/technology',$event)"><a class="nav-link left-padding scrollto pointer">Technology</a></li>
         <!-- <li><a class="nav-link left-padding scrollto" href="#team">Product</a></li> -->
         <!-- <li><a class="nav-link left-padding scrollto" href="#team">Industries</a></li> -->
 
