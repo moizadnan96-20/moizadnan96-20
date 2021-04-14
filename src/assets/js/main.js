@@ -27,6 +27,20 @@ function dropdownOpen(e) {
   }
 }
 
+function scrollTOEl(el){
+  let header = select('#header')
+  let banner = select('#links-tab');
+  let offset = header.offsetHeight+banner.offsetHeight;
+  if(!banner.classList.contains('sticky')){
+    offset+=35;
+  }
+  let elementPos = select(el).offsetTop;
+    window.scrollTo({
+      top: elementPos - offset,
+      behavior: 'smooth'
+    })
+}
+
 (function js() {
   "use strict";
 

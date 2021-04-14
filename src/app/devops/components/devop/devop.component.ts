@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 
-
+declare const scrollTOEl: any;
 
 @Component({
   selector: 'app-devop',
@@ -37,22 +37,7 @@ export class DevopComponent implements OnInit {
     this.headerOfset = this.header?.offsetTop;
   }
 
-  scroll(el: HTMLElement) {
-    el.scrollIntoView();
-    setTimeout(()=>{if (window.innerWidth < 1160) {
-      if(this.sticky){
-        window.scrollBy(0, -100);
-      }else{
-        window.scrollBy(0, -130);
-      }
-    } else {
-      if(this.sticky){
-        window.scrollBy(0, -130);
-      }else{
-    window.scrollBy(0, -170);
-      }
-      
-    }},500)
-    
+  scroll(el: any) {
+    scrollTOEl(el);
   }
 }

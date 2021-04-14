@@ -224,6 +224,16 @@ h5{
   color: #929496;
 }
 
+.social-links > a>a:hover{
+  color: #929496;
+}
+
+.drop-menue > a:hover{
+  color: #929496;
+  border-bottom: 3px solid #406CA0;
+  background-color: #e7eaee;
+}
+
 /* @import '~font-awesome/css/font-awesome.css'; */
 body {
   font-family: "SFPro";
