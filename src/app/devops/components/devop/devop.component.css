@@ -308,8 +308,8 @@
 
 
 .dropdown:hover>div {
-  top: 32px;
-  width: 102%;
+  top: 30px;
+  width: 90%;
   left: -2px;
   visibility: visible;
   background-color: #fff;

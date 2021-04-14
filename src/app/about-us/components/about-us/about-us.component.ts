@@ -1,5 +1,7 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 
+declare const scrollTOEl: any;
+
 @Component({
   selector: 'app-about-us',
   templateUrl: './about-us.component.html',
@@ -30,6 +32,10 @@ export class AboutUsComponent implements OnInit {
   ngOnInit(): void {
     this.header = document.getElementById("links-tab");
     this.headerOfset = this.header?.offsetTop;
+  }
+
+  scroll(el: any) {
+    scrollTOEl(el);
   }
 
 }

@@ -29,20 +29,20 @@
  </div>
  <div class="links-tab padding-left third header-height border-bottom-1" id="links-tab">
    <div class="social-links">
-     <a (click)="scroll(devop)" class="left-line  align-middle">
+     <a (click)="scroll('#DevOps')" class="left-line  align-middle">
        <h5>
          DevOps</h5>
      </a>
-     <a (click)="scroll(cloudMigration)" class="left-line align-middle">
+     <a (click)="scroll('#CloudMigration')" class="left-line align-middle">
        <h5>
          Cloud Migration</h5>
      </a>
-     <a (click)="scroll(AIOpsDevOps)" class="left-line align-middle">
+     <a (click)="scroll('#AIOpsDevOps')" class="left-line align-middle">
        <h5>
          AI Ops DevOps</h5>
      </a>
      <a class="dropdown">
-       <a href="#" class="dropdown align-middle">
+       <a (click)="scroll('#ManagedCloudServices')" class="dropdown align-middle">
          <h5>Managed cloud services<i class="bi bi-chevron-down"></i></h5>
        </a>
         <div class="drop-menue">
@@ -126,7 +126,7 @@
    </div>
  </div>
 
- <div #devop id="devops" class="devop-content-banner header header-height">
+ <div id="DevOps" class="devop-content-banner header header-height">
    <div class="body-1 padding-right padding-right padding-left">
      DevOps
    </div>
@@ -199,7 +199,7 @@
  <div class="margin-top-white">
 
  </div>
- <div #cloudMigration class="header header-height">
+ <div id="CloudMigration" class="header header-height">
    <div class="body-1 padding-left padding-right">
      Cloud Migration
    </div>
@@ -225,7 +225,7 @@
      <img src="assets/img/devop5.svg" class="float-end col-padding-right img-right" alt="" />
    </div>
  </div>
- <div #AIOpsDevOps class="header header-height">
+ <div id="AIOpsDevOps" class="header header-height">
    <div class="body-1 padding-left padding-right">
      AI Ops DevOps
    </div>
@@ -254,7 +254,7 @@
  <div class="margin-top-white">
 
  </div>
- <div class="header box-background header-height">
+ <div id="ManagedCloudServices" class="header box-background header-height">
    <div class="body-1 padding-left padding-right padding-left">
      Managed Cloud Services
    </div>
