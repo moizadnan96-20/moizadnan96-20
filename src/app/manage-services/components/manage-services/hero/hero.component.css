@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-@media (max-width: 1490px) {
+@media (max-width: 1390px) {
   #links-tab{
     height: auto !important;
     padding-top: 5px !important;
