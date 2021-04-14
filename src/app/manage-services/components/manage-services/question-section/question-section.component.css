@@ -24,7 +24,7 @@
 }
 
 .services .icon-box .icon i {
-  color: #16df7e;
+  /* color: #16df7e; */
   font-size: 36px;
   transition: 0.3s;
 }
@@ -40,6 +40,7 @@
   transition: ease-in-out 0.3s;
 }
 
+
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
@@ -51,5 +52,5 @@
 }
 
 .services .icon-box:hover h4 a {
-  color: #16df7e;
+  color: rgb(16, 16, 97)
 }
