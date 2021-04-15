@@ -108,7 +108,7 @@
 }
 
 .page-heading {
-  background-color: #55565a;
+  background-color: #515D6C;
   height: 90px;
   color: white;
   position: relative;
@@ -170,6 +170,10 @@ h4{
   margin: 0px;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 h5{
   font-family: "SFPro";
   font-size: 16px;
@@ -180,6 +184,9 @@ h5{
   font-family:"SFPro-Bold";
   font-size: 16px;
   line-height: 30px;
+}
+.shadow{
+  box-shadow: 0 3px 6px #000000;
 }
 
 .body-2{
@@ -198,21 +205,29 @@ h5{
 }
 
 .social-links {
-  padding-top: 3px;
+  padding-top: 12px;
+}
+
+.links-tab{
+  box-shadow: 0 3px 6px #000000;
 }
 
 .social-links a {
   color: white;
   display: inline-block;
-  padding: 5px 12px;
+  padding: 0px 12px;
 }
 
-.social-links a:first-child {
-  padding-left: 0px !important;
+.sticky-height{
+  height: 50px;
 }
 
 .left-line {
-  border-right: 1px solid #e5e5e7;
+  border-left: 0.5px solid #e5e5e7;
+}
+
+.right-line {
+  border-right: 0.5px solid #e5e5e7;
 }
 
 .margin-left-right {
@@ -234,7 +249,6 @@ h5{
   background-color: #e7eaee;
 }
 
-/* @import '~font-awesome/css/font-awesome.css'; */
 body {
   font-family: "SFPro";
   color: #444444;
@@ -244,20 +258,6 @@ a {
   color: #14c871;
   text-decoration: none;
 }
-
-/* a:hover {
-  color: #206bfb;
-  text-decoration: none;
-} */
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "IBMPlexSerif-Regular";
-} */
 
 section {
   padding: 60px 0;

@@ -57,7 +57,7 @@
   </div>
 </header> -->
 
-<header id="header" class="fixed-top one-edge-shadow" >
+<header id="header" class="fixed-top" >
   <div class="d-flex justify-content-center justify-content-md-between padding-left padding-right padding-top-20 padding-bottom-10">
     <div class="contact-info d-flex align-items-center">
       <h1 *ngIf="!width" class="logo"><a (click)="routeTo('/',$event)">Perception IT</a></h1>
@@ -71,7 +71,7 @@
       <a><i class="bi bi-linkedin pointer"></i></a>
     </div>
   </div>
-  <div class="d-flex align-items-center justify-content-between  padding-left padding-right padding-bottom-20 one-edge-shadow">
+  <div class="d-flex align-items-center justify-content-between  padding-left padding-right padding-bottom-20 shadow">
     <!-- <h1 class="logo"><a href="index.html">Perception IT</a></h1> -->
     <div *ngIf="!width"></div>
     <h1 *ngIf="width" class="logo"><a (click)="routeTo('/',$event)">Perception IT</a></h1>

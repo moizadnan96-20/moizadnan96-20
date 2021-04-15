@@ -32,7 +32,7 @@ function scrollTOEl(el){
   let banner = select('#links-tab');
   let offset = header.offsetHeight+banner.offsetHeight;
   if(!banner.classList.contains('sticky')){
-    offset+=35;
+    offset+=50;
   }
   let elementPos = select(el).offsetTop;
     window.scrollTo({

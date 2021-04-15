@@ -86,10 +86,10 @@ p{
 .divider {
   background-color: #084527;
 }
-.body-3{
+/* .body-3{
 
   height: 320px ;
-}
+} */
 
 @media only screen and (max-width: 900px) and (min-width: 780px) {
  .body-3{
