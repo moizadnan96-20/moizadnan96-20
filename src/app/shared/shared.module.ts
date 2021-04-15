@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { RouterModule } from '@angular/router';
 import { NgMarqueeModule } from 'ng-marquee';
 
 //components
@@ -13,7 +13,8 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [HeaderComponent,FooterComponent],
   imports: [
     CommonModule,
-    NgMarqueeModule
+    NgMarqueeModule,
+    RouterModule
   ],
   exports:[
     HeaderComponent,

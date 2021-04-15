@@ -77,18 +77,18 @@
     <h1 *ngIf="width" class="logo"><a (click)="routeTo('/',$event)">Perception IT</a></h1>
     <nav id="navbar" class="navbar">
       <ul id="ul">
-        <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" (click)="routeTo('/aboutus',$event)">About Us</a></li>
+        <li *ngIf="width" (click)="routeTo('/aboutus',$event)"><a class="nav-link left-padding scrollto pointer"  routerLink="/aboutus" routerLinkActive='active-link'>About Us</a></li>
         <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Our Tech Lead</a></li>
         <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Portfolio</a></li>
         <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Jobs</a></li>
         <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Queries</a></li>
-        <li (click)="routeTo('/manage-services',$event)" ><a class="body-1 nav-link left-padding scrollto pointer">Managed Services</a></li>
+        <li (click)="routeTo('/manage-services',$event)"><a class="body-1 nav-link left-padding scrollto pointer" routerLink="/manage-services" routerLinkActive='active-link'>Managed Services</a></li>
         <!-- <li><a class="nav-link left-padding scrollto" href="#about">Customised Softwares</a></li> -->
-        <li (click)="routeTo('/consulting',$event)"><a class="nav-link left-padding scrollto pointer">Consulting</a></li>
-        <li (click)="routeTo('/devops',$event)"><a class="nav-link left-padding scrollto pointer">DevOps</a></li>
-        <li (click)="routeTo('/infrastructure',$event)"><a class="nav-link left-padding scrollto pointer" >Infrastructure Services</a></li>
+        <li (click)="routeTo('/consulting',$event)"><a class="nav-link left-padding scrollto pointer" routerLink="/consulting" routerLinkActive='active-link'>Consulting</a></li>
+        <li (click)="routeTo('/devops',$event)"><a class="nav-link left-padding scrollto pointer" routerLink="/devops" routerLinkActive='active-link'>DevOps</a></li>
+        <li (click)="routeTo('/infrastructure',$event)"><a class="nav-link left-padding scrollto pointer" routerLink="/infrastructure" routerLinkActive='active-link'>Infrastructure Services</a></li>
         <!-- <li><a class="nav-link left-padding scrollto" href="#team">Specialised Services</a></li> -->
-        <li (click)="routeTo('/technology',$event)"><a class="nav-link left-padding scrollto pointer">Technology</a></li>
+        <li (click)="routeTo('/technology',$event)"><a class="nav-link left-padding scrollto pointer" routerLink="/technology" routerLinkActive='active-link'>Technology</a></li>
         <!-- <li><a class="nav-link left-padding scrollto" href="#team">Product</a></li> -->
         <!-- <li><a class="nav-link left-padding scrollto" href="#team">Industries</a></li> -->
 
