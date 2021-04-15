@@ -59,17 +59,13 @@ p{
 } */
 
 .box {
-  border-top: 0.1px solid #BCB8B8;
-  border-left: 0.1px solid #BCB8B8;
-  /* border-right: 0.1px solid #BCB8B8; */
   background-color: #3c3e45;
   color: white;
 }
 
 .box-0 {
-  border-top: 0.1px solid #BCB8B8;
-  border-left: 0.1px solid #BCB8B8;
-  border-right: 0.1px solid #BCB8B8;
+  border-left: 0.1px solid #7a7979;
+  border-right: 0.1px solid #7a7979;
   background-color: #3c3e45;
   color: white;
 }
@@ -77,6 +73,14 @@ p{
 .font {
   font-family: SF Pro;
   padding: 25px 70px 0 70px
+}
+
+.body-1{
+  color: #c2bfbf;
+}
+
+.body-2{
+  color: #c2bfbf;
 }
 
 /* .sub-header {

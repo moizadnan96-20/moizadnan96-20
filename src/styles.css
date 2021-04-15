@@ -50,7 +50,7 @@
 
 .sticky {
   position: fixed;
-  top: 103px;
+  top: 123px;
   width: 100%;
   z-index: 99;
 }
@@ -205,7 +205,7 @@ h5{
 }
 
 .social-links {
-  padding-top: 12px;
+  padding-top: 3px;
 }
 
 .links-tab{
@@ -222,9 +222,9 @@ h5{
   height: 50px;
 }
 
-.left-line {
+/* .left-line {
   border-left: 0.5px solid #e5e5e7;
-}
+} */
 
 .right-line {
   border-right: 0.5px solid #e5e5e7;

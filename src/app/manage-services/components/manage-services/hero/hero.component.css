@@ -4,7 +4,7 @@
 
 .first-h1 {
   margin-top: 70px;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
   color: white;
 }
 
@@ -64,4 +64,8 @@
   margin-top: 3px;
   background-color: #8A8A89;
   box-shadow: 0 3px 6px #000000;
+}
+
+.social-links {
+  padding-top: 12px;
 }
