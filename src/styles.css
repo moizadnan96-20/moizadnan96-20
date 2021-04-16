@@ -32,6 +32,15 @@
   font-family: "SFPro-Bold";
   src: local("SFPro-Bold"), url(./assets/fonts/SFProDisplay-Bold.ttf) format("truetype");
 }
+@font-face {
+  font-family: "SFPro-thin";
+  src: local("SFPro-thin"), url(./assets/fonts/SFProDisplay-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SFPro-Regular";
+  src: local("SFPro-Regular"), url(./assets/fonts/SFProDisplay-Regular.ttf) format("truetype");
+}
+
 
 @font-face {
   font-family: "IBMPlexSerif-Regular";
@@ -161,7 +170,7 @@ h3{
   font-family: "SFPro-SemiBold";
   font-size: 25px;
   margin: 0px;
-  
+
 }
 
 h4{
