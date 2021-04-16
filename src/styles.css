@@ -218,6 +218,10 @@ h5{
   padding: 0px 12px;
 }
 
+.social-links a:first-child {
+  padding-left: 0px;
+}
+
 .sticky-height{
   height: 50px;
 }
@@ -227,7 +231,11 @@ h5{
 } */
 
 .right-line {
-  border-right: 0.5px solid #e5e5e7;
+  border-right: 1px solid #e5e5e7;
+}
+
+.left-line {
+  border-left: 1px solid #e5e5e7;
 }
 
 .margin-left-right {
