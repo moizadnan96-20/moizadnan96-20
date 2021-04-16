@@ -44,7 +44,7 @@
 
 }
 .box-1{
-  width: 217px;
+  /* width: 217px; */
   color: white;
   height: 250px;
 
@@ -54,10 +54,10 @@
  background-color:  #F0F0F0;
 
 }
-@media only screen and (max-width: 580px) and (min-width: 500px) {
-  .body-3{
+@media only screen  and (min-width: 1000px) {
+  .box-1{
     /* height: auto; */
-    width: 100%;
+    width: 217px;
   }
  }
  .body-fonts-1{
