@@ -58,3 +58,20 @@
   margin-bottom: 35px;
   color: white;
 }
+@media only screen and (max-width: 580px) and (min-width: 500px) {
+  .body-3{
+    /* height: auto; */
+    width: 100%;
+  }
+ }
+.body-fonts-1{
+  font-family: SFPro-thin;
+  /* font-size: 2px; */
+}
+.body-fonts-2{
+  font-family: SFPro-Regular;
+  /* font-size: 2px; */
+}
+.body-fonts-3{
+  font-family:  SFPro-SemiBold;;
+}
