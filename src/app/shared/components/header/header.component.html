@@ -60,7 +60,7 @@
     </div>
     <div class="social-links d-none d-md-block" *ngIf="!width">
       <a (click)="routeTo('/aboutus',$event)" class="twitter left-line pointer"><h4>About Us</h4></a>
-      <a  class="left-line pointer"><h4>Our Tech Lead</h4></a>
+      <a (click)="routeTo('/tech-lead',$event)" class="left-line pointer"><h4>Our Tech Lead</h4></a>
       <a  class="left-line pointer"><h4>Portfolio</h4></a>
       <a  class="left-line pointer"><h4>Jobs</h4></a>
       <a  class="left-line pointer"><h4>Queries</h4></a>
@@ -74,7 +74,7 @@
     <nav id="navbar" class="navbar">
       <ul id="ul">
         <li *ngIf="width" (click)="routeTo('/aboutus',$event)"><a class="nav-link left-padding scrollto pointer"  routerLink="/aboutus" routerLinkActive='active-link'>About Us</a></li>
-        <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Our Tech Lead</a></li>
+        <li (click)="routeTo('/tech-lead',$event)" *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Our Tech Lead</a></li>
         <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Portfolio</a></li>
         <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Jobs</a></li>
         <li *ngIf="width"><a class="nav-link left-padding scrollto pointer" >Queries</a></li>

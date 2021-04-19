@@ -33,7 +33,8 @@ const routes: Routes = [
   {
     path:"technology",
     loadChildren:()=>import('./technology/technology.module').then(m=>m.TechnologyModule)
-  }
+  },
+  { path: 'tech-lead', loadChildren: () => import('./tech-lead/tech-lead.module').then(m => m.TechLeadModule) }
 ];
 
 @NgModule({
