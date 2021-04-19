@@ -11,6 +11,39 @@
   color: white;
 }
 
+.heading{
+  padding-top: 57px;
+  padding-bottom: 45px;
+  font-size: 30px;
+  font-family: "SFPro-thin";
+}
+
+.body-text{
+  font-size: 18px;
+  font-family: "SFPro-regular";
+  padding-bottom: 75px !important;
+  line-height: 35px;
+}
+
+.header-1{
+  background-color: #707070;
+  height: 130px;
+  padding-top: 30px;
+}
+
+.header-2 {
+  background-color: #555555;
+  height: 130px;
+  padding-top: 30px;
+}
+
+
+.social-links {
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+
 @media (max-width: 490px) {
   .page-heading{
     height: 110px !important;
@@ -98,7 +131,7 @@
 
 .box-body {
   background-color: #3c3e45;
-  color: #6EC1C7;
+  color: white;
 }
 
 .box-header {
@@ -308,7 +341,7 @@
 
 
 .dropdown:hover>div {
-  top: 30px;
+  top: 40px;
   width: 90%;
   left: -2px;
   visibility: visible;
