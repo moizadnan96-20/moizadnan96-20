@@ -59,7 +59,7 @@
 
 .sticky {
   position: fixed;
-  top: 107px;
+  top: 123px;
   width: 100%;
   z-index: 99;
 }
@@ -117,8 +117,13 @@
 }
 
 .page-heading {
+<<<<<<< HEAD
   background-color: #55565a;
   height: 100px;
+=======
+  background-color: #515D6C;
+  height: 90px;
+>>>>>>> ad117fde50ec768caab1be575e79674ad1bca7c4
   color: white;
   position: relative;
 }
@@ -179,6 +184,10 @@ h4{
   margin: 0px;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 h5{
   font-family: "SFPro";
   font-size: 16px;
@@ -189,6 +198,9 @@ h5{
   font-family:"SFPro-Bold";
   font-size: 16px;
   line-height: 30px;
+}
+.shadow{
+  box-shadow: 0 3px 6px #000000;
 }
 
 .body-2{
@@ -210,18 +222,34 @@ h5{
   padding-top: 3px;
 }
 
+.links-tab{
+  box-shadow: 0 3px 6px #000000;
+}
+
 .social-links a {
   color: white;
   display: inline-block;
-  padding: 5px 12px;
+  padding: 0px 12px;
 }
 
 .social-links a:first-child {
-  padding-left: 0px !important;
+  padding-left: 0px;
+}
+
+.sticky-height{
+  height: 50px;
+}
+
+/* .left-line {
+  border-left: 0.5px solid #e5e5e7;
+} */
+
+.right-line {
+  border-right: 1px solid #e5e5e7;
 }
 
 .left-line {
-  border-right: 1px solid #e5e5e7;
+  border-left: 1px solid #e5e5e7;
 }
 
 .margin-left-right {
@@ -233,7 +261,16 @@ h5{
   color: #929496;
 }
 
-/* @import '~font-awesome/css/font-awesome.css'; */
+.social-links > a>a:hover{
+  color: #929496;
+}
+
+.drop-menue > a:hover{
+  color: #929496;
+  border-bottom: 3px solid #406CA0;
+  background-color: #e7eaee;
+}
+
 body {
   font-family: "SFPro";
   color: #444444;
@@ -243,20 +280,6 @@ a {
   color: #14c871;
   text-decoration: none;
 }
-
-/* a:hover {
-  color: #206bfb;
-  text-decoration: none;
-} */
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "IBMPlexSerif-Regular";
-} */
 
 section {
   padding: 60px 0;

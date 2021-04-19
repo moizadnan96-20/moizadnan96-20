@@ -1,40 +1,9 @@
-/* .header {
-  background-color: #707070;
-  color: white;
-
-
-}
-
-.box-1 {
-  border: 1px solid white;
-  height: 20rem;
-  background-color: #3c3e45;
-  color: white;
-}
-
-.box {
-  border: 1px solid white;
-  height: 20rem;
-  background-color: #3c3e45;
-  color: white;
-}
-
-.box-0 {
-  border: 1px solid white;
-  height: 40rem;
-  background-color: #3c3e45;
-  color: white;
-}
-.font{
- font-family: SF Pro;
-}
-#main{
-  background-color:white ;
-} */
 .header {
-  background-color: #707070;
-  color: white;
-  padding-top: 8px;
+  background-color: #0B205D;
+}
+
+.header-1 {
+  background-color: #1B316F;
 }
 
 h5 {
@@ -47,29 +16,18 @@ p{
 
 .box-1 {
   border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
-  /* height: 480px; */
   background-color: #3c3e45;
   color: white;
 }
 
-/* @media (min-width: 770px) {
-  .box-1 {
-    padding: 0px !important;
-  }
-} */
-
 .box {
-  border-top: 0.1px solid #BCB8B8;
-  border-left: 0.1px solid #BCB8B8;
-  /* border-right: 0.1px solid #BCB8B8; */
   background-color: #3c3e45;
   color: white;
 }
 
 .box-0 {
-  border-top: 0.1px solid #BCB8B8;
-  border-left: 0.1px solid #BCB8B8;
-  border-right: 0.1px solid #BCB8B8;
+  border-left: 0.1px solid #7a7979;
+  border-right: 0.1px solid #7a7979;
   background-color: #3c3e45;
   color: white;
 }
@@ -79,16 +37,16 @@ p{
   padding: 25px 70px 0 70px
 }
 
-/* .sub-header {
-  padding: 18px 70px 0 70px
-} */
+.body-1{
+  color: #c2bfbf;
+}
+
+.body-2{
+  color: #c2bfbf;
+}
 
 .divider {
   background-color: #084527;
-}
-.body-3{
-
-  height: 320px ;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 780px) {

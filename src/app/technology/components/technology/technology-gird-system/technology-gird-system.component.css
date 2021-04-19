@@ -39,13 +39,13 @@
 .box {
   color: white;
   /* width: 215px; */
-  height: 500px;
+  /* height: 500px; */
 
 }
 .box-1{
   /* width: 217px; */
   color: white;
-  height: 500px;
+  /* height: 500px; */
 
 }
 
@@ -58,14 +58,12 @@
   margin-bottom: 35px;
   color: white;
 }
-@media only screen and  (min-width: 1000px) {
+/* @media only screen and  (min-width: 1000px) {
   .box-1{
-    /* height: auto; */
-   /* background-color: brown;
-    */
+
     width: 217px;
   }
- }
+ } */
 .body-fonts-1{
   font-family: SFPro-thin;
   /* font-size: 2px; */
