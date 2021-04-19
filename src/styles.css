@@ -117,13 +117,8 @@
 }
 
 .page-heading {
-<<<<<<< HEAD
   background-color: #55565a;
   height: 100px;
-=======
-  background-color: #515D6C;
-  height: 90px;
->>>>>>> ad117fde50ec768caab1be575e79674ad1bca7c4
   color: white;
   position: relative;
 }
