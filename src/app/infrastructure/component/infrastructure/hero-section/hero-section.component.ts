@@ -10,28 +10,24 @@ declare const scrollTOEl: any;
 export class HeroSectionComponent implements OnInit {
 
   header: any;
-  headerOfset: any;
+  linkTab: any;
+  linkTabOfset: any;
 
   @HostListener('window:scroll', ['$event'])
   onScrollEvent($event: any) {
-    let a;
-    if (window.innerWidth < 1160) {
-      a = 67;
+    if (window.pageYOffset + this.header > this.linkTabOfset) {
+      this.linkTab.classList.add("sticky");
     } else {
-      a = 107;
-    }
-    if (window.pageYOffset + a > this.headerOfset) {
-      this.header.classList.add("sticky");
-    } else {
-      this.header.classList.remove("sticky");
+      this.linkTab.classList.remove("sticky");
     }
   }
 
   constructor() { }
 
   ngOnInit(): void {
-    this.header = document.getElementById("links-tab");
-    this.headerOfset = this.header?.offsetTop;
+    this.linkTab = document.getElementById("links-tab");
+    this.linkTabOfset = this.linkTab?.offsetTop;
+    this.header = document.getElementById("header")?.offsetHeight;
   }
 
   scroll(el: any) {
