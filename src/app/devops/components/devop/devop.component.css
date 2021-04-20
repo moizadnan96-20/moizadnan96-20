@@ -14,12 +14,12 @@
 .heading{
   padding-top: 57px;
   padding-bottom: 45px;
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: "SFPro-thin";
 }
 
 .body-text{
-  font-size: 18px;
+  /* font-size: 18px; */
   font-family: "SFPro-regular";
   padding-bottom: 75px !important;
   line-height: 35px;
@@ -35,12 +35,6 @@
   background-color: #555555;
   height: 130px;
   padding-top: 30px;
-}
-
-
-.social-links {
-  padding-top: 12px;
-  padding-bottom: 10px;
 }
 
 

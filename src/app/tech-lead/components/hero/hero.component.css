@@ -9,8 +9,8 @@
   line-height: 23px;
 }
 
-#first-img {
-  width: 50%;
+.first-img {
+  width: 70%;
 }
 
 .pl-2{
@@ -18,10 +18,18 @@
 }
 
 .body-text{
-  font-size: 16px;
+  /* font-size: 16px; */
   font-family: "SFPro-regular";
   line-height: 30px;
 }
+
+.heading{
+  padding-top: 40px;
+  padding-bottom: 16px;
+  /* font-size: 30px; */
+  font-family: "SFPro-thin";
+}
+
 
 .icons-row{
   background-color: #E4E4E4;
@@ -60,8 +68,9 @@
 
 .tsia-div{
   margin-top: 3px;
-  background-color: #8A8A89;
+  background-color: #3C3E45;
   box-shadow: 0 3px 6px #000000;
+  color: white;
 }
 
 .social-links {
