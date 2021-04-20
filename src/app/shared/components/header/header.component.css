@@ -437,12 +437,16 @@ a {
   margin-left: 15px;
 }
 
-.social-links a {
+.social-links a{
   color: #5c768d;
   padding: 0px 12px;
   display: inline-block;
   line-height: 1px;
   transition: 0.3s;
+}
+
+.social-links >a >h4{
+  font-family: "SFPro-Light";
 }
 
 .social-links a:hover {
