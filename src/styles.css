@@ -59,7 +59,7 @@
 
 .sticky {
   position: fixed;
-  top: 123px;
+  top: 120px;
   width: 100%;
   z-index: 99;
 }
@@ -214,7 +214,8 @@ h5{
 }
 
 .social-links {
-  padding-top: 3px;
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 .links-tab{
@@ -225,6 +226,14 @@ h5{
   color: white;
   display: inline-block;
   padding: 0px 12px;
+}
+
+.social-links a:hover {
+  cursor: pointer;
+}
+
+.social-links a h5:hover {
+  color: rgb(219, 214, 214);
 }
 
 .social-links a:first-child {
