@@ -18,15 +18,15 @@
 }
 
 .body-text{
-  font-size: 16px;
+  /* font-size: 16px; */
   font-family: "SFPro-regular";
   line-height: 30px;
 }
 
 .heading{
-  /* padding-top: 57px;
-  padding-bottom: 45px; */
-  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 16px;
+  /* font-size: 30px; */
   font-family: "SFPro-thin";
 }
 
