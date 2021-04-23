@@ -116,6 +116,23 @@
   border-bottom: 1px solid white;
 }
 
+.box-header {
+  height: 100px;
+  padding-top: 21px;
+}
+
+.heading{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-family: "SFPro-thin";
+}
+
+.body-text{
+  font-family: "SFPro-regular";
+  padding-bottom: 45px;
+  line-height: 35px;
+}
+
 .page-heading {
   background-color: #55565a;
   height: 100px;

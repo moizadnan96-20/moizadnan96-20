@@ -1,33 +1,13 @@
-.header {
-  height: 130px;
-  padding-top: 30px;
-}
-
-.heading{
-  padding-top: 57px;
-  padding-bottom: 45px;
-  /* font-size: 30px; */
-  font-family: "SFPro-thin";
-}
-
-.body-text{
-  /* font-size: 18px; */
-  font-family: "SFPro-regular";
-  padding-bottom: 75px !important;
-  line-height: 35px;
-}
-
-
 h5 {
   margin: 0 !important;
 }
 
-p{
+p {
   margin: 0px;
 }
 
 .box-1 {
-  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+  border: 0.1px 0.1px 0px 0.1px solid #BCB8B8;
   background-color: #3c3e45;
   color: white;
 }
@@ -50,17 +30,17 @@ p{
 }
 
 @media only screen and (max-width: 900px) and (min-width: 780px) {
- .body-3{
-   height: 200px;
- }
+  .body-3 {
+    height: 200px;
+  }
 }
+
 @media only screen and (max-width: 779px) {
-  .body-3{
+  .body-3 {
     height: auto;
   }
-  .body-4{
+
+  .body-4 {
     margin-top: -40px;
   }
- }
-
-
+}
