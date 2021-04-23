@@ -135,9 +135,9 @@
 
 .page-heading {
   background-color: #55565a;
-  height: 100px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   color: white;
-  position: relative;
 }
 
 .margin-top-white{
