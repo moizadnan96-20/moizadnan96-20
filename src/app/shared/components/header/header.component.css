@@ -24,7 +24,7 @@
 }
 
 #header .logo a {
-  color: #5f687b;
+  color: #5d6063;
 }
 
 #header .logo img {
@@ -59,10 +59,14 @@
   font-family:"SFPro";
   padding-bottom: 0px !important;
   padding-top: 0px !important;
-  font-size: 18px;
-  color: #5c768d;
+  font-size: 17px;
+  color: #5d6063;
   white-space: nowrap;
   transition: 0.3s;
+}
+
+h4{
+  font-size: 17px;
 }
 
 a {
@@ -88,7 +92,7 @@ a {
   margin-left: 30px;
   border-radius: 4px;
   line-height: 1;
-  color: #5f687b;
+  color: #5d6063;
   font-size: 14px;
   font-weight: 500;
   border: 1px solid #cdd1d9;
@@ -182,7 +186,7 @@ a {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #5f687b;
+  color: #5d6063;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -270,7 +274,7 @@ a {
 .navbar-mobile a {
   padding: 10px 20px !important;
   /* font-size: 15px; */
-  color: #5f687b;
+  color: #5d6063;
 }
 
 .navbar-mobile a:hover,
@@ -324,7 +328,7 @@ a {
 
 .left-padding {
   padding-left: 8px !important;
-  padding-right: 5px !important;
+  padding-right: 8px !important;
 }
 
 .navbar>ul>li {
@@ -438,7 +442,7 @@ a {
 }
 
 .top-header a{
-  color: #5c768d;
+  color: #5d6063;
   padding: 0px 12px;
   display: inline-block;
   line-height: 1px;
