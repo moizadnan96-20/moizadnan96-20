@@ -47,7 +47,7 @@
 }
 
 .first-h2 {
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   color: white;
 }
 
@@ -81,8 +81,4 @@
   border-right: 1px solid #e5e5e7;
 }
 
-.fonts {
-  font-style: italic;
-  font-size: small;
-  font-weight: bold;
-}
+
