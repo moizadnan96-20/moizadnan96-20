@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -10,7 +11,8 @@ import { QuestionSectionComponent } from './components/question-section/question
   declarations: [DevopComponent,QuestionSectionComponent],
   imports: [
     CommonModule,
-    DevopsRoutingModule
+    DevopsRoutingModule,
+    NgbModule
   ]
 })
 export class DevopsModule { }
