@@ -36,11 +36,8 @@
 @media (max-width: 835px) {
   #links-tab{
     height: auto !important;
-    padding-bottom: 5px !important;
-  }
-
-  #down{
-    padding-left: 0px !important;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
   }
 }
 

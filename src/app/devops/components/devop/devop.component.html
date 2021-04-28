@@ -56,8 +56,10 @@
         <h5>DevOps</h5>
       </a>
       <a ngbDropdown>
-        <a (click)="scroll('#ManagedCloudServices')" class="align-middle">
-          <h5 ngbDropdownToggle>Managed cloud services</h5>
+        <a class="align-middle">
+          <h5 ngbDropdownToggle (click)="scroll('#ManagedCloudServices')">
+            Managed cloud services
+          </h5>
         </a>
         <div class="" ngbDropdownMenu>
           <a href="#" style="padding-left: 10px !important" ngbDropdownItem

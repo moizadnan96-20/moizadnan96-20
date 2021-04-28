@@ -11,46 +11,20 @@
   color: white;
 }
 
-.heading{
-  padding-top: 57px;
-  padding-bottom: 45px;
-  /* font-size: 30px; */
-  font-family: "SFPro-thin";
-}
-
-.body-text{
-  /* font-size: 18px; */
-  font-family: "SFPro-regular";
-  padding-bottom: 75px !important;
-  line-height: 35px;
-}
-
-.header-1{
+.color{
   background-color: #707070;
-  height: 130px;
-  padding-top: 30px;
 }
 
-.header-2 {
+.color-1 {
   background-color: #555555;
-  height: 130px;
-  padding-top: 30px;
 }
 
-
-@media (max-width: 490px) {
-  .page-heading{
-    height: 110px !important;
-  }
-}
 
 @media (max-width: 670px) {
   #links-tab{
-    height: 60px !important;
-  }
-
-  .dropdown{
-    padding-left: 0px !important;
+    height: auto !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
   }
 
 }

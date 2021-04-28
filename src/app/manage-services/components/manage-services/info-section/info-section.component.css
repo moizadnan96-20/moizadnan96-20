@@ -1,27 +1,9 @@
-.header {
+.color {
   background-color: #0B205D;
-  height: 130px;
-  padding-top: 30px;
 }
 
-.heading{
-  padding-top: 57px;
-  padding-bottom: 45px;
-  /* font-size: 30px; */
-  font-family: "SFPro-thin";
-}
-
-.body-text{
-  /* font-size: 18px; */
-  font-family: "SFPro-regular";
-  padding-bottom: 75px !important;
-  line-height: 35px;
-}
-
-.header-1 {
+.color-1 {
   background-color: #1B316F;
-  height: 130px;
-  padding-top: 30px;
 }
 
 h5 {
