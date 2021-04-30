@@ -39,3 +39,31 @@ p{
 .divider {
   background-color: #084527;
 }
+.body-3 {
+  line-height: 35px;
+  padding-top: 70px;
+  padding-bottom: 25px;
+  font-family: SFPro-Bold
+}
+
+.body-4 {
+  line-height: 35px;
+  padding-bottom: 45px;
+  color: #dddcdc
+}
+.body-1-img{
+  padding-top: 70px; padding-bottom: 35px
+}
+.body-5{
+  padding-top: 45px;
+  padding-bottom: 25px;
+  font-family: SFPro-Bold;
+  line-height: 35px;
+
+}
+.body-6{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  line-height: 35px;
+  color: #dddcdc
+}

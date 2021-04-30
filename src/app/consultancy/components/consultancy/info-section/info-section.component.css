@@ -1,4 +1,3 @@
-
 .header {
   background-color: #707070;
   color: white;
@@ -9,12 +8,12 @@ h5 {
   margin: 0 !important;
 }
 
-p{
+p {
   margin: 0px;
 }
 
 .box-1 {
-  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+  border: 0.1px 0.1px 0px 0.1px solid #BCB8B8;
   /* height: 480px; */
   background-color: #3c3e45;
   color: white;
@@ -55,11 +54,27 @@ p{
   background-color: #6C0909;
 }
 
-@media only screen and (max-width: 900px) and (min-width: 375px) {
-  #body-img{
+@media only screen and (max-width: 900px) and (min-width: 300px) {
+  #body-img {
 
-    width: 25em;
+    /* width: 22em; */
     /* margin-right: 30px; */
     margin-bottom: 40px;
   }
- }
+}
+
+.body-3 {
+  line-height: 35px;
+  padding-top: 70px;
+  padding-bottom: 25px;
+  font-family: SFPro-Bold
+}
+
+.body-4 {
+  line-height: 35px;
+  padding-bottom: 70px;
+  color: #dddcdc
+}
+.body-1-img{
+  padding-top: 70px; padding-bottom: 35px
+}

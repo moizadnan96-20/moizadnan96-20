@@ -51,4 +51,11 @@ p{
   }
  }
 
-
+.header-1{
+  padding: 21px;
+}
+.header-2{
+  padding-top: 45px;
+  /* padding-bottom: 25 !important; */
+  /* line-height: 35px; */
+}
