@@ -71,15 +71,18 @@
       >
         <div></div>
         <div class="top-header d-none d-md-block" *ngIf="!width">
-          <a (click)="routeTo('/aboutus', $event)" class="twitter pointer"
-            ><a routerLink="/aboutus" routerLinkActive="active-link"
-              ><h4 style="font-family: SFPro-Light">About Us</h4></a
-            >
-          </a>
-          <a (click)="routeTo('/tech-lead', $event)" class="left-line pointer"
-            ><a routerLink="/tech-lead" routerLinkActive="active-link"
-              ><h4 style="font-family: SFPro-Light">Tech Lead</h4></a
-            ></a
+          <a
+            routerLink="/aboutus"
+            routerLinkActive="active-link"
+            class=" pointer"
+            ><h4 style="font-family: SFPro-Light">About Us</h4></a
+          >
+
+          <a
+            routerLink="/tech-lead"
+            routerLinkActive="active-link"
+            class="left-line pointer"
+            ><h4 style="font-family: SFPro-Light">Tech Lead</h4></a
           >
           <a class="left-line pointer"><h4>Portfolio</h4></a>
           <a class="left-line pointer"><h4>Jobs</h4></a>
