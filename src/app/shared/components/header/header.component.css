@@ -517,7 +517,7 @@ margin-top: 99px;
 }
 
 .active-link{
-  /* color: #929496; */
+  color: #4F87A3 !important;
   border-bottom: 3px solid #4F87A3;
   /* background-color: #e7eaee; */
 }
