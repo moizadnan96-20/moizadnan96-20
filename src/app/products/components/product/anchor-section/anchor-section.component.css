@@ -65,3 +65,14 @@
   border-left: 1px solid black;
 }
 
+#main {
+  margin-right: 15px;
+  background-color: #e7eaee;
+  color: #5d6063;
+  border: #e7eaee;
+}
+.active{
+  color: #4F87A3 !important;
+  border-bottom: 3px solid #4F87A3;
+  /* background-color: #e7eaee; */
+}

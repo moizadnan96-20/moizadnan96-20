@@ -84,7 +84,8 @@
             class="left-line pointer"
             ><h4 style="font-family: SFPro-Light">Tech Lead</h4></a
           >
-          <a class="left-line pointer"><h4>Portfolio</h4></a>
+          <a class="left-line pointer" routerLink="/product"
+          routerLinkActive="active-link"><h4>Projects</h4></a>
           <a class="left-line pointer"><h4>Jobs</h4></a>
           <a class="left-line pointer"><h4>Queries</h4></a>
           <a><i class="bi bi-linkedin pointer"></i></a>
@@ -111,8 +112,10 @@
                 >Our Tech Lead</a
               >
             </li>
-            <li *ngIf="width">
-              <a class="nav-link left-padding scrollto pointer">Portfolio</a>
+            <li  (click)="routeTo('/product', $event)" *ngIf="width">
+              <a class="nav-link left-padding scrollto pointer" routerLink="/product"
+              routerLinkActive="active-link">Projects</a>
+
             </li>
             <li *ngIf="width">
               <a class="nav-link left-padding scrollto pointer">Jobs</a>
@@ -162,14 +165,14 @@
                 >Technology</a
               >
             </li>
-            <li (click)="routeTo('/product', $event)">
+            <!-- <li (click)="routeTo('/product', $event)">
               <a
                 class="nav-link left-padding"
                 routerLink="/product"
                 routerLinkActive="active-link"
                 >Products</a
               >
-            </li>
+            </li> -->
             <!-- <li><a class="nav-link left-padding scrollto" href="#team">Product</a></li> -->
             <!-- <li><a class="nav-link left-padding scrollto" href="#team">Industries</a></li> -->
             <!-- <li><div ngbDropdown class="d-inline-block">

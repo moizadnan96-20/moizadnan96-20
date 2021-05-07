@@ -1,3 +1,27 @@
 
 <app-hero-section></app-hero-section>
-<app-anchor-section></app-anchor-section>
+<!-- <app-anchor-section></app-anchor-section> -->
+<div class="padding-left links-tab  third" id="links-tab">
+  <div class="social-links">
+    <a class="align-middle " routerLink="/product">
+      <h5 class="third-h5">Search by:</h5>
+    </a>
+
+    <a class="align-middle" routerLink="/product" routerLinkActive='active-link'>
+      <h5 class="third-h5">Industry</h5>
+    </a>
+    <a class="left-line align-middle" routerLink="/product/solution" routerLinkActive='active-link'>
+      <h5 class="third-h5">Solution</h5>
+    </a>
+    <a class="left-line align-middle">
+      <h5 class="third-h5">Technology</h5>
+    </a>
+    <a class="left-line align-middle">
+      <h5 class="third-h5">Service</h5>
+    </a>
+  </div>
+</div>
+<hr />
+<div class="padding-left mt-4 padding-right" ><router-outlet></router-outlet></div>
+
+<app-help></app-help>
