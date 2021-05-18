@@ -72,7 +72,13 @@
   border: #e7eaee;
 }
 .active-link{
-  color: #4F87A3 !important;
-  border-bottom: 3px solid #4F87A3;
-  /* background-color: #e7eaee; */
+
+  /* border: 1px solid black; */
+  background-color: #55565a;
+border: #55565a;
+
 }
+
+/* .nav-tabs{
+  background-color: black;
+} */

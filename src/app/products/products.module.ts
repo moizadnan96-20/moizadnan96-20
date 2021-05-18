@@ -16,6 +16,8 @@ import { AllListComponent } from './components/product/anchor-section/industry/a
 import { BankingComponent } from './components/product/anchor-section/industry/banking/banking.component';
 
 import { MoreModule } from '../more/more.module';
+import { SolutionBankComponent } from './components/product/anchor-section/solution/solution-bank/solution-bank.component';
+import { SolutionTelecomComponent } from './components/product/anchor-section/solution/solution-telecom/solution-telecom.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { MoreModule } from '../more/more.module';
     AllListComponent,
     BankingComponent,
     HelpComponent,
+    SolutionBankComponent,
+    SolutionTelecomComponent,
   ],
   imports: [CommonModule, ProductsRoutingModule, MoreModule],
   exports: [HelpComponent],
