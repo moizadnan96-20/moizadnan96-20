@@ -1,3 +1,11 @@
+.color {
+  background-color: #0B205D;
+}
+
+.color-1 {
+  background-color: #1B316F;
+}
+
 h5 {
   margin: 0 !important;
 }
@@ -8,62 +16,46 @@ p{
 
 .box-1 {
   border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
-  /* height: 480px; */
   background-color: #3c3e45;
   color: white;
 }
 
 .box {
-  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
   background-color: #3c3e45;
   color: white;
 }
 
 .box-0 {
-  border-top: 0.1px solid #BCB8B8;
-  border-left: 0.1px solid #BCB8B8;
-  border-right: 0.1px solid #BCB8B8;
+  border-left: 0.1px solid #7a7979;
+  border-right: 0.1px solid #7a7979;
   background-color: #3c3e45;
   color: white;
 }
 
-.font {
-  font-family: SF Pro;
-  padding: 25px 70px 0 70px
-}
-
-/* .sub-header {
-  padding: 18px 70px 0 70px
-} */
 
 .divider {
   background-color: #084527;
 }
-.body-3 {
-  line-height: 35px;
-  padding-top: 70px;
-  padding-bottom: 25px;
-  font-family: SFPro-Bold
-}
 
-.body-4 {
-  line-height: 35px;
-  padding-bottom: 45px;
-  color: #dddcdc
+@media only screen and (max-width: 900px) and (min-width: 780px) {
+ .body-3{
+   height: 200px;
+ }
 }
-.body-1-img{
-  padding-top: 70px; padding-bottom: 35px
-}
-.body-5{
-  padding-top: 45px;
-  padding-bottom: 25px;
-  font-family: SFPro-Bold;
-  line-height: 35px;
+@media only screen and (max-width: 779px) {
+  .body-3{
+    height: auto;
+  }
+  .body-4{
+    margin-top: -40px;
+  }
+ }
 
+.header-1{
+  padding: 21px;
 }
-.body-6{
+.header-2{
   padding-top: 45px;
-  padding-bottom: 45px;
-  line-height: 35px;
-  color: #dddcdc
+  /* padding-bottom: 25 !important; */
+  /* line-height: 35px; */
 }

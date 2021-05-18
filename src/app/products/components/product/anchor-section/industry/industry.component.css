@@ -71,3 +71,7 @@
   border-left: 1px solid black;
 }
 
+.active {
+  background-color: #55565a;
+  color: white;
+}

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+// declare const scrollTOEl: any;
 @Component({
   selector: 'app-telecom-list',
   templateUrl: './telecom-list.component.html',

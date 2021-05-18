@@ -1,42 +1,47 @@
 <app-hero-section></app-hero-section>
 
-<div class="padding-left links-tab third" id="links-tab">
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link" style="padding-left: 0">
-        <h5 class="third-h5">Search by:</h5>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a
-        class="nav-link"
-        routerLink="/product"
-        routerLinkActive="active-link"
-        [routerLinkActiveOptions]="{ exact: true }"
-      >
-        <h5 class="third-h5">Industry</h5>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a
-        class="left-line nav-link"
-        routerLink="/product/solution/solution-list"
-        routerLinkActive="active-link"
-      >
-        <h5 class="third-h5">Solution</h5>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link left-line">
-        <h5 class="third-h5">Technology</h5>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="left-line nav-link">
-        <h5 class="third-h5">Service</h5>
-      </a>
-    </li>
-  </ul>
+<div class="row">
+  <div class="col-lg-12" >
+    <div class="padding-left links-tab third d-flex align-items-start justify-content-start" id="links-tab" >
+      <ul class="nav  " >
+        <li class="nav-item" >
+          <a class="nav-link" style="padding-left: 0px !important">
+            <h5 class="third-h5 pt-2">Search by:</h5>
+          </a>
+        </li>
+        <li class="nav-item" >
+          <a
+            class="nav-link custom-border"
+            routerLink="/product"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+
+          >
+            <h5 class="third-h5 p-2" > Industry</h5>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a
+            class=" nav-link custom-border"
+            routerLink="/product/solution/solution-list"
+            routerLinkActive="active-link"
+          >
+            <h5 class="third-h5 p-2">Solution</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-border">
+            <h5 class="third-h5 p-2">Technology</h5>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link custom-border ">
+            <h5 class="third-h5 p-2">Service</h5>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <div class="padding-left mt-4 padding-right">
