@@ -1,9 +1,9 @@
 .color {
-  background-color: #0B205D;
+  background-color: #384771;
 }
 
 .color-1 {
-  background-color: #1B316F;
+  background-color: #465990;
 }
 
 h5 {
@@ -22,6 +22,7 @@ p{
 
 .box {
   background-color: #3c3e45;
+  border-right: 0.1px solid #7a7979;
   color: white;
 }
 
@@ -31,6 +32,7 @@ p{
   background-color: #3c3e45;
   color: white;
 }
+
 
 
 .divider {
@@ -58,4 +60,35 @@ p{
   padding-top: 45px;
   /* padding-bottom: 25 !important; */
   /* line-height: 35px; */
+}
+
+/* NMS styling */
+#NMS{
+  background-color: #D0A20B;
+}
+
+.color-NMS {
+  background-color: #B59426;
+}
+
+.color-1-NMS {
+  background-color: #A79762;
+}
+
+.box-1-NMS {
+  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+  background-color: #888A90;
+  color: white;
+}
+
+
+
+.box-0-NMS {
+  border-left: 0.1px solid #84858B;
+  border-right: 0.1px solid #84858B;
+  background-color: #888A90;
+  color: white;
+}
+#InExpertise{
+  background-color: #1B316F;
 }
