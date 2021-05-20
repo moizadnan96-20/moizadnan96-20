@@ -1,4 +1,4 @@
-import {  HeroSectionComponent } from './components/technology/hero-section/hero-section.component';
+import { HeroSectionComponent } from './components/technology/hero-section/hero-section.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -12,13 +12,19 @@ import { TechnologyGirdSystemComponent } from './components/technology/technolog
 import { JiraGridSectionComponent } from './components/technology/jira-grid-section/jira-grid-section.component';
 import { IbmGirdSectionComponent } from './components/technology/ibm-gird-section/ibm-gird-section.component';
 
-
-
 @NgModule({
-  declarations: [TechnologyComponent, InfoSectionComponent, SubInfoSectionComponent, QuestionSectionComponent, FooterComponent, HeroSectionComponent, TechnologyGirdSystemComponent, JiraGridSectionComponent, IbmGirdSectionComponent ],
-  imports: [
-    CommonModule,
-    TechnologyRoutingModule
-  ]
+  declarations: [
+    TechnologyComponent,
+    InfoSectionComponent,
+    SubInfoSectionComponent,
+    QuestionSectionComponent,
+    FooterComponent,
+    HeroSectionComponent,
+    TechnologyGirdSystemComponent,
+    JiraGridSectionComponent,
+    IbmGirdSectionComponent,
+  ],
+  imports: [CommonModule, TechnologyRoutingModule],
+  exports: [QuestionSectionComponent],
 })
-export class TechnologyModule { }
+export class TechnologyModule {}

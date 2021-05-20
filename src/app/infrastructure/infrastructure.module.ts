@@ -10,13 +10,17 @@ import { QuestionSectionComponent } from './component/infrastructure/question-se
 import { FooterSectionComponent } from './component/infrastructure/footer-section/footer-section.component';
 import { NetworkingSectionComponent } from './component/infrastructure/networking-section/networking-section.component';
 
-
-
 @NgModule({
-  declarations: [InfrastructureComponent, HeroSectionComponent, InfoSectionComponent, QuestionSectionComponent, FooterSectionComponent,TechnologySectionComponent, NetworkingSectionComponent ],
-  imports: [
-    CommonModule,
-    InfrastructureRoutingModule
-  ]
+  declarations: [
+    InfrastructureComponent,
+    HeroSectionComponent,
+    InfoSectionComponent,
+    QuestionSectionComponent,
+    FooterSectionComponent,
+    TechnologySectionComponent,
+    NetworkingSectionComponent,
+  ],
+  imports: [CommonModule, InfrastructureRoutingModule],
+  exports: [QuestionSectionComponent],
 })
-export class InfrastructureModule { }
+export class InfrastructureModule {}

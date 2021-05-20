@@ -86,8 +86,9 @@
           >
           <a class="left-line pointer" routerLink="/product"
           routerLinkActive="active-link"><h4>Projects</h4></a>
-          <a class="left-line pointer"><h4>Jobs</h4></a>
-          <a class="left-line pointer"><h4>Queries</h4></a>
+          <!-- <a class="left-line pointer"><h4>Jobs</h4></a> -->
+          <a class="left-line pointer" routerLink="/contact"
+          routerLinkActive="active-link"><h4>Contact</h4></a>
           <a><i class="bi bi-linkedin pointer"></i></a>
         </div>
       </div>
@@ -117,11 +118,11 @@
               routerLinkActive="active-link">Projects</a>
 
             </li>
-            <li *ngIf="width">
+            <!-- <li *ngIf="width">
               <a class="nav-link left-padding scrollto pointer">Jobs</a>
-            </li>
+            </li> -->
             <li *ngIf="width">
-              <a class="nav-link left-padding scrollto pointer">Queries</a>
+              <a class="nav-link left-padding scrollto pointer">Contact</a>
             </li>
             <li (click)="routeTo('/manage-services', $event)">
               <a

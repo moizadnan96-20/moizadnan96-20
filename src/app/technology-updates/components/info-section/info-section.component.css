@@ -1,0 +1,98 @@
+.color {
+  background-color: #384771;
+}
+
+.color-1 {
+  background-color: #131E3A;
+}
+
+h5 {
+  margin: 0 !important;
+}
+
+p {
+  margin: 0px;
+}
+
+.box-1 {
+  border: 0.1px 0.1px 0px 0.1px solid #BCB8B8;
+  background-color: #3c3e45;
+  color: white;
+}
+
+.box {
+  background-color: #3c3e45;
+  border-right: 0.1px solid #7a7979;
+  color: white;
+}
+
+.box-0 {
+  border-left: 0.1px solid #7a7979;
+  border-right: 0.1px solid #7a7979;
+  background-color: #3c3e45;
+  color: white;
+}
+
+
+
+.divider {
+  background-color: #084527;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 780px) {
+  .body-3 {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  .body-3 {
+    height: auto;
+  }
+
+  .body-4 {
+    margin-top: -40px;
+  }
+}
+
+.header-1 {
+  padding: 21px;
+}
+
+.header-2 {
+  padding-top: 45px;
+  /* padding-bottom: 25 !important; */
+  /* line-height: 35px; */
+}
+
+/* NMS styling */
+#NMS {
+  background-color: #D0A20B;
+}
+
+.color-NMS {
+  background-color: #B59426;
+}
+
+.color-1-NMS {
+  background-color: #A79762;
+}
+
+.box-1-NMS {
+  border: 0.1px 0.1px 0px 0.1px solid #BCB8B8;
+  background-color: #888A90;
+  color: white;
+}
+
+
+
+.box-0-NMS {
+  border-left: 0.1px solid #84858B;
+  border-right: 0.1px solid #84858B;
+  background-color: #888A90;
+  color: white;
+}
+
+#InExpertise {
+  background-color: #4B596B;
+}

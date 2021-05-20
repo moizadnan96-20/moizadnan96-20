@@ -46,11 +46,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./about-us/about-us.module').then((m) => m.AboutUsModule),
   },
-  {
-    path: 'technology',
-    loadChildren: () =>
-      import('./technology/technology.module').then((m) => m.TechnologyModule),
-  },
+  // {
+  //   path: 'technology',
+  //   loadChildren: () =>
+  //     import('./technology/technology.module').then((m) => m.TechnologyModule),
+  // },
   {
     path: 'tech-lead',
     loadChildren: () =>
@@ -66,6 +66,16 @@ const routes: Routes = [
     component:ProductComponent,
     loadChildren: () =>
       import('./products/products.module').then((m) => m.ProductsModule),
+  },
+  {
+    path: 'technology',
+    loadChildren: () =>
+      import('./technology-updates/technology-updates.module').then((m) => m.TechnologyUpdatesModule),
+  },
+  {
+    path: 'contact',
+    loadChildren: () =>
+      import('./contact-us/contact-us.module').then((m) => m.ContactUsModule),
   },
 ];
 
