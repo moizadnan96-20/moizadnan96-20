@@ -1,3 +1,6 @@
+
+
+
 .first-div {
   background-color: #141F3B;
 }
@@ -18,10 +21,14 @@
     height: auto !important;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+    
+
   }
 
   #abc {
     padding-left: 0px !important;
+    
+
   }
 }
 
@@ -62,6 +69,8 @@
 
 .social-links {
   padding-top: 3px;
+  
+
 }
 
 /* .social-links a {
@@ -106,10 +115,15 @@
     height: auto !important;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+    
+
   }
 
   #abc {
     padding-left: 0px !important;
+    
+
+
   }
 }
 
@@ -142,6 +156,7 @@
 
 .third {
   background-color: #931212;
+  right: 0;
 }
 
 .third-h5 {
@@ -150,6 +165,7 @@
 
 .social-links {
   padding-top: 3px;
+  
 
 }
 

@@ -521,3 +521,10 @@ margin-top: 99px;
   border-bottom: 3px solid #4F87A3;
   /* background-color: #e7eaee; */
 }
+/* media query for logo*/
+@media (max-width: 1518px){
+  
+  .perception-logo{
+    width: 200%;
+   }
+}
