@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 /* @import "~font-awesome/css/font-awesome.css"; */
-::-webkit-scrollbar{
-  display: none;
+/*  remover for  the extra scroller bar    */
+body{
+  overflow-x: hidden;
 }
-
-
+/*     */
 @font-face {
   font-family: "SFPro";
   src: local("SFPro"), url(./assets/fonts/SFProDisplay-Regular.ttf) format("truetype");

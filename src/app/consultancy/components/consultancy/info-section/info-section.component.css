@@ -60,9 +60,21 @@ p {
    /* width: 22em;*/
     /* margin-right: 30px; */
     margin-bottom: 40px;
-     
+  
   }
+  /*  remove this class if you need spaces in mobile reponsives   */
+  .image-width{
+    padding-left: 0px;
+    padding-right: 0px;
+     width: 100%;
+  }
+  /*   */
 }
+
+
+
+
+
 
 .body-3 {
   line-height: 35px;
