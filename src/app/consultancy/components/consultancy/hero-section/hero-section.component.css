@@ -62,3 +62,13 @@
 .third-h5 {
   color: white;
 }
+
+/*          */
+@media (max-width:500px){
+  .left-line {
+    border-left: none;
+  }
+ 
+
+
+}
