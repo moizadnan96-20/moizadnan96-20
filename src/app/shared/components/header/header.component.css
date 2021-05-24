@@ -212,9 +212,9 @@ a {
 }
 
 @media (max-width: 1160px) {
-  .perception-logo{
-    width: 100%;
-   }
+
+
+ 
   .p-logo-div{
     padding-top: 10px !important;
   }
@@ -523,11 +523,11 @@ margin-top: 99px;
   border-bottom: 3px solid #4F87A3;
   /* background-color: #e7eaee; */
 }
-/* media query for logo
-@media only screen and (max-width:900px)and (min-width:300px){
-  
-  .perception-logo{
-    width: 200%;
-   }
-}*/
+/* media query for perception logo  */
+@media  (max-width: 793px) and (min-width:300px){
 
+  .perception-logo{
+  width: 100vmax;
+  height: 5vh;
+  }
+} 
