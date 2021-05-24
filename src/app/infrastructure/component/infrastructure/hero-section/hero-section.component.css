@@ -55,7 +55,7 @@
 }
 
 .third {
-  background-color: #078AD0;
+  background-color: #1f96b1;
 }
 
 .third-h5 {
@@ -65,4 +65,10 @@
 /*Our Infrastructure EXPERTISE div */
 #InExpertise{
   background-color: #0B205D;
+}
+@media (max-width:500px){
+  .left-line {
+    border-left: none;
+  }
+
 }

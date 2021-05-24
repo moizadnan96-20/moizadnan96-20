@@ -69,13 +69,13 @@
           </h5>
         </a>
         <div class="" ngbDropdownMenu>
-          <a href="#" style="padding-left: 10px !important" ngbDropdownItem
-            ><h5 style="color: black">Kuberneties</h5></a
+          <a ngbDropdownItem  (click)="scroll('#kuberneties')" style="padding-left: 10px !important" ngbDropdownItem
+            ><h5  style="color: black">Kuberneties</h5></a
           >
-          <a ngbDropdownItem href="#"><h5 style="color: black">AWS</h5></a>
-          <a ngbDropdownItem href="#"><h5 style="color: black">GCP</h5></a>
-          <a ngbDropdownItem href="#"
-            ><h5 style="color: black">IBM cloud</h5></a
+          <a ngbDropdownItem  (click)="scroll('#AWS')"><h5  style="color: black">AWS</h5></a>
+          <a ngbDropdownItem  (click)="scroll('#GCP')" ><h5  style="color: black">GCP</h5></a>
+          <a ngbDropdownItem (click)="scroll('#IBM')"
+            ><h5  style="color: black">IBM cloud</h5></a
           >
         </div>
       </a>
@@ -336,7 +336,7 @@
           alt=""
         />
       </div>
-      <h2 class="heading col-padding-left col-padding-right">Kuberneties</h2>
+      <h2 class="heading col-padding-left col-padding-right" id="kuberneties">Kuberneties</h2>
       <p
         class="body-text col-padding-right col-padding-left"
         style="line-height: 35px"
@@ -354,7 +354,7 @@
           alt=""
         />
       </div>
-      <h2 class="heading col-padding-left col-padding-right">AWS</h2>
+      <h2 class="heading col-padding-left col-padding-right" id="AWS">AWS</h2>
       <p
         class="body-text col-padding-right col-padding-left"
         style="line-height: 35px"
@@ -372,7 +372,7 @@
           alt=""
         />
       </div>
-      <h2 class="heading col-padding-left col-padding-right">GCP</h2>
+      <h2 class="heading col-padding-left col-padding-right" id="GCP" >GCP</h2>
       <p
         class="body-text col-padding-right col-padding-left"
         style="line-height: 35px"
@@ -393,7 +393,7 @@
           alt=""
         />
       </div>
-      <h2 class="heading col-padding-left col-padding-right">IBM Cloud</h2>
+      <h2 class="heading col-padding-left col-padding-right" id="IBM">IBM Cloud</h2>
       <p
         class="body-text col-padding-right col-padding-left"
         style="line-height: 35px"

@@ -154,7 +154,7 @@
 }
 
 .third {
-  background-color: #931212;
+  background-color: #1f96b1;
   right: 0;
 }
 
@@ -191,3 +191,12 @@
 /* #main{
   margin: 0.1rem;
 } */
+
+
+/*  */
+@media (max-width:500px){
+  .left-line {
+    border-left: none;
+  }
+
+}

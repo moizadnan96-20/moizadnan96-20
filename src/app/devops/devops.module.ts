@@ -5,10 +5,11 @@ import { CommonModule } from '@angular/common';
 import { DevopsRoutingModule } from './devops-routing.module';
 import { DevopComponent } from './components/devop/devop.component';
 import { QuestionSectionComponent } from './components/question-section/question-section.component';
+import { FooterSectionComponent } from './components/footer-section/footer-section.component';
 
 
 @NgModule({
-  declarations: [DevopComponent,QuestionSectionComponent],
+  declarations: [DevopComponent,QuestionSectionComponent,FooterSectionComponent],
   imports: [
     CommonModule,
     DevopsRoutingModule,

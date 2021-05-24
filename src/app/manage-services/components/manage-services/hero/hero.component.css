@@ -65,3 +65,9 @@
   background-color: #8A8A89;
   box-shadow: 0 3px 6px #000000;
 }
+@media (max-width:500px){
+  .left-line {
+    border-left: none;
+  }
+
+}

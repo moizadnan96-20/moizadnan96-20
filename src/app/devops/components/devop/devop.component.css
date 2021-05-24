@@ -326,3 +326,16 @@
   padding-top: 80px;
   padding-bottom: 35px;
 }
+
+
+/*  */
+@media (max-width:500px){
+  .left-line {
+    border-left: none;
+
+  }
+  .right-line {
+    display: none;
+  }
+
+}
