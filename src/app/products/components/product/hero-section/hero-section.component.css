@@ -61,3 +61,11 @@
 .third-h5 {
   color: white;
 }
+
+@media screen and (max-width: 767px){
+ 
+  h1{
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}
