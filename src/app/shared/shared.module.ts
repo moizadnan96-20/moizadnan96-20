@@ -7,10 +7,12 @@ import { NgMarqueeModule } from 'ng-marquee';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FooterSectionComponent } from './components/footer-section/footer-section.component';
+
 
 
 @NgModule({
-  declarations: [HeaderComponent,FooterComponent],
+  declarations: [HeaderComponent,FooterComponent,FooterSectionComponent ],
   imports: [
     CommonModule,
     NgMarqueeModule,
@@ -18,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   exports:[
     HeaderComponent,
-    FooterComponent
+    
+    FooterSectionComponent
   ]
 })
 export class SharedModule { }

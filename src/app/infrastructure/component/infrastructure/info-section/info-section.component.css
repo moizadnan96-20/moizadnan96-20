@@ -15,7 +15,7 @@ p{
 }
 
 .box-1 {
-  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+  /* border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8; */
   background-color: #3c3e45;
   color: white;
 }

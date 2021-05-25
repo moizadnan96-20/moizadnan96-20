@@ -8,12 +8,12 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { InfoSectionComponent } from './components/info-section/info-section.component';
 import { TechnologyUpdatesComponent } from './technology-updates.component';
 import { TechnologyModule } from '../technology/technology.module';
-import { FooterSectionComponent } from './components/footer-section/footer-section.component';
+
 
 
 
 @NgModule({
-  declarations: [HeroSectionComponent, InfoSectionComponent, TechnologyUpdatesComponent,FooterSectionComponent ],
+  declarations: [HeroSectionComponent, InfoSectionComponent, TechnologyUpdatesComponent, ],
   imports: [
     CommonModule,
     TechnologyUpdatesRoutingModule,

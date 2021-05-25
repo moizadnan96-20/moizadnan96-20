@@ -197,6 +197,9 @@
 @media (max-width:500px){
   .left-line {
     border-left: none;
+   
+    display: block;
+    padding: 0;
   }
 
 }

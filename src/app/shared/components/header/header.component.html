@@ -55,12 +55,12 @@
 </header> -->
 <header id="header" class="fixed-top">
   <div class="row">
-    <div class="col-4 padding-left p-logo-div">
+    <div class="col-4 padding-left ">
       <div class="contact-info d-flex align-items-center">
         <img
           (click)="routeTo('/', $event)"
-          src="../../../../../assets/img/perception-logo.png"
-          class="pointer img-fluid perception-logo"
+          src="../../../../assets/img/perception-logo.svg"
+          class="pointer img-fluid perception-logo pt-3"
           alt=""
         />
       </div>
@@ -122,7 +122,8 @@
               <a class="nav-link left-padding scrollto pointer">Jobs</a>
             </li> -->
             <li *ngIf="width">
-              <a class="nav-link left-padding scrollto pointer">Contact</a>
+              <a class="nav-link left-padding scrollto pointer" routerLink="/contact"
+              routerLinkActive="active-link">Contact</a>
             </li>
             <li (click)="routeTo('/manage-services', $event)">
               <a

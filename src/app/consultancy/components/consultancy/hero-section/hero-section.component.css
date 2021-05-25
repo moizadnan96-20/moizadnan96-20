@@ -67,6 +67,10 @@
 @media (max-width:500px){
   .left-line {
     border-left: none;
+    /* border-left: none; */
+    /* padding-left: 0; */
+    display: block;
+    padding: 0;
   }
  
 

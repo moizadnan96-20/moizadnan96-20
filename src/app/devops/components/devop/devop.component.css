@@ -330,12 +330,14 @@
 
 /*  */
 @media (max-width:500px){
-  .left-line {
+  .left-line, .right-line, .dropdown1 {
     border-left: none;
+    /* border-left: none; */
+    /* padding-left: 0; */
+    display: block;
+    padding: 0;
 
   }
-  .right-line {
-    display: none;
-  }
+  
 
 }

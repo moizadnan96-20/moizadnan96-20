@@ -6,7 +6,7 @@
 }
 
 .perception-logo{
- width: 50%;
+ /* width: 50%; */
 }
 
 #header.header-scrolled {
@@ -527,7 +527,9 @@ margin-top: 99px;
 @media  (max-width: 793px) and (min-width:300px){
 
   .perception-logo{
-  width: 100vmax;
-  height: 4vh;
+  /* width: 150vmax;
+  height: 5vh; */
+  max-width:320px;
+    max-height:50px;
   }
 } 
