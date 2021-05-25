@@ -1,0 +1,10 @@
+/*  for mobile responsive */
+@media screen and (max-width: 600px) {
+    .col-3 {
+      width: 100%;
+    }
+    .col-9{
+      width: 100%;
+     
+    }
+  }
