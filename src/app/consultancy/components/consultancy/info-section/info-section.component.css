@@ -26,9 +26,9 @@ p {
 } */
 
 .box {
-  border-top: 0.1px solid #BCB8B8;
+  /* border-top: 0.1px solid #BCB8B8;
   border-left: 0.1px solid #BCB8B8;
-  border-right: 0.1px solid #BCB8B8;
+  border-right: 0.1px solid #BCB8B8; */
   background-color: #3c3e45;
   color: white;
 }
@@ -60,7 +60,7 @@ p {
    /* width: 22em;*/
     /* margin-right: 30px; */
     margin-bottom: 40px;
-  
+
   }
   /*  remove this class if you need spaces in mobile reponsives   */
   .image-width{
@@ -90,6 +90,6 @@ p {
 }
 .body-1-img{
   padding-top: 70px; padding-bottom: 35px;
-  
-  
+
+
 }
