@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare const scrollTOEl: any;
 @Component({
   selector: 'app-solution-telecom',
   templateUrl: './solution-telecom.component.html',
@@ -11,5 +11,7 @@ export class SolutionTelecomComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  scroll(el: any) {
+    scrollTOEl(el);
+  }
 }

@@ -77,3 +77,10 @@
   padding-top: 12px;
   padding-bottom: 10px;
 }
+/*  ////////////////////////////////////////////   //////                           */
+@media (max-width:600px){
+  #image-width{
+    width: 100%;
+ 
+  }
+}

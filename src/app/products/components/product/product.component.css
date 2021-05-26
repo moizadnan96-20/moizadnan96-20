@@ -103,3 +103,25 @@
 /* .nav-tabs{
   background-color: black;
 } */
+
+
+/*/////////////////////////////////////////////////////////        */
+/* media query for sreach by in mobile responsive          */
+
+ 
+  @media (max-width: 600px) {
+   
+  
+      .nav-item, a {
+      display:block;
+      width: 200px;
+      
+      }
+      .nav-item, a , h5{
+       padding: 0px;
+        }
+   
+  }
+  
+
+
