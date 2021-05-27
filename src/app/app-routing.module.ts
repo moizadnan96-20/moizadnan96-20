@@ -8,6 +8,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./landing/landing.module').then((m) => m.LandingModule),
   },
+  // {
+  //   path: 'landing',
+  //   loadChildren: () =>
+  //     import('./landing/landing.module').then((m) => m.LandingModule),
+  // },
   {
     path: 'devops',
     loadChildren: () =>
