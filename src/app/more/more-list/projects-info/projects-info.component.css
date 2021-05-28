@@ -61,3 +61,10 @@
 .third-h5 {
   color: white;
 }
+
+/*  */
+@media (max-width:600px){
+  #main, h4 {
+    padding-bottom: 15px;
+  }
+}
