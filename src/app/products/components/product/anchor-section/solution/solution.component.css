@@ -72,10 +72,13 @@
 }
 
 /*    meida query for filter by       */
-@media (max-width:600px){
-  #links .col-12 a{
-    display: inline-block; 
-    margin-right: 4px;
-   font-size: 14px;    
-   }
+@media (max-width: 600px) {
+
+
+
+  .active-link {
+    display: block;
+    margin: 20px auto;
+
+  }
 }

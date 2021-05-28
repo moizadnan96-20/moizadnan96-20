@@ -142,3 +142,14 @@
   color: white;
 
 }
+/* media query for remove text in the mobile responsive  */
+@media (max-width:600px) {
+  #main{
+    height: 40px;
+  }
+  #text-hid{
+    display: none;
+
+  }
+  }
+  
