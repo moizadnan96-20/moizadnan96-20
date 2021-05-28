@@ -71,19 +71,7 @@ a {
   font-family: "IBMPlexSerif-Regular";
 }
 
-/* .navbar a i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-} */
 
-/* .navbar a:hover,
-.navbar .active,
-.navbar li:hover>a {
-  color: #929496;
-  border-bottom: 3px solid #929496;
-  background-color: #e7eaee;
-} */
 
 .navbar .getstarted {
   padding: 10px 25px;
@@ -273,7 +261,7 @@ a {
 
 .navbar-mobile a {
   padding: 10px 20px !important;
-  /* font-size: 15px; */
+
   color: #5d6063;
 }
 
@@ -341,17 +329,7 @@ a {
 }
 
 
-/* mega menu */
-/* .dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: red;
-  padding: 14px 16px;
-  background-color: inherit;
-  font: inherit;
-  margin: 0;
-} */
+
 
 
 .dropdown-content {
@@ -397,25 +375,7 @@ a {
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    height: auto;
-  }
-} */
 
-
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-/* #topbar {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  font-size: 15px;
-  height: 40px;
-  padding: 0;
-} */
 
 .contact-info a {
   line-height: 0;
@@ -518,17 +478,17 @@ a {
 }
 
 .active-link {
-  color: #4F87A3 !important;
-  border-bottom: 3px solid #4F87A3;
-  /* background-color: #e7eaee; */
+  color: white !important;
+  background-color: #7a7979;
+
+  border-radius: 8px;
 }
 
 /* media query for perception logo  */
 @media (max-width: 793px) and (min-width:300px) {
 
   .perception-logo {
-    /* width: 150vmax;
-  height: 5vh; */
+
     max-width: 320px;
     max-height: 50px;
   }

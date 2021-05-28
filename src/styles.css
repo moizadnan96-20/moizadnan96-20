@@ -170,11 +170,7 @@ body{
   color: #6a7489;
 }
 
-.box-0 {
-  /* border-top: 0.1px solid #BCB8B8; */
-  border-left: 0.1px solid #BCB8B8;
-  border-right: 0.1px solid #BCB8B8;
-}
+
 
 h1{
   font-family: "IBMPlexSerif-ExtraLight";
@@ -231,9 +227,7 @@ h5{
   font-size: 26px;
 }
 
-.gray-text{
-  color: #6a7489;
-}
+
 
 .social-links {
   padding-top: 12px;
@@ -269,9 +263,7 @@ h5{
 .overflow-hidden{
   overflow: hidden;
 }
-/* .left-line {
-  border-left: 0.5px solid #e5e5e7;
-} */
+
 
 .right-line {
   border-right: 1px solid #e5e5e7;
@@ -286,19 +278,6 @@ h5{
   margin-right: 10px;
 }
 
-.social-links > a:hover{
-  color: #929496;
-}
-
-.social-links > a>a:hover{
-  color: #929496;
-}
-
-.drop-menue > a:hover{
-  color: #929496;
-  border-bottom: 3px solid #406CA0;
-  background-color: #e7eaee;
-}
 
 body {
   font-family: "SFPro";
@@ -306,7 +285,7 @@ body {
 }
 
 a {
-  color: #14c871;
+
   text-decoration: none;
 }
 

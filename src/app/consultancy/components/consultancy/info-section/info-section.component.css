@@ -12,31 +12,19 @@ p {
   margin: 0px;
 }
 
-.box-1 {
-  border: 0.1px 0.1px 0px 0.1px solid #BCB8B8;
-  /* height: 480px; */
-  background-color: #3c3e45;
-  color: white;
-}
 
-/* @media (min-width: 770px) {
-  .box-1 {
-    padding: 0px !important;
-  }
-} */
+
+
 
 .box {
-  /* border-top: 0.1px solid #BCB8B8;
-  border-left: 0.1px solid #BCB8B8;
-  border-right: 0.1px solid #BCB8B8; */
+
+  border-right: 0.1px solid #7a7979;
   background-color: #3c3e45;
   color: white;
 }
 
 .box-0 {
-  border-top: 0.1px solid #BCB8B8;
-  /* border-left: 0.1px solid #BCB8B8; */
-  border-right: 0.1px solid #BCB8B8;
+
   background-color: #3c3e45;
   color: white;
 }
@@ -46,9 +34,7 @@ p {
   padding: 25px 70px 0 70px
 }
 
-/* .sub-header {
-  padding: 18px 70px 0 70px
-} */
+
 
 .divider {
   background-color: #6C0909;
@@ -57,18 +43,18 @@ p {
 @media only screen and (max-width: 900px) and (min-width: 300px) {
   #body-img {
 
-   /* width: 22em;*/
-    /* margin-right: 30px; */
+
     margin-bottom: 40px;
 
   }
+
   /*  remove this class if you need spaces in mobile reponsives   */
-  .image-width{
+  .image-width {
     padding-left: 0px;
     padding-right: 0px;
-     width: 100%;
+    width: 100%;
   }
-  /*   */
+
 }
 
 
@@ -88,8 +74,10 @@ p {
   padding-bottom: 70px;
   color: #dddcdc
 }
-.body-1-img{
-  padding-top: 70px; padding-bottom: 35px;
+
+.body-1-img {
+  padding-top: 70px;
+  padding-bottom: 35px;
 
 
 }

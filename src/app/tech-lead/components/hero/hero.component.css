@@ -81,10 +81,12 @@
 @media (max-width:600px){
   #image-width{
     width: 100%;
-
-
+  }
+  .body-5{
+    padding-left: 50px;
   }
 }
-.pull-right{
-  height: 100%;
-}
+
+
+
+

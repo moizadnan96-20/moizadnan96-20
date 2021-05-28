@@ -8,24 +8,11 @@
   color: white;
 }
 
-#first-img {
-  height: 319px;
-  width: 100%;
-}
 
-@media (max-width: 1200px) {
-  #first-img {
-    height: 357px !important;
-  }
 
-}
 
-@media (max-width: 1010px) {
-  #first-img {
-    height: 417px !important;
-  }
 
-}
+
 
 @media (max-width: 550px) {
   .first-padding-right {
@@ -33,27 +20,13 @@
   }
 }
 
-@media (max-width: 835px) {
-  #links-tab {
-    height: auto !important;
-    padding-bottom: 3px !important;
-    padding-top: 3px !important;
-    right: 0;
-  }
-}
+
 
 .first-padding-right {
   padding-right: 80px;
 }
 
-.first-h2 {
-  margin-bottom: 70px;
-  color: black;
-}
 
-.second-h4 {
-  color: black;
-}
 
 .third {
   background-color: #4F87A3;
@@ -63,10 +36,7 @@
   color: white;
 }
 
-/* .left-line {
-  border-left: 1px solid white;
 
-} */
 .custom-border {
   position: relative;
 }
@@ -82,48 +52,34 @@
   margin-bottom: auto;
 }
 
-#main {
-  margin-right: 15px;
-  background-color: #e7eaee;
-  color: #5d6063;
-  border: #e7eaee;
-
-}
-
 .active-link {
 
-  /* border: 1px solid black; */
+
   background-color: #55565a;
-  /* border: #55565a; */
-  /* border-left: 1px #55565a solid; */
+
 
 
 }
 
-/* .nav-tabs{
-  background-color: black;
-} */
 
 
-/*/////////////////////////////////////////////////////////        */
-/* media query for sreach by in mobile responsive          */
+@media (max-width: 600px) {
 
 
-  @media (max-width: 600px) {
+  .nav-item,
+  a {
+    display: block;
+    width: 200px;
 
-
-      .nav-item, a {
-      display:block;
-      width: 200px;
-
-      }
-      .nav-item, a , h5{
-       padding: 0px;
-        }
-        .active-link{
-          background-color: transparent;
-        }
   }
 
+  .nav-item,
+  a,
+  h5 {
+    padding: 0px;
+  }
 
-
+  .active-link {
+    background-color: transparent;
+  }
+}

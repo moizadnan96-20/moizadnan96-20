@@ -1,53 +1,62 @@
 <div class="overflow-hidden">
-<app-hero-section></app-hero-section>
+  <app-hero-section></app-hero-section>
 
-<div class="row">
-  <div class="col-lg-12" >
-    <div class="padding-left links-tab third d-flex align-items-start justify-content-start" id="links-tab" >
-      <ul class="nav  " >
-        <li class="nav-item" >
-          <a class="nav-link" style="padding-left: 0px !important">
-            <h5 class="third-h5 pt-2">Search by:</h5>
-          </a>
-        </li>
-        <li class="nav-item" >
-          <a
-            class="nav-link "
-            routerLink="/product"
-            routerLinkActive="active-link"
-            [routerLinkActiveOptions]="{ exact: true }"
-
-          >
-            <h5 class="third-h5 pt-2" > Industry</h5>
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a
-            class=" nav-link "
-            routerLink="/product/solution/solution-list"
-            routerLinkActive="active-link"
-          >
-            <h5 class="third-h5  pt-2 ">Solution</h5>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link ">
-            <h5 class="third-h5  pt-2">Technology</h5>
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link  ">
-            <h5 class="third-h5  pt-2">Service</h5>
-          </a>
-        </li>
-      </ul>
+  <div class="row">
+    <div class="col-lg-12">
+      <div
+        class="
+          padding-left
+          links-tab
+          third
+          d-flex
+          align-items-start
+          justify-content-start
+        "
+        id="links-tab"
+      >
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" style="padding-left: 0px !important">
+              <h5 class="third-h5 pt-2">Search by:</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="/product"
+              routerLinkActive="active-link"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              <h5 class="third-h5 pt-2">Industry</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="/product/solution/solution-list"
+              routerLinkActive="active-link"
+            >
+              <h5 class="third-h5 pt-2">Solution</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <h5 class="third-h5 pt-2">Technology</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <h5 class="third-h5 pt-2">Service</h5>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="padding-left mt-4 padding-right">
-  <router-outlet></router-outlet>
-</div>
+  <div class="padding-left mt-4 padding-right">
+    <router-outlet></router-outlet>
+  </div>
 
-<app-help></app-help>
+  <app-help></app-help>
 </div>
