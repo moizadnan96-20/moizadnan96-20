@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { TechnologySectionComponent } from './component/infrastructure/technology-section/technology-section.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -16,11 +17,12 @@ import { NetworkingSectionComponent } from './component/infrastructure/networkin
     HeroSectionComponent,
     InfoSectionComponent,
     QuestionSectionComponent,
- 
+
     TechnologySectionComponent,
     NetworkingSectionComponent,
+
   ],
-  imports: [CommonModule, InfrastructureRoutingModule],
+  imports: [CommonModule, InfrastructureRoutingModule, SharedModule],
   exports: [QuestionSectionComponent],
 })
 export class InfrastructureModule {}

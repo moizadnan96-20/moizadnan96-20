@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -14,7 +15,8 @@ import { TestimonialSectionComponent } from './components/manage-services/testim
   declarations: [ManageServicesComponent, HeroComponent, InfoSectionComponent, QuestionSectionComponent, TestimonialSectionComponent,  ],
   imports: [
     CommonModule,
-    ManageServicesRoutingModule
+    ManageServicesRoutingModule,
+    SharedModule
   ]
 })
 export class ManageServicesModule { }

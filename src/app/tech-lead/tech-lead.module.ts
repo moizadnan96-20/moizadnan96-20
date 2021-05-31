@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -11,7 +12,8 @@ import { HeroComponent } from './components/hero/hero.component';
   declarations: [TechLeadComponent,InfoSectionComponent,HeroComponent],
   imports: [
     CommonModule,
-    TechLeadRoutingModule
+    TechLeadRoutingModule,
+    SharedModule
   ]
 })
 export class TechLeadModule { }

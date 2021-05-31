@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 
 import { InfrastructureModule } from './../infrastructure/infrastructure.module';
 import { NgModule } from '@angular/core';
@@ -18,7 +19,8 @@ import { TechnologyModule } from '../technology/technology.module';
     CommonModule,
     TechnologyUpdatesRoutingModule,
 
-    InfrastructureModule
+    InfrastructureModule,
+    SharedModule
 
   ]
 })

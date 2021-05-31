@@ -81,17 +81,14 @@
           background-color: transparent;
         }
         #service{
-          padding-bottom: 7px;
+          padding-bottom: 20px;
         }
   }
 
-  .nav-item,
+  /* .nav-item,
   a,
   h5 {
     padding: 0px;
-  }
+  } */
 
-  .active-link {
-    background-color: transparent;
-  }
 

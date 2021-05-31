@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -9,7 +10,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
   declarations: [AboutUsComponent],
   imports: [
     CommonModule,
-    AboutUsRoutingModule
+    AboutUsRoutingModule,
+    SharedModule
   ]
 })
 export class AboutUsModule { }

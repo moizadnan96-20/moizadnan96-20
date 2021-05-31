@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { HelpComponent } from './components/product/help/help.component';
 
 import { NgModule } from '@angular/core';
@@ -34,7 +35,7 @@ import { SolutionTelecomComponent } from './components/product/anchor-section/so
     SolutionBankComponent,
     SolutionTelecomComponent,
   ],
-  imports: [CommonModule, ProductsRoutingModule, MoreModule],
+  imports: [CommonModule, ProductsRoutingModule, MoreModule, SharedModule],
   exports: [HelpComponent],
 })
 export class ProductsModule {}
