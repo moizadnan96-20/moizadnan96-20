@@ -13,19 +13,19 @@
   width: 100%;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   #first-img {
     height: 357px !important;
   }
 
-}
+} */
 
-@media (max-width: 1010px) {
+/* @media (max-width: 1010px) {
   #first-img {
     height: 417px !important;
   }
 
-}
+} */
 
 @media (max-width: 550px) {
   .first-padding-right {

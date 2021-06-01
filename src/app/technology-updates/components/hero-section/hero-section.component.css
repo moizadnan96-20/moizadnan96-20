@@ -25,12 +25,12 @@
 
 }
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
   #first-img {
     height: 417px !important;
   }
 
-}
+} */
 
 @media (max-width: 550px) {
   .first-padding-right {
@@ -101,12 +101,6 @@
 
 }
 
-@media (max-width: 950px) {
-  #first-img {
-    height: 417px !important;
-  }
-
-}
 
 @media (max-width: 550px) {
   .first-padding-right {
