@@ -131,7 +131,7 @@
 
   line-height: 35px;
 }
-@media (max-width:500px){
+@media (max-width:775px){
   .left-line {
     border-left: none;
     /* border-left: none; */
