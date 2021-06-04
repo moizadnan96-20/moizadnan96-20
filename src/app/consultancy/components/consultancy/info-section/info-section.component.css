@@ -50,9 +50,9 @@ p {
 
   /*  remove this class if you need spaces in mobile reponsives   */
   .image-width {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
+    padding-left: 30px;
+
+    width: 90%;
   }
 
 }
