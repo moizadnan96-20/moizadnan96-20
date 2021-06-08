@@ -20,11 +20,11 @@
 }
 
 @media (max-width: 670px) {
-  #links-tab {
+  /* #links-tab {
     height: auto !important;
     padding-top: 3px !important;
     padding-bottom: 3px !important;
-  }
+  } */
 
 }
 
@@ -227,6 +227,11 @@
 
   }
 
-
+.removeHeight{
+padding-top: 0 !important ;
+}
+.linksTopPadding{
+  padding-top: 5px;
+}
 
 }
