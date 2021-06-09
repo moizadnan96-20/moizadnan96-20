@@ -56,7 +56,8 @@
 }
 
 .third {
-  background-color: #6C0909;
+  /* background-color: #6C0909; */
+  background-color: #020142;
 }
 
 .third-h5 {
@@ -77,4 +78,8 @@
 padding-top: 7px;
   }
 
+}
+.page-heading{
+  background-color: #f1f1f1;
+  color: #5d6063;
 }

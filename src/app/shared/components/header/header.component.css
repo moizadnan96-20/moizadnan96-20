@@ -490,6 +490,9 @@ a {
   .perception-logo {
 
     max-width: 320px;
-    max-height: 50px;
+    max-height: 70px;
   }
+}
+.perception-logo{
+  padding-top: 15px;
 }

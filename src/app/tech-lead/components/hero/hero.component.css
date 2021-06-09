@@ -68,9 +68,10 @@
 
 .tsia-div{
   margin-top: 3px;
-  background-color: #3C3E45;
+  /* background-color: #3C3E45; */
+  background-color: #f1f1f1;
   box-shadow: 0 3px 6px #000000;
-  color: white;
+  color: #464646;
 }
 
 .social-links {
