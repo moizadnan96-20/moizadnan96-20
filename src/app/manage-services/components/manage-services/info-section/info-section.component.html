@@ -1,10 +1,11 @@
+
 <div class="row" style="margin-top: 3px">
-  <div id="AIOPs" class="col-lg-3 col-md-6 col-sm-12 p-0 box-0">
-    <div class="header-1 text-center color">
+  <div id="AIOPs" [style.background]="parentDate=='#AIOPs' ? '#74716C' : null"   class="col-lg-3 col-md-6 col-sm-12 p-0 box-0">
+    <div class="header-1 text-center color" >
       <img src="../../../../../assets/img/boll.svg" class="img-fluid" alt="" />
     </div>
-    <h2
-      class="col-padding-left col-padding-right"
+    <h2  
+      class="col-padding-left col-padding-right "
       style="padding-top: 45px; padding-bottom: 25px; font-family: SFPro-thin"
     >
       AIOps
@@ -15,7 +16,7 @@
       help from IT staff.
     </p>
   </div>
-  <div id="DCM" class="col-lg-3 col-md-6 col-sm-12 p-0 box">
+  <div id="DCM" [style.background]="parentDate=='#DCM'  ? '#74716C' : null"  class="col-lg-3 col-md-6 col-sm-12 p-0 box">
     <div class="header-1 text-center color-1">
       <img src="../../../../../assets/img/call.svg" class="img-fluid" alt="" />
     </div>
@@ -46,7 +47,7 @@
       />
     </div>
   </div>
-  <div id="ISM" class="col-lg-3 col-md-6 col-sm-12 p-0 box-0">
+  <div id="ISM" [style.background]="parentDate=='#ISM' ? '#74716C' : null"  class="col-lg-3 col-md-6 col-sm-12 p-0 box-0">
     <div class="header-1 text-center color">
       <img src="../../../../../assets/img/upway.svg" class="img-fluid" alt="" />
     </div>
@@ -66,7 +67,7 @@
       infrastructure and multicloud environments.
     </p>
   </div>
-  <div id="InfrastructureServices" class="col-lg-3 col-md-6 col-sm-12 p-0 box">
+  <div id="InfrastructureServices" [style.background]="parentDate=='#InfrastructureServices' ? '#74716C' : null"  class="col-lg-3 col-md-6 col-sm-12 p-0 box">
     <div class="header-1 text-center color-1">
       <img src="../../../../../assets/img/upway.svg" class="img-fluid" alt="" />
     </div>
@@ -102,7 +103,7 @@
   class="row"
   style="background-color: #3c3e45; border-top: 0.5px solid #7a7979"
 >
-  <div id="SoftwareApplication" class="col-lg-3 col-md-6 col-sm-12 p-0 box-0">
+  <div id="SoftwareApplication" [style.background]="parentDate=='#SoftwareApplication' ? '#74716C' : null"  class="col-lg-3 col-md-6 col-sm-12 p-0 box-0">
     <div class="header-1 text-center color">
       <img src="../../../../../assets/img/boll.svg" class="img-fluid" alt="" />
     </div>

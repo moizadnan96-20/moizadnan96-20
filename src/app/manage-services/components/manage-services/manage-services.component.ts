@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./manage-services.component.css']
 })
 export class ManageServicesComponent implements OnInit {
-
+ divid=""
   constructor() { }
 
   ngOnInit(): void {

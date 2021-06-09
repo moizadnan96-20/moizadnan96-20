@@ -78,3 +78,13 @@
 }
 
 }
+
+.highlight-pink {
+  background-color: pink;
+}
+
+.highlight-black {
+  background-color: black;
+  color: white;
+}
+
