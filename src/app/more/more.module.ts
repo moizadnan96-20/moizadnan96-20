@@ -9,11 +9,14 @@ import { ProjectsInfoComponent } from './more-list/projects-info/projects-info.c
 import { MoreQuestionSectionComponent } from './more-list/more-question-section/more-question-section.component';
 import { MoreComponent } from './more.component';
 import { ProductsModule } from '../products/products.module';
+import { MoreBankingComponent } from './more-banking/more-banking.component';
+
+import { MoreIndustryComponent } from './more-industry/more-industry.component';
 
 
 
 @NgModule({
-  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, ],
+  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent,  MoreIndustryComponent, ],
   imports: [
     CommonModule,
     MoreRoutingModule,

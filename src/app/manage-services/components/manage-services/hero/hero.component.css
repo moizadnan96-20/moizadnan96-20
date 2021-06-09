@@ -84,3 +84,13 @@
   background-color: #f1f1f1;
   color: #5d6063;
 }
+
+.highlight-pink {
+  background-color: pink;
+}
+
+.highlight-black {
+  background-color: black;
+  color: white;
+}
+

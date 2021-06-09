@@ -21,9 +21,10 @@
   }
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 1200px) {
   #first-img {
-    height: 357px !important;
+    height:100% ;
+   
   }
 
 }
@@ -83,3 +84,6 @@ padding-top: 7px;
   background-color: #f1f1f1;
   color: #5d6063;
 }
+
+
+/*     */
