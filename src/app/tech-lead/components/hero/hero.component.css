@@ -1,5 +1,5 @@
 .first-div {
-  background-color: #3C3E45;
+  background-color: #E4E4E4;
 }
 
 .first-h1 {
@@ -21,6 +21,8 @@
   /* font-size: 16px; */
   font-family: "SFPro-regular";
   line-height: 30px;
+  background-color: #F1F1F1;
+  color: #707070;
 }
 
 .heading{
@@ -69,9 +71,9 @@
 .tsia-div{
   margin-top: 3px;
   /* background-color: #3C3E45; */
-  background-color: #f1f1f1;
+  background-color: #E4E4E4;
   box-shadow: 0 3px 6px #000000;
-  color: #464646;
+  color: #3C3E45;
 }
 
 .social-links {
@@ -86,6 +88,10 @@
   .body-5{
     padding-left: 50px;
   }
+}
+.page-heading{
+  background-color: #1D2957;
+  color: white;
 }
 
 
