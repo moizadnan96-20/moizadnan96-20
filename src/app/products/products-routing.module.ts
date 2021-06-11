@@ -1,3 +1,9 @@
+import { TechTextileComponent } from './components/product/anchor-section/technology/tech-textile/tech-textile.component';
+import { TechBankinngComponent } from './components/product/anchor-section/technology/tech-bankinng/tech-bankinng.component';
+import { TechTelecomComponent } from './components/product/anchor-section/technology/tech-telecom/tech-telecom.component';
+import { TechListComponent } from './components/product/anchor-section/technology/tech-list/tech-list.component';
+import { SolutionTextileComponent } from './components/product/anchor-section/solution/solution-textile/solution-textile.component';
+import { IndustryTextileComponent } from './components/product/anchor-section/industry/industry-textile/industry-textile.component';
 import { SolutionBankComponent } from './components/product/anchor-section/solution/solution-bank/solution-bank.component';
 import { SolutionTelecomComponent } from './components/product/anchor-section/solution/solution-telecom/solution-telecom.component';
 import { SoultionListComponent } from './components/product/anchor-section/solution/soultion-list/soultion-list.component';
@@ -31,7 +37,10 @@ const routes: Routes = [
     path: 'industry-banking',
     component: BankingComponent,
   },
-
+  {
+    path: 'industry-textile',
+    component: IndustryTextileComponent,
+  },
   {
     path: 'solution/solution-list',
     component: SoultionListComponent,
@@ -46,6 +55,27 @@ const routes: Routes = [
     path: 'solution/solution-telecom',
     component: SolutionTelecomComponent,
   },
+
+  {
+    path:'solution/solution-textile',
+    component:SolutionTextileComponent
+  },
+
+  {
+    path:'technology/tech-list',
+    component:TechListComponent
+  },
+  {
+    path:'technology/tech-telecom',
+    component:TechTelecomComponent
+  },
+  {path:'technology/tech-banking',
+   component:TechBankinngComponent
+ },
+ {
+   path:'technology/tech-textile',
+   component:TechTextileComponent
+ }
 ];
 
 @NgModule({
