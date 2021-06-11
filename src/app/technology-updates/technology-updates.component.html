@@ -1,6 +1,6 @@
 <div class="overflow-hidden">
-  <app-hero-section></app-hero-section>
-  <app-info-section></app-info-section>
+  <app-hero-section (childevent)="divid=$event"></app-hero-section>
+  <app-info-section [parentDate]="divid"></app-info-section>
   <!-- <app-question-section></app-question-section> -->
   <app-question-section></app-question-section>
   <!-- <app-footer-section></app-footer-section> -->

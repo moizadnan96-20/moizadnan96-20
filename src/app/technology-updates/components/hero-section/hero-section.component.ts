@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 declare const scrollTOEl: any;
 @Component({
   selector: 'app-hero-section',
@@ -9,7 +9,7 @@ export class HeroSectionComponent implements OnInit {
   header: any;
   linkTab: any;
   linkTabOfset: any;
-
+  @Output() public childevent=new EventEmitter()
   @HostListener('window:scroll', ['$event'])
   onScrollEvent($event: any) {
     if (window.pageYOffset + this.header > this.linkTabOfset) {
@@ -29,6 +29,7 @@ export class HeroSectionComponent implements OnInit {
 
   scroll(el: any) {
     scrollTOEl(el);
+    this.childevent.emit(el)
   }
 
 }
