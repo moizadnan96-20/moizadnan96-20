@@ -15,12 +15,13 @@ import { MoreBankingQuestionsComponent } from './more-banking/more-banking-quest
 import { MoreIndustryComponent } from './more-industry/more-industry.component';
 import { MoreIndustryProjectInfoComponent } from './more-industry/more-industry-project-info/more-industry-project-info.component';
 import { MoreIndustryQuestionsComponent } from './more-industry/more-industry-questions/more-industry-questions.component';
+import { HelpComponent } from './help/help.component';
 
 
 
 
 @NgModule({
-  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent ],
+  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent, HelpComponent ],
   imports: [
     CommonModule,
     MoreRoutingModule,

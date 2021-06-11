@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./technology-updates.component.css']
 })
 export class TechnologyUpdatesComponent implements OnInit {
-
+  divid=""
   constructor() { }
 
   ngOnInit(): void {

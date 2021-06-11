@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, Input } from '@angular/core';
 declare const scrollTOEl: any;
 @Component({
   selector: 'app-info-section',
@@ -10,7 +10,7 @@ export class InfoSectionComponent implements OnInit {
   header: any;
   linkTab: any;
   linkTabOfset: any;
-
+  @Input() public parentDate=""
   @HostListener('window:scroll', ['$event'])
   onScrollEvent($event: any) {
     if (window.pageYOffset + this.header > this.linkTabOfset) {

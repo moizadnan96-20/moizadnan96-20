@@ -11,11 +11,11 @@
   </div>
 </div>
 <div class="row">
-  <div id="Applications" class="col-lg-3 col-md-6 col-sm-12 p-0 box">
+  <div id="Applications"  class="col-lg-3 col-md-6 col-sm-12 p-0 box">
     <div class="header-1 text-center color">
       <img src="../../../../../assets/img/upway.svg" class="img-fluid" alt="" />
     </div>
-    <h2   id="Programming-Technologies"
+    <h2   id="Programming-Technologies"[style.background]="parentDate=='#Programming-Technologies' ? '#74716C' : null"
       class="col-padding-left col-padding-right"
       style="padding-top: 45px; padding-bottom: 25px; font-family: SFPro-thin"
 
@@ -66,7 +66,7 @@
     <div class="header-1 text-center color">
       <img src="../../../../../assets/img/upway.svg" class="img-fluid" alt="" />
     </div>
-    <h2  id="Advanced-Technologies"
+    <h2  id="Advanced-Technologies" [style.background]="parentDate=='#Advanced-Technologies' ? '#74716C' : null"
       class="col-padding-left col-padding-right"
       style="padding-top: 45px; padding-bottom: 25px; font-family: SFPro-thin"
 
@@ -111,12 +111,12 @@
     <h2
       class="col-padding-left col-padding-right"
       style="padding-top: 45px; padding-bottom: 25px; font-family: SFPro-thin"
-      id="Platforms"
+      id="Platforms" [style.background]="parentDate=='#Platforms' ? '#74716C' : null"
     >
       Platforms
     </h2>
 
-    <ul
+    <ul 
       class="body-text col-padding-right col-padding-left"
       style="color: #dddcdc"
     >

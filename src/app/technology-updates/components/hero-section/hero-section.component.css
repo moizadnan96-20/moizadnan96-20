@@ -156,3 +156,10 @@
   }
 
 }
+/* */
+@media (max-width:1210px) {
+  #first-img {
+    height: 100%;
+    
+  }
+}
