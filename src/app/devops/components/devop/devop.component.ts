@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 
-declare const scrollTOEl: any;
+/*declare const scrollTOEl: any;*/
 
 @Component({
   selector: 'app-devop',
@@ -8,8 +8,8 @@ declare const scrollTOEl: any;
   styleUrls: ['./devop.component.css']
 })
 export class DevopComponent implements OnInit {
-
-  header: any;
+  divid=""
+  /*header: any;
   linkTab: any;
   linkTabOfset: any;
 
@@ -20,18 +20,18 @@ export class DevopComponent implements OnInit {
     } else {
       this.linkTab.classList.remove("sticky");
     }
-  }
+  }*/
 
   constructor() { }
 
   ngOnInit(): void {
-    this.linkTab = document.getElementById("links-tab");
+    /*this.linkTab = document.getElementById("links-tab");
     this.linkTabOfset = this.linkTab?.offsetTop;
-    this.header = document.getElementById("header")?.offsetHeight;
+    this.header = document.getElementById("header")?.offsetHeight;*/
   }
 
-  scroll(el: any) {
+ /* scroll(el: any) {
     scrollTOEl(el);
-  }
+  }*/
 
 }

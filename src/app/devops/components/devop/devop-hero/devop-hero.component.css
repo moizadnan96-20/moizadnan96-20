@@ -1,0 +1,248 @@
+.first-h1 {
+    padding-top: 70px;
+  }
+  
+  .first-h2 {
+    padding-bottom: 70px;
+  }
+  
+  .third {
+    background-color: #1D2957;
+    color: white;
+  }
+  
+  .color {
+    background-color: #707070;
+  }
+  
+  .color-1 {
+    background-color: #555555;
+  }
+  
+  @media (max-width: 670px) {
+    /* #links-tab {
+      height: auto !important;
+      padding-top: 3px !important;
+      padding-bottom: 3px !important;
+    } */
+  
+  }
+  
+  
+  
+  #devop1 {
+    background-image: url(../../../../../assets/img/devop1.webp);
+  }
+  
+  
+  .testimonial-heading {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 22px;
+    color: black;
+  }
+  
+  
+  .gradient {
+    background: rgb(247, 247, 247);
+    background: linear-gradient(90deg, rgba(247, 247, 247, 1) 55%, rgba(205, 215, 242, 1) 100%);
+  }
+  
+  @media (max-width: 576px) {
+    #pl-6 {
+      padding-left: 15px !important;
+    }
+  
+    #cutom-col1 {
+      padding-left: 30px;
+    }
+  
+    #devop2 {
+      background: rgb(247, 247, 247);
+      background: linear-gradient(90deg, rgba(247, 247, 247, 1) 65%, rgba(205, 215, 242, 1) 100%);
+    }
+  }
+  
+  #pl-6 {
+    padding-left: 60px;
+  }
+  
+  #devop2 {
+    height: 350px;
+    background-image: url(../../../../../assets/img/devop2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .mahroon-box {
+    background-color: #640202;
+    color: white;
+    border-radius: 30px;
+    width: 170px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .white-box {
+    background-color: white;
+    color: #7E7668;
+    border-radius: 30px;
+    width: 180px;
+  }
+  
+  .button-white-box {
+    color: #66686D;
+    font-size: small;
+  }
+  
+  .box-body {
+    background-color: #3c3e45;
+    color: white;
+  }
+  
+  .box-header {
+    color: #6EC1C7;
+  }
+  
+  
+  .gray-text {
+    color: #D0D1D3;
+  }
+  
+  
+  .question-div {
+    padding: 5px 0px 5px 0px;
+  }
+  
+  .answer-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+  }
+  
+  .icon-box {
+    height: 500px;
+    color: white;
+    background: #bdc0c5;
+    border: 1px solid rgb(155, 152, 152);
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .center-divs {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  
+  @media (max-width: 990px) {
+    .img-right {
+  
+      padding-left: 30px !important;
+    }
+  }
+  
+  .img-right {
+    width: 100%;
+    /* height: 400px; */
+    /* padding-top: 80px; */
+    /* padding-bottom: 80px; */
+    /* padding-left: 250px; */
+  }
+  
+  .box-2-1 {
+    height: 245px;
+    color: white;
+    background: #bdc0c5;
+    border: 1px solid rgb(155, 152, 152);
+    transition: 0.3s;
+  }
+  
+  .box-2 {
+    margin-top: 10px;
+    height: 245px;
+    color: white;
+    background: #bdc0c5;
+    border: 1px solid rgb(155, 152, 152);
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 778px) {
+    #p5 {
+      padding-bottom: 0px !important;
+    }
+  
+    #p5-up {
+      padding-top: 0px !important;
+    }
+  
+    .blog-padding {
+      padding-top: 10% !important;
+    }
+  }
+  
+  .light-gray-box1 {
+    background-color: #D4D4D4;
+    border: 3px solid white;
+  }
+  
+  .light-gray-box {
+    background-color: #D4D4D4;
+    border: 3px solid white;
+    border-top: 0px solid white !important;
+  }
+  
+  .blog-padding {
+    padding-top: 30%;
+  }
+  
+  
+  
+  
+  .header-1 {
+    padding: 21px;
+  }
+  
+  .body-3 {
+    padding-top: 45px;
+    padding-bottom: 25px;
+  }
+  
+  .box-0 {
+  
+    border-left: 0.1px solid #7a7979;
+    border-right: 0.1px solid #7a7979;
+  }
+  
+  @media (max-width:775px) {
+  
+    .left-line,
+    .right-line,
+    .dropdown1 {
+      border-left: none;
+  
+      display: block;
+      padding: 0;
+  
+    }
+  
+  .removeHeight{
+  padding-top: 0 !important ;
+  }
+  .linksTopPadding{
+    padding-top: 5px;
+  }
+  
+  }
+  .box-background{
+    background-color: #f1f1f1;
+  
+  }
+  .body-4{
+    background-color: #929191;
+  }
+  .sub-header{
+    background-color: #929191;
+  }
+  
