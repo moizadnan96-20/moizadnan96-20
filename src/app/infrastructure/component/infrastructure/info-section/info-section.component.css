@@ -101,4 +101,8 @@ p{
   .removeHeight{
     height: auto !important;
   }
+  #heightjustment{      /* this is for network and secuity div adjustment   */
+    height: 185px !important;
+  }
+      
  }
