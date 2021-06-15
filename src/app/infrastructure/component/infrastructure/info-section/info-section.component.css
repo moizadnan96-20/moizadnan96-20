@@ -98,6 +98,6 @@ p{
 }
 @media only screen and (max-width: 775px)  {
   .removeHeight{
-    height: auto !important;
+    height: 221px !important;
   }
  }

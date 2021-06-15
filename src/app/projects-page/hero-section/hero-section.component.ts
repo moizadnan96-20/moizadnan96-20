@@ -1,40 +1,25 @@
-
-import { Component, EventEmitter, HostListener, OnInit,Output } from '@angular/core';
-
-
-
-declare const scrollTOEl: any;
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-hero',
-  templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.css']
+  selector: 'app-hero-section',
+  templateUrl: './hero-section.component.html',
+  styleUrls: ['./hero-section.component.css'],
 })
-export class HeroComponent implements OnInit {
-
-
+export class HeroSectionComponent implements OnInit {
   header: any;
   linkTab: any;
   linkTabOfset: any;
-
- @Output() public childevent=new EventEmitter()
 
   @HostListener('window:scroll', ['$event'])
   onScrollEvent($event: any) {
     if (window.pageYOffset + this.header > this.linkTabOfset) {
       this.linkTab.classList.add("sticky");
-
-
     } else {
       this.linkTab.classList.remove("sticky");
-
     }
-
   }
 
-  constructor() {
-
-  }
+  constructor() { }
 
   ngOnInit(): void {
     this.linkTab = document.getElementById("links-tab");
@@ -42,27 +27,4 @@ export class HeroComponent implements OnInit {
     this.header = document.getElementById("header")?.offsetHeight;
   }
 
-
-
-
-  scroll(el: any) {
-    scrollTOEl(el);
-    this.childevent.emit(el)
-  }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

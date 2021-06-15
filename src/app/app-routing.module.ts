@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductComponent } from './products/components/product/product.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
 
 const routes: Routes = [
   {
@@ -77,6 +78,12 @@ const routes: Routes = [
     path: 'contact',
     loadChildren: () =>
       import('./contact-us/contact-us.module').then((m) => m.ContactUsModule),
+  },
+  {
+    path: 'projects',
+    component:ProjectsPageComponent,
+    loadChildren: () =>
+      import('./projects-page/projects-page.module').then((m) => m.ProjectsPageModule),
   },
 ];
 
