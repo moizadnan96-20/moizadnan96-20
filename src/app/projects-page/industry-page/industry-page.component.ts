@@ -68,6 +68,7 @@ export class IndustryPageComponent implements OnInit {
       this.clicked1 = true;
       this.clicked2 = false;
       this.clicked4 = false;
+     this.clicked3 = false;
       this.filterData = this.projectsData.filter((cat) => cat.industry == c);
 
       console.log(this.filterData);
@@ -75,6 +76,7 @@ export class IndustryPageComponent implements OnInit {
       this.clicked1 = false;
       this.clicked2 = true;
       this.clicked4 = false;
+      this.clicked3 = false;
       this.filterData = this.projectsData.filter((cat) => cat.industry == c);
       console.log(this.filterData);
     } else if (c === 'Textile & Manufacturer') {
