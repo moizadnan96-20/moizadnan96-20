@@ -1,25 +1,76 @@
 <div class="row" id="main">
   <!-- <div class="margin-top-white"></div> -->
   <div class="col-md-8 col-xs-12 first-div">
-        <h1 class="first-h1 padding-left first-padding-right">The ‘Always-On’ approach to business!</h1>
-        <h2 class="first-h2 padding-left first-padding-right">
-          We can manage your IT services, so you can concentrate on running your business.
-        </h2>
+    <h1 class="first-h1 padding-left first-padding-right">
+      The ‘Always-On’ approach to business!
+    </h1>
+    <h2 class="first-h2 padding-left first-padding-right">
+      We can manage your IT services, so you can concentrate on running your
+      business.
+    </h2>
   </div>
   <div class="col-md-4 col-xs-12 p-0">
-    <img src="../../../../../assets/img/manageService-1.webp" id="first-img" alt="">
+    <img
+      src="../../../../../assets/img/manageService-1.webp"
+      id="first-img"
+      alt=""
+    />
   </div>
 </div>
 <div class="page-heading padding-right padding-left margin-top-3">
-    <h3 class="pb-1">Managed Services</h3>
-    <h4 class="">
-      Our team is always working in the background to predict a possible disruption and take proactive actions to remediate it.
-    </h4>
+  <h3 class="pb-1">Managed Services</h3>
+  <h4 class="">
+    Our team is always working in the background to predict a possible
+    disruption and take proactive actions to remediate it.
+  </h4>
 </div>
 
-  <div class="links-tab padding-left third border-bottom-1 " id="links-tab">
-      <div class="social-links">
-        <a (click)="scroll('#AIOPs')" class="pointer align-middle" id=abc>
+<div class="links-tab padding-left third border-bottom-1" id="links-tab">
+  <div class="social-links">
+    <a class="dropdown1" ngbDropdown>
+      <a class="align-middle linksTopPadding">
+        <h5 ngbDropdownToggle (click)="scroll('#ManagedCloudServices')">
+          Our Services
+        </h5>
+      </a>
+      <div class="" ngbDropdownMenu>
+        <a
+          ngbDropdownItem
+          (click)="scroll('#AIOPs')"
+          style="padding-left: 10px !important"
+          ngbDropdownItem
+          ><h5 style="color: black">AIOps</h5></a
+        >
+        <a ngbDropdownItem (click)="scroll('#DCM')"
+          ><h5 style="color: black">DevOps and Cloud Migration</h5></a
+        >
+        <a ngbDropdownItem (click)="scroll('#ISM')"
+          ><h5 style="color: black">
+            IT Service Management & Infrastructure Monitoring
+          </h5></a
+        >
+
+        <a ngbDropdownItem (click)="scroll('#InfrastructureServices')"
+          ><h5 style="color: black">Infrastructure Services</h5></a
+        >
+      </div>
+    </a>
+    <a
+      (click)="scroll('#CB')"
+      class="left-line align-middle pointer linksTopPadding"
+      id="abc"
+    >
+      <h5 class="third-h5">Business Benefits</h5>
+    </a>
+    <a
+      (click)="scroll('#PP')"
+      class="left-line pointer align-middle linksTopPadding"
+      id="abc"
+    >
+      <h5 class="third-h5">Perception IT As Your Partner</h5>
+    </a>
+
+    <!-- <a (click)="scroll('#AIOPs')" class="pointer align-middle" id=abc>
           <h5 class="third-h5">
             AIOps </h5>
         </a>
@@ -50,21 +101,34 @@
         <a (click)="scroll('#BB')" class="left-line align-middle pointer linksTopPadding" id=abc>
           <h5 class="third-h5">
             Business Benefits of MS</h5>
+        </a> -->
+    <!-- <a (click)="scroll('#BB')" class=" align-middle pointer linksTopPadding" id=abc>
+          <h5 class="third-h5">
+            Our Services</h5>
         </a>
-    </div>
-    <div style="height: 2px;">
-
-    </div>
+        <a (click)="scroll('#BB')" class="left-line align-middle pointer linksTopPadding" id=abc>
+          <h5 class="third-h5">
+            Business Benefits</h5>
+        </a> -->
+  </div>
+  <div style="height: 2px"></div>
 </div>
 <div class="row tsia-div">
   <div class="col-lg-4">
-    <h2 style="color: white;" class="first-h1 padding-left">Business’s are ramping up for speed & agility:</h2>
-    <h2 style="color: white;" class="pb-4 padding-left">The dramatic & Undeniable growth of Managed services -</h2>
+    <h2 style="color: white" class="first-h1 padding-left">
+      Business’s are ramping up for speed & agility:
+    </h2>
+    <!-- <h2 style="color: white;" class="pb-4 padding-left">The dramatic & Undeniable growth of Managed services -</h2> -->
     <div class="padding-left">
-      <img src="../../../../../assets/img/tsia.svg" class="img-fluid" alt="">
+      <img src="../../../../../assets/img/tsia.svg" class="img-fluid" alt="" />
     </div>
   </div>
-  <div class="col-lg-8 ">
-    <img src="../../../../../assets/Dia/Manage Services.png" class="img-fluid" style="width: 100%;" alt="">
+  <div class="col-lg-8">
+    <img
+      src="../../../../../assets/Dia/Manage Services.png"
+      class="img-fluid"
+      style="width: 100%"
+      alt=""
+    />
   </div>
 </div>

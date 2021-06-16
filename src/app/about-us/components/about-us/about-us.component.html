@@ -16,14 +16,20 @@
   </div>
   <div class="links-tab padding-left third border-bottom-1" id="links-tab">
     <div class="social-links">
-      <a  class="align-middle">
-        <h5 class="third-h5">Banking</h5>
+      <a  class="align-middle" (click)="scroll('#SM')">
+        <h5 class="third-h5">Systems Management</h5>
       </a>
-      <a  class="left-line align-middle">
-        <h5 class="third-h5">Telecom</h5>
+      <a  class="left-line align-middle" (click)="scroll('#DevOps')">
+        <h5 class="third-h5">DevOps</h5>
       </a>
-      <a  class="left-line align-middle">
-        <h5 class="third-h5">Manufacturing</h5>
+      <a  class="left-line align-middle " (click)="scroll('#SD')">
+        <h5 class="third-h5">Service Desk</h5>
+      </a>
+      <a  class="left-line align-middle" (click)="scroll('#CM')">
+        <h5 class="third-h5">Cloud Migration</h5>
+      </a>
+      <a (click)="scroll('#PP')" class="left-line align-middle">
+        <h5 class="third-h5">Why partner with Perception IT</h5>
       </a>
     </div>
     <div style="height: 2px"></div>
@@ -43,9 +49,10 @@
       </div>
     </div>
   </div>
+  <app-clients></app-clients>
   <div class="forth-div">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h2 class="padding-left padding-right padding-top">
           Entire organizations need to be agile for a business to realize their
           true value <small style="font-size: small">-McKinsey Digita</small>
@@ -71,7 +78,7 @@
           Development
         </p>
       </div>
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         <h2 class="padding-left padding-right padding-top" style="padding-bottom: 30px">
           Our Partner
         </h2>
@@ -194,10 +201,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="row fifth-div">
-    <div id="AIOPs" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box-0">
+    <div id="SM" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box-0">
       <div class="header-1 color text-center color">
         <img
           src="../../../../../assets/img/upway.svg"
@@ -219,7 +226,7 @@
         sense of the volume of data and to automate their responses.
       </p>
     </div>
-    <div id="DCM" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box">
+    <div id="DevOps" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box">
       <div class="header-1 color-1 text-center color-1">
         <img
           src="../../../../../assets/img/upway.svg"
@@ -241,7 +248,7 @@
         processes such as release management.
       </p>
     </div>
-    <div id="ISM" class="col-lg-3 col-md-6 col-sm-12 p-0 box-body box-0">
+    <div id="SD" class="col-lg-3 col-md-6 col-sm-12 p-0 box-body box-0">
       <div class="header-1 color text-center color">
         <img
           src="../../../../../assets/img/upway.svg"
@@ -266,7 +273,7 @@
       </p>
     </div>
     <div
-      id="InfrastructureServices"
+      id="CM"
       class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box"
     >
       <div class="header-1 color-1 text-center color-1">
@@ -292,6 +299,7 @@
     </div>
   </div>
 </div>
+
 <div class="overflow-hidden">
   <div class="header-height"></div>
   <app-footer-section></app-footer-section>
