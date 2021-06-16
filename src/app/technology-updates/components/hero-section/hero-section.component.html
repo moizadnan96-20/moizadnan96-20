@@ -4,10 +4,10 @@
     <h1 class="first-h1 padding-left first-padding-right">
       Technology… opening doors for businesses
     </h1>
+
     <h2 class="first-h2 padding-left first-padding-right">
-      “Once a new technology rolls over you, if you’re not part of the
-      steamroller, you’re part of the road.” - Stewart Brand <br />
-      <small class="fonts"> founder of the Global Business Network</small>
+      Our unique knowledge of cutting-edge technologies can take your business
+      where it needs to go, at speeds you never imagined
     </h2>
   </div>
   <div class="col-md-4 col-xs-12 p-0">
@@ -18,25 +18,64 @@
 <div class="row">
   <div class="col-lg-12 page-heading padding-right padding-left margin-top-3">
     <h3 class="pb-1">Technology</h3>
-
+    <h4 class="">
+      Matching you to your exact technological needs, Perception IT helps
+      companies reach their full potential; keeping the future of business in
+      mind.
+    </h4>
   </div>
   <div class="links-tab padding-left third border-bottom-1" id="links-tab">
     <div class="social-links">
-      <a  (click)="scroll('#Programming-Technologies')" class="align-middle" id="abc">
+      <!-- <a
+        (click)="scroll('#Programming-Technologies')"
+        class="align-middle"
+        id="abc"
+      >
         <h5 class="third-h5">Programming Technologies</h5>
       </a>
-      <a  (click)="scroll('#Advanced-Technologies')" class="left-line align-middle" id="abc">
-        <h5 class="third-h5" >
-          Advanced Technologies
-        </h5>
+      <a
+        (click)="scroll('#Advanced-Technologies')"
+        class="left-line align-middle"
+        id="abc"
+      >
+        <h5 class="third-h5">Advanced Technologies</h5>
       </a>
-      <a  (click)="scroll('#Platforms')" class="left-line align-middle" id="abc">
-        <h5 class="third-h5" >Platforms</h5>
-      </a>
+      <a (click)="scroll('#Platforms')" class="left-line align-middle" id="abc">
+        <h5 class="third-h5">Platforms</h5>
+      </a> -->
+      <a class="dropdown1" ngbDropdown>
+        <a class="align-middle linksTopPadding">
+          <h5 ngbDropdownToggle (click)="scroll('#ManagedCloudServices')">
+            Solutions
+          </h5>
+        </a>
+        <div class="" ngbDropdownMenu>
+          <a
+            ngbDropdownItem
+            (click)="scroll('#AIOPs')"
+            style="padding-left: 10px !important"
+            ngbDropdownItem
+            ><h5 style="color: black">AIOps</h5></a
+          >
+          <a ngbDropdownItem (click)="scroll('#DCM')"
+            ><h5 style="color: black">Internet of Things</h5></a
+          >
+          <a ngbDropdownItem (click)="scroll('#ISM')"
+            ><h5 style="color: black">DevOps</h5></a
+          >
 
+          <a ngbDropdownItem (click)="scroll('#InfrastructureServices')"
+            ><h5 style="color: black">Observability</h5></a
+          >
+        </div>
+      </a>
+      <a (click)="scroll('#TECHNOLOGY')" class="left-line align-middle" id="abc">
+        <h5 class="third-h5">Technology </h5>
+      </a>
+      <a (click)="scroll('#PP')" class="left-line align-middle">
+        <h5 class="third-h5">Why partner with Perception IT</h5>
+      </a>
 
     </div>
-
-
   </div>
 </div>

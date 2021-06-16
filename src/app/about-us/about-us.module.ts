@@ -1,3 +1,4 @@
+import { LandingModule } from './../landing/landing.module';
 import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -11,7 +12,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
   imports: [
     CommonModule,
     AboutUsRoutingModule,
-    SharedModule
+    SharedModule,
+    LandingModule
   ]
 })
 export class AboutUsModule { }

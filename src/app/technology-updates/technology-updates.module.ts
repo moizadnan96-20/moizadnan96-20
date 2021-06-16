@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from './../shared/shared.module';
 
 import { InfrastructureModule } from './../infrastructure/infrastructure.module';
@@ -20,7 +21,8 @@ import { TechnologyModule } from '../technology/technology.module';
     TechnologyUpdatesRoutingModule,
 
     InfrastructureModule,
-    SharedModule
+    SharedModule,
+    NgbModule
 
   ]
 })

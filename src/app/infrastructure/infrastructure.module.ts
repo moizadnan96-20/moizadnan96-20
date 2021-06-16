@@ -23,6 +23,6 @@ import { NetworkingSectionComponent } from './component/infrastructure/networkin
 
   ],
   imports: [CommonModule, InfrastructureRoutingModule, SharedModule],
-  exports: [QuestionSectionComponent],
+  exports: [QuestionSectionComponent, TechnologySectionComponent],
 })
 export class InfrastructureModule {}

@@ -36,6 +36,9 @@ import { ClientsComponent } from "./components/clients/clients.component";
     LandingRoutingModule,
     SharedModule,
     NgMarqueeModule
+  ],
+  exports: [
+    ClientsComponent,
   ]
 })
 export class LandingModule { }
