@@ -42,10 +42,11 @@
   border-left: 1px solid black;
 }
 
-.active {
+.active-linked {
   background-color: #55565a;
   color: white;
 }
+
 
 @media (max-width: 775px) {
 
