@@ -5,10 +5,12 @@ import { CommonModule } from '@angular/common';
 
 import { AboutUsRoutingModule } from './about-us-routing.module';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { AboutHeroComponent } from './components/about-us/about-hero/about-hero.component';
+import { AboutInfoComponent } from './components/about-us/about-info/about-info.component';
 
 
 @NgModule({
-  declarations: [AboutUsComponent],
+  declarations: [AboutUsComponent, AboutHeroComponent, AboutInfoComponent],
   imports: [
     CommonModule,
     AboutUsRoutingModule,

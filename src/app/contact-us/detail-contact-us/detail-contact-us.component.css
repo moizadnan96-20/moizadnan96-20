@@ -25,3 +25,33 @@
    width: 300px;
 }
 }
+ #contactimg{
+  background-image: url(../../../assets/img/about1.webp);
+  background-color: black;
+
+ }
+
+
+ .first-h1 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: white;
+  line-height: normal;
+}
+
+.first-h2 {
+  padding-bottom: 30px;
+  color: white;
+  line-height: normal;
+}
+
+.first-h3 {
+  padding-bottom: 30px;
+  color: white;
+}
+
+.page-heading{
+  background-color: #f1f1f1;
+  color: #5d6063;
+  
+}
