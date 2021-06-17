@@ -81,13 +81,12 @@
   padding-bottom: 10px;
 }
 /*  ////////////////////////////////////////////   //////                           */
-@media (max-width:600px){
+@media (max-width:800px){
   #image-width{
     width: 100%;
+
   }
-  .body-5{
-    padding-left: 50px;
-  }
+
 }
 .page-heading{
   background-color: #1D2957;
@@ -95,5 +94,14 @@
 }
 
 
+#image-width{
+  height: 100%;
+  width: 100%;
+}
 
+@media only screen and (max-width: 1366px) and (min-width: 1000px) {
+  #image-width{
+    height: auto ;
+    }
 
+  }
