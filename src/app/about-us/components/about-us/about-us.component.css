@@ -147,3 +147,12 @@
   background-color: #f1f1f1;
   color: #5d6063;
 }
+
+/*    */
+@media only screen and (max-width: 770px) {
+  #abouttext{
+    margin-top: 220px;
+ 
+ 
+  }
+}
