@@ -1,27 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { IndustryPageComponent } from './industry-page/industry-page.component';
-import { ProjectsPageComponent } from './projects-page.component';
+
 import { SoftwareProductsPageComponent } from './software-products-page/software-products-page.component';
 import { TechnologyPageComponent } from './technology-page/technology-page.component';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   component: ProjectsPageComponent,
-  // },
   {
     path: '',
-    component: IndustryPageComponent
+    component: IndustryPageComponent,
   },
   {
     path: 'software-products',
-    component: SoftwareProductsPageComponent
+    component: SoftwareProductsPageComponent,
   },
   {
     path: 'technology',
-    component: TechnologyPageComponent
-  }
+    component: TechnologyPageComponent,
+  },
 ];
 
 @NgModule({

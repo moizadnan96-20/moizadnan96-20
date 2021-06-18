@@ -98,10 +98,20 @@ p {
     padding-bottom: 0;
     padding-top: 0;
   }
+  .padding-right{
+    padding-right: 0;
+
+
+  }
+  .col-padding-left{
+    padding-left: 30px;
+  }
+
 }
 @media only screen and (max-width: 775px) and (min-width:1024px)  {
   .removeHeight{
    /* height: auto !important;*/
     padding-bottom: 30px;
   }
+
  }
