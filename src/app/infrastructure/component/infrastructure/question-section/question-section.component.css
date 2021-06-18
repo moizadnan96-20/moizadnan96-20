@@ -76,3 +76,9 @@
   padding-bottom: 41px !important;
 }
  
+@media only screen and (max-width:990px) {
+  #add-height{
+    padding-top: 22px;
+  }
+  
+}
