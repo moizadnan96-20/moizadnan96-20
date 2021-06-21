@@ -73,101 +73,11 @@ a {
 
 
 
-.navbar .getstarted {
-  padding: 10px 25px;
-  margin-left: 30px;
-  border-radius: 4px;
-  line-height: 1;
-  color: #5d6063;
-  font-size: 14px;
-  font-weight: 500;
-  border: 1px solid #cdd1d9;
-}
 
-.navbar .getstarted:hover {
-  background: #206bfb;
-  color: #fff;
-  border-color: #206bfb;
-}
 
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0 3px 6px #000000;
-  transition: 0.3s;
-  border-radius: 4px;
-}
 
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
 
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 15px;
-  text-transform: none;
-  font-weight: 600;
-}
 
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #929496;
-  border-bottom: 3px solid #929496;
-  background-color: #e7eaee;
-  
-}
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
 
 /**
 * Mobile Navigation
@@ -310,12 +220,12 @@ a {
   color: #929496;
   border-bottom: 3px solid #929496;
   background-color: #e7eaee;
- 
+
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
- 
+
 }
 
 .left-padding {
@@ -323,13 +233,13 @@ a {
   padding-right: 8px !important;
 }
 
-.navbar>ul>li {
+/* .navbar>ul>li {
   border-right: 1px solid #e5e5e7;
-}
+} */
 
-.navbar>ul>li:last-child {
+/* .navbar>ul>li:last-child {
   border: none;
-}
+} */
 
 
 
@@ -482,8 +392,8 @@ a {
 
 .active-link {
   color: #443737 !important;
-  background-color:#E0E0E0 ;
- 
+  background-color: #E0E0E0;
+
   border-radius: 8px;
 }
 
@@ -497,7 +407,7 @@ a {
     max-height: 70px;
   }
 }
-.perception-logo{
+
+.perception-logo {
   padding-top: 15px;
 }
-

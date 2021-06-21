@@ -1,11 +1,11 @@
 <header id="header" class="fixed-top">
   <div class="row">
-    <div class="col-4 ">
+    <div class="col-4">
       <div class="contact-info padding-left">
         <img
           routerLink="/"
           src="../../../../assets/Dia/perception-logos (2).svg"
-          class="pointer  perception-logo "
+          class="pointer perception-logo"
           alt=""
         />
       </div>
@@ -39,11 +39,11 @@
             routerLinkActive="active-link"
             ><h4>Projects</h4></a
           >
-          <!-- <a class="left-line pointer"><h4>Jobs</h4></a> -->
+          <!-- <a class="right-line pointer"><h4>Jobs</h4></a> -->
           <a
             routerLink="/contact"
             routerLinkActive="active-link"
-            class="left-line pointer"
+            class="left-line right-line pointer"
             ><h4 style="font-family: SFPro-Light">Contact</h4></a
           >
           <a><i class="bi bi-linkedin pointer"></i></a>
@@ -96,7 +96,7 @@
             </li>
             <li (click)="routeTo('/manage-services', $event)">
               <a
-                class="body-1 nav-link left-padding " id="right-line"
+                class="body-1 nav-link left-padding"
                 routerLink="/manage-services"
                 routerLinkActive="active-link"
                 >Managed Services</a
@@ -105,7 +105,7 @@
             <!-- <li><a class="nav-link left-padding scrollto" href="#about">Customised Softwares</a></li> -->
             <li (click)="routeTo('/consulting', $event)">
               <a
-                class="nav-link left-padding"
+                class="nav-link left-padding left-line"
                 routerLink="/consulting"
                 routerLinkActive="active-link"
                 >Consulting</a
@@ -113,7 +113,7 @@
             </li>
             <li (click)="routeTo('/devops', $event)">
               <a
-                class="nav-link left-padding"
+                class="nav-link left-padding left-line"
                 routerLink="/devops"
                 routerLinkActive="active-link"
                 >DevOps</a
@@ -121,7 +121,7 @@
             </li>
             <li (click)="routeTo('/infrastructure', $event)">
               <a
-                class="nav-link left-padding"
+                class="nav-link left-padding left-line"
                 routerLink="/infrastructure"
                 routerLinkActive="active-link"
                 >Infrastructure Support</a
@@ -130,57 +130,12 @@
             <!-- <li><a class="nav-link left-padding scrollto" href="#team">Specialised Services</a></li> -->
             <li (click)="routeTo('/technology', $event)">
               <a
-                class="nav-link left-padding"
+                class="nav-link left-padding left-line"
                 routerLink="/technology"
                 routerLinkActive="active-link"
                 >Technology</a
               >
             </li>
-            <!-- <li (click)="routeTo('/product', $event)">
-              <a
-                class="nav-link left-padding"
-                routerLink="/product"
-                routerLinkActive="active-link"
-                >Products</a
-              >
-            </li> -->
-            <!-- <li><a class="nav-link left-padding scrollto" href="#team">Product</a></li> -->
-            <!-- <li><a class="nav-link left-padding scrollto" href="#team">Industries</a></li> -->
-            <!-- <li><div ngbDropdown class="d-inline-block">
-              <a id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</a>
-              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                <button ngbDropdownItem>Action - 1</button>
-                <button ngbDropdownItem>Another Action</button>
-                <button ngbDropdownItem>Something else is here</button>
-              </div>
-            </div></li>
-            <li class="dropdown">
-              <a class="nav-link scrollto">Mega Menu <i class="bi bi-chevron-down"></i></a>
-                <div class="dropdown-content">
-                  <div class="row">
-                    <div class="column">
-                      <h3>Category 1</h3>
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                    <div class="column">
-                      <h3>Category 2</h3>
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                    <div class="column">
-                      <h3>Category 3</h3>
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                  </div>
-              </div>
-            </li> -->
-            <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
-            <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
           </ul>
           <i
             class="bi bi-list mobile-nav-toggle"
