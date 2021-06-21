@@ -1,3 +1,4 @@
+
 import { Component, HostListener, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 
@@ -59,5 +60,5 @@ public width=false;
       this.close(event);
     }
   }
-
+ 
 }
