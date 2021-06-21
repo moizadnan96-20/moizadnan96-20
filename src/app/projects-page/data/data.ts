@@ -19,7 +19,7 @@ var projectsData = [
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), ITNM',
     summary: 'Manage and Integrate ITNM software along with nodes',
     image: '../../../../../../assets/img/project-2.svg',
-    route: '/more/more-list',
+    route: '/more/more-itnm',
   },
   {
     industry: 'System Integrator',
@@ -29,7 +29,7 @@ var projectsData = [
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), Jazz Service Manager',
     summary: 'Managed services for Jazz SM',
     image: '../../../../../../assets/img/project-2.svg',
-    route: '/more/more-list',
+    route: '/more/more-jazzsm',
   },
   {
     industry: 'System Integrator',
@@ -39,7 +39,7 @@ var projectsData = [
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), Netcool Omnibus',
     summary: 'Integration of Netcool Omnibus Installation and configuration of different Probes Support and service for existing infrastructure, Netcool Operations insight Integration and Support of NOI',
     image: '../../../../../../assets/img/project-2.svg',
-    route: '/more/more-list',
+    route: '/more/more-netcool',
   },
   // for Jazz
   {
@@ -51,7 +51,7 @@ var projectsData = [
     summary:
       '	IBM Cognos Custom reports development and data analytics.Birt Custom automated report creation',
     image: '../../../../../../assets/img/project-1.svg',
-    route: '/more/more-banking',
+    route: '/more/more-icab',
   },
   {
     industry: 'Telecommunication',
@@ -62,7 +62,7 @@ var projectsData = [
     summary:
       '	Monitoring of IBM platform and other nodes.Integrate ITM software and agentsIntegrate TDW (Tivoli Data warehouse) Managing Tivoli Data Warehouse Creation of Alerts on IBM different servers Managing and Customizing alerts as per clients need Upgrades of ITM agents Daily Health checks of the system',
     image: '../../../../../../assets/img/project-1.svg',
-    route: '/more/more-banking',
+    route: '/more/more-jazzitm',
   },
   {
     industry: 'Telecommunication',
@@ -73,7 +73,7 @@ var projectsData = [
     summary:
       'Netcool Omnibus/Impact,Telco alarm monitoring, corelating and ticket creation.Alarms are received from multiple network monitoring systems that include (Huawei, Ericsson, ZTE, Nokia, etc.) on Netcool Omnibus, these are correlated according to the policies implemented in Impact and are sent to Maximo for ticketing according to relevant criteria. These tickets are then processed in automated alerts via email, sms and call via third party solution.',
     image: '../../../../../../assets/img/project-1.svg',
-    route: '/more/more-banking',
+    route: '/more/more-jazzno',
   },
   {
     industry: 'Telecommunication',
@@ -84,7 +84,7 @@ var projectsData = [
     summary:
       'IBM Service Desk (Maximo) IBM Service Desk is used for ticketing and multiple custom workflow applications.',
     image: '../../../../../../assets/img/project-1.svg',
-    route: '/more/more-banking',
+    route: '/more/more-jazzisd',
   },
   {
     industry: 'Textile & Manufacturer',
