@@ -16,12 +16,17 @@ import { MoreIndustryComponent } from './more-industry/more-industry.component';
 import { MoreIndustryProjectInfoComponent } from './more-industry/more-industry-project-info/more-industry-project-info.component';
 import { MoreIndustryQuestionsComponent } from './more-industry/more-industry-questions/more-industry-questions.component';
 import { HelpComponent } from './help/help.component';
+import { MoreItnmComponent } from './more-itnm/more-itnm.component';
+import { MoreQuestionComponent } from './more-itnm/more-question/more-question.component';
+import { MoreProjectInfoComponent } from './more-itnm/more-project-info/more-project-info.component';
+import { MoreNetcoolComponent } from './more-netcool/more-netcool.component';
+import { MoreJazzsmComponent } from './more-jazzsm/more-jazzsm.component';
 
 
 
 
 @NgModule({
-  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent, HelpComponent ],
+  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent, HelpComponent, MoreItnmComponent, MoreQuestionComponent, MoreProjectInfoComponent, MoreNetcoolComponent, MoreJazzsmComponent ],
   imports: [
     CommonModule,
     MoreRoutingModule,
