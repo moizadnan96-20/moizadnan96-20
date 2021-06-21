@@ -1,3 +1,10 @@
+import { MoreJazzisdComponent } from './more-jazzisd/more-jazzisd.component';
+import { MoreJazznoComponent } from './more-jazzno/more-jazzno.component';
+import { MoreJazzitmComponent } from './more-jazzitm/more-jazzitm.component';
+import { MoreIcabComponent } from './more-icab/more-icab.component';
+import { MoreNetcoolComponent } from './more-netcool/more-netcool.component';
+import { MoreJazzsmComponent } from './more-jazzsm/more-jazzsm.component';
+import { MoreItnmComponent } from './more-itnm/more-itnm.component';
 import { MoreIndustryComponent } from './more-industry/more-industry.component';
 import { MoreBankingComponent } from './more-banking/more-banking.component';
 
@@ -26,7 +33,34 @@ const routes: Routes = [
     component:MoreIndustryComponent
   },
 
- 
+  {
+    path:'more-itnm',
+    component:MoreItnmComponent
+  },
+  {
+    path:'more-jazzsm',
+    component:MoreJazzsmComponent
+  },
+  {
+    path:'more-netcool',
+    component:MoreNetcoolComponent
+  },
+  {
+    path:'more-icab',
+    component:MoreIcabComponent
+  },
+  {
+    path:'more-jazzitm',
+    component:MoreJazzitmComponent
+  },
+  {
+    path:'more-jazzno',
+    component:MoreJazznoComponent
+  },
+  {
+    path:'more-jazzisd',
+    component:MoreJazzisdComponent
+  },
 ];
 
 @NgModule({
