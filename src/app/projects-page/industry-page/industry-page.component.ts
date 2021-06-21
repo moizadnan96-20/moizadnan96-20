@@ -34,7 +34,7 @@ export class IndustryPageComponent implements OnInit {
   onClickForFilter(c: any) {
     console.log(c);
 
-    if (c === 'Banking') {
+    if (c === 'Telecommunication') {
       this.clicked1 = true;
       this.clicked2 = false;
       this.clicked4 = false;

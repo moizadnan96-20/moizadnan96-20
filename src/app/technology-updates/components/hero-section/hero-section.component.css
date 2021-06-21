@@ -60,11 +60,7 @@
   color: white;
 }
 
-.social-links {
-  padding-top: 3px;
 
-
-}
 
 
 
@@ -131,11 +127,7 @@
   color: white;
 }
 
-.social-links {
-  padding-top: 3px;
 
-
-}
 
 
 .fonts {
@@ -156,6 +148,7 @@
   }
 
 }
+
 /* */
 @media (max-width:1210px) {
   #first-img {
@@ -163,7 +156,8 @@
 
   }
 }
-.page-heading{
+
+.page-heading {
   background-color: #F1F1F1;
   color: #5d6063;
 }

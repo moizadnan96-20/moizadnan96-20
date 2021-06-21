@@ -1,13 +1,14 @@
 <div class="row">
-  <div class="col-lg-1">
+  <div class="col-lg-1" >
     <a style="font-weight: bold;padding-left: 15px;">Filter by:</a>
   </div>
 
-   <div class="col-lg-11 active-link">
+   <div class="col-lg-11 active-link" >
     <a
     class="btn btn-primary main"
     [ngClass]="{ 'active-linked': clicked4 }"
     (click)="onClickAllData()"
+    style="margin-bottom: 10px"
   >
     All
   </a>
@@ -15,24 +16,52 @@
     <a
     class="btn btn-primary main"
     [ngClass]="{ 'active-linked': clicked1 }"
-    (click)="onClickForFilter('IBM Control Desk')"
+    (click)="onClickForFilter('IBM Tivoli Monitoring (ITM)')"
+    style="margin-bottom: 10px"
   >
-  IBM Control Desk
+  IBM Tivoli Monitoring (ITM)
   </a>
   <a
   class="btn btn-primary main"
   [ngClass]="{ 'active-linked': clicked2 }"
-  (click)="onClickForFilter('ITM, ITNM, Netcool Omnibus, Impact, Bigfix, IBM Jazz, SM, NOI')"
+  (click)="onClickForFilter('IBM Tivoli Network Monitoring (ITNM)')"
+  style="margin-bottom: 10px"
 >
-ITM, ITNM, Netcool Omnibus, Impact, Bigfix, IBM Jazz, SM, NOI
+IBM Tivoli Network Monitoring (ITNM)
 </a>
 <a
       class="btn btn-primary main"
       [ngClass]="{ 'active-linked': clicked3 }"
-      (click)="onClickForFilter('Hardware Support Services')"
+      (click)="onClickForFilter('Netcool Omnibus, Impact, NOI')"
+      style="margin-bottom: 10px"
     >
-    Hardware Support Services
+    Netcool Omnibus, Impact, NOI
     </a>
+    <a
+      class="btn btn-primary main"
+      [ngClass]="{ 'active-linked': clicked5 }"
+      (click)="onClickForFilter('IBM Cognos and Birt')"
+      style="margin-bottom: 10px"
+    >
+    IBM Cognos and Birt
+    </a>
+    <a
+      class="btn btn-primary main"
+      [ngClass]="{ 'active-linked': clicked6 }"
+      (click)="onClickForFilter('Netcool Omnibus')"
+      style="margin-bottom: 10px"
+    >
+    Netcool Omnibus
+    </a>
+    <a
+    class="btn btn-primary main"
+    [ngClass]="{ 'active-linked': clicked7 }"
+    (click)="onClickForFilter('IBM Service Desk')"
+    style="margin-bottom: 10px"
+  >
+  IBM Service Desk
+  </a>
+
 
    <!-- <a
       class="btn btn-primary main {{ activeClass }}"
@@ -60,10 +89,10 @@ ITM, ITNM, Netcool Omnibus, Impact, Bigfix, IBM Jazz, SM, NOI
   <div class="col-9">
     <p class="mb-4" style="line-height: 35px">
       <strong>Industry: {{ project.industry }}</strong> <br />
-      <strong> Software Products:{{ project.softwareProducts }} </strong> <br />
+      <strong> Software Products: {{ project.softwareProducts }} </strong> <br />
       <strong>Technologies: {{ project.technologies }}</strong
       ><br />
-      <strong>client: {{ project.client }} </strong>
+      <strong>Client: {{ project.client }} </strong>
     </p>
     <hr />
     <h5 style="line-height: 35px">
@@ -81,7 +110,7 @@ ITM, ITNM, Netcool Omnibus, Impact, Bigfix, IBM Jazz, SM, NOI
           cursor: pointer;
         "
         class="mb-0"
-      
+
         id="more-text"
       >
       <a routerLink={{project.route}} style="color: black;" >   Read more </a>

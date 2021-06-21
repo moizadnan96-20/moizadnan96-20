@@ -11,6 +11,9 @@ export class SoftwareProductsPageComponent implements OnInit {
   clicked2: boolean = false;
   clicked3: boolean = false;
   clicked4: boolean = false;
+  clicked5: boolean = false;
+  clicked6: boolean = false;
+  clicked7: boolean = false;
   filterData: any;
   filterCatagory: any;
   activeClass: string = 'nonactive';
@@ -30,27 +33,67 @@ export class SoftwareProductsPageComponent implements OnInit {
   onClickForFilter(c: any) {
     console.log(c);
 
-    if (c === 'IBM Control Desk') {
+    if (c === 'IBM Tivoli Monitoring (ITM)') {
       this.clicked1 = true;
       this.clicked2 = false;
       this.clicked4 = false;
       this.clicked3 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
-    } else if (
-      c === 'ITM, ITNM, Netcool Omnibus, Impact, Bigfix, IBM Jazz, SM, NOI'
-    ) {
+    } else if (c === 'IBM Tivoli Network Monitoring (ITNM)') {
       this.clicked1 = false;
       this.clicked2 = true;
       this.clicked4 = false;
       this.clicked3 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
-    } else if (c === 'Hardware Support Services') {
+    } else if (c === 'Netcool Omnibus, Impact, NOI') {
       this.clicked1 = false;
       this.clicked2 = false;
       this.clicked3 = true;
       this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
+
+      this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
+      console.log(this.filterData);
+    } else if (c === 'IBM Cognos and Birt') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = true;
+      this.clicked6 = false;
+      this.clicked7 = false;
+
+      this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
+      console.log(this.filterData);
+    } else if (c === 'Netcool Omnibus') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = true;
+      this.clicked7 = false;
+
+      this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
+      console.log(this.filterData);
+    } else if (c === 'IBM Service Desk') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = true;
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
@@ -63,5 +106,7 @@ export class SoftwareProductsPageComponent implements OnInit {
     this.clicked2 = false;
     this.clicked3 = false;
     this.clicked4 = true;
+    this.clicked5 = false;
+    this.clicked6 = false;
   }
 }
