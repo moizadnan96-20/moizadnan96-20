@@ -84,9 +84,12 @@
 @media (max-width:800px){
   #image-width{
     width: 100%;
+    padding-right: 35px;
 
   }
-
+  .first-img {
+    padding-bottom: 20px;
+  }
 }
 .page-heading{
   background-color: #1D2957;

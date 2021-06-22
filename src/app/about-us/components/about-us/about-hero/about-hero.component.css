@@ -139,8 +139,13 @@
       display: block;
       padding: 0;
     }
-  
-  
+    .first-h1{
+      padding-right: 25px;
+    }
+    .first-h2{
+      padding-right: 25px;
+     
+    }
   
   }
   .page-heading{
