@@ -60,7 +60,7 @@ var projectsData = [
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM Tivoli Monitoring (ITM)',
     summary:
-      '	Monitoring of IBM platform and other nodes.Integrate ITM software and agentsIntegrate TDW (Tivoli Data warehouse) Managing Tivoli Data Warehouse Creation of Alerts on IBM different servers Managing and Customizing alerts as per clients need Upgrades of ITM agents Daily Health checks of the system',
+      '	Monitoring of IBM platform and other nodes. Integrate ITM software and agents Integrate TDW (Tivoli Data warehouse) Managing Tivoli Data Warehouse Creation of Alerts on IBM different servers Managing and Customizing alerts as per clients need Upgrades of ITM agents Daily Health checks of the system',
     image: '../../../../../../assets/img/project-1.svg',
     route: '/more/more-jazzitm',
   },
@@ -78,7 +78,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Service Desk',
-    technologies: 'Websphere, IBM-DB2, Java, Jython, Perl',
+    technologies: 'Websphere, IBM-DB2, Java, Python, Perl',
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
