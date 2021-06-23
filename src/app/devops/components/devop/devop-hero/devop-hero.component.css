@@ -239,6 +239,8 @@
     padding-top: 5px;
   }
 
+
+
 }
 
 .box-background {
@@ -253,7 +255,17 @@
 .sub-header {
   background-color: #929191;
 }
-#first-img {
-  /* height: 319px; */
+
+.paddingRemoveBottom {
+  /* padding-bottom: 25px; */
+  padding-top: 45px;
+}
+@media (max-width: 990px) {
+  .paddingRemoveBottom {
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+}
+#first-img{
   width: 98%;
 }
