@@ -77,3 +77,36 @@ a{
     background-color: #1D2957;
   }
   
+
+  @media only screen and (max-width: 600px)   {
+    .col-lg-2{
+      width: 100px;
+    
+    }
+    .col-lg-2, .height{
+      padding-top: 12px;
+    }
+   
+   hr{
+     display: none;
+   }
+    .col-lg-9{
+      width: 200px;
+     
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1000px) and (min-width: 600px)   {
+    .col-lg-2{
+      width: 150px;
+    
+    }
+   
+  
+    .col-lg-9{
+      width: 350px;
+     
+    }
+  
+  }
