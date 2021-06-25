@@ -27,7 +27,7 @@ a{
 
 @media (max-width: 1010px) {
   #first-img {
-    height: 417px !important;
+    height: 422px !important;
   }
 
 }
@@ -80,7 +80,7 @@ a{
 @media only screen and (max-width: 600px)   {
   .col-lg-2{
     width: 100px;
-  
+  padding-bottom: 20px;
   }
   .col-lg-2, .height{
     padding-top: 12px;
@@ -91,7 +91,7 @@ a{
  }
   .col-lg-9{
     width: 200px;
-   
+    padding-bottom: 20px;
   }
 
 }
@@ -99,13 +99,13 @@ a{
 @media only screen and (max-width: 1000px) and (min-width: 600px)   {
   .col-lg-2{
     width: 150px;
-  
+    padding-bottom: 20px;
   }
  
 
   .col-lg-9{
     width: 350px;
-   
+    padding-bottom: 20px;
   }
 
 }

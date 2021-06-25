@@ -117,7 +117,7 @@ export class TechnologyPageComponent implements OnInit {
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
     }
-    else if (c === 'Websphere, IBM-DB2, Java, Jython, Perl') {
+    else if (c === 'Websphere, IBM-DB2, Java, Python, Perl') {
       this.clicked1 = false;
       this.clicked2 = false;
       this.clicked3 = false;
