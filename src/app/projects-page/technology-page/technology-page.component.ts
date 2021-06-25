@@ -17,6 +17,9 @@ export class TechnologyPageComponent implements OnInit {
   clicked6: boolean = false;
   clicked7: boolean = false;
   clicked8: boolean = false;
+  clicked9: boolean = false;
+  clicked10: boolean = false;
+  clicked11: boolean = false;
   filterData: any;
   filterCatagory: any;
   activeClass: string = 'nonactive';
@@ -43,6 +46,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = false;
       this.clicked7 = false;
       this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
     } else if (c === 'SNMP, Websphere') {
@@ -54,6 +60,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = false;
       this.clicked7 = false;
       this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
     } else if (c === 'Perl, Shell, Java, SQL, IBM DB-2') {
@@ -65,7 +74,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = false;
       this.clicked7 = false;
       this.clicked8 = false;
-
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
     } else if (c === 'IBM-DB2, SQL') {
@@ -77,6 +88,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = false;
       this.clicked7 = false;
       this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -89,6 +103,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = true;
       this.clicked7 = false;
       this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -101,6 +118,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = false;
       this.clicked7 = true;
       this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -113,6 +133,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = false;
       this.clicked7 = true;
       this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -126,6 +149,9 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked6 = false;
       this.clicked7 = false;
       this.clicked8 = true;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =false;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -137,7 +163,10 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = false;
       this.clicked7 = false;
-      this.clicked8 = true;
+      this.clicked8 = false;
+      this.clicked9 = true;
+      this.clicked10 =false;
+      this.clicked11 =false;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -150,7 +179,10 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = false;
       this.clicked7 = false;
-      this.clicked8 = true;
+      this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =true;
+      this.clicked11 =false;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -162,7 +194,10 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = false;
       this.clicked7 = false;
-      this.clicked8 = true;
+      this.clicked8 = false;
+      this.clicked9 = false;
+      this.clicked10 =false;
+      this.clicked11 =true;
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
@@ -178,5 +213,9 @@ export class TechnologyPageComponent implements OnInit {
     this.clicked6 = false;
     this.clicked7 = false;
     this.clicked8 = false;
+    this.clicked9 = false;
+    this.clicked10 =false;
+    this.clicked11 =false;
+    
   }
 }

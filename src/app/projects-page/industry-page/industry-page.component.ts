@@ -12,6 +12,9 @@ export class IndustryPageComponent implements OnInit {
   clicked2: boolean = false;
   clicked3: boolean = false;
   clicked4: boolean = false;
+  clicked5: boolean = false;
+  clicked6: boolean = false;
+  clicked7: boolean = false;
 
   filterData: any;
   filterCatagory: any;
@@ -39,6 +42,11 @@ export class IndustryPageComponent implements OnInit {
       this.clicked2 = false;
       this.clicked4 = false;
      this.clicked3 = false;
+     this.clicked5 = false;
+     this.clicked6 = false;
+     this.clicked7 = false;
+     
+     
       this.filterData = projectsData.filter((cat) => cat.industry == c);
 
       console.log(this.filterData);
@@ -47,6 +55,10 @@ export class IndustryPageComponent implements OnInit {
       this.clicked2 = true;
       this.clicked4 = false;
       this.clicked3 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
+      
       this.filterData = projectsData.filter((cat) => cat.industry == c);
       console.log(this.filterData);
     } else if (c === 'Textile & Manufacturer') {
@@ -54,30 +66,45 @@ export class IndustryPageComponent implements OnInit {
       this.clicked2 = false;
       this.clicked3 = true;
       this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
+      
 
       this.filterData = projectsData.filter((cat) => cat.industry == c);
       console.log(this.filterData);
     } else if (c === 'Public Service') {
       this.clicked1 = false;
       this.clicked2 = false;
-      this.clicked3 = true;
+      this.clicked3 = false;
       this.clicked4 = false;
+      this.clicked5 = true;
+      this.clicked6 = false;
+      this.clicked7 = false;
+      
 
       this.filterData = projectsData.filter((cat) => cat.industry == c);
       console.log(this.filterData);
     }else if (c === 'Financial Services') {
       this.clicked1 = false;
       this.clicked2 = false;
-      this.clicked3 = true;
+      this.clicked3 = false;
       this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = true;
+      this.clicked7 = false;
+      
 
       this.filterData = projectsData.filter((cat) => cat.industry == c);
       console.log(this.filterData);
     }else if (c === 'Information Technology') {
       this.clicked1 = false;
       this.clicked2 = false;
-      this.clicked3 = true;
+      this.clicked3 = false;
       this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = true;
 
       this.filterData = projectsData.filter((cat) => cat.industry == c);
       console.log(this.filterData);
@@ -89,5 +116,9 @@ export class IndustryPageComponent implements OnInit {
     this.clicked2 = false;
     this.clicked3 = false;
     this.clicked4 = true;
+    this.clicked5 = false;
+    this.clicked6 = false;
+    this.clicked7 = false;
+    
   }
 }

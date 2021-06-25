@@ -14,6 +14,9 @@ export class SoftwareProductsPageComponent implements OnInit {
   clicked5: boolean = false;
   clicked6: boolean = false;
   clicked7: boolean = false;
+  clicked8: boolean = false;
+  clicked9: boolean = false;
+  clicked10: boolean = false;
   filterData: any;
   filterCatagory: any;
   activeClass: string = 'nonactive';
@@ -41,6 +44,9 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = false;
       this.clicked7 = false;
+      this.clicked8 =false;
+      this.clicked9 = false;
+      this.clicked10 =false;
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
     } else if (c === 'IBM Tivoli Network Monitoring (ITNM)') {
@@ -51,6 +57,9 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = false;
       this.clicked7 = false;
+      this.clicked8 =false;
+      this.clicked9 = false;
+      this.clicked10 =false;
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
     } else if (c === 'Netcool Omnibus, Impact, NOI') {
@@ -61,6 +70,9 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = false;
       this.clicked7 = false;
+      this.clicked8 =false;
+      this.clicked9 = false;
+      this.clicked10 =false;
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
@@ -72,6 +84,9 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked5 = true;
       this.clicked6 = false;
       this.clicked7 = false;
+      this.clicked8 =false;
+      this.clicked9 = false;
+      this.clicked10 =false;
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
@@ -83,6 +98,9 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = true;
       this.clicked7 = false;
+      this.clicked8 =false;
+      this.clicked9 = false;
+      this.clicked10 =false;
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
@@ -94,6 +112,9 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked5 = false;
       this.clicked6 = false;
       this.clicked7 = true;
+      this.clicked8 =false;
+      this.clicked9 = false;
+      this.clicked10 =false;
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
@@ -104,7 +125,10 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked4 = false;
       this.clicked5 = false;
       this.clicked6 = false;
-      this.clicked7 = true;
+      this.clicked7 = false;
+      this.clicked8 =true;
+      this.clicked9 = false;
+      this.clicked10 =false;
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
@@ -115,10 +139,13 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked4 = false;
       this.clicked5 = false;
       this.clicked6 = false;
-      this.clicked7 = true;
+      this.clicked7 = false;
+      this.clicked8 =false;
+      this.clicked9 = true;
+      this.clicked10 =false;
 
 
-      this.filterData = projectsData.filter((cat) => cat.industry == c);
+      this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
     }
     else if (c === 'Ops Alert') {
@@ -128,7 +155,10 @@ export class SoftwareProductsPageComponent implements OnInit {
       this.clicked4 = false;
       this.clicked5 = false;
       this.clicked6 = false;
-      this.clicked7 = true;
+      this.clicked7 = false;
+      this.clicked8 =false;
+      this.clicked9 = false;
+      this.clicked10 =true;
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);}
@@ -142,5 +172,10 @@ export class SoftwareProductsPageComponent implements OnInit {
     this.clicked4 = true;
     this.clicked5 = false;
     this.clicked6 = false;
+    this.clicked7 = false;
+    this.clicked8 =false;
+    this.clicked9 = false;
+    this.clicked10 =false;
+    
   }
 }
