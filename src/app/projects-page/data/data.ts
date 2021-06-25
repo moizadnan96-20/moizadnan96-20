@@ -13,7 +13,7 @@ var projectsData = [
   },
   {
     industry: 'System Integrator',
-    softwareProducts:'IBM Tivoli Network Monitoring (ITNM)',
+    softwareProducts: 'IBM Tivoli Network Monitoring (ITNM)',
     technologies: 'SNMP, Websphere',
     client: 'Orb Data',
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), ITNM',
@@ -23,7 +23,7 @@ var projectsData = [
   },
   {
     industry: 'System Integrator',
-    softwareProducts:'Software 	IBM Jazz SM',
+    softwareProducts: 'Software 	IBM Jazz SM',
     technologies: 'IBM DB-2',
     client: 'Orb Data',
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), Jazz Service Manager',
@@ -33,7 +33,7 @@ var projectsData = [
   },
   {
     industry: 'System Integrator',
-    softwareProducts:'Netcool Omnibus, Impact, NOI',
+    softwareProducts: 'Netcool Omnibus, Impact, NOI',
     technologies: 'Perl, Shell, Java, SQL, IBM DB-2',
     client: 'Orb Data',
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), Netcool Omnibus',
@@ -97,17 +97,40 @@ var projectsData = [
     image: '../../../../../../assets/img/project-3.svg',
     route: '/more/more-industry',
   },
-  // {
-  //     industry: 'System Integrator',
-  //     softwareProducts: 'IBM Tivoli Monitoring (ITM)',
-  //     technologies: 'IBM DB-2, Regex',
-  //     client: 'Orb Data',
-  //     title: '•	Helios Tower Africa (HTA)•	Claranet (CLUK) •	ITM ',
-  //     summary:
-  //       'Integrate ITM software and agentsIntegrate TDW (Tivoli Data warehouse) Creation of Alerts on IBM different servers Managing and Customizing alerts as per clients need Upgrades of ITM agents Daily Health checks of the system',
-  //     image: '../../../../../../assets/img/project-1.svg',
-  //     route: '/more/more-banking',
-  //   },
+  // for development 
+  {
+    industry: 'Public Service',
+    softwareProducts: 'Property Management Software',
+    technologies: 'Angular, Ionic, Firebase',
+    client: 'RentiD Limited',
+    title: 'Property management software and letting agency services for residential landlords, property managers and tenants.',
+    summary:
+      'Property management software and letting agency services for residential landlords, property managers and tenants.',
+    image: '../../../assets/Dia/rentid.png',
+    route: '/more/more-banking',
+  },
+  {
+    industry: 'Financial Services',
+    softwareProducts: 'Advance Industry Metrics',
+    technologies: 'Firebase Authentication, Flutter, MySql, Redis, Angular, Sequelize, Node.Js, FCM cloud messaging, RSA Encryption',
+    client: 'Dominic Clover',
+    title: 'Advance Industry Metrics for Law Firms',
+    summary:
+      'AIM which stands for advance industry metrics is designed to organization to submit their progress and compare their progress with industry average. Primary goal is to submit their data in encrypted form so no one can see their data other than organization itself.',
+    image: '../../../assets/Dia/rentid.png',
+    route: '/more/more-banking',
+  },
+  {
+    industry: 'Information Technology',
+    softwareProducts: 'Ops Alert',
+    technologies: 'Angular, Java Spring Framework (Boot, JPA, Messaging), Hibernate, PostgreSQL, PrimeNg, LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices), Kafka (consumer, listener, streams), Cassandra (for big data), Jenkins (for CI/CD pipelines), Kubernetes (for service discovery, scaling and managing), Node ',
+    client: 'Orb Data',
+    title: 'Ops Alert',
+    summary:
+      '	OpsAlert is a cloud platform for enterprise monitoring.  It aims to both complement and act as a replacement or alternative for customers using IBM Netcool Operations Insight.OpsAlert intends to differentiate itself from other products in the market by Lowering the cost of enterprise monitoring,	Integrating non-traditional data into the monitoring environment,	Not being restricted by the volume of data being ingested,	Applying AI to automate the processing of data Providing enhanced service status visibility  ',
+    image: '../../../assets/Dia/rentid.png',
+    route: '/more/more-banking',
+  },
 ];
 
 export default projectsData;

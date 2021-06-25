@@ -57,6 +57,30 @@ export class IndustryPageComponent implements OnInit {
 
       this.filterData = projectsData.filter((cat) => cat.industry == c);
       console.log(this.filterData);
+    } else if (c === 'Public Service') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = true;
+      this.clicked4 = false;
+
+      this.filterData = projectsData.filter((cat) => cat.industry == c);
+      console.log(this.filterData);
+    }else if (c === 'Financial Services') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = true;
+      this.clicked4 = false;
+
+      this.filterData = projectsData.filter((cat) => cat.industry == c);
+      console.log(this.filterData);
+    }else if (c === 'Information Technology') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = true;
+      this.clicked4 = false;
+
+      this.filterData = projectsData.filter((cat) => cat.industry == c);
+      console.log(this.filterData);
     }
   }
   onClickAllData() {

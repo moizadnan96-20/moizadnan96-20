@@ -97,7 +97,41 @@ export class SoftwareProductsPageComponent implements OnInit {
 
       this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
       console.log(this.filterData);
+    }else if (c === 'Property Management Software') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = true;
+
+      this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
+      console.log(this.filterData);
+    }else if (c === 'Advance Industry Metrics') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = true;
+
+
+      this.filterData = projectsData.filter((cat) => cat.industry == c);
+      console.log(this.filterData);
     }
+    else if (c === 'Ops Alert') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = true;
+
+      this.filterData = projectsData.filter((cat) => cat.softwareProducts == c);
+      console.log(this.filterData);}
   }
 
   onClickAllData() {

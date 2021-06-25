@@ -74,7 +74,37 @@
     >
     Websphere, IBM-DB2, Java, Python, Perl
     </a>
-
+    <a
+      class="btn btn-primary main"
+      [ngClass]="{ 'active-linked': clicked8 }"
+      (click)="
+        onClickForFilter('Angular, Ionic, Firebase')
+      "
+      style="margin-bottom: 10px"
+    >
+    Angular, Ionic, Firebase
+    </a>
+    <a
+      class="btn btn-primary main"
+      [ngClass]="{ 'active-linked': clicked8 }"
+      (click)="
+        onClickForFilter('Firebase Authentication, Flutter, MySql, Redis, Angular, Sequelize, Node.Js, FCM cloud messaging, RSA Encryption')
+      "
+      style="margin-bottom: 10px"
+    >
+    Firebase Authentication, Flutter, MySql, Redis, Angular, Sequelize, Node.Js, FCM cloud messaging, RSA Encryption
+    </a>
+    <a
+      class="btn btn-primary main"
+      [ngClass]="{ 'active-linked': clicked8 }"
+      (click)="
+        onClickForFilter('Angular, Java Spring Framework (Boot, JPA, Messaging), Hibernate, PostgreSQL, PrimeNg, LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices), Kafka (consumer, listener, streams), Cassandra (for big data), Jenkins (for CI/CD pipelines), Kubernetes (for service discovery, scaling and managing), Node ')
+      "
+      style="margin-bottom: 10px"
+    >
+    Angular, Java Spring Framework (Boot, JPA, Messaging), Hibernate, PostgreSQL, PrimeNg, LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices), Kafka (consumer, listener, streams), Cassandra (for big data), Jenkins (for CI/CD pipelines), Kubernetes (for service discovery, scaling and managing), Node 
+    </a>
+    
     <!-- <a
       class="btn btn-primary main {{ activeClass }}"
       (click)="onClickForFilter(c)"
@@ -92,7 +122,7 @@
 >
   <div class="col-3">
     <img
-      src="../../../../../../assets/img/project-1.svg"
+    [src]="project.image"
       alt=""
       class="image fluid"
       style="width: 100%"

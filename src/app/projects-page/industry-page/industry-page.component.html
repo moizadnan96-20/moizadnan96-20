@@ -34,6 +34,27 @@
     >
       Textile & Manufacturer
     </a>
+    <a
+    class="btn btn-primary main"
+    [ngClass]="{ 'active-linked': clicked3 }"
+    (click)="onClickForFilter('Public Service')"
+  >
+    Public Service
+  </a>
+  <a
+  class="btn btn-primary main"
+  [ngClass]="{ 'active-linked': clicked3 }"
+  (click)="onClickForFilter('Financial Services')"
+>
+  Financial Services
+</a>
+<a
+class="btn btn-primary main"
+[ngClass]="{ 'active-linked': clicked3 }"
+(click)="onClickForFilter('Information Technology')"
+>
+Information Technology
+</a>
   </div>
 </div>
 <hr />

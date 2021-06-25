@@ -129,6 +129,43 @@ export class TechnologyPageComponent implements OnInit {
 
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
+    }else if (c === 'Angular, Ionic, Firebase') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
+      this.clicked8 = true;
+
+      this.filterData = projectsData.filter((cat) => cat.technologies == c);
+      console.log(this.filterData);
+    }
+    else if (c === 'Firebase Authentication, Flutter, MySql, Redis, Angular, Sequelize, Node.Js, FCM cloud messaging, RSA Encryption') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
+      this.clicked8 = true;
+
+      this.filterData = projectsData.filter((cat) => cat.technologies == c);
+      console.log(this.filterData);
+    }else if (c === 'Angular, Java Spring Framework (Boot, JPA, Messaging), Hibernate, PostgreSQL, PrimeNg, LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices), Kafka (consumer, listener, streams), Cassandra (for big data), Jenkins (for CI/CD pipelines), Kubernetes (for service discovery, scaling and managing), Node ') {
+      this.clicked1 = false;
+      this.clicked2 = false;
+      this.clicked3 = false;
+      this.clicked4 = false;
+      this.clicked5 = false;
+      this.clicked6 = false;
+      this.clicked7 = false;
+      this.clicked8 = true;
+
+      this.filterData = projectsData.filter((cat) => cat.technologies == c);
+      console.log(this.filterData);
     }
   }
   onClickAllData() {
