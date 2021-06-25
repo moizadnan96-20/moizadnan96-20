@@ -9,7 +9,7 @@ import { TechnologyUpdatesRoutingModule } from './technology-updates-routing.mod
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { InfoSectionComponent } from './components/info-section/info-section.component';
 import { TechnologyUpdatesComponent } from './technology-updates.component';
-import { TechnologyModule } from '../technology/technology.module';
+
 
 
 

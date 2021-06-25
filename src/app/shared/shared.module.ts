@@ -6,13 +6,13 @@ import { NgMarqueeModule } from 'ng-marquee';
 //components
 
 import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
+
 import { FooterSectionComponent } from './components/footer-section/footer-section.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent,FooterComponent,FooterSectionComponent ],
+  declarations: [HeaderComponent,FooterSectionComponent ],
   imports: [
     CommonModule,
     NgMarqueeModule,

@@ -1,4 +1,4 @@
-import { ProductsModule } from './../products/products.module';
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from './../shared/shared.module';
@@ -12,7 +12,7 @@ import { DetailContactUsComponent } from './detail-contact-us/detail-contact-us.
   imports: [
     CommonModule,
     ContactUsRoutingModule,
-    ProductsModule,
+   
     SharedModule
   ]
 })

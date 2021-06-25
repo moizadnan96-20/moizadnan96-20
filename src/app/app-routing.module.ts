@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ProductComponent } from './products/components/product/product.component';
+
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 
 const routes: Routes = [
@@ -36,23 +36,13 @@ const routes: Routes = [
         (m) => m.ManageServicesModule
       ),
   },
-  {
-    path: 'cloud-computing',
-    loadChildren: () =>
-      import('./cloud-computing/cloud-computing.module').then(
-        (m) => m.CloudComputingModule
-      ),
-  },
+  
   {
     path: 'aboutus',
     loadChildren: () =>
       import('./about-us/about-us.module').then((m) => m.AboutUsModule),
   },
-  // {
-  //   path: 'technology',
-  //   loadChildren: () =>
-  //     import('./technology/technology.module').then((m) => m.TechnologyModule),
-  // },
+
   {
     path: 'tech-lead',
     loadChildren: () =>
@@ -63,12 +53,7 @@ const routes: Routes = [
     loadChildren: () =>
       import('./more/more.module').then((m) => m.MoreModule),
   },
-  {
-    path: 'product',
-    component:ProductComponent,
-    loadChildren: () =>
-      import('./products/products.module').then((m) => m.ProductsModule),
-  },
+ 
   {
     path: 'technology',
     loadChildren: () =>

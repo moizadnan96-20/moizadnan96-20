@@ -9,7 +9,6 @@ import { HeroSectionComponent } from './component/infrastructure/hero-section/he
 import { InfoSectionComponent } from './component/infrastructure/info-section/info-section.component';
 import { QuestionSectionComponent } from './component/infrastructure/question-section/question-section.component';
 
-import { NetworkingSectionComponent } from './component/infrastructure/networking-section/networking-section.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,7 @@ import { NetworkingSectionComponent } from './component/infrastructure/networkin
     QuestionSectionComponent,
 
     TechnologySectionComponent,
-    NetworkingSectionComponent,
+    
 
   ],
   imports: [CommonModule, InfrastructureRoutingModule, SharedModule],

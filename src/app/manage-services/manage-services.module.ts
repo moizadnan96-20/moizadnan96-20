@@ -8,12 +8,11 @@ import { ManageServicesComponent } from './components/manage-services/manage-ser
 import { HeroComponent } from './components/manage-services/hero/hero.component';
 import { InfoSectionComponent } from './components/manage-services/info-section/info-section.component';
 import { QuestionSectionComponent } from './components/manage-services/question-section/question-section.component';
-import { TestimonialSectionComponent } from './components/manage-services/testimonial-section/testimonial-section.component';
 
 
 
 @NgModule({
-  declarations: [ManageServicesComponent, HeroComponent, InfoSectionComponent, QuestionSectionComponent, TestimonialSectionComponent,  ],
+  declarations: [ManageServicesComponent, HeroComponent, InfoSectionComponent, QuestionSectionComponent,  ],
   imports: [
     CommonModule,
     ManageServicesRoutingModule,

@@ -7,12 +7,11 @@ import { ConsultancyComponent } from './components/consultancy/consultancy.compo
 import { HeroSectionComponent } from './components/consultancy/hero-section/hero-section.component';
 import { InfoSectionComponent } from './components/consultancy/info-section/info-section.component';
 import { QuestionSectionComponent } from './components/consultancy/question-section/question-section.component';
-import { TestimonialSectionComponent } from './components/consultancy/testimonial-section/testimonial-section.component';
 
 
 
 @NgModule({
-  declarations: [ConsultancyComponent, HeroSectionComponent, InfoSectionComponent, QuestionSectionComponent, TestimonialSectionComponent, ],
+  declarations: [ConsultancyComponent, HeroSectionComponent, InfoSectionComponent, QuestionSectionComponent,  ],
   imports: [
     CommonModule,
     ConsultancyRoutingModule,

@@ -8,7 +8,7 @@ import { MoreListComponent } from './more-list/more-list.component';
 import { ProjectsInfoComponent } from './more-list/projects-info/projects-info.component';
 import { MoreQuestionSectionComponent } from './more-list/more-question-section/more-question-section.component';
 import { MoreComponent } from './more.component';
-import { ProductsModule } from '../products/products.module';
+
 import { MoreBankingComponent } from './more-banking/more-banking.component';
 import { MoreBankingProjectInfoComponent } from './more-banking/more-banking-project-info/more-banking-project-info.component';
 import { MoreBankingQuestionsComponent } from './more-banking/more-banking-questions/more-banking-questions.component';
