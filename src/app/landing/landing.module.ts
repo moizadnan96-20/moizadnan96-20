@@ -7,15 +7,16 @@ import { SharedModule } from '../shared/shared.module';
 //components
 
 import { ServicesComponent } from './components/services/services.component';
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
+
 import { ContentComponent } from './content.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { FeaturedComponent } from './components/featured/featured.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServiceSectionComponent } from './components/service-section/service-section.component';
-import { CtaSectionComponent } from './components/cta-section/cta-section.component';
-import { TeamSectionComponent } from './components/team-section/team-section.component';
+
 import { ClientsComponent } from "./components/clients/clients.component";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InfoSectionComponent } from './info-section/info-section.component';
 
 @NgModule({
   declarations: [
@@ -24,18 +25,19 @@ import { ClientsComponent } from "./components/clients/clients.component";
     FeaturedComponent,
     AboutComponent,
     ServiceSectionComponent,
-    CtaSectionComponent,
-    TeamSectionComponent,
+   
     ClientsComponent,
     ServicesComponent,
-    PortfolioComponent,
+   
+    InfoSectionComponent
 
   ],
   imports: [
     CommonModule,
     LandingRoutingModule,
     SharedModule,
-    NgMarqueeModule
+    NgMarqueeModule,
+    NgbModule
   ],
   exports: [
     ClientsComponent,
