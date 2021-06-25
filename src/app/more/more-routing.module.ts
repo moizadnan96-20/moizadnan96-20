@@ -1,3 +1,6 @@
+import { MoreITComponent } from './more-it/more-it.component';
+import { MoreFinanicalComponent } from './more-finanical/more-finanical.component';
+import { MorePublicServiceComponent } from './more-public-service/more-public-service.component';
 import { MoreJazzisdComponent } from './more-jazzisd/more-jazzisd.component';
 import { MoreJazznoComponent } from './more-jazzno/more-jazzno.component';
 import { MoreJazzitmComponent } from './more-jazzitm/more-jazzitm.component';
@@ -57,6 +60,18 @@ const routes: Routes = [
   {
     path:'more-jazzisd',
     component:MoreJazzisdComponent
+  },
+  {
+    path:'more-public-service',
+    component:MorePublicServiceComponent
+  },
+  {
+    path:'more-finanical',
+    component:MoreFinanicalComponent
+  },
+  {
+    path:'more-it',
+    component:MoreITComponent
   },
 ];
 

@@ -37,12 +37,21 @@ import { MoreJazzsmProjectInfoComponent } from './more-jazzsm/more-jazzsm-projec
 import { MoreJazzsmQuestionSectionComponent } from './more-jazzsm/more-jazzsm-question-section/more-jazzsm-question-section.component';
 import { MoreNetcoolProjectInfoComponent } from './more-netcool/more-netcool-project-info/more-netcool-project-info.component';
 import { MoreNetcoolQuestionSectionComponent } from './more-netcool/more-netcool-question-section/more-netcool-question-section.component';
+import { MorePublicServiceComponent } from './more-public-service/more-public-service.component';
+import { MorePublicServiceProjectInfoComponent } from './more-public-service/more-public-service-project-info/more-public-service-project-info.component';
+import { MorePublicServiceQuestionSectionComponent } from './more-public-service/more-public-service-question-section/more-public-service-question-section.component';
+import { MoreFinanicalComponent } from './more-finanical/more-finanical.component';
+import { MoreFinanicalProjectInfoComponent } from './more-finanical/more-finanical-project-info/more-finanical-project-info.component';
+import { MoreFinanicalQuestionSectionComponent } from './more-finanical/more-finanical-question-section/more-finanical-question-section.component';
+import { MoreITComponent } from './more-it/more-it.component';
+import { MoreItProjectInfoComponent } from './more-it/more-it-project-info/more-it-project-info.component';
+import { MoreItQuestionSectionComponent } from './more-it/more-it-question-section/more-it-question-section.component';
 
 
 
 
 @NgModule({
-  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent, HelpComponent, MoreItnmComponent, MoreQuestionComponent, MoreProjectInfoComponent, MoreNetcoolComponent, MoreJazzsmComponent, MoreIcabComponent, MoreIcabProjectInfoComponent, MoreIcabQuestionSectionComponent, MoreJazzitmComponent, MoreJazzitmProjectInfoComponent, MoreJazzitmQuestionSectionComponent, MoreJazznoComponent, MoreJazznoProjectInfoComponent, MoreJazznoQuestionSectionComponent, MoreJazzisdComponent, MoreJazzisdProjectInfoComponent, MoreJazzisdQuestionSectionComponent, MoreJazzsmProjectInfoComponent, MoreJazzsmQuestionSectionComponent, MoreNetcoolProjectInfoComponent, MoreNetcoolQuestionSectionComponent ],
+  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent, HelpComponent, MoreItnmComponent, MoreQuestionComponent, MoreProjectInfoComponent, MoreNetcoolComponent, MoreJazzsmComponent, MoreIcabComponent, MoreIcabProjectInfoComponent, MoreIcabQuestionSectionComponent, MoreJazzitmComponent, MoreJazzitmProjectInfoComponent, MoreJazzitmQuestionSectionComponent, MoreJazznoComponent, MoreJazznoProjectInfoComponent, MoreJazznoQuestionSectionComponent, MoreJazzisdComponent, MoreJazzisdProjectInfoComponent, MoreJazzisdQuestionSectionComponent, MoreJazzsmProjectInfoComponent, MoreJazzsmQuestionSectionComponent, MoreNetcoolProjectInfoComponent, MoreNetcoolQuestionSectionComponent, MorePublicServiceComponent, MorePublicServiceProjectInfoComponent, MorePublicServiceQuestionSectionComponent, MoreFinanicalComponent, MoreFinanicalProjectInfoComponent, MoreFinanicalQuestionSectionComponent, MoreITComponent, MoreItProjectInfoComponent, MoreItQuestionSectionComponent ],
   imports: [
     CommonModule,
     MoreRoutingModule,
