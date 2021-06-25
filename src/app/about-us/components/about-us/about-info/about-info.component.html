@@ -85,13 +85,23 @@
           >
             DevOps
           </h2>
-          <p
+          <p  
             class="body-3 col-padding-right col-padding-left"
             style="color: #dddcdc; padding-bottom: 45px"
           >
             We help our customers reduce toil and improve accuracy by automating
             processes such as release management.
           </p>
+        <div [routerLink]="['/devops']"
+        class="pointer col-padding-left col-padding-right pull-right pb-3"
+
+        >
+        <span  class="body-text m-1"  style=" color: #dddcdc;">Read More</span>
+        <img
+        src="../../../../../assets/img/left-arrow.svg"
+        class="img-fluid"
+        alt=""/> 
+      </div>
         </div>
         <div id="SD" class="col-lg-3 col-md-6 col-sm-12 p-0 box-body box-0"
         [style.background]="parentDate == '#SD' ? '#7A7A7A' : null"
