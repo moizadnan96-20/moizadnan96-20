@@ -4,6 +4,7 @@ import { NgMarqueeModule } from 'ng-marquee';
 import { LandingRoutingModule } from './landing-routing.module';
 import { SharedModule } from '../shared/shared.module';
 
+
 //components
 
 import { ServicesComponent } from './components/services/services.component';
@@ -40,7 +41,7 @@ import { InfoSectionComponent } from './info-section/info-section.component';
     LandingRoutingModule,
     SharedModule,
     NgMarqueeModule,
-    NgbModule
+    NgbModule,
   ],
   exports: [
     ClientsComponent,

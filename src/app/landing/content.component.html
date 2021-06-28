@@ -1,6 +1,7 @@
 <div class="overflow-hidden">
   <!-- <app-hero></app-hero> -->
   <!-- <app-featured></app-featured> -->
+ 
   <app-info-section></app-info-section>
   <app-clients></app-clients>
   <!-- <app-technology-page></app-technology-page> -->
@@ -8,6 +9,13 @@
   <!-- <app-about></app-about> -->
   <!-- <app-services></app-services> -->
   <app-footer-section></app-footer-section>
+
+<div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
+    <button type="button" class="btn active btn-primary" data-toggle="button" aria-pressed="true" (click)="scrollToTop()">
+        <i class="fa fa-chevron-up" ></i>
+    </button>
+  </div>
+</div>
 
 
 </div>
