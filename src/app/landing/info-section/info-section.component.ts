@@ -1,20 +1,38 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 
 @Component({
   selector: 'app-info-section',
   templateUrl: './info-section.component.html',
-  styleUrls: ['./info-section.component.css']
+  styleUrls: ['./info-section.component.css'],
+  encapsulation: ViewEncapsulation.None,
+
 })
 export class InfoSectionComponent implements OnInit {
-  // images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
-  images: any = [ '../../../assets/carsole/17927.jpg', '../../../assets/carsole/2911473.jpg', '../../../assets/carsole/34.webp'
 
-  ]
-//'../../../assets/carsole/1056.jpg',
 
-  constructor() { }
+  images: any = [{
+    imageURL: '../../../assets/carsole/DEV ops.svg',
+    route: '/devops'
+  }, {
+    imageURL: '../../../assets/carsole/TECHNOLOGY BANNER.svg',
+    route: '/technology'
+  }, {
+    imageURL: '../../../assets/carsole/INFRASTRUCTURE SUPPORT.svg',
+    route: '/infrastructure'
+  }, {
+    imageURL: '../../../assets/carsole/MANAGED SERVICES with more.svg',
+    route: '/manage-services'
+  }, {
+    imageURL: '../../../assets/carsole/IT CONSULTANCY with more.svg',
+    route: '/consulting'
+  }]
+
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
 

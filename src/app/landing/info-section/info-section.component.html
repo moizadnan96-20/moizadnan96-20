@@ -1,12 +1,10 @@
 <ngb-carousel>
     <ng-template ngbSlide *ngFor="let image of images">
         <div class="picsum-img-wrapper">
-            <img [src]="image" alt="Angular Carousel 1"  height="350">
+            <a routerLink={{image.route}}> <img [src]="image.imageURL" alt="Angular Carousel 1" height="380" src=""></a>
+
         </div>
-        <div class="carousel-caption">
-            <h3>Title Goes Here</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+
     </ng-template>
 
 </ngb-carousel>

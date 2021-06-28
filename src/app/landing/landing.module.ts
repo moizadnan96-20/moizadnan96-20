@@ -15,8 +15,9 @@ import { AboutComponent } from './components/about/about.component';
 import { ServiceSectionComponent } from './components/service-section/service-section.component';
 
 import { ClientsComponent } from "./components/clients/clients.component";
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselConfig, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { InfoSectionComponent } from './info-section/info-section.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { InfoSectionComponent } from './info-section/info-section.component';
     ClientsComponent,
     ServicesComponent,
    
-    InfoSectionComponent
+    InfoSectionComponent,
+   
+    
 
   ],
   imports: [
@@ -41,6 +44,7 @@ import { InfoSectionComponent } from './info-section/info-section.component';
   ],
   exports: [
     ClientsComponent,
-  ]
+  ],
+
 })
 export class LandingModule { }
