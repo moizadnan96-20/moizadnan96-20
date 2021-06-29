@@ -12,22 +12,35 @@ export class InfoSectionComponent implements OnInit {
 
 
 
-  images: any = [{
-    imageURL: '../../../assets/carsole/DEV ops.svg',
-    route: '/devops'
-  }, {
-    imageURL: '../../../assets/carsole/TECHNOLOGY BANNER.svg',
-    route: '/technology'
-  }, {
-    imageURL: '../../../assets/carsole/INFRASTRUCTURE SUPPORT.svg',
-    route: '/infrastructure'
-  }, {
-    imageURL: '../../../assets/carsole/MANAGED SERVICES with more.svg',
-    route: '/manage-services'
-  }, {
-    imageURL: '../../../assets/carsole/IT CONSULTANCY with more.svg',
-    route: '/consulting'
-  }]
+  images: any = [
+    {
+      imageURL: '../../../assets/carsole/m.s.jpg',
+      route: '/manage-services'
+    },
+
+    {
+      imageURL: '../../../assets/carsole/it.png',
+      route: '/consulting '
+    },
+    {
+      imageURL: '../../../assets/carsole/dev.jpg',
+      route: '/devops'
+    },
+
+    {
+      imageURL: '../../../assets/carsole/Web 1920 – 1.jpg',
+      route: '/devops'
+    },
+    // {
+    //   imageURL: '',
+    //   route: '/devops'
+    // },
+    // {
+    //   imageURL: '',
+    //   route: '/infrastructure'
+    // },
+
+  ]
 
 
   constructor() {
