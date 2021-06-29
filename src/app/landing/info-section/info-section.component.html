@@ -1,11 +1,7 @@
-<ngb-carousel style="background-color: blue;" id="imageHeight">
+<ngb-carousel id="imageHeight">
     <ng-template ngbSlide *ngFor="let image of images">
         <div class="picsum-img-wrapper">
-            <a routerLink={{image.route}}> <img [src]="image.imageURL" class="d-block w-100" src=""
-                    ></a>
-
+            <a routerLink={{image.route}}> <img [src]="image.imageURL" class="d-block w-100" src=""></a>
         </div>
-
     </ng-template>
-
 </ngb-carousel>
