@@ -59,11 +59,13 @@ ngb-carousel img {
     /* background-position: 50%; */
     /* background-size: cover; */
     background-color: #707070;
+    
     /* padding-right: 10px; */
     border-radius: 25% !important
     
 
 }
+
 .carousel-indicators li {
     width : 0.5rem!important;
     height: 0.5rem !important;
