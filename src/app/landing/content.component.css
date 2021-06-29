@@ -268,7 +268,7 @@
     display: inline-block;
   }
 }
-.scroll-to-top {
+/*.scroll-to-top {
   position: fixed;
   bottom: 15px;
   right: 15px;
@@ -279,4 +279,4 @@
  .show-scrollTop {
   opacity: 1;
   transition: all .2s ease-in-out;
- }
+ }*/

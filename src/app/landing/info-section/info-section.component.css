@@ -61,10 +61,12 @@ ngb-carousel {
     background-position: 50%;
     background-size: 100% 100%;
     background-color: #707070;
+    
     /* padding-right: 10px; */
     
 
 }
+
 .carousel-indicators li {
     width : 1rem!important;
     height: 1rem !important;

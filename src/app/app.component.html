@@ -1,7 +1,11 @@
 <div>
   <app-header></app-header>
 </div>
-
+<div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
+  <button type="button" class="btn active " style="background-color:#1D2957; color: white;" data-toggle="button" aria-pressed="true" (click)="scrollToTop()">
+      <i class="fa fa-chevron-up" ></i>
+  </button>
+</div>
 <div>
   <router-outlet></router-outlet>
 </div>
