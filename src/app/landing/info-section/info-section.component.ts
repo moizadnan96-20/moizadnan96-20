@@ -14,7 +14,7 @@ export class InfoSectionComponent implements OnInit {
 
   images: any = [
 
-
+   
 
 
 

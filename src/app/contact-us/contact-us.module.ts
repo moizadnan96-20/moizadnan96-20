@@ -5,6 +5,7 @@ import { SharedModule } from './../shared/shared.module';
 import { ContactUsRoutingModule } from './contact-us-routing.module';
 import { ContactUsComponent } from './contact-us.component';
 import { DetailContactUsComponent } from './detail-contact-us/detail-contact-us.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { DetailContactUsComponent } from './detail-contact-us/detail-contact-us.
   imports: [
     CommonModule,
     ContactUsRoutingModule,
+    ReactiveFormsModule,
    
     SharedModule
   ]
