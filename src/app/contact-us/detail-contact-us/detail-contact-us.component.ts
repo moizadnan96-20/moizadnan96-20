@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { ContactService } from '../contact.service';
 
 @Component({
   selector: 'app-detail-contact-us',
@@ -12,13 +13,17 @@ export class DetailContactUsComponent implements OnInit {
     company: new FormControl('', Validators.required),
     workEmail: new FormControl('', Validators.required),
     workPhone: new FormControl('', Validators.required),
+    description: new FormControl('', Validators.required),
   });
-  constructor() { }
+  constructor(private service:ContactService) { }
 
   ngOnInit(): void {
   }
-  createEmail(){
+ async createEmail(){
     console.log(this.emailForm.value);
+   const response = await this.service.addEmail(this.emailForm.value);
+   console.log(response);
+   
     
   }
 }

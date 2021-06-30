@@ -7,30 +7,31 @@
 
   <div class="row padding-left padding-right" style="background-color: #f5f7f7">
     <div class="col-8">
-      <div class="row pt-4" id="field">
-        <p>
-          Drop us a line, and our representative will contact you to arrange an initial
-          discussion.
-        </p>
-        <form [formGroup]="emailForm" (ngSubmit)="createEmail()">
-        <div class="col-3">
-          <input class="form-control" placeholder="Full Name" type="text" />
+      <form [formGroup]="emailForm" (ngSubmit)="createEmail()">
+      <p>
+        Drop us a line, and our representative will contact you to arrange an initial
+        discussion.
+      </p>
+     
+        <div class="row pt-4" id="field">
+          <div class="col-3">
+            <input class="form-control" placeholder="Full Name" type="text" formControlName="fName" />
+          </div>
+          <div class="col-3">
+            <input class="form-control" placeholder="Company" type="text" formControlName="company" />
+          </div>
+          <div class="col-3">
+            <input class="form-control" placeholder="Work Email" type="text" formControlName="workEmail" />
+          </div>
+          <div class="col-3">
+            <input class="form-control" placeholder="Work Phone" type="text" formControlName="workPhone" />
+          </div>
         </div>
-        <div class="col-3">
-          <input class="form-control" placeholder="Company" type="text" />
-        </div>
-        <div class="col-3">
-          <input class="form-control" placeholder="Work Email" type="text" />
-        </div>
-        <div class="col-3">
-          <input class="form-control" placeholder="Work Phone" type="text" />
-        </div>
-      
-    </form>
-  </div>
+     
+
       <div class="row pt-4">
         <div class="col-12">
-          <textarea class="form-control" name="" id="" cols="20" rows="7" placeholder="How can we help you?"></textarea>
+          <textarea class="form-control" name="" id="" cols="20" rows="7" placeholder="How can we help you?" formControlName="description"></textarea>
         </div>
         <div class="row mt-4">
           <div class="col-12">
@@ -63,10 +64,11 @@
               align-items: center;
               width: 100%;
             ">
-            <button class="btn " style="background-color: #1D2957; color: white;">Contact Us</button>
+            <button class="btn " style="background-color: #1D2957; color: white;" > Contact Us</button>
           </div>
         </div>
       </div>
+    </form>
     </div>
     <div class="col-4 padding-left padding-right">
       <h5 class="pt-4" style="font-weight: bold">Perception IT Pakistan</h5>

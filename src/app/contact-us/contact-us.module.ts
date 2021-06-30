@@ -7,14 +7,14 @@ import { ContactUsComponent } from './contact-us.component';
 import { DetailContactUsComponent } from './detail-contact-us/detail-contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
-
 @NgModule({
   declarations: [ContactUsComponent, DetailContactUsComponent],
   imports: [
     CommonModule,
     ContactUsRoutingModule,
     ReactiveFormsModule,
-   
+    
+
     SharedModule
   ]
 })
