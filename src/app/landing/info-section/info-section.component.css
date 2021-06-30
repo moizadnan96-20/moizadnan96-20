@@ -120,3 +120,7 @@ ngb-carousel img {
     /* height: 80vh */
     
   }
+
+  @media only screen and (max-width: 1600px) and (min-width: 1368px){
+    #imageHeight{height: 525px;} 
+  }
