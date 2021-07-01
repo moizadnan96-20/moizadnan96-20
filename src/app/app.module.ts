@@ -11,7 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgMarqueeModule } from 'ng-marquee';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -20,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     NgbModule,
     NgMarqueeModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

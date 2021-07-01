@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { CountryISO, SearchCountryField } from 'ngx-intl-tel-input';
 import { ContactService } from '../contact.service';
 
 @Component({
@@ -8,6 +9,11 @@ import { ContactService } from '../contact.service';
   styleUrls: ['./detail-contact-us.component.css']
 })
 export class DetailContactUsComponent implements OnInit {
+  separateDialCode = false;
+	SearchCountryField = SearchCountryField;
+	// tooltipLabel = TooltipLabel;
+	CountryISO = CountryISO;
+	preferredCountries: CountryISO[] = [CountryISO.UnitedStates, CountryISO.UnitedKingdom];
   emailForm = new FormGroup({
     fName: new FormControl('', Validators.required),
     company: new FormControl('', Validators.required),

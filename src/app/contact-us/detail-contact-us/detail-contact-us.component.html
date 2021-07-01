@@ -1,15 +1,15 @@
 <div class="" id="contactimg">
- 
+
 
 
   <div class="row padding-left padding-right" style="background-color: #f5f7f7">
     <div class="col-8">
       <form [formGroup]="emailForm" (ngSubmit)="createEmail()">
-      <p>
-        Drop us a line, and our representative will contact you to arrange an initial
-        discussion.
-      </p>
-     
+        <p>
+          Drop us a line, and our representative will contact you to arrange an initial
+          discussion.
+        </p>
+
         <div class="row pt-4" id="field">
           <div class="col-3">
             <input class="form-control" placeholder="Full Name" type="text" formControlName="fName" />
@@ -21,51 +21,57 @@
             <input class="form-control" placeholder="Work Email" type="text" formControlName="workEmail" />
           </div>
           <div class="col-3">
-            <input class="form-control" placeholder="Work Phone" type="text" formControlName="workPhone" />
+            <!-- <input class="form-control" placeholder="Work Phone" type="text" formControlName="workPhone" /> -->
+            <ngx-intl-tel-input class="wrapper" [enableAutoCountrySelect]="true" [enablePlaceholder]="true"
+              [searchCountryFlag]="true" [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]"
+              [selectFirstCountry]="false" [selectedCountryISO]="CountryISO.Pakistan" [phoneValidation]="true"
+              [separateDialCode]="separateDialCode" formControlName="workPhone">
+            </ngx-intl-tel-input>
           </div>
         </div>
-     
 
-      <div class="row pt-4">
-        <div class="col-12">
-          <textarea class="form-control" name="" id="" cols="20" rows="7" placeholder="How can we help you?" formControlName="description"></textarea>
-        </div>
-        <div class="row mt-4">
+
+        <div class="row pt-4">
           <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-              <label class="form-check-label" for="flexCheckDefault">
-                I agree to have Perception IT contact me via email, phone,
-                messenger.
-              </label>
-            </div>
-            <div class="form-check mt-3">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-              <label class="form-check-label" for="flexCheckDefault">
-                I agree to have Perception IT provide my request information to
-                Perception IT affiliated development center.
-              </label>
-            </div>
-            <p class="mt-4" id="p-text">
-              In compliance with GDPR your personal information will be
-              collected and stored for ten years on servers located in the
-              United States. After this term is expired, your information will
-              be erased.
-            </p>
+            <textarea class="form-control" name="" id="" cols="20" rows="7" placeholder="How can we help you?"
+              formControlName="description"></textarea>
           </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col pt-2" style="
+          <div class="row mt-4">
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                  I agree to have Perception IT contact me via email, phone,
+                  messenger.
+                </label>
+              </div>
+              <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                  I agree to have Perception IT provide my request information to
+                  Perception IT affiliated development center.
+                </label>
+              </div>
+              <p class="mt-4" id="p-text">
+                In compliance with GDPR your personal information will be
+                collected and stored for ten years on servers located in the
+                United States. After this term is expired, your information will
+                be erased.
+              </p>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col pt-2" style="
               display: flex;
               justify-content: center;
               align-items: center;
               width: 100%;
             ">
-            <button class="btn " style="background-color: #1D2957; color: white;" > Contact Us</button>
+              <button class="btn " style="background-color: #1D2957; color: white;"> Contact Us</button>
+            </div>
           </div>
         </div>
-      </div>
-    </form>
+      </form>
     </div>
     <div class="col-4 padding-left padding-right">
       <h5 class="pt-4" style="font-weight: bold">Perception IT Pakistan</h5>
