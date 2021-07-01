@@ -14,7 +14,7 @@ var projectsData = [
   {
     industry: 'System Integrator',
     softwareProducts: 'IBM Tivoli Network Monitoring (ITNM)',
-    technologies: 'SNMP, Websphere',
+    technologies: 'SNMP, WebSphere',
     client: 'Orb Data',
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), ITNM',
     summary: 'Manage and Integrate ITNM software along with nodes',
@@ -49,7 +49,7 @@ var projectsData = [
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
-      '	IBM Cognos Custom reports development and data analytics.Birt Custom automated report creation',
+      '	IBM Cognos Custom reports development and data analytics. Birt Custom automated report creation',
     image: '../../../../../../assets/img/project-1.svg',
     route: '/more/more-icab',
   },
@@ -67,18 +67,18 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'Netcool Omnibus',
-    technologies: 'Websphere, IBM-DB2, Perl, Shell, Java, Impact',
+    technologies: 'WebSphere, IBM-DB2, Perl, Shell, Java, Impact',
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
-      'Netcool Omnibus/Impact,Telco alarm monitoring, corelating and ticket creation.Alarms are received from multiple network monitoring systems that include (Huawei, Ericsson, ZTE, Nokia, etc.) on Netcool Omnibus, these are correlated according to the policies implemented in Impact and are sent to Maximo for ticketing according to relevant criteria. These tickets are then processed in automated alerts via email, sms and call via third party solution.',
+      'Netcool Omnibus/Impact, Telco alarm monitoring, corelating and ticket creation. Alarms are received from multiple network monitoring systems that include (Huawei, Ericsson, ZTE, Nokia, etc.) on Netcool Omnibus, these are correlated according to the policies implemented in Impact and are sent to Maximo for ticketing according to relevant criteria. These tickets are then processed in automated alerts via email, SMS and call via third party solution.',
     image: '../../../../../../assets/img/project-1.svg',
     route: '/more/more-jazzno',
   },
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Service Desk',
-    technologies: 'Websphere, IBM-DB2, Java, Python, Perl',
+    technologies: 'WebSphere, IBM-DB2, Java, Python, Perl',
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -90,10 +90,10 @@ var projectsData = [
     industry: 'Textile & Manufacturer',
     softwareProducts: 'Hardware Support Services',
     technologies: 'Lenovo Servers',
-    client: 'Ibrahim Fibre',
+    client: 'Ibrahim Fibres',
     title: 'Hardware Server Service Level Agreement',
     summary:
-      'Ibrahim Fibre is hosting their critical business application on Lenovo Servers. Since these servers are out of warranty and support.Therefore,they requested to provide hardware support service of these 48 servers including preventive maintenance, fix packs patch upgrades or ant other hardware level issue like RAM, Hard Drives, Network Card o Motherboard and other associated issues.',
+      'Ibrahim Fibres is hosting their critical business application on Lenovo Servers. Since these servers are out of warranty and support. Therefore,they requested to provide hardware support service of these 48 servers including preventive maintenance, fix packs patch upgrades or ant other hardware level issue like RAM, Hard Drives, Network Card o Motherboard and other associated issues.',
     image: '../../../../../../assets/img/project-3.svg',
     route: '/more/more-industry',
   },
@@ -112,7 +112,7 @@ var projectsData = [
   {
     industry: 'Financial Services',
     softwareProducts: 'Advance Industry Metrics',
-    technologies: 'Firebase Authentication, Flutter, MySql, Redis, Angular, Sequelize, Node.Js, FCM cloud messaging, RSA Encryption',
+    technologies: 'Firebase Authentication, Flutter, MySQL, Redis, Angular, Sequelize, NodeJS, FCM cloud messaging, RSA Encryption',
     client: 'Dominic Clover',
     title: 'Advance Industry Metrics for Law Firms',
     summary:
@@ -127,7 +127,7 @@ var projectsData = [
     client: 'Orb Data',
     title: 'Ops Alert',
     summary:
-      '	OpsAlert is a cloud platform for enterprise monitoring.  It aims to both complement and act as a replacement or alternative for customers using IBM Netcool Operations Insight.OpsAlert intends to differentiate itself from other products in the market by Lowering the cost of enterprise monitoring,	Integrating non-traditional data into the monitoring environment,	Not being restricted by the volume of data being ingested,	Applying AI to automate the processing of data Providing enhanced service status visibility  ',
+      '	Ops Alert is a cloud platform for enterprise monitoring.  It aims to both complement and act as a replacement or alternative for customers using IBM Netcool Operations Insight. Ops Alert intends to differentiate itself from other products in the market by Lowering the cost of enterprise monitoring,	Integrating non-traditional data into the monitoring environment,	Not being restricted by the volume of data being ingested,	Applying AI to automate the processing of data Providing enhanced service status visibility  ',
     image: '../../../assets/Dia/rentid.png',
     route: '/more/more-it',
   },
