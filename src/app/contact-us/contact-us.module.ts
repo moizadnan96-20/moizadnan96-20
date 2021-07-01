@@ -16,6 +16,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     
 
     SharedModule
-  ]
+  ], exports: [DetailContactUsComponent]
 })
 export class ContactUsModule { }

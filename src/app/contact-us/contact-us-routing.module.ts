@@ -6,7 +6,7 @@ import { ContactUsComponent } from './contact-us.component';
 const routes: Routes = [
   {
     path: '',
-    component: DetailContactUsComponent
+    component: ContactUsComponent
   }
 ];
 

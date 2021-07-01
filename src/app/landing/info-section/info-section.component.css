@@ -95,7 +95,7 @@ ngb-carousel img {
    
   }
  
-  @media (max-width:775px){
+  @media only screen and (max-width: 775px) and (min-width: 300px){
 
     .carousel-control-prev-icon{
       margin-right: 33px ;
@@ -111,13 +111,14 @@ ngb-carousel img {
       
     }
     #imageHeight{
-      height: 160px;
+      height: 160px !important;
     }
     
   }
+  
   #imageHeight{
     height: 500px;
-    /* height: 80vh */
+
     
   }
 
