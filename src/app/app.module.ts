@@ -12,6 +12,7 @@ import { NgMarqueeModule } from 'ng-marquee';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -22,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SharedModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    
+    BsDropdownModule.forRoot()
     
   ],
   providers: [],

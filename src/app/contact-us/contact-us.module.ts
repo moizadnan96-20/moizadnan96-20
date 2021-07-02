@@ -7,6 +7,8 @@ import { ContactUsComponent } from './contact-us.component';
 import { DetailContactUsComponent } from './detail-contact-us/detail-contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -16,7 +18,8 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
     ContactUsRoutingModule,
     ReactiveFormsModule,
     NgxIntlTelInputModule,
-
+    BsDropdownModule,
+    NgbModule,
     
 
     SharedModule

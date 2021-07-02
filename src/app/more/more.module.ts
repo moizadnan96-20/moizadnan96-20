@@ -47,17 +47,24 @@ import { MoreITComponent } from './more-it/more-it.component';
 import { MoreItProjectInfoComponent } from './more-it/more-it-project-info/more-it-project-info.component';
 import { MoreItQuestionSectionComponent } from './more-it/more-it-question-section/more-it-question-section.component';
 import { ContactUsModule } from '../contact-us/contact-us.module';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
 
-
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
-  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent, MoreItnmComponent, MoreQuestionComponent, MoreProjectInfoComponent, MoreNetcoolComponent, MoreJazzsmComponent, MoreIcabComponent, MoreIcabProjectInfoComponent, MoreIcabQuestionSectionComponent, MoreJazzitmComponent, MoreJazzitmProjectInfoComponent, MoreJazzitmQuestionSectionComponent, MoreJazznoComponent, MoreJazznoProjectInfoComponent, MoreJazznoQuestionSectionComponent, MoreJazzisdComponent, MoreJazzisdProjectInfoComponent, MoreJazzisdQuestionSectionComponent, MoreJazzsmProjectInfoComponent, MoreJazzsmQuestionSectionComponent, MoreNetcoolProjectInfoComponent, MoreNetcoolQuestionSectionComponent, MorePublicServiceComponent, MorePublicServiceProjectInfoComponent, MorePublicServiceQuestionSectionComponent, MoreFinanicalComponent, MoreFinanicalProjectInfoComponent, MoreFinanicalQuestionSectionComponent, MoreITComponent, MoreItProjectInfoComponent, MoreItQuestionSectionComponent ],
+  declarations: [MoreListComponent, ProjectsInfoComponent, MoreQuestionSectionComponent, MoreComponent, MoreBankingComponent, MoreBankingProjectInfoComponent, MoreBankingQuestionsComponent, MoreIndustryComponent, MoreIndustryProjectInfoComponent, MoreIndustryQuestionsComponent, MoreItnmComponent, MoreQuestionComponent, MoreProjectInfoComponent, MoreNetcoolComponent, MoreJazzsmComponent, MoreIcabComponent, MoreIcabProjectInfoComponent, MoreIcabQuestionSectionComponent, MoreJazzitmComponent, MoreJazzitmProjectInfoComponent, MoreJazzitmQuestionSectionComponent, MoreJazznoComponent, MoreJazznoProjectInfoComponent, MoreJazznoQuestionSectionComponent, MoreJazzisdComponent, MoreJazzisdProjectInfoComponent, MoreJazzisdQuestionSectionComponent, MoreJazzsmProjectInfoComponent, MoreJazzsmQuestionSectionComponent, MoreNetcoolProjectInfoComponent, MoreNetcoolQuestionSectionComponent, MorePublicServiceComponent, MorePublicServiceProjectInfoComponent, MorePublicServiceQuestionSectionComponent, MoreFinanicalComponent, MoreFinanicalProjectInfoComponent, MoreFinanicalQuestionSectionComponent, MoreITComponent, MoreItProjectInfoComponent, MoreItQuestionSectionComponent],
   imports: [
     CommonModule,
     MoreRoutingModule,
     SharedModule,
-    ContactUsModule
+    ContactUsModule,
+    ReactiveFormsModule,
+    NgxIntlTelInputModule,
+    BsDropdownModule,
+    NgbModule
 
   ]
 })

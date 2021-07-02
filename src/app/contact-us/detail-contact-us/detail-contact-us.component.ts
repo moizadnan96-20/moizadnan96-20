@@ -27,7 +27,7 @@ export class DetailContactUsComponent implements OnInit {
   }
  async createEmail(){
     console.log(this.emailForm.value);
-   const response = await this.service.addEmail(this.emailForm.value);
+   const response = await this.service.addEmail({...this.emailForm.value, workPhone: this.emailForm.value.workPhone.e164Number});
    console.log(response);
    
     
