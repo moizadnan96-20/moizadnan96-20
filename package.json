@@ -24,6 +24,7 @@
     "bootstrap": "^5.0.0-beta2",
     "font-awesome": "^4.7.0",
     "google-libphonenumber": "^3.2.21",
+    "intl-tel-input": "^17.0.13",
     "ng-marquee": "^9.5.0",
     "ngx-intl-tel-input": "^3.1.1",
     "rxjs": "~6.6.0",

@@ -8,6 +8,7 @@ import { DetailContactUsComponent } from './detail-contact-us/detail-contact-us.
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
 
+
 @NgModule({
   declarations: [ContactUsComponent, DetailContactUsComponent],
   imports: [
@@ -15,6 +16,7 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
     ContactUsRoutingModule,
     ReactiveFormsModule,
     NgxIntlTelInputModule,
+
     
 
     SharedModule
