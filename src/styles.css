@@ -313,6 +313,7 @@ section {
   color: #5f687b;
   position: relative;
   z-index: 2;
+
 }
 
 .section-title span {
@@ -343,4 +344,22 @@ section {
   .section-title span {
     font-size: 38px;
   }
+}
+.title-new {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.title-new h2 {
+  font-size: 22px;
+  /* font-weight: 700; */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #5f687b;
+  position: relative;
+  z-index: 2;
+  font-family: "SFPro"
+
 }

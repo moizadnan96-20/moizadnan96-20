@@ -10,10 +10,13 @@ import { ContactService } from '../contact.service';
 })
 export class DetailContactUsComponent implements OnInit {
   separateDialCode = false;
-	SearchCountryField = SearchCountryField;
-	// tooltipLabel = TooltipLabel;
-	CountryISO = CountryISO;
-	preferredCountries: CountryISO[] = [CountryISO.UnitedStates, CountryISO.UnitedKingdom];
+  SearchCountryField = SearchCountryField;
+  // tooltipLabel = TooltipLabel;
+  CountryISO = CountryISO;
+
+
+
+  preferredCountries: CountryISO[] = [CountryISO.UnitedStates, CountryISO.UnitedKingdom];
   emailForm = new FormGroup({
     fName: new FormControl('', Validators.required),
     company: new FormControl('', Validators.required),
@@ -21,15 +24,23 @@ export class DetailContactUsComponent implements OnInit {
     workPhone: new FormControl('', Validators.required),
     description: new FormControl('', Validators.required),
   });
-  constructor(private service:ContactService) { }
+  constructor(private service: ContactService) { }
 
   ngOnInit(): void {
   }
- async createEmail(){
+  async createEmail() {
     console.log(this.emailForm.value);
-   const response = await this.service.addEmail({...this.emailForm.value, workPhone: this.emailForm.value.workPhone.e164Number});
-   console.log(response);
-   
-    
+    try {
+      const response = await this.service.addEmail({ ...this.emailForm.value, workPhone: this.emailForm.value.workPhone.e164Number });
+      console.log(response);
+      this.emailForm.reset()
+
+    } catch (error) {
+      console.log(error);
+
+    }
+
+
+
   }
 }
