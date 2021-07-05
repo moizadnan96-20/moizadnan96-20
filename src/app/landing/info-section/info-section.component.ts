@@ -24,7 +24,7 @@ export class InfoSectionComponent implements OnInit {
     },
     {
       imageURL: '../../../assets/carsole/(N)IT CONSULTANCY 750 H x 2200 w.svg',
-      route: '/consulting '
+      route: '/consulting'
     },
     {
       imageURL: '../../../assets/carsole/(N)DEV OPS 750 H x 2200 w.svg',
