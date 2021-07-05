@@ -22,9 +22,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ProjectsPageRoutingModule,
     SharedModule,
     ContactUsModule,
-    NgxIntlTelInputModule,
+    //NgxIntlTelInputModule,
     ReactiveFormsModule,
-    BsDropdownModule,
+   // BsDropdownModule,
     NgbModule
   ]
 })

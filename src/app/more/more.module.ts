@@ -48,9 +48,9 @@ import { MoreItProjectInfoComponent } from './more-it/more-it-project-info/more-
 import { MoreItQuestionSectionComponent } from './more-it/more-it-question-section/more-it-question-section.component';
 import { ContactUsModule } from '../contact-us/contact-us.module';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+//import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
 
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+//import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -62,8 +62,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     SharedModule,
     ContactUsModule,
     ReactiveFormsModule,
-    NgxIntlTelInputModule,
-    BsDropdownModule,
+    //NgxIntlTelInputModule,
+    //BsDropdownModule,
     NgbModule
 
   ]
