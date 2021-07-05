@@ -19,7 +19,7 @@ ngb-carousel img {
     display: flex !important;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 1.2s ease-in-out, visibility 1.2s;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
     z-index: -1;
    
 }
