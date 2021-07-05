@@ -1,20 +1,33 @@
 <div class="row" id="main">
-  <div class="col-md-6 col-xs-12 first-div">
-    <!-- <h1
+  <!-- <div class="col-md-6 col-xs-12 first-div">
+    <h1
       class="first-h2 padding-left first-padding-right"
       style="padding-top: 140px"
     >
       Explore the hallmark examples of our work.
-    </h1> -->
+    </h1>
     <img src="../../../assets/carsole/part 1 Project page.svg" id="#first-img" alt="" />
   </div>
   <div class="col-md-6 col-xs-12 p-0">
     <img src="../../../assets/carsole/part 2 Project page – 1.svg" id="#first-img" alt="" />
   </div>
-  <!-- <div class="col-lg-6 "><img src="../../../assets/carsole/P1 Projects 960 ×700- 2- july-21.svg" class="img-fluid ">
+  <div class="col-lg-6 "><img src="../../../assets/carsole/P1 Projects 960 ×700- 2- july-21.svg" class="img-fluid ">
   </div>
   <div class="col-lg-6"><img src="../../../assets/carsole/P2 Projects 960 ×700- 2- july-21.svg" class="img-fluid ">
   </div> -->
+  <div class="col-lg-12 backgroundColor" *ngIf="width" >
+    <h1 class="first-h2 padding-left  " style="padding-top: 230px">
+      Explore the hallmark examples of our work.
+    </h1>
+  </div>
+  <div class="col-lg-12" *ngIf="!width" >
+    <img src="../../../assets/img/projectpage (1).webp" alt="" class=" mobileView">
+  </div>
+  <div class="col-lg-12" *ngIf="!width" >
+    <h1 class="first-h2 padding-left padding-right " style="padding-top: 100px; background-color: #070415;">
+      Explore the hallmark examples of our work.
+    </h1>
+  </div>
 
 </div>
 <div class="row">
