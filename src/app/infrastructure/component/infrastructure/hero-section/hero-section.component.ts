@@ -12,7 +12,16 @@ export class HeroSectionComponent implements OnInit {
   header: any;
   linkTab: any;
   linkTabOfset: any;
-
+  public innerWidth: any;
+  public width = false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+  }
   @HostListener('window:scroll', ['$event'])
   onScrollEvent($event: any) {
     if (window.pageYOffset + this.header > this.linkTabOfset) {
