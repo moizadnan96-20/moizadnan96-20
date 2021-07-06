@@ -37,6 +37,12 @@ export class HeroSectionComponent implements OnInit {
     this.linkTab = document.getElementById("links-tab");
     this.linkTabOfset = this.linkTab?.offsetTop;
     this.header = document.getElementById("header")?.offsetHeight;
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+    
   }
 
   scroll(el: any) {
