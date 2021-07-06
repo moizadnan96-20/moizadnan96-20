@@ -106,7 +106,8 @@ var projectsData = [
     title: 'Property management software and letting agency services for residential landlords, property managers and tenants.',
     summary:
       'Property management software and letting agency services for residential landlords, property managers and tenants.',
-    image: '../../../assets/Dia/rentid.png',
+    //image: '../../../assets/Dia/rentid.png',
+    image:'../../../../../../assets/img/project-2.svg',
     route: '/more/more-public-service',
   },
   {
@@ -117,7 +118,8 @@ var projectsData = [
     title: 'Advance Industry Metrics for Law Firms',
     summary:
       'AIM which stands for advance industry metrics is designed to organization to submit their progress and compare their progress with industry average. Primary goal is to submit their data in encrypted form so no one can see their data other than organization itself.',
-    image: '../../../assets/Dia/rentid.png',
+    //image: '../../../assets/Dia/rentid.png',
+    image:'../../../../../../assets/img/project-2.svg',
     route: '/more/more-finanical',
   },
   {
@@ -128,7 +130,8 @@ var projectsData = [
     title: 'Ops Alert',
     summary:
       '	Ops Alert is a cloud platform for enterprise monitoring.  It aims to both complement and act as a replacement or alternative for customers using IBM Netcool Operations Insight. Ops Alert intends to differentiate itself from other products in the market by Lowering the cost of enterprise monitoring,	Integrating non-traditional data into the monitoring environment,	Not being restricted by the volume of data being ingested,	Applying AI to automate the processing of data Providing enhanced service status visibility  ',
-    image: '../../../assets/Dia/rentid.png',
+    //image: '../../../assets/Dia/rentid.png',
+    image:'../../../../../../assets/img/project-2.svg',
     route: '/more/more-it',
   },
 ];
