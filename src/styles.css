@@ -60,6 +60,18 @@ body{
   font-family: "IBMPlexSerif-ExtraLight";
   src: local("IBMPlexSerif-ExtraLight"), url(./assets/fonts/IBMPlexSerif-ExtraLight.ttf) format("truetype");
 }
+@font-face {
+  font-family: "SF-Compact";
+  src: local("SF-Compact"), url(./assets/fonts/SF-Compact.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Compact-UltraLight";
+  src: local("SF-Compact-UltraLight"), url(./assets/fonts/SF-Compact-Display-Ultralight.otf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Compact-Thin";
+  src: local("SF-Compact-Thin"), url(./assets/fonts/SF-Compact-Display-Thin.otf) format("truetype");
+}
 
 .sticky {
   position: fixed;

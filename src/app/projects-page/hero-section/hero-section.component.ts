@@ -14,7 +14,7 @@ export class HeroSectionComponent implements OnInit {
   public width = false;
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
-    if (window.innerWidth >= 300) {
+    if (window.innerWidth <= 1100) {
       this.width = true;
     } else {
       this.width = false;
@@ -35,6 +35,11 @@ export class HeroSectionComponent implements OnInit {
     this.linkTab = document.getElementById("links-tab");
     this.linkTabOfset = this.linkTab?.offsetTop;
     this.header = document.getElementById("header")?.offsetHeight;
+    if(window.innerWidth<=1100){
+      this.width=true;
+    }else{
+      this.width=false;
+    }
   }
 
 }
