@@ -369,7 +369,8 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5f687b;
+  /* color: #5f687b; */
+  color: #929191;
   position: relative;
   z-index: 2;
   font-family: "SFPro"
