@@ -9,6 +9,16 @@ export class DevopHeroComponent implements OnInit {
   header: any;
   linkTab: any;
   linkTabOfset: any;
+  public innerWidth: any;
+  public width = false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+  }
   @Output() public childevent=new EventEmitter()
   @HostListener('window:scroll', ['$event'])
   onScrollEvent($event: any) {

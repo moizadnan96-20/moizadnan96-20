@@ -35,11 +35,21 @@
         </div>
       </div>
     </div> -->
-    <div class="col-lg-6 col-xs-12 ">
+    <!--<div class="col-lg-6 col-xs-12 ">
       <img src="../../../../../assets/carsole/Part 1 of 2 DEV OPS 670 H x 2200 w.svg" class="img-fluid" alt="" />
     </div>
     <div class="col-lg-6 col-xs-12 ">
       <img src="../../../../../assets/carsole/Part 2 of 2 DEV OPS 670 H x 2200 w – 4.svg" class="img-fluid" alt="" />
+    </div>-->
+    <div class="col-lg-12 " *ngIf="!width">
+        <img src="../../../../../assets/Dia/DEV OPS- Main page 1920 × 750 – 5.svg" alt="" class="d-block w-100" style="height:80vh; ">
+    </div>
+    <div class="col-lg-12 mobileView" *ngIf="width">
+      <img src="../../../../../assets/Dia/DEV OPS PHONE 1- 960 × 666 – 1.svg" alt="" class=" mobileView">
+      
+    </div>
+    <div class="col-lg-12" *ngIf="width">
+        <img src="../../../../../assets/Dia/DEV OPS PHONE 2- 960 × 560 – 1.svg" alt="" class=" mobileView">
     </div>
   </div>
   <div class="page-heading padding-right padding-left margin-top-3">
