@@ -67,7 +67,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'Netcool Omnibus',
-    technologies: 'WebSphere, IBM-DB2, Perl, Shell, Java, Impact',
+    technologies: 'Websphere, IBM-DB2, Perl, Shell, Java, Impact',
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -78,7 +78,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Service Desk',
-    technologies: 'WebSphere, IBM-DB2, Java, Python, Perl',
+    technologies: 'Websphere, IBM-DB2, Java, Python, Perl',
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -113,7 +113,7 @@ var projectsData = [
   {
     industry: 'Financial Services',
     softwareProducts: 'Advance Industry Metrics',
-    technologies: 'Firebase Authentication, Flutter, MySQL, Redis, Angular, Sequelize, NodeJS, FCM cloud messaging, RSA Encryption',
+    technologies: 'Firebase Authentication, Flutter, MySql, Redis, Angular, Sequelize, Node.Js, FCM cloud messaging, RSA Encryption',
     client: 'Dominic Clover',
     title: 'Advance Industry Metrics for Law Firms',
     summary:

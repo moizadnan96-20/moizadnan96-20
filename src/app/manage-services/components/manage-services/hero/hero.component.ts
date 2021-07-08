@@ -18,6 +18,16 @@ export class HeroComponent implements OnInit {
   linkTabOfset: any;
   element:any
 
+  public innerWidth: any;
+  public width = false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+  }
  @Output() public childevent=new EventEmitter()
 
   @HostListener('window:scroll', ['$event'])
