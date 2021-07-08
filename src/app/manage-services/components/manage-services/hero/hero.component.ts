@@ -16,30 +16,34 @@ export class HeroComponent implements OnInit {
   header: any;
   linkTab: any;
   linkTabOfset: any;
+  element:any
 
  @Output() public childevent=new EventEmitter()
 
   @HostListener('window:scroll', ['$event'])
-  onScrollEvent($event: any) {
-    if (window.pageYOffset + this.header > this.linkTabOfset) {
-      this.linkTab.classList.add("sticky");
-
-
+  onWindowScroll(e:any){
+    if (window.pageYOffset  > 500) {
+     this.element  = document.getElementById('links-tab');
+     this.element.classList.add('sticky');
+     console.log(this.element);
+     
+     
     } else {
-      this.linkTab.classList.remove("sticky");
-
+      this.element  = document.getElementById('links-tab');
+     this.element.classList.remove('sticky');
+     console.log(this.element);
     }
-
   }
+
 
   constructor() {
 
   }
 
   ngOnInit(): void {
-    this.linkTab = document.getElementById("links-tab");
-    this.linkTabOfset = this.linkTab?.offsetTop;
-    this.header = document.getElementById("header")?.offsetHeight;
+    // this.linkTab = document.getElementById("links-tab");
+    // this.linkTabOfset = this.linkTab?.offsetTop;
+    // this.header = document.getElementById("header")?.offsetHeight;
   }
 
 

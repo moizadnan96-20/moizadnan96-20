@@ -6,6 +6,7 @@ declare const scrollTOEl: any;
   styleUrls: ['./hero-section.component.css']
 })
 export class HeroSectionComponent implements OnInit {
+  element:any
   header: any;
   linkTab: any;
   linkTabOfset: any;
@@ -21,13 +22,20 @@ export class HeroSectionComponent implements OnInit {
   }
   @Output() public childevent=new EventEmitter()
   @HostListener('window:scroll', ['$event'])
-  onScrollEvent($event: any) {
-    if (window.pageYOffset + this.header > this.linkTabOfset) {
-      this.linkTab.classList.add("sticky");
+  onWindowScroll(e:any){
+    if (window.pageYOffset  > 500) {
+     this.element  = document.getElementById('links-tab');
+     this.element.classList.add('sticky');
+     console.log(this.element);
+     
+     
     } else {
-      this.linkTab.classList.remove("sticky");
+      this.element  = document.getElementById('links-tab');
+     this.element.classList.remove('sticky');
+     console.log(this.element);
     }
   }
+
 
   constructor() { }
 

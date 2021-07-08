@@ -18,14 +18,14 @@
   <img src="../../../../../assets/carsole/IT support 1 960 ×700.svg" alt="" class=" mobileView">
   </div>
   <div class="col-lg-12" *ngIf="width">
-      <img src="../../../../../assets/carsole/support 2 - 960 × 654.svg" alt="" class=" mobileView">
+      <img src="../../../../../assets/carsole/support 2 - 960 × 654.svg" alt="" class=" mobileView" >
   </div>
 </div>
 <div class="page-heading padding-left padding-right margin-top-3">
   <h3 class="pb-1">Infrastructure Support</h3>
 
 </div>
-<div class="links-tab padding-left third border-bottom-1" id="links-tab">
+<div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)">
   <div class="social-links">
     <a (click)="scroll('#Expertise')" class="align-middle ">
       <h5 class="third-h5">Infrastructure Expertise</h5>
