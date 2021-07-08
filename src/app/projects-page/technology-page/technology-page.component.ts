@@ -51,7 +51,7 @@ export class TechnologyPageComponent implements OnInit {
       this.clicked11 =false;
       this.filterData = projectsData.filter((cat) => cat.technologies == c);
       console.log(this.filterData);
-    } else if (c === 'SNMP, Websphere') {
+    } else if (c === 'SNMP, WebSphere') {
       this.clicked1 = false;
       this.clicked2 = true;
       this.clicked4 = false;
