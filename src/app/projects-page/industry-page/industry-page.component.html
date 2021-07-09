@@ -1,9 +1,9 @@
 <div class="row">
-  <div class="col-lg-1" style="margin-top: 10px">
+  <div class="col-lg-1" >
     <a style="font-weight: bold; padding-left: 15px">Filter by:</a>
   </div>
 
-  <div class="col-lg-11 active-link" style="margin-top: 10px">
+  <div class="col-lg-11 active-link" >
     <a
       class="btn btn-primary main"
       [ngClass]="{ 'active-linked': clicked4 }"
@@ -66,8 +66,8 @@ Information Technology
   <div class="col-3">
     <img [src]="project.image" alt="" class="image fluid" style="width: 100%" />
   </div>
-  <div class="col-9">
-    <p class="mb-4 mt-3" style="line-height: 35px">
+  <div class="col-9 mt-3">
+    <p  style="line-height: 35px">
       <strong>Industry: {{ project.industry }}</strong> <br />
       <strong> Software Products: {{ project.softwareProducts }} </strong>
       <br />
@@ -82,7 +82,7 @@ Information Technology
     <p style="line-height: 35px">
       {{ project.summary }}
     </p>
-    <div class="d-flex flex-row-reverse" id="more-button" style="padding-bottom:20px ;" >
+    <div class="d-flex flex-row-reverse mb-3" id="more-button" >
      <!-- <p
         style="
           margin-top: 15px;
