@@ -14,9 +14,10 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TestingComponent } from './testing/testing.component';
 
 @NgModule({
-  declarations: [HeroSectionComponent, ProjectsPageComponent, IndustryPageComponent, SoftwareProductsPageComponent, TechnologyPageComponent, HelpPageComponent],
+  declarations: [HeroSectionComponent, ProjectsPageComponent, IndustryPageComponent, SoftwareProductsPageComponent, TechnologyPageComponent, HelpPageComponent, TestingComponent],
   imports: [
     CommonModule,
     ProjectsPageRoutingModule,
