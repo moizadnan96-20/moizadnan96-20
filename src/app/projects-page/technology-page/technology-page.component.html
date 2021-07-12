@@ -4,16 +4,17 @@
   </div>
 
   <div class="col-lg-11 active-link">
-    <a class="btn btn-primary main" [ngClass]="{ 'active-linked': clicked4 }" (click)="onClickAllData()"
+    <a class="btn btn-primary main" [ngClass]="{ 'active-linked':  activeValue == 'All' }" (click)="onClickAllData()"
       style="margin-bottom: 10px">
       All
     </a>
-    <div *ngFor="let c of projects">
-      <a class="btn btn-primary main " (click)="onClickForFilter(t)" *ngFor="let t of c.technologies"
-        [ngClass]="{ 'active-linked': t == activeValue }">
-        {{ t }}
+    <span >
+      <a class="btn btn-primary main " (click)="onClickForFilter(t)" *ngFor="let t of filters; "
+        [ngClass]="{ 'active-linked': t == activeValue }" style="margin-bottom: 10px">
+        {{ t }} 
       </a>
-    </div>
+    </span>
+
 
     <!-- <a
       class="btn btn-primary main"

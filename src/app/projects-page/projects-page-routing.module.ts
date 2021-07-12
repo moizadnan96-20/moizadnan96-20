@@ -4,7 +4,7 @@ import { IndustryPageComponent } from './industry-page/industry-page.component';
 
 import { SoftwareProductsPageComponent } from './software-products-page/software-products-page.component';
 import { TechnologyPageComponent } from './technology-page/technology-page.component';
-import { TestingComponent } from './testing/testing.component';
+
 
 const routes: Routes = [
   {
@@ -19,10 +19,7 @@ const routes: Routes = [
     path: 'technology',
     component: TechnologyPageComponent,
   },
-  {
-    path: 'testing',
-    component: TestingComponent,
-  },
+  
 ];
 
 @NgModule({
