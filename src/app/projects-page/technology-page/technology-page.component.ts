@@ -8,8 +8,9 @@ declare const scrollTOEl: any;
   styleUrls: ['./technology-page.component.css'],
 })
 export class TechnologyPageComponent implements OnInit {
-  projects:any =[]
-  activeValue: string =''
+  projects: any = [];
+  filters: any = []
+  activeValue: string = ''
   clicked1: boolean = false;
   clicked2: boolean = false;
   clicked3: boolean = false;
@@ -22,9 +23,9 @@ export class TechnologyPageComponent implements OnInit {
   clicked9: boolean = false;
   clicked10: boolean = false;
   clicked11: boolean = false;
-  filterData: any;
- 
- 
+  filterData: any = [];
+
+
 
   constructor() {
     this.projects = projectsData
@@ -37,195 +38,36 @@ export class TechnologyPageComponent implements OnInit {
   scroll(el: any) {
     scrollTOEl(el);
   }
-  
+
 
   onClickForFilter(c: any) {
     console.log(c);
+    this.clicked4 = false;
     this.activeValue = c
     this.filterData = projectsData.filter((cat) => cat.technologies.includes(c));
-    
-      console.log(this.filterData);
 
-    // if (c === 'IBM DB-2, Regex') {
-    //   this.clicked1 = true;
-    //   this.clicked2 = false;
-    //   this.clicked4 = false;
-    //   this.clicked3 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // } else if (c === 'SNMP, WebSphere') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = true;
-    //   this.clicked4 = false;
-    //   this.clicked3 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // } else if (c === 'Perl, Shell, Java, SQL, IBM DB-2') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = true;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // } else if (c === 'IBM-DB2, SQL') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = true;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
+    console.log(this.filterData);
 
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // } else if (c === 'Tivoli Datawarehouse, IBM-DB2') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = true;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
 
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // } else if (c === 'Websphere, IBM-DB2, Perl, Shell, Java, Impact') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = true;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
-
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // } else if (c === 'Websphere, IBM-DB2, Perl, Shell, Java, Impact') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = true;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
-
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // }
-    // else if (c === 'Websphere, IBM-DB2, Java, Python, Perl') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = true;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
-
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // }else if (c === 'Angular, Ionic, Firebase') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = true;
-    //   this.clicked10 =false;
-    //   this.clicked11 =false;
-
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // }
-    // else if (c === 'Firebase Authentication, Flutter, MySql, Redis, Angular, Sequelize, Node.Js, FCM cloud messaging, RSA Encryption') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =true;
-    //   this.clicked11 =false;
-
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // }else if (c === 'Angular, Java Spring Framework (Boot, JPA, Messaging), Hibernate, PostgreSQL, PrimeNg, LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices), Kafka (consumer, listener, streams), Cassandra (for big data), Jenkins (for CI/CD pipelines), Kubernetes (for service discovery, scaling and managing), Node ') {
-    //   this.clicked1 = false;
-    //   this.clicked2 = false;
-    //   this.clicked3 = false;
-    //   this.clicked4 = false;
-    //   this.clicked5 = false;
-    //   this.clicked6 = false;
-    //   this.clicked7 = false;
-    //   this.clicked8 = false;
-    //   this.clicked9 = false;
-    //   this.clicked10 =false;
-    //   this.clicked11 =true;
-
-    //   this.filterData = projectsData.filter((cat) => cat.technologies == c);
-    //   console.log(this.filterData);
-    // }
-    
   }
   onClickAllData() {
-    this.filterData = projectsData;
-    this.clicked1 = false;
-    this.clicked2 = false;
-    this.clicked3 = false;
-    this.clicked4 = true;
-    this.clicked5 = false;
-    this.clicked6 = false;
-    this.clicked7 = false;
-    this.clicked8 = false;
-    this.clicked9 = false;
-    this.clicked10 =false;
-    this.clicked11 =false;
-    
+    this.activeValue = 'All'
+    this.projects.map((el: any) => {
+      console.log(el);
+
+      el.technologies.map((e2: any) => {
+        console.log(e2);
+
+        if (!this.filters.includes(e2)) {
+
+          this.filters.push(e2)
+        }
+      })
+    })
+    this.filterData = this.projects
+
+   
+
+
   }
 }

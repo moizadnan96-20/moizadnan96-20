@@ -10,14 +10,14 @@ import { SoftwareProductsPageComponent } from './software-products-page/software
 import { TechnologyPageComponent } from './technology-page/technology-page.component';
 import { HelpPageComponent } from './help-page/help-page.component';
 import { ContactUsModule } from '../contact-us/contact-us.module';
-import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+
 import { ReactiveFormsModule } from '@angular/forms';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { TestingComponent } from './testing/testing.component';
+
 
 @NgModule({
-  declarations: [HeroSectionComponent, ProjectsPageComponent, IndustryPageComponent, SoftwareProductsPageComponent, TechnologyPageComponent, HelpPageComponent, TestingComponent],
+  declarations: [HeroSectionComponent, ProjectsPageComponent, IndustryPageComponent, SoftwareProductsPageComponent, TechnologyPageComponent, HelpPageComponent],
   imports: [
     CommonModule,
     ProjectsPageRoutingModule,
@@ -25,7 +25,7 @@ import { TestingComponent } from './testing/testing.component';
     ContactUsModule,
     //NgxIntlTelInputModule,
     ReactiveFormsModule,
-   // BsDropdownModule,
+    // BsDropdownModule,
     NgbModule
   ]
 })

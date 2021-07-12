@@ -122,18 +122,18 @@ var projectsData = [
     image:'../../../../../../assets/img/project-2.svg',
     route: '/more/more-finanical',
   },
-  // {
-  //   industry: 'Information Technology',
-  //   softwareProducts: 'Ops Alert',
-  //   technologies: ['Angular', 'Java Spring Framework (Boot, JPA, Messaging)',' Hibernate', 'PostgreSQL', 'PrimeNg',' LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices), Kafka (consumer, listener, streams), Cassandra (for big data), Jenkins (for CI/CD pipelines), Kubernetes (for service discovery, scaling and managing), Node ',
-  //   client: 'Orb Data',
-  //   title: 'Ops Alert',
-  //   summary:
-  //     '	Ops Alert is a cloud platform for enterprise monitoring.  It aims to both complement and act as a replacement or alternative for customers using IBM Netcool Operations Insight. Ops Alert intends to differentiate itself from other products in the market by Lowering the cost of enterprise monitoring,	Integrating non-traditional data into the monitoring environment,	Not being restricted by the volume of data being ingested,	Applying AI to automate the processing of data Providing enhanced service status visibility  ',
+  {
+    industry: 'Information Technology',
+    softwareProducts: 'Ops Alert',
+    technologies: ['Angular', 'Java Spring Framework (Boot, JPA, Messaging)',' Hibernate', 'PostgreSQL', 'PrimeNg',' LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices)', 'Kafka (consumer, listener, streams)', 'Cassandra (for big data)', 'Jenkins (for CI/CD pipelines)', 'Kubernetes (for service discovery, scaling and managing)', 'Node '],
+    client: 'Orb Data',
+    title: 'Ops Alert',
+    summary:
+      '	Ops Alert is a cloud platform for enterprise monitoring.  It aims to both complement and act as a replacement or alternative for customers using IBM Netcool Operations Insight. Ops Alert intends to differentiate itself from other products in the market by Lowering the cost of enterprise monitoring,	Integrating non-traditional data into the monitoring environment,	Not being restricted by the volume of data being ingested,	Applying AI to automate the processing of data Providing enhanced service status visibility  ',
     
-  //   image:'../../../../../../assets/img/project-2.svg',
-  //   route: '/more/more-it',
-  // },
+    image:'../../../../../../assets/img/project-2.svg',
+    route: '/more/more-it',
+  },
 ];
 
 export default projectsData;
