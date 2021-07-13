@@ -1,121 +1,32 @@
 <div class="row">
-  <div class="col-lg-1" >
-    <a style="font-weight: bold;padding-left: 15px;">Filter by:</a>
+  <div class="col-lg-1">
+    <a style="font-weight: bold; padding-left: 15px">Filter by:</a>
   </div>
 
-   <div class="col-lg-11 active-link" >
-    <a
-    class="btn btn-primary main"
-    [ngClass]="{ 'active-linked': clicked4 }"
-    (click)="onClickAllData()"
-    style="margin-bottom: 10px"
-  >
-    All
-  </a>
-
-    <a
-    class="btn btn-primary main"
-    [ngClass]="{ 'active-linked': clicked1 }"
-    (click)="onClickForFilter('IBM Tivoli Monitoring (ITM)')"
-    style="margin-bottom: 10px"
-  >
-  IBM Tivoli Monitoring (ITM)
-  </a>
-  <a
-  class="btn btn-primary main"
-  [ngClass]="{ 'active-linked': clicked2 }"
-  (click)="onClickForFilter('IBM Tivoli Network Monitoring (ITNM)')"
-  style="margin-bottom: 10px"
->
-IBM Tivoli Network Monitoring (ITNM)
-</a>
-<a
-      class="btn btn-primary main"
-      [ngClass]="{ 'active-linked': clicked3 }"
-      (click)="onClickForFilter('Netcool Omnibus, Impact, NOI')"
-      style="margin-bottom: 10px"
-    >
-    Netcool Omnibus, Impact, NOI
+  <div class="col-lg-11">
+    <a class="btn btn-primary main" [ngClass]="{ 'active-linked': activeValue == 'All' }" (click)="onClickAllData()"
+      style="margin-bottom: 10px">
+      All
     </a>
-    <a
-      class="btn btn-primary main"
-      [ngClass]="{ 'active-linked': clicked5 }"
-      (click)="onClickForFilter('IBM Cognos and Birt')"
-      style="margin-bottom: 10px"
-    >
-    IBM Cognos and Birt
-    </a>
-    <a
-      class="btn btn-primary main"
-      [ngClass]="{ 'active-linked': clicked6 }"
-      (click)="onClickForFilter('Netcool Omnibus')"
-      style="margin-bottom: 10px"
-    >
-    Netcool Omnibus
-    </a>
-    <a
-    class="btn btn-primary main"
-    [ngClass]="{ 'active-linked': clicked7 }"
-    (click)="onClickForFilter('IBM Service Desk')"
-    style="margin-bottom: 10px"
-  >
-  IBM Service Desk
-  </a>
-  <a
-  class="btn btn-primary main"
-  [ngClass]="{ 'active-linked': clicked8 }"
-  (click)="onClickForFilter('Property Management Software')"
-  style="margin-bottom: 10px"
->
-Property Management Software
-</a>
-<a
-  class="btn btn-primary main"
-  [ngClass]="{ 'active-linked': clicked9 }"
-  (click)="onClickForFilter('Advance Industry Metrics')"
-  style="margin-bottom: 10px"
->
-Advance Industry Metrics
-</a>
-<a
-  class="btn btn-primary main"
-  [ngClass]="{ 'active-linked': clicked10 }"
-  (click)="onClickForFilter('Ops Alert')"
-  style="margin-bottom: 10px"
->
-Ops Alert
-</a>
-
-
-   <!-- <a
-      class="btn btn-primary main {{ activeClass }}"
-      (click)="onClickForFilter(c)"
-      *ngFor="let c of filterCatagory"
-    >
-      {{ c }}
-    </a>-->
+    <span>
+      <a class="btn btn-primary main" (click)="onClickForFilter(i)" *ngFor="let i of filters"
+        [ngClass]="{ 'active-linked': i == activeValue }" style="margin-bottom: 10px">
+        {{ i }}
+      </a>
+    </span>
   </div>
 </div>
-<!--<hr />-->
-<div
-  class="row mt-5"
-  style="background-color: #f1f1f1"
-  *ngFor="let project of filterData"
->
+
+<div class="row mt-5" style="background-color: #f1f1f1" *ngFor="let project of filterData">
   <div class="col-3">
-    <img
-    [src]="project.image"
-      alt=""
-      class="image fluid"
-      style="width: 100%"
-    />
+    <img [src]="project.image" alt="" class="image fluid" style="width: 100%" />
   </div>
   <div class="col-9 mt-3">
-    <p  style="line-height: 35px">
+    <p style="line-height: 35px">
       <strong>Industry: {{ project.industry }}</strong> <br />
-      <strong> Software Products: {{ project.softwareProducts }} </strong> <br />
-      <strong>Technologies: {{ project.technologies }}</strong
-      ><br />
+      <strong> Software Products: {{ project.softwareProducts }} </strong>
+      <br />
+      <strong>Technologies: {{ project.technologies }}</strong><br />
       <strong>Client: {{ project.client }} </strong>
     </p>
     <hr />
@@ -126,51 +37,28 @@ Ops Alert
       {{ project.summary }}
     </p>
     <div class="d-flex flex-row-reverse mb-3" id="more-button">
-      <!--<p
-        style="
-          margin-top: 15px;
-          padding-right: 10px;
-          padding-left: 15px;
-          cursor: pointer;
-        "
-        class="mb-0"
 
-        id="more-text"
-      >
-      <a routerLink={{project.route}} style="color: black;" >   Read more </a>
-        <i class="fa fa-long-arrow-right fa-lg"></i>
-      </p>-->
-      <h6  class="m-2"
-      style="border: 1px solid #b7b7b7;
-     border-radius: 8px;
-     background-color: #1d2957;
-     
-   ">
-       <p
-       
-       
-      class="p-2 mb-0"
-       id="more-text"
-     >
-       <a routerLink="{{ project.route }}" class="pointer" style="color: white"> Read more </a>
-      
-     </p>
-      </h6>
-      <h6
-        class="m-2"
-        style="
+      <h6 class="m-2" style="
           border: 1px solid #b7b7b7;
           border-radius: 8px;
           background-color: #1d2957;
-        "
-      >
+        ">
+        <p class="p-2 mb-0" id="more-text">
+          <a routerLink="{{ project.route }}" class="pointer" style="color: white">
+            Read more
+          </a>
+        </p>
+      </h6>
+      <h6 class="m-2" style="
+          border: 1px solid #b7b7b7;
+          border-radius: 8px;
+          background-color: #1d2957;
+        ">
         <p class="p-2 mb-0">
           <a (click)="scroll('#helps')" class="pointer" style="color: white">
-            Need help with a similar project?</a
-          >
+            Need help with a similar project?</a>
         </p>
       </h6>
     </div>
   </div>
 </div>
-

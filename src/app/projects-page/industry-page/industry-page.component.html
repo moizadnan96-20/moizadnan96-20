@@ -1,78 +1,33 @@
 <div class="row">
-  <div class="col-lg-1" >
+  <div class="col-lg-1">
     <a style="font-weight: bold; padding-left: 15px">Filter by:</a>
   </div>
 
-  <div class="col-lg-11 active-link" >
-    <a
-      class="btn btn-primary main"
-      [ngClass]="{ 'active-linked': clicked4 }"
-      (click)="onClickAllData()"
-    >
+
+  <div class="col-lg-11 active-link">
+    <a class="btn btn-primary main" [ngClass]="{ 'active-linked': activeValue == 'All' }" (click)="onClickAllData()"
+      style="margin-bottom: 10px">
       All
     </a>
-
-    <a
-      class="btn btn-primary main"
-      [ngClass]="{ 'active-linked': clicked2 }"
-      (click)="onClickForFilter('System Integrator')"
-    >
-      System Integrator
-    </a>
-    <a
-      class="btn btn-primary main"
-      [ngClass]="{ 'active-linked': clicked1 }"
-      (click)="onClickForFilter('Telecommunication')"
-    >
-      Telecommunication
-    </a>
-
-    <a
-      class="btn btn-primary main"
-      [ngClass]="{ 'active-linked': clicked3 }"
-      (click)="onClickForFilter('Textile & Manufacturer')"
-    >
-      Textile & Manufacturer
-    </a>
-    <a
-    class="btn btn-primary main"
-    [ngClass]="{ 'active-linked': clicked5 }"
-    (click)="onClickForFilter('Public Service')"
-  >
-    Public Service
-  </a>
-  <a
-  class="btn btn-primary main"
-  [ngClass]="{ 'active-linked': clicked6 }"
-  (click)="onClickForFilter('Financial Services')"
->
-  Financial Services
-</a>
-<a
-class="btn btn-primary main"
-[ngClass]="{ 'active-linked': clicked7 }"
-(click)="onClickForFilter('Information Technology')"
->
-Information Technology
-</a>
+    <span>
+      <a class="btn btn-primary main" (click)="onClickForFilter(i)" *ngFor="let i of filters"
+        [ngClass]="{ 'active-linked': i == activeValue }" style="margin-bottom: 10px">
+        {{ i }}
+      </a>
+    </span>
   </div>
 </div>
-<!--<hr />-->
-<div
-  class="row mt-5"  
-  style="background-color: #f1f1f1"
-  *ngFor="let project of filterData"
->
+
+<div class="row mt-5" style="background-color: #f1f1f1" *ngFor="let project of filterData">
   <div class="col-3">
     <img [src]="project.image" alt="" class="image fluid" style="width: 100%" />
   </div>
   <div class="col-9 mt-3">
-    <p  style="line-height: 35px">
+    <p style="line-height: 35px">
       <strong>Industry: {{ project.industry }}</strong> <br />
       <strong> Software Products: {{ project.softwareProducts }} </strong>
       <br />
-      <strong>Technologies: {{ project.technologies }}</strong
-      ><br />
+      <strong>Technologies: {{ project.technologies }}</strong><br />
       <strong>Client: {{ project.client }} </strong>
     </p>
     <hr />
@@ -82,48 +37,27 @@ Information Technology
     <p style="line-height: 35px">
       {{ project.summary }}
     </p>
-    <div class="d-flex flex-row-reverse mb-3" id="more-button" >
-     <!-- <p
-        style="
-          margin-top: 15px;
-          padding-right: 10px;
-          padding-left: 15px;
-          cursor: pointer;
-        "
-        class="mb-0"
-        id="more-text"
-      >
-        <a routerLink="{{ project.route }}" style="color: black"> Read more </a>
-        <i class="fa fa-long-arrow-right fa-lg"></i>
-      </p>-->
-     <h6  class="m-2"
-     style="border: 1px solid #b7b7b7;
-    border-radius: 8px;
-    background-color: #1d2957;
-    
-  ">
-      <p
-      
-      
-     class="p-2 mb-0"
-      id="more-text"
-    >
-      <a routerLink="{{ project.route }}" class="pointer" style="color: white"> Read more </a>
-     
-    </p>
-     </h6>
-      <h6
-        class="m-2"
-        style="
+    <div class="d-flex flex-row-reverse mb-3" id="more-button">
+
+      <h6 class="m-2" style="
           border: 1px solid #b7b7b7;
           border-radius: 8px;
           background-color: #1d2957;
-        "
-      >
+        ">
+        <p class="p-2 mb-0" id="more-text">
+          <a routerLink="{{ project.route }}" class="pointer" style="color: white">
+            Read more
+          </a>
+        </p>
+      </h6>
+      <h6 class="m-2" style="
+          border: 1px solid #b7b7b7;
+          border-radius: 8px;
+          background-color: #1d2957;
+        ">
         <p class="p-2 mb-0">
           <a (click)="scroll('#helps')" class="pointer" style="color: white">
-            Need help with a similar project?</a
-          >
+            Need help with a similar project?</a>
         </p>
       </h6>
     </div>
