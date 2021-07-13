@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import projectsData from '../data/data'
+import projectsData from '../data/data';
 
 declare const scrollTOEl: any;
 @Component({
@@ -8,26 +8,16 @@ declare const scrollTOEl: any;
   styleUrls: ['./industry-page.component.css'],
 })
 export class IndustryPageComponent implements OnInit {
-  clicked1: boolean = false;
-  clicked2: boolean = false;
-  clicked3: boolean = false;
-  clicked4: boolean = false;
-  clicked5: boolean = false;
-  clicked6: boolean = false;
-  clicked7: boolean = false;
-
   filterData: any;
-  filterCatagory: any;
-  activeClass: string = 'nonactive';
+  filters: any = [];
+  activeValue: string = '';
+  projects: any = [];
 
-
-
-  constructor() {}
+  constructor() {
+    this.projects = projectsData;
+  }
 
   ngOnInit(): void {
-    this.filterCatagory = projectsData.map(
-      (catagory) => catagory.industry
-    );
     this.onClickAllData();
   }
   scroll(el: any) {
@@ -36,89 +26,17 @@ export class IndustryPageComponent implements OnInit {
 
   onClickForFilter(c: any) {
     console.log(c);
-
-    if (c === 'Telecommunication') {
-      this.clicked1 = true;
-      this.clicked2 = false;
-      this.clicked4 = false;
-     this.clicked3 = false;
-     this.clicked5 = false;
-     this.clicked6 = false;
-     this.clicked7 = false;
-     
-     
-      this.filterData = projectsData.filter((cat) => cat.industry == c);
-
-      console.log(this.filterData);
-    } else if (c === 'System Integrator') {
-      this.clicked1 = false;
-      this.clicked2 = true;
-      this.clicked4 = false;
-      this.clicked3 = false;
-      this.clicked5 = false;
-      this.clicked6 = false;
-      this.clicked7 = false;
-      
-      this.filterData = projectsData.filter((cat) => cat.industry == c);
-      console.log(this.filterData);
-    } else if (c === 'Textile & Manufacturer') {
-      this.clicked1 = false;
-      this.clicked2 = false;
-      this.clicked3 = true;
-      this.clicked4 = false;
-      this.clicked5 = false;
-      this.clicked6 = false;
-      this.clicked7 = false;
-      
-
-      this.filterData = projectsData.filter((cat) => cat.industry == c);
-      console.log(this.filterData);
-    } else if (c === 'Public Service') {
-      this.clicked1 = false;
-      this.clicked2 = false;
-      this.clicked3 = false;
-      this.clicked4 = false;
-      this.clicked5 = true;
-      this.clicked6 = false;
-      this.clicked7 = false;
-      
-
-      this.filterData = projectsData.filter((cat) => cat.industry == c);
-      console.log(this.filterData);
-    }else if (c === 'Financial Services') {
-      this.clicked1 = false;
-      this.clicked2 = false;
-      this.clicked3 = false;
-      this.clicked4 = false;
-      this.clicked5 = false;
-      this.clicked6 = true;
-      this.clicked7 = false;
-      
-
-      this.filterData = projectsData.filter((cat) => cat.industry == c);
-      console.log(this.filterData);
-    }else if (c === 'Information Technology') {
-      this.clicked1 = false;
-      this.clicked2 = false;
-      this.clicked3 = false;
-      this.clicked4 = false;
-      this.clicked5 = false;
-      this.clicked6 = false;
-      this.clicked7 = true;
-
-      this.filterData = projectsData.filter((cat) => cat.industry == c);
-      console.log(this.filterData);
-    }
+    this.activeValue = c;
+    this.filterData = projectsData.filter((cat) => cat.industry.includes(c));
   }
   onClickAllData() {
-    this.filterData = projectsData;
-    this.clicked1 = false;
-    this.clicked2 = false;
-    this.clicked3 = false;
-    this.clicked4 = true;
-    this.clicked5 = false;
-    this.clicked6 = false;
-    this.clicked7 = false;
-    
+    this.activeValue = 'All';
+    this.projects.map((el: any) => {
+      if (!this.filters.includes(el.industry)) {
+        this.filters.push(el.industry);
+      }
+    });
+
+    this.filterData = this.projects;
   }
 }

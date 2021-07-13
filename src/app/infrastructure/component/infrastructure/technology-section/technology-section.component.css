@@ -61,8 +61,7 @@ p {
 
 .header-2 {
   padding-top: 45px;
-  /* padding-bottom: 25 !important; */
-  /* line-height: 35px; */
+
 }
 
 #TECHNOLOGY {
@@ -73,10 +72,7 @@ p {
 #rcorners2 {
   border-radius: 10px;
   border: 1px solid #c3c3c5;
-  /* padding: 20px; */
-  /* width: 200px; */
-  /* height: 150px; */
-  /* background-color: white; */
+ 
 }
 
 @media only screen and (max-width: 500px) {
@@ -87,7 +83,7 @@ p {
 
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1024px) and (max-width: 1300px) {
 
   /* Write your CSS properties here */
   .withMargin {
@@ -103,14 +99,14 @@ p {
 
 
   }
-  .col-padding-left{
+  /* .col-padding-left{
     padding-left: 30px;
-  }
+  } */
 
 }
 @media only screen and (max-width: 775px) and (min-width:1024px)  {
   .removeHeight{
-   /* height: auto !important;*/
+   
     padding-bottom: 30px;
   }
 

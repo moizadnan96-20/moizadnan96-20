@@ -45,7 +45,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Cognos and Birt',
-    technologies: ['IBM-DB2', 'SQL'],
+    technologies: ['IBM DB-2', 'SQL'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -56,7 +56,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Tivoli Monitoring (ITM)',
-    technologies: ['Tivoli Datawarehouse', 'IBM-DB2'],
+    technologies: ['Tivoli Datawarehouse', 'IBM DB-2'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM Tivoli Monitoring (ITM)',
     summary:
@@ -67,7 +67,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'Netcool Omnibus',
-    technologies: ['Websphere', 'IBM-DB2', 'Perl', 'Shell', 'Java', 'Impact'],
+    technologies: ['Websphere', 'IBM DB-2', 'Perl', 'Shell', 'Java', 'Impact'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -78,7 +78,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Service Desk',
-    technologies: ['Websphere', 'IBM-DB2', 'Java', 'Python', 'Perl'],
+    technologies: ['Websphere', 'IBM DB-2', 'Java', 'Python', 'Perl'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -113,7 +113,7 @@ var projectsData = [
   {
     industry: 'Financial Services',
     softwareProducts: 'Advance Industry Metrics',
-    technologies: ['Firebase Authentication', 'Flutter', 'MySql', 'Redis', 'Angular', 'Sequelize', 'Node.Js', 'FCM cloud messaging', 'RSA Encryption'],
+    technologies: ['Firebase', 'Flutter', 'MySql', 'Redis', 'Angular', 'Sequelize', 'Node.Js', 'FCM cloud', 'RSA Encryption'],
     client: 'Dominic Clover',
     title: 'Advance Industry Metrics for Law Firms',
     summary:
@@ -125,7 +125,7 @@ var projectsData = [
   {
     industry: 'Information Technology',
     softwareProducts: 'Ops Alert',
-    technologies: ['Angular', 'Java Spring Framework (Boot, JPA, Messaging)',' Hibernate', 'PostgreSQL', 'PrimeNg',' LDAP/Oauth2, Rest Client (for Inter Process Communication of microservices)', 'Kafka (consumer, listener, streams)', 'Cassandra (for big data)', 'Jenkins (for CI/CD pipelines)', 'Kubernetes (for service discovery, scaling and managing)', 'Node '],
+    technologies: ['Angular', 'Java Spring Framework',' Hibernate', 'PostgreSQL', 'PrimeNg',' LDAP', 'OAuth 2', 'Rest Client', 'Kafka ', 'Cassandra ', 'Jenkins ', 'Kubernetes ', 'Node '],
     client: 'Orb Data',
     title: 'Ops Alert',
     summary:
