@@ -40,6 +40,11 @@ export class HeroSectionComponent implements OnInit {
     }else{
       this.width=false;
     }*/
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
   }
 
 }

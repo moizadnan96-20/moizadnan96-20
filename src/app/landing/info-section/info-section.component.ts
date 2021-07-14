@@ -17,7 +17,7 @@ export class InfoSectionComponent implements OnInit {
   element: any;
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
-    if (window.innerWidth <= 1100) {
+    if (window.innerWidth <= 700) {
       this.width = true;
     } else {
       this.width = false;
@@ -61,5 +61,11 @@ export class InfoSectionComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    if (window.innerWidth <= 700) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+  }
 }
