@@ -11,7 +11,7 @@ import { TechnologyPageComponent } from './technology-page/technology-page.compo
 import { HelpPageComponent } from './help-page/help-page.component';
 import { ContactUsModule } from '../contact-us/contact-us.module';
 
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -26,6 +26,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     //NgxIntlTelInputModule,
     ReactiveFormsModule,
     // BsDropdownModule,
+    FormsModule,
     NgbModule
   ]
 })

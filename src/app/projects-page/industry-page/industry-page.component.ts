@@ -63,7 +63,10 @@ export class IndustryPageComponent implements OnInit {
   filterInput(r: any) {
     console.log(r.target.value);
     if (r.target.value == 'All') {
-      this.onClickAllData();
+      // this.onClickAllData();
+      this.filterData = this.projects;
+      console.log(this.filterData);
+      
     } else {
       this.activeValue = r.target.value;
       this.filterData = projectsData.filter((cat) =>

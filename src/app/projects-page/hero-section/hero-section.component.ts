@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-hero-section',
@@ -6,7 +7,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./hero-section.component.css'],
 })
 export class HeroSectionComponent implements OnInit {
-
+  
   //header: any;
   //linkTab: any;
   //linkTabOfset: any;
@@ -20,7 +21,7 @@ export class HeroSectionComponent implements OnInit {
       this.width = false;
     }
   }
- /* @HostListener('window:scroll', ['$event'])
+  /* @HostListener('window:scroll', ['$event'])
   onScrollEvent($event: any) {
     if (window.pageYOffset + this.header > this.linkTabOfset) {
       this.linkTab.classList.add("sticky");
@@ -29,15 +30,17 @@ export class HeroSectionComponent implements OnInit {
     }
   }*/
 
-  constructor() { }
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
-   
     if (window.innerWidth <= 1100) {
       this.width = true;
     } else {
       this.width = false;
     }
   }
-
+  activeRoute(c: any) {
+    console.log(c.target.value);
+    this.router.navigate([c.target.value]);
+  }
 }
