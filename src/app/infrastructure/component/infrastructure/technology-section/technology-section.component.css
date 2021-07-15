@@ -15,21 +15,21 @@ p {
 }
 
 .box-1 {
-  border: 0.1px 0.1px 0px 0.1px solid #60029B;
+  /*border: 0.1px 0.1px 0px 0.1px solid #60029B;*/
   background-color: #3c3e45;
   color: white;
 }
 
 .box {
-  border-right: 0.1px solid #c8c8ca;
+  /*border-right: 0.1px solid #c8c8ca;*/
   background-color: #efeff1;
   color: black;
 
 }
 
 .box-0 {
-  /* border-left: 0.1px solid #707070; */
-  border-right: 0.1px solid #c8c8ca;
+  /* border-left: 0.1px solid #707070; 
+  border-right: 0.1px solid #c8c8ca;*/
   background-color: #efeff1;
   color: black;
 }

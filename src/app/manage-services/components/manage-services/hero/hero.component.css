@@ -76,9 +76,10 @@
 .first-h2{
   padding-bottom: 100px;
 }
-.linksTopPadding{
+/*.linksTopPadding{
   padding-top: 7px;
-    }
+  
+    }*/
 }
 .page-heading{
   background-color: #f1f1f1;
@@ -104,4 +105,9 @@
 .mobileView{
   width: 100%;
  
+}
+
+.social-links {
+ padding-top: 10px;
+ padding-bottom: 10px;
 }

@@ -18,13 +18,13 @@ p {
 .box {
   background-color: #3c3e45;
 
-  border-right: 0.1px solid #7a7979;
+  /*border-right: 0.1px solid #7a7979;*/
   color: white;
 }
 
 .box-0 {
 
-  border-right: 0.1px solid #7a7979;
+  /*border-right: 0.1px solid #7a7979;*/
   background-color: #3c3e45;
   color: white;
 }
