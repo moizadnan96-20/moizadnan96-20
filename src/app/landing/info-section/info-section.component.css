@@ -112,6 +112,7 @@ ngb-carousel img {
     }
     #imageHeight{
       height: 77vh !important;
+      /* height: auto !important; */
      
       /* max-height: fit-content; */
      
