@@ -41,15 +41,15 @@ export class InfoSectionComponent implements OnInit {
     {
       imageURL: '../../../assets/carsole/(N)DEV OPS 750 H x 2200 w.svg',
       route: '/devops',
-      imageInMobile: '../../../assets/Dia/IT Consultancy 960 ×700 – 1.svg',
-      imageInMobile2: '../../../assets/Dia/IT Consultancy 960 × 494 – 1.svg'
+      imageInMobile: '../../../assets/carsole in mobile/IT Consultancy 960 ×700 – 1.svg',
+      imageInMobile2: '../../../assets/carsole in mobile/IT Consultancy 960 × 494 – 1.svg'
     },
     {
       imageURL:
         '../../../assets/carsole/-nn-INFRASTRUCTURE 2200 -W 750 H – 2.svg',
       route: '/infrastructure',
-      imageInMobile: '../../../assets/Dia/P-2 SVG TECHNOLOGY 960 × 750 – 1.svg',
-      imageInMobile2: '../../../assets/Dia/P 1 SVG TECHNOLOGY 960 ×700 – 4.svg'
+      imageInMobile: '../../../assets/carsole in mobile/P-2 SVG TECHNOLOGY 960 × 750 – 1.svg',
+      imageInMobile2: '../../../assets/carsole in mobile/P 1 SVG TECHNOLOGY 960 ×700 – 4.svg'
     },
     {
       imageURL: '../../../assets/carsole/(n) Technology 750 H - 2200 W.svg',

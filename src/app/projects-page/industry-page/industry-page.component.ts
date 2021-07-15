@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import projectsData from '../data/data';
 
 declare const scrollTOEl: any;
@@ -12,6 +12,16 @@ export class IndustryPageComponent implements OnInit {
   filters: any = [];
   activeValue: string = '';
   projects: any = [];
+  public innerWidth: any;
+  public width = false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+  }
 
   constructor() {
     this.projects = projectsData;
@@ -19,7 +29,13 @@ export class IndustryPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.onClickAllData();
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
   }
+
   scroll(el: any) {
     scrollTOEl(el);
   }
@@ -28,15 +44,32 @@ export class IndustryPageComponent implements OnInit {
     console.log(c);
     this.activeValue = c;
     this.filterData = projectsData.filter((cat) => cat.industry.includes(c));
+    console.log(this.filterData);
   }
   onClickAllData() {
     this.activeValue = 'All';
     this.projects.map((el: any) => {
+      console.log(el);
+
       if (!this.filters.includes(el.industry)) {
+        console.log(el.industry);
+
         this.filters.push(el.industry);
       }
     });
 
     this.filterData = this.projects;
+  }
+  filterInput(r: any) {
+    console.log(r.target.value);
+    if (r.target.value == 'All') {
+      this.onClickAllData();
+    } else {
+      this.activeValue = r.target.value;
+      this.filterData = projectsData.filter((cat) =>
+        cat.industry.includes(r.target.value)
+      );
+      console.log(this.filterData);
+    }
   }
 }

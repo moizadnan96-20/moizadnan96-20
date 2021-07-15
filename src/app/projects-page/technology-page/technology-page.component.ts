@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import projectsData from '../data/data';
 declare const scrollTOEl: any;
 
@@ -13,6 +13,16 @@ export class TechnologyPageComponent implements OnInit {
   activeValue: string = '';
 
   filterData: any = [];
+  public innerWidth: any;
+  public width = false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+  }
 
   constructor() {
     this.projects = projectsData;
@@ -20,6 +30,11 @@ export class TechnologyPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.onClickAllData();
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
   }
   scroll(el: any) {
     scrollTOEl(el);
@@ -41,5 +56,18 @@ export class TechnologyPageComponent implements OnInit {
       });
     });
     this.filterData = this.projects;
+  }
+
+  filterInput(r: any) {
+    console.log(r.target.value);
+    if (r.target.value == 'All') {
+      this.onClickAllData();
+    } else {
+      this.activeValue = r.target.value;
+      this.filterData = projectsData.filter((cat) =>
+        cat.technologies.includes(r.target.value)
+      );
+      console.log(this.filterData);
+    }
   }
 }
