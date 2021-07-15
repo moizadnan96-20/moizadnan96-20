@@ -29,24 +29,20 @@ export class InfoSectionComponent implements OnInit {
       imageURL:
         '../../../assets/carsole/(n) Managed services 750 H - 2200 W.svg',
       route: '/manage-services',
-      // imageInMobile: '../../../assets/img/1-Managed service phone- 960 ×700.png',
-      // imageInMobile2: '../../../assets/img/2 Managed service phone - 960 × 654.png'
-      imageInMobile: '../../../assets/carsole in mobile/1-Managed service phone- 960 ×750.svg',
-      imageInMobile2: '../../../assets/carsole in mobile/Web 1920 – 1.svg'
+      imageInMobile: '../../../assets/img/1-Managed service phone- 960 ×700.png',
+      imageInMobile2: '../../../assets/img/2 Managed service phone - 960 × 654.png'
     },
     {
       imageURL: '../../../assets/carsole/(N)IT CONSULTANCY 750 H x 2200 w.svg',
       route: '/consulting',
-      // imageInMobile: '../../../assets/img/1-Managed service phone- 960 ×700.png',
-      // imageInMobile2: '../../../assets/img/2 Managed service phone - 960 × 654.png'
-      imageInMobile: '../../../assets/carsole in mobile/1-Managed service phone- 960 ×750.svg',
-      imageInMobile2: '../../../assets/carsole in mobile/Web 1920 – 1.svg'
+      imageInMobile: '../../../assets/img/1-Managed service phone- 960 ×700.png',
+      imageInMobile2: '../../../assets/img/2 Managed service phone - 960 × 654.png'
     },
     {
       imageURL: '../../../assets/carsole/(N)DEV OPS 750 H x 2200 w.svg',
       route: '/devops',
       imageInMobile: '../../../assets/carsole in mobile/IT Consultancy 960 ×700 – 1.svg',
-      imageInMobile2: '../../../assets/carsole in mobile/Web 1920 – 2.svg'
+      imageInMobile2: '../../../assets/carsole in mobile/IT Consultancy 960 × 494 – 1.svg'
     },
     {
       imageURL:
@@ -58,8 +54,8 @@ export class InfoSectionComponent implements OnInit {
     {
       imageURL: '../../../assets/carsole/(n) Technology 750 H - 2200 W.svg',
       route: '/technology',
-      imageInMobile: '../../../assets/carsole in mobile/1-Managed service phone- 960 ×750.svg',
-      imageInMobile2: '../../../assets/carsole in mobile/Web 1920 – 1.svg'
+      imageInMobile: '../../../assets/img/1-Managed service phone- 960 ×700.png',
+      imageInMobile2: '../../../assets/img/2 Managed service phone - 960 × 654.png'
     },
   ];
 
