@@ -111,9 +111,9 @@ ngb-carousel img {
        */
     }
     #imageHeight{
-      height: auto !important;
+      height: 80vh !important;
      
-      max-width: 400px;
+      /* max-height: fit-content; */
      
     }
     
