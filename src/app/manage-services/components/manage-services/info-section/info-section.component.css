@@ -15,7 +15,7 @@ p{
 }
 
 .box-1 {
-  border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;
+  /*border: 0.1px 0.1px 0px 0.1px  solid #BCB8B8;*/
   background-color: #3c3e45;
   color: white;
 }
@@ -26,8 +26,8 @@ p{
 }
 
 .box-0 {
-  border-left: 0.1px solid #7a7979;
-  border-right: 0.1px solid #7a7979;
+  /*border-left: 0.1px solid #7a7979;
+  border-right: 0.1px solid #7a7979;*/
   background-color: #3c3e45;
   color: white;
 }
@@ -58,4 +58,7 @@ p{
   padding-top: 45px;
   /* padding-bottom: 25 !important; */
   /* line-height: 35px; */
+}
+.size{
+  font-size: 14px;
 }

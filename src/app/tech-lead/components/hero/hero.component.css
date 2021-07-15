@@ -121,12 +121,12 @@
 }
 
 /*          for clients        */
-.cliens {
+#cliens {
   padding: 12px 0;
   text-align: center;
 }
 
-.cliens img {
+#cliens img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -134,13 +134,33 @@
   filter: grayscale(100);
 }
 
-.cliens img:hover {
+#cliens img:hover {
   filter: none;
   transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
-  .cliens img {
+  #cliens img {
     max-width: 40%;
   }
+}
+/*   */
+.title-tech {
+  text-align: center;
+  padding: 30px 0 0;
+  position: relative;
+}
+
+.title-tech h2 {
+  font-size: 22px;
+  /* font-weight: 700; */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  /* color: #5f687b; */
+  color: #c9c9c9;
+  position: relative;
+  z-index: 2;
+  font-family: "SFPro"
+
 }

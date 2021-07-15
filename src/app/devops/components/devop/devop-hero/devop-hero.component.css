@@ -235,9 +235,9 @@
     padding-top: 0 !important;
   }
 
-  .linksTopPadding {
+  /*.linksTopPadding {
     padding-top: 5px;
-  }
+  }*/
 
 
 
@@ -277,4 +277,12 @@
 .mobileView{
   width: 100%;
  
+}
+
+/* */       
+@media (max-width:768px){
+ 
+  .social-links{
+    padding: 12px 0px;
+  }
 }
