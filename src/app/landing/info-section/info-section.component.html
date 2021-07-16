@@ -6,17 +6,16 @@
   </ng-template>
 </ngb-carousel>
 
-<ngb-carousel *ngIf="width" >
+<ngb-carousel *ngIf="width">
   <ng-template ngbSlide *ngFor="let image of images">
     <div id="imageHeight">
       <div class="picsum-img-wrapper">
         <a routerLink={{image.route}}><img src="" [src]="image.imageInMobile" class="d-block w-100" src=""> <img src=""
-            [src]="image.imageInMobile2" class="d-block w-100" src=""></a>
+            [src]="image.imageInMobile2" class="d-block w-100"
+            src=""></a>
       </div>
     </div>
 
-    <!-- <div class="picsum-img-wrapper">
-      <a routerLink={{image.route}}> </a>
-    </div> -->
+
   </ng-template>
 </ngb-carousel>
