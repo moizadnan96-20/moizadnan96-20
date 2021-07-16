@@ -405,8 +405,10 @@ a {
 
   .perception-logo {
 
-    max-width: 320px;
-    max-height: 70px;
+    /*max-width: 320px;
+    max-height: 70px;*/
+    max-width: 195px;
+    max-height: 50px;
   }
 }
 
