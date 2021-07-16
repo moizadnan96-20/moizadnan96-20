@@ -21,14 +21,7 @@ export class HeroSectionComponent implements OnInit {
       this.width = false;
     }
   }
-  /* @HostListener('window:scroll', ['$event'])
-  onScrollEvent($event: any) {
-    if (window.pageYOffset + this.header > this.linkTabOfset) {
-      this.linkTab.classList.add("sticky");
-    } else {
-      this.linkTab.classList.remove("sticky");
-    }
-  }*/
+  
 
   constructor(private router: Router) {}
 

@@ -5,16 +5,15 @@ declare const scrollTOEl: any;
 @Component({
   selector: 'app-hero-section',
   templateUrl: './hero-section.component.html',
-  styleUrls: ['./hero-section.component.css']
+  styleUrls: ['./hero-section.component.css'],
 })
 export class HeroSectionComponent implements OnInit {
-
   header: any;
   linkTab: any;
   linkTabOfset: any;
   public innerWidth: any;
   public width = false;
-  element:any
+  element: any;
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     if (window.innerWidth <= 1100) {
@@ -24,21 +23,19 @@ export class HeroSectionComponent implements OnInit {
     }
   }
   @HostListener('window:scroll', ['$event'])
-  onWindowScroll(e:any){
-    if (window.pageYOffset  > 500) {
-     this.element  = document.getElementById('links-tab');
-     this.element.classList.add('sticky');
-     console.log(this.element);
-     
-     
+  onWindowScroll(e: any) {
+    if (window.pageYOffset > 500) {
+      this.element = document.getElementById('links-tab');
+      this.element.classList.add('sticky');
+      //  console.log(this.element);
     } else {
-      this.element  = document.getElementById('links-tab');
-     this.element.classList.remove('sticky');
-     console.log(this.element);
+      this.element = document.getElementById('links-tab');
+      this.element.classList.remove('sticky');
+      //  console.log(this.element);
     }
   }
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     // this.linkTab = document.getElementById("links-tab");
@@ -54,5 +51,7 @@ export class HeroSectionComponent implements OnInit {
   scroll(el: any) {
     scrollTOEl(el);
   }
-
+  activeRoute(c: any) {
+    scrollTOEl(c.target.value);
+  }
 }

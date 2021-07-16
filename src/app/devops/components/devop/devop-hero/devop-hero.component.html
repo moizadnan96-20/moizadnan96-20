@@ -1,48 +1,8 @@
 <div class="overflow-hidden">
   <div class="row">
-    <!-- <div class="col-lg-8 col-md-8 col-xs-12" id="devop1">
-      <h1 class="padding-left padding-right paddingRemoveBottom">Built For Speed</h1>
-
-      <h2 class="padding-left  padding-right paddingRemoveBottom">
-        We architect your business for real-time adaptability, teamwork and
-        automation
-      </h2>
-    </div> -->
-    <!-- <div class="col-lg-4 " >
-      <img src="../../../../../assets/Dia/devop2.jpg" id="first-img" alt="" />
-      <div>
-        <div class="row">
-          <div class="col-6" id="cutom-col1">
-            <div class="text-center mahroon-box">DEV</div>
-            <div class="text-center white-box">Application Performance</div>
-
-            <div class="text-center white-box mt-3">End User Analytics</div>
-            <b class="button-white-box"> </b>
-            <div class="text-center white-box mt-3">Quality Code</div>
-            <b class="button-white-box"> </b>
-            <div class="text-center white-box mt-3">Code-Level Errors</div>
-          </div>
-          <div class="col-6" id="pl-6">
-            <div class="text-center mahroon-box">OPS</div>
-            <div class="text-center white-box">Application Availability</div>
-
-            <div class="text-center white-box mt-3">End User Analytics</div>
-
-            <div class="text-center white-box mt-3">End User Complaints</div>
-
-            <div class="text-center white-box mt-3">Performance Analytics</div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!--<div class="col-lg-6 col-xs-12 ">
-      <img src="../../../../../assets/carsole/Part 1 of 2 DEV OPS 670 H x 2200 w.svg" class="img-fluid" alt="" />
-    </div>
-    <div class="col-lg-6 col-xs-12 ">
-      <img src="../../../../../assets/carsole/Part 2 of 2 DEV OPS 670 H x 2200 w – 4.svg" class="img-fluid" alt="" />
-    </div>-->
+    
     <div class="col-lg-12 " *ngIf="!width">
-       <!-- <img src="../../../../../assets/Dia/DEV OPS- update.svg" alt="" class="d-block w-100" style=" ">-->
+      
         <img src="../../../../../assets/img/DEV. OPS- CAROUSEL 2200 x 780 – 1 (1).svg" alt="" class="" style=" width: 100vw;">
     </div>
     <div class="col-lg-12 mobileView" *ngIf="width">
@@ -56,16 +16,12 @@
   <div class="page-heading padding-right padding-left margin-top-3" *ngIf="width">
     <h3 class="pb-1">DevOps And Cloud</h3>
 
-    <!-- <h4>
-      Supercharge your internal processes and stay ahead of the competition
-    </h4> -->
+    
   </div>
 
-  <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)">
+  <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)" *ngIf="!width">
     <div class="social-links">
-      <!-- <a (click)="scroll('#DevOps')" class="align-middle">
-        <h5>DevOps</h5>
-      </a> -->
+      
       <a
         (click)="scroll('#CloudMigration')"
         class=" align-middle linksTopPadding"
@@ -109,4 +65,22 @@
       </a>
     </div>
   </div>
+</div>
+<div class="row mt-3 mb-3" *ngIf="width">
+  <div class="padding-left col-lg-12 padding-right" id="links-tab" >
+    <label class="mb-2" >Topics</label>
+    <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
+     
+      <option value="#CloudMigration"  >Cloud Migration</option>
+      <option value="#AIOpsDevOps" >AI Ops</option>
+      <option value="#kuberneties" > Managed Cloud Services</option>
+      <option value="#kuberneties">Kuberneties</option>
+      <option value="#AWS">AWS</option>
+      <option value="#GCP">GCP</option>
+      <option value="#IBM">IBM cloud</option>
+      <option value="#PP">Perception IT As Your Partner</option>
+    </select>
+  </div>
+
+  
 </div>
