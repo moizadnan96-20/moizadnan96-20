@@ -7,15 +7,21 @@ declare const scrollTOEl: any;
 })
 export class AboutHeroComponent implements OnInit {
   @Output() public childevent=new EventEmitter()
-  // header: any;
-  // linkTab: any;
-  // linkTabOfset: any;
-  // testing:any
-   element:any
+ 
+   element:any;
+   public innerWidth: any;
+  public width = false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+  }
 
   @HostListener('window:scroll', ['$event'])
-  // onScrollEvent($event: any) {
-  //   console.log($event);
+ 
   onWindowScroll(e:any){
     if (window.pageYOffset  > 300) {
      this.element  = document.getElementById('links-tab');
@@ -29,24 +35,25 @@ export class AboutHeroComponent implements OnInit {
      console.log(this.element);
     }
   }
-  // if (window.pageYOffset + this.header > this.linkTabOfset) {
-  //   this.testing = this.linkTab.classList.add("sticky");
-  //   console.log(this.testing);
-    
-  //  } else {
-  //    this.linkTab.classList.remove("sticky");
-  //  }
+  
 
   constructor() { }
 
   ngOnInit(): void {
-    // this.linkTab = document.getElementById("links-tab");
-    // this.linkTabOfset = this.linkTab?.offsetTop;
-    // this.header = document.getElementById("header")?.offsetHeight;
+    if (window.innerWidth <= 1100) {
+      this.width = true;
+    } else {
+      this.width = false;
+    }
+   
   }
 
   scroll(el: any) {
     scrollTOEl(el);
     this.childevent.emit(el)
+  }
+  activeRoute(c: any) {
+    scrollTOEl(c.target.value);
+    this.childevent.emit(c.target.value)
   }
 }

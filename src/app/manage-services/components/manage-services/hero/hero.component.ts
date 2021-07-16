@@ -68,7 +68,12 @@ export class HeroComponent implements OnInit {
     scrollTOEl(el);
     this.childevent.emit(el)
   }
+  activeRoute(c: any) {
+    scrollTOEl(c.target.value);
+    this.childevent.emit(c.target.value)
   }
+}
+  
 
 
 

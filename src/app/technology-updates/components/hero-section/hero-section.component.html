@@ -48,7 +48,7 @@
 
     <h4 id="text-remove">Matching you to your exact technological needs; keeping the future of business in mind</h4>
   </div>
-  <div class="links-tab padding-left third border-bottom-1" id="links-tab" style="right: 0;" (scroll)="onWindowScroll($event)">
+  <div class="links-tab padding-left third border-bottom-1" id="links-tab" style="right: 0;" (scroll)="onWindowScroll($event)" *ngIf="!width">
     <div class="social-links">
 
       <a class="dropdown1" ngbDropdown>
@@ -84,4 +84,21 @@
 
     </div>
   </div>
+</div>
+
+<div class="row mt-3 mb-3" *ngIf="width">
+  <div class="padding-left col-lg-12 padding-right" id="links-tab" >
+    <label class="mb-2" >Topics</label>
+    <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
+     
+      <option value="#AIOPs"  >AIOps</option>
+      <option value="#IT" >Internet of Things</option>
+      <option value="#DevOps" > DevOps</option>
+      <option value="#Observability">Observability</option>
+      <option value="#tech-text">Technology</option>
+      <option value="#PP">Perception IT As Your Partner</option>
+    </select>
+  </div>
+
+  
 </div>

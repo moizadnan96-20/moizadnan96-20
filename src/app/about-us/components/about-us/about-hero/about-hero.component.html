@@ -15,7 +15,7 @@
         <h3 class="pb-1">About Us</h3>
         <h4>Perceiving the present and future</h4>
       </div>
-      <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)">
+      <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)" *ngIf="!width">
         <div class="social-links">
           <a  class="align-middle" (click)="scroll('#SM')">
             <h5 class="third-h5">Systems Management</h5>
@@ -35,4 +35,19 @@
         </div>
         <div style="height: 2px"></div>
       </div>
+  </div>
+  <div class="row mt-3 mb-3" *ngIf="width">
+    <div class="padding-left col-lg-12 padding-right" id="links-tab" >
+      <label class="mb-2" >Topics</label>
+      <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
+       
+        <option value="#SM"  >Systems Management</option>
+        <option value="#DevOps" >DevOps</option>
+        <option value="#SD" >Service Desk</option>
+        <option value="#CM">Cloud Migration</option>
+        <option value="#PP">Why Partner With Perception IT</option>
+      </select>
+    </div>
+  
+    
   </div>
