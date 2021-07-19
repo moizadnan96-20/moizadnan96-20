@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from './../shared/shared.module';
 import { TechnologySectionComponent } from './component/infrastructure/technology-section/technology-section.component';
 import { NgModule } from '@angular/core';
@@ -21,7 +22,7 @@ import { QuestionSectionComponent } from './component/infrastructure/question-se
     
 
   ],
-  imports: [CommonModule, InfrastructureRoutingModule, SharedModule],
+  imports: [CommonModule, InfrastructureRoutingModule, SharedModule,NgbModule],
   exports: [QuestionSectionComponent, TechnologySectionComponent],
 })
 export class InfrastructureModule {}
