@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 
 declare const scrollTOEl: any;
 
@@ -15,6 +15,7 @@ export class HeroSectionComponent implements OnInit {
   element:any
   public innerWidth: any;
   public width = false;
+  @Output() public childevent=new EventEmitter()
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     if (window.innerWidth <= 1100) {
@@ -57,6 +58,6 @@ export class HeroSectionComponent implements OnInit {
   }
   activeRoute(c: any) {
     scrollTOEl(c.target.value);
- 
+    this.childevent.emit(c.target.value)
   }
 }

@@ -33,13 +33,13 @@
   }
 }
 
-@media (max-width: 835px) {
+/*@media (max-width: 835px) {
   #links-tab{
     height: auto !important;
     padding-bottom: 3px !important;
     padding-top: 3px !important;
   }
-}
+}*/
 
 .first-padding-right {
   padding-right: 80px;
@@ -85,8 +85,12 @@
 }
 
 .page-heading{
-  background-color: #f1f1f1;
-  color: #5d6063;
+    /* background-color: #f1f1f1; */
+    background-color: #1D2957;
+    /* color: #5d6063; */
+    color: white;
+    padding-top: 25px;
+    padding-bottom:30px;
 }
 .backgroundColor{
   background-image: url(/assets/img/INFRASTRUCTURE\ SUPPORT\ W1920\ H750\ –\ 2.svg);

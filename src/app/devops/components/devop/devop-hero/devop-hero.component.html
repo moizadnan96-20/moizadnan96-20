@@ -13,11 +13,11 @@
         <img src="../../../../../assets/Dia/DEV OPS PHONE 2- 960 × 560 – 1.svg" alt="" class=" mobileView">
     </div>
   </div>
-  <div class="page-heading padding-right padding-left margin-top-3" *ngIf="width">
-    <h3 class="pb-1">DevOps And Cloud</h3>
+  <!--<div class="page-heading padding-right padding-left margin-top-3" *ngIf="width">
+    <h3 class="">DevOps And Cloud</h3>
 
     
-  </div>
+  </div>-->
 
   <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)" *ngIf="!width">
     <div class="social-links">
@@ -68,9 +68,10 @@
     </div>
   </div>
 </div>
-<div class="row mt-3 mb-3" *ngIf="width">
-  <div class="padding-left col-lg-12 padding-right" id="links-tab" >
-    <label class="mb-2" >Topics</label>
+<div class="row " *ngIf="width">
+  <div class=" page-heading padding-left padding-right" id="links-tab"  style="right: 0;">
+    <h3 class="pb-2">DevOps And Cloud</h3>
+    <h4 class="pb-3" >Topics</h4>
     <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
      
       <option value="#CloudMigration"  >Cloud Migration</option>
