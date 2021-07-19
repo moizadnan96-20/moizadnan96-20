@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./infrastructure.component.css']
 })
 export class InfrastructureComponent implements OnInit {
-
+  divid=""
   constructor() { }
 
   ngOnInit(): void {

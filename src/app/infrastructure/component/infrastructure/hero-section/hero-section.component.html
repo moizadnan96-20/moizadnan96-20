@@ -10,13 +10,13 @@
     <img src="../../../../../assets/banners/InfrastructureSupport- 960 ×700 – 8.svg" alt="" class=" mobileView">
   </div>
 </div>
-<div class="page-heading padding-left padding-right margin-top-3" *ngIf="width">
+<!--<div class="page-heading padding-left padding-right margin-top-3" *ngIf="width">
   <h3 class="pb-1">Infrastructure Support</h3>
 
-</div>
+</div>-->
 <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)" *ngIf="!width">
   <div class="social-links">
-    <a (click)="scroll('#Expertise')" class="align-middle " id="space">
+    <a (click)="scroll('#IE')" class="align-middle " id="space">
       <h5 class="third-h5">Infrastructure Expertise</h5>
     </a>
 
@@ -30,7 +30,7 @@
 
   <div style="height: 2px"></div>
 </div>
-<div class="row mt-3 mb-3" *ngIf="width">
+<!--<div class="row mt-3 mb-3" *ngIf="width">
   <div class="padding-left col-lg-12 padding-right" id="links-tab" >
     <label class="mb-2" >Topics</label>
     <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
@@ -43,4 +43,18 @@
   </div>
 
   
+</div>-->
+<div class="row  " *ngIf="width">
+  <div class="page-heading padding-right padding-left" id="links-tab" style="right: 0;">
+    <h3 class="pb-2">Infrastructure Support</h3>
+    <h4 class="pb-3" >Topics</h4>
+    <select class=" form-select " aria-label="Default select example"  (change)="activeRoute($event)">
+     
+      <option value="#SAS"  >Servers and Storage</option>
+      <option value="#NAS" >Network and Security</option>
+      <option value="#ES" >Enterprise System</option>
+      <option value="#IOT">IOT</option>
+      <option value="#PP">Perception IT As Your Partner</option>
+    </select>
+  </div>
 </div>

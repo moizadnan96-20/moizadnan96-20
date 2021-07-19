@@ -115,7 +115,8 @@
 
 @media only screen and (max-width: 1366px) and (min-width: 1000px) {
   #image-width {
-    height: auto;
+   /* height: auto;*/
+   height: 412px;
   }
 
 }

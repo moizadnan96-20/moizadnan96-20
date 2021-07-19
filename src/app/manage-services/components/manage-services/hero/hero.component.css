@@ -82,8 +82,12 @@
     }*/
 }
 .page-heading{
-  background-color: #f1f1f1;
-  color: #5d6063;
+   /* background-color: #f1f1f1; */
+   background-color: #1D2957;
+   /* color: #5d6063; */
+   color: white;
+   padding-top: 25px;
+   padding-bottom:30px;
 }
 
 .highlight-pink {
