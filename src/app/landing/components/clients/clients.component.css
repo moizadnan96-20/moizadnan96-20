@@ -4,7 +4,7 @@
 }
 
 .cliens img {
-  max-width: 50%;
+  max-width: 70%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -18,7 +18,7 @@
 
 @media (max-width: 768px) {
   .cliens img {
-    max-width: 28%;
+    max-width: 70%;
   }
 }
 .title-new {

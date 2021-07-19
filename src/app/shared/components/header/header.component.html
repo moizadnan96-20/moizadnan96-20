@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top">
   <div class="row">
     <div class="col-4">
-      <div class="contact-info padding-left">
+      <div class="contact-info padding-left mobile-padding">
         <!--<img
           routerLink="/"
           src="../../../../assets/Dia/perception-logos (2).svg"
@@ -147,12 +147,14 @@
             </li>
           </ul>
           <i
-            class="bi bi-list mobile-nav-toggle"
+            class="bi bi-list mobile-nav-toggle "
+            
             (click)="nav($event)"
             *ngIf="!toggle"
           ></i>
           <i
             class="bi bi-x mobile-nav-toggle"
+            
             (click)="close($event)"
             *ngIf="toggle"
           ></i>

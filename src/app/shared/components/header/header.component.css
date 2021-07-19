@@ -415,3 +415,9 @@ a {
 .perception-logo {
   padding-top: 15px;
 }
+@media (max-width:600px){
+  .mobile-padding{
+    padding-left: 27px;
+  }
+ 
+}
