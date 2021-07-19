@@ -1,143 +1,158 @@
-ngb-carousel {
-    /* max-width: 700px; */
-    /* margin: 50px auto; */
-    /* max-height: 200px; */
-}
-
 ngb-carousel img {
-    /* width: 100%; */
-  
-    outline: none;
+
+
+  outline: none;
 }
 
 
 .carousel-inner {
-    overflow: visible;
+  overflow: visible;
 }
 
 .carousel-item {
-    display: flex !important;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease-in-out, visibility 0.5s;
-    z-index: -1;
-   
+  display: flex !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s;
+  z-index: -1;
+
 }
 
-.carousel-item.active{
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
+.carousel-item.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
 }
 
 .carousel-control-prev {
-     z-index: 100;
-    
+  z-index: 100;
+
 }
 
 
 .carousel-control-next {
-     z-index: 100;
+  z-index: 100;
 }
 
-.carousel-indicators{
-    z-index: 20;
+.carousel-indicators {
+  z-index: 20;
 }
 
-/* .carousel-control-prev-icon{
-    background-image: url('../../../assets/Dia/DevOps.svg')
- }
- .carousel-control-next-icon{
-   background-image: url('../../../assets/Dia/DevOps.svg')
- } */
 
- .carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
-    width: 3rem;
-    height: 3rem;
-    background-repeat: no-repeat;
-    /* background-position: 50%; */
-    /* background-size: cover; */
-    background-color: #707070;
-    
-    /* padding-right: 10px; */
-    border-radius: 25% !important
-    
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  /* background-position: 50%; */
+  /* background-size: cover; */
+  background-color: #707070;
+
+  /* padding-right: 10px; */
+  border-radius: 25% !important
 }
 
 .carousel-indicators li {
-    width : 0.5rem!important;
-    height: 0.5rem !important;
-    border-radius: 50% !important
-  }
-  
-  .carousel-indicators li {
-    width : 0.5rem!important;
-    background-color: #080501;
-    height: 0.5rem !important;
-    border-radius: 50% !important;
-    margin-left: 8px;
-  }
-  
-  .carousel-indicators .active {
-    width : 0.5rem!important;
-    background-color: #dedada;
-    height: 0.5rem !important;
-    border-radius: 50% !important
-  }
-  .carousel-control-prev-icon{
-    margin-right: 85px ;
-   
-  }
-  .carousel-control-next-icon{
-    margin-left: 70px ;
-   
-  }
- 
-  @media only screen and (max-width: 775px) and (min-width: 300px){
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  border-radius: 50% !important
+}
 
-    .carousel-control-prev-icon{
-      /* margin-right: 33px ;
+.carousel-indicators li {
+  width: 0.5rem !important;
+  background-color: #080501;
+  height: 0.5rem !important;
+  border-radius: 50% !important;
+  margin-left: 8px;
+}
+
+.carousel-indicators .active {
+  width: 0.5rem !important;
+  background-color: #dedada;
+  height: 0.5rem !important;
+  border-radius: 50% !important
+}
+
+.carousel-control-prev-icon {
+  margin-right: 85px;
+
+}
+
+.carousel-control-next-icon {
+  margin-left: 70px;
+
+}
+
+@media only screen and (max-width: 775px) and (min-width: 300px) {
+
+  .carousel-control-prev-icon {
+    /* margin-right: 33px ;
       width: 20px;
       height: 20px; */
-      
-     
-    }
-    .carousel-control-next-icon{
-      /* margin-left:33px ;
+
+
+  }
+
+  .carousel-control-next-icon {
+    /* margin-left:33px ;
       width: 20px;
       height: 20px;
        */
-    }
-    #imageHeight{
-      height: 46vh !important;
-      /* height: auto !important; */
-     
-      /* max-height: fit-content; */
-     
-    }
-    
   }
+
+  #imageHeight {
+    /* height: 310px !important; */
+    height: auto !important;
+    
+
+    /* max-height: fit-content; */
+
+  }
+  .carousel-indicators {
+
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
   
-  #imageHeight{
-    height: 500px;
-
-    
+  
   }
 
-  @media only screen and (max-width: 1600px) and (min-width: 1368px){
-    #imageHeight{height: 525px;} 
-  }
+}
 
-  @media only screen and (max-width: 1920px) and (min-width: 1600px) {
-    #imageHeight{height: 610px;} 
-  }
 
-  @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    #imageHeight{height: 300px!important;} 
+#imageHeight {
+  height: 500px;
+
+
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1368px) {
+  #imageHeight {
+    height: 525px;
   }
-  @media only screen and (max-width: 1300px) and (min-width: 1024px) {
-    #imageHeight{height: 470px!important;} 
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1600px) {
+  #imageHeight {
+    height: 610px;
   }
- 
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  #imageHeight {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1024px) {
+  #imageHeight {
+    height: 470px !important;
+  }
+}
+
+.carousel-control:focus {
+  border: 0 !important;
+}
+
+
