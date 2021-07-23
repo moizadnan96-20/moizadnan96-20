@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LandingModule } from './../landing/landing.module';
 import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,7 @@ import { AboutInfoComponent } from './components/about-us/about-info/about-info.
     CommonModule,
     AboutUsRoutingModule,
     SharedModule,
-    LandingModule
+    LandingModule,NgbModule
   ]
 })
 export class AboutUsModule { }
