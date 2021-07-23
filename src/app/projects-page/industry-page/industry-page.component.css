@@ -63,19 +63,26 @@
   .col-3 {
     width: 100%;
   }
-  .col-9{
-    width: 100%;
- }
-   #more-button{
-    flex-wrap: wrap;}
-    #more-button,#more-text{
-      margin-right: 50px;
-    }
-   #more-text i{
-    padding-right: 35px;
-    }
-    .col-lg-11, a{
-  margin-bottom: 10px;
-    } 
-}
 
+  .col-9 {
+    width: 100%;
+  }
+
+  #more-button {
+    flex-wrap: wrap;
+  }
+
+  #more-button,
+  #more-text {
+    margin-right: 50px;
+  }
+
+  #more-text i {
+    padding-right: 35px;
+  }
+
+  .col-lg-11,
+  a {
+    margin-bottom: 10px;
+  }
+}

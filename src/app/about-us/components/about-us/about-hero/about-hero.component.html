@@ -1,53 +1,53 @@
-
-  <div class="overflow-hidden">
-    <div class="first-div">
-        <div class="col-md-6">
-          <h1 class="padding-left first-h1">
-            Perception IT is leading the way in delivering IT operations solutions
-          </h1>
-          <h2 class="padding-left first-h2">
-            Perception IT manages the IT operational infrastructure for companies
-            with huge infrastructure and stringent SLAs
-          </h2>
-        </div>
-      </div>
-      <div class="page-heading padding-left padding-right margin-top-3">
-        <h3 class="pb-1">About Us</h3>
-        <h4>Perceiving the present and future</h4>
-      </div>
-      <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)" *ngIf="!width">
-        <div class="social-links">
-          <a  class="align-middle" (click)="scroll('#SM')">
-            <h5 class="third-h5">Systems Management</h5>
-          </a>
-          <a  class="left-line align-middle" (click)="scroll('#DevOps')">
-            <h5 class="third-h5">DevOps</h5>
-          </a>
-          <a  class="left-line align-middle " (click)="scroll('#SD')">
-            <h5 class="third-h5">Service Desk</h5>
-          </a>
-          <a  class="left-line align-middle" (click)="scroll('#CM')">
-            <h5 class="third-h5">Cloud Migration</h5>
-          </a>
-          <a (click)="scroll('#PP')" class="left-line align-middle">
-            <h5 class="third-h5">Why Partner With Perception IT</h5>
-          </a>
-        </div>
-        <div style="height: 2px"></div>
-      </div>
-  </div>
-  <div class="row mt-3 mb-3" *ngIf="width">
-    <div class="padding-left col-lg-12 padding-right" id="links-tab" >
-      <label class="mb-2" >Topics</label>
-      <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
-       
-        <option value="#SM"  >Systems Management</option>
-        <option value="#DevOps" >DevOps</option>
-        <option value="#SD" >Service Desk</option>
-        <option value="#CM">Cloud Migration</option>
-        <option value="#PP">Why Partner With Perception IT</option>
-      </select>
+<div class="overflow-hidden">
+  <div class="first-div">
+    <div class="col-md-6">
+      <h1 class="padding-left first-h1">
+        Perception IT is leading the way in delivering IT operations solutions
+      </h1>
+      <h2 class="padding-left first-h2">
+        Perception IT manages the IT operational infrastructure for companies
+        with huge infrastructure and stringent SLAs
+      </h2>
     </div>
-  
-    
   </div>
+  <div class="page-heading padding-left padding-right margin-top-3">
+    <h3 class="pb-1">About Us</h3>
+    <h4>Perceiving the present and future</h4>
+  </div>
+  <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)"
+    *ngIf="!width">
+    <div class="social-links">
+      <a class="align-middle" (click)="scroll('#SM')">
+        <h5 class="third-h5">Systems Management</h5>
+      </a>
+      <a class="left-line align-middle" (click)="scroll('#DevOps')">
+        <h5 class="third-h5">DevOps</h5>
+      </a>
+      <a class="left-line align-middle " (click)="scroll('#SD')">
+        <h5 class="third-h5">Service Desk</h5>
+      </a>
+      <a class="left-line align-middle" (click)="scroll('#CM')">
+        <h5 class="third-h5">Cloud Migration</h5>
+      </a>
+      <a (click)="scroll('#PP')" class="left-line align-middle">
+        <h5 class="third-h5">Why Partner With Perception IT</h5>
+      </a>
+    </div>
+    <div style="height: 2px"></div>
+  </div>
+</div>
+<div class="row mt-3 mb-3" *ngIf="width">
+  <div class="padding-left col-lg-12 padding-right" id="links-tab">
+    <label class="mb-2">Topics</label>
+    <select class=" form-select" aria-label="Default select example" (change)="activeRoute($event)">
+
+      <option value="#SM">Systems Management</option>
+      <option value="#DevOps">DevOps</option>
+      <option value="#SD">Service Desk</option>
+      <option value="#CM">Cloud Migration</option>
+      <option value="#PP">Why Partner With Perception IT</option>
+    </select>
+  </div>
+
+
+</div>

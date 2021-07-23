@@ -23,9 +23,9 @@
 
 
   <div class="col-lg-12 ">
-    <label class="mb-2" >Filter By:</label>
+    <label class="mb-2">Filter By:</label>
     <select class="form-select" (change)="filterInput($event)">
-      <option [ngClass]="{ 'active-linked': activeValue == 'All' }"  >All</option>
+      <option [ngClass]="{ 'active-linked': activeValue == 'All' }">All</option>
       <option *ngFor="let i of filters" [ngClass]="{ 'active-linked': i == activeValue }">
         {{i}}
       </option>
@@ -80,11 +80,11 @@
       border-radius: 8px;
       background-color: #1d2957;
     ">
-    <p class="p-2 mb-0">
-      <a (click)="scroll('#helps')" class="pointer" style="color: white">
-        Need help with a similar project?</a>
-    </p>
-  </h6>
+        <p class="p-2 mb-0">
+          <a (click)="scroll('#helps')" class="pointer" style="color: white">
+            Need help with a similar project?</a>
+        </p>
+      </h6>
     </div>
   </div>
 </div>
