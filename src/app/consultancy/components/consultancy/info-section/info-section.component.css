@@ -253,4 +253,8 @@ padding-top: 0 !important ;
   .img-size{
   width: 100% !important;
   }
+
+  .space{
+    margin-top: 20px;
+  }
 }
