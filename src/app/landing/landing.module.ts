@@ -4,37 +4,28 @@ import { NgMarqueeModule } from 'ng-marquee';
 import { LandingRoutingModule } from './landing-routing.module';
 import { SharedModule } from '../shared/shared.module';
 
-
 //components
 
 import { ServicesComponent } from './components/services/services.component';
 
 import { ContentComponent } from './content.component';
-import { HeroComponent } from './components/hero/hero.component';
-import { FeaturedComponent } from './components/featured/featured.component';
-import { AboutComponent } from './components/about/about.component';
-import { ServiceSectionComponent } from './components/service-section/service-section.component';
 
-import { ClientsComponent } from "./components/clients/clients.component";
+import { AboutComponent } from './components/about/about.component';
+
+import { ClientsComponent } from './components/clients/clients.component';
 import { NgbCarouselConfig, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { InfoSectionComponent } from './info-section/info-section.component';
-
 
 @NgModule({
   declarations: [
     ContentComponent,
-    HeroComponent,
-    FeaturedComponent,
+
     AboutComponent,
-    ServiceSectionComponent,
-   
+
     ClientsComponent,
     ServicesComponent,
-   
-    InfoSectionComponent,
-   
-    
 
+    InfoSectionComponent,
   ],
   imports: [
     CommonModule,
@@ -43,9 +34,6 @@ import { InfoSectionComponent } from './info-section/info-section.component';
     NgMarqueeModule,
     NgbModule,
   ],
-  exports: [
-    ClientsComponent,
-  ],
-
+  exports: [ClientsComponent],
 })
-export class LandingModule { }
+export class LandingModule {}

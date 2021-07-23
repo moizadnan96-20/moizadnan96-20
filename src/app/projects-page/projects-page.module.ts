@@ -8,7 +8,7 @@ import { ProjectsPageComponent } from './projects-page.component';
 import { IndustryPageComponent } from './industry-page/industry-page.component';
 import { SoftwareProductsPageComponent } from './software-products-page/software-products-page.component';
 import { TechnologyPageComponent } from './technology-page/technology-page.component';
-import { HelpPageComponent } from './help-page/help-page.component';
+
 import { ContactUsModule } from '../contact-us/contact-us.module';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -17,7 +17,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
-  declarations: [HeroSectionComponent, ProjectsPageComponent, IndustryPageComponent, SoftwareProductsPageComponent, TechnologyPageComponent, HelpPageComponent],
+  declarations: [HeroSectionComponent, ProjectsPageComponent, IndustryPageComponent, SoftwareProductsPageComponent, TechnologyPageComponent],
   imports: [
     CommonModule,
     ProjectsPageRoutingModule,

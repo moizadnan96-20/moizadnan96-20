@@ -1,50 +1,61 @@
+<div class="third-div">
+  <div class="row">
+    <div class="col-md-6 offset-md-6">
+      <h1 class="padding-right padding-left pt-5" id="abouttext">
+        We are uniquely positioned to drive change in your business through
+        the latest technologies
+      </h1>
+      <p class="padding-right padding-left body-3 pt-3 pb-5">
+        Our experience bridges large-scale operations with new cloud and
+        devops technologies, enabling your business to realize its true
+        potential.
+      </p>
+    </div>
+  </div>
+</div>
+<app-clients></app-clients>
+<div class="forth-div">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="padding-left padding-right padding-top">
+        Entire organizations need to be agile for a business to realize their
+        true value <small style="font-size: small">-McKinsey Digital</small>
+      </h2>
+      <br />
+      <p class="padding-left padding-right m-0 pt-2 body-3" style="color: #464646">
+        Perception IT was established in London in 2010, specializing in
+        high-quality systems management consultancy. In 2016 Perception IT
+        expanded into Pakistan, where the team continue to grow, to both cater
+        for the domestic market and operate as an offshore managed support
+        center and development hub
+      </p>
+      <br />
+      <p class="padding-left padding-right padding-bottom body-3" style="color: #464646">
+        Perception IT boasts of a highly skilled team, proficient in
+        Operational Support software, Service Desk, DevOps, Cloud and Software
+        Development
+      </p>
+    </div>
 
-<div class="overflow-hidden">
-    <div class="third-div">
-        <div class="row">
-          <div class="col-md-6 offset-md-6">
-            <h1 class="padding-right padding-left pt-5" id="abouttext">
-              We are uniquely positioned to drive change in your business through
-              the latest technologies
-            </h1>
-            <p class="padding-right padding-left body-3 pt-3 pb-5">
-              Our experience bridges large-scale operations with new cloud and
-              devops technologies, enabling your business to realize its true
-              potential.
-            </p>
-          </div>
-        </div>
+  </div>
+  <div class="row fifth-div">
+    <div id="SM" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box-0"
+      [style.background]="parentDate == '#SM' ? '#7A7A7A' : null">
+      <div class="header-1 color text-center color">
+        <img src="../../../../../assets/img/upway.svg" class="img-fluid" alt="" height="20" width="30" />
       </div>
-      <app-clients></app-clients>
-      <div class="forth-div">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="padding-left padding-right padding-top">
-              Entire organizations need to be agile for a business to realize their
-              true value <small style="font-size: small">-McKinsey Digital</small>
-            </h2>
-            <br />
-            <p
-              class="padding-left padding-right m-0 pt-2 body-3"
-              style="color: #464646"
-            >
-              Perception IT was established in London in 2010, specializing in
-              high-quality systems management consultancy. In 2016 Perception IT
-              expanded into Pakistan, where the team continue to grow, to both cater
-              for the domestic market and operate as an offshore managed support
-              center and development hub
-            </p>
-            <br />
-            <p
-              class="padding-left padding-right padding-bottom body-3"
-              style="color: #464646"
-            >
-              Perception IT boasts of a highly skilled team, proficient in
-              Operational Support software, Service Desk, DevOps, Cloud and Software
-              Development
-            </p>
-          </div>
-
+      <h2 class="header-2 col-padding-left col-padding-right" style="font-family: SFPro-thin">
+        Systems Management
+      </h2>
+      <p class="body-3 col-padding-right col-padding-left" style="color: #dddcdc; padding-bottom: 45px">
+        Our customers process millions of alarms each day. We help them make
+        sense of the volume of data and to automate their responses.
+      </p>
+    </div>
+    <div id="DevOps" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box"
+      [style.background]="parentDate == '#DevOps' ? '#7A7A7A' : null">
+      <div class="header-1 color-1 text-center color-1">
+        <img src="../../../../../assets/img/upway.svg" class="img-fluid" alt="" height="20" width="30" />
       </div>
       <div class="row fifth-div">
         <div id="SM" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box-0" [style.background]="parentDate == '#SM' ? '#7A7A7A' : null">
@@ -140,5 +151,28 @@
           </p>
         </div>
       </div>
+      <h2 class="header-2 col-padding-left col-padding-right" style="font-family: SFPro-thin">
+        Service Desk
+      </h2>
+      <p class="body-3 col-padding-right col-padding-left" style="color: #dddcdc; padding-bottom: 25px;">
+        We help enterprise customers create, automate and report on their
+        business processes through service desk delivery and customization. Each
+        day our customers process tens of thousands of new tickets through
+        appropriate ITIL processes
+      </p>
     </div>
+    <div id="CM" class="col-lg-3 col-md-6 col-sm-12 box-body p-0 box"
+      [style.background]="parentDate == '#CM' ? '#7A7A7A' : null">
+      <div class="header-1 color-1 text-center color-1">
+        <img src="../../../../../assets/img/upway.svg" class="img-fluid" alt="" height="20" width="30" />
+      </div>
+      <h2 class="header-2 col-padding-left col-padding-right" style="font-family: SFPro-thin">
+        Cloud Migration
+      </h2>
+      <p class="body-3 col-padding-right col-padding-left" style="color: #dddcdc">
+        We are working with companies to reduce costs and improve reliability
+        through use of cloud services and hybrid solutions
+      </p>
+    </div>
+  </div>
 </div>

@@ -8,156 +8,84 @@
           class="pointer perception-logo"
           alt=""
         />-->
-        <img
-          routerLink="/"
-          src="../../../../assets/Dia/perception it new logo dark.svg"
-          class="pointer perception-logo"
-          alt=""
-          height="100px"
-          width="250px"
-        />
+        <img routerLink="/" src="../../../../assets/Dia/perception it new logo dark.svg" class="pointer perception-logo"
+          alt="" height="100px" width="250px" />
       </div>
     </div>
     <div class="col-8">
-      <div
-        class="
+      <div class="
           d-flex
           justify-content-center justify-content-md-between
           padding-left padding-right padding-top-20 padding-bottom-10
-        "
-      >
+        ">
         <div></div>
         <div class="top-header d-none d-md-block" *ngIf="!width">
-          <a
-            routerLink="/aboutus"
-            routerLinkActive="active-link"
-            class="pointer"
-            ><h4 style="font-family: SFPro-Light">About Us</h4></a
-          >
+          <a routerLink="/aboutus" routerLinkActive="active-link" class="pointer">
+            <h4 style="font-family: SFPro-Light">About Us</h4>
+          </a>
 
-          <a
-            routerLink="/tech-lead"
-            routerLinkActive="active-link"
-            class=" pointer"
-            ><h4 style="font-family: SFPro-Light">Tech Lead</h4></a
-          >
-          <a
-            class=" pointer"
-            routerLink="/projects"
-            routerLinkActive="active-link"
-            ><h4>Projects</h4></a
-          >
+          <a routerLink="/tech-lead" routerLinkActive="active-link" class=" pointer">
+            <h4 style="font-family: SFPro-Light">Tech Lead</h4>
+          </a>
+          <a class=" pointer" routerLink="/projects" routerLinkActive="active-link">
+            <h4>Projects</h4>
+          </a>
           <!-- <a class="right-line pointer"><h4>Jobs</h4></a> -->
-          <a
-            routerLink="/contact"
-            routerLinkActive="active-link"
-            class="  pointer"
-            ><h4 style="font-family: SFPro-Light">Contact</h4></a
-          >
-          <a  class=" pointer"href="https://www.linkedin.com/company/perception-it/" target="_blank"><i style="font-size: x-large;"
-            class="bi bi-linkedin"></i></a>
+          <a routerLink="/contact" routerLinkActive="active-link" class="  pointer">
+            <h4 style="font-family: SFPro-Light">Contact</h4>
+          </a>
+          <a class=" pointer" href="https://www.linkedin.com/company/perception-it/" target="_blank"><i
+              style="font-size: x-large;" class="bi bi-linkedin"></i></a>
         </div>
       </div>
-      <div
-        class="
+      <div class="
           d-flex
           align-items-center
           justify-content-between
           padding-left padding-right padding-bottom-20
-        "
-      >
-        <!-- <h1 class="logo"><a href="index.html">Perception IT</a></h1> -->
+        ">
+
         <div></div>
-        <!-- <h1 *ngIf="width" class="logo"><a (click)="routeTo('/',$event)">Perception IT</a></h1> -->
+
         <nav id="navbar" class="navbar">
           <ul id="ul">
             <li *ngIf="width" (click)="routeTo('/aboutus', $event)">
-              <a
-                class="nav-link left-padding"
-                routerLink="/aboutus"
-                routerLinkActive="active-link"
-                >About Us</a
-              >
+              <a class="nav-link left-padding" routerLink="/aboutus" routerLinkActive="active-link">About Us</a>
             </li>
             <li (click)="routeTo('/tech-lead', $event)" *ngIf="width">
-              <a class="nav-link left-padding scrollto pointer"
-                >Tech Lead</a
-              >
+              <a class="nav-link left-padding scrollto pointer">Tech Lead</a>
             </li>
             <li (click)="routeTo('/projects', $event)" *ngIf="width">
-              <a
-                class="nav-link left-padding scrollto pointer"
-                routerLink="/projects"
-                routerLinkActive="active-link"
-                >Projects</a
-              >
+              <a class="nav-link left-padding scrollto pointer" routerLink="/projects"
+                routerLinkActive="active-link">Projects</a>
             </li>
-            <!-- <li *ngIf="width">
-              <a class="nav-link left-padding scrollto pointer">Jobs</a>
-            </li> -->
+
             <li (click)="routeTo('/contact', $event)" *ngIf="width">
-              <a
-                class="nav-link left-padding scrollto pointer"
-                routerLink="/contact"
-                routerLinkActive="active-link"
-                >Contact</a
-              >
+              <a class="nav-link left-padding scrollto pointer" routerLink="/contact"
+                routerLinkActive="active-link">Contact</a>
             </li>
             <li (click)="routeTo('/manage-services', $event)">
-              <a
-                class="body-1 nav-link left-padding"
-                routerLink="/manage-services"
-                routerLinkActive="active-link"
-                >Managed Services</a
-              >
+              <a class="body-1 nav-link left-padding" routerLink="/manage-services"
+                routerLinkActive="active-link">Managed Services</a>
             </li>
-            <!-- <li><a class="nav-link left-padding scrollto" href="#about">Customised Softwares</a></li> -->
+
             <li (click)="routeTo('/consulting', $event)">
-              <a
-                class="nav-link left-padding "
-                routerLink="/consulting"
-                routerLinkActive="active-link"
-                >Consulting</a
-              >
+              <a class="nav-link left-padding " routerLink="/consulting" routerLinkActive="active-link">Consulting</a>
             </li>
             <li (click)="routeTo('/devops', $event)">
-              <a
-                class="nav-link left-padding "
-                routerLink="/devops"
-                routerLinkActive="active-link"
-                >DevOps & Cloud</a
-              >
+              <a class="nav-link left-padding " routerLink="/devops" routerLinkActive="active-link">DevOps & Cloud</a>
             </li>
             <li (click)="routeTo('/infrastructure', $event)">
-              <a
-                class="nav-link left-padding "
-                routerLink="/infrastructure"
-                routerLinkActive="active-link"
-                >Infrastructure Support</a
-              >
+              <a class="nav-link left-padding " routerLink="/infrastructure"
+                routerLinkActive="active-link">Infrastructure Support</a>
             </li>
-            <!-- <li><a class="nav-link left-padding scrollto" href="#team">Specialised Services</a></li> -->
+
             <li (click)="routeTo('/technology', $event)">
-              <a
-                class="nav-link left-padding "
-                routerLink="/technology"
-                routerLinkActive="active-link"
-                >Technology</a
-              >
+              <a class="nav-link left-padding " routerLink="/technology" routerLinkActive="active-link">Technology</a>
             </li>
           </ul>
-          <i
-            class="bi bi-list mobile-nav-toggle "
-            
-            (click)="nav($event)"
-            *ngIf="!toggle"
-          ></i>
-          <i
-            class="bi bi-x mobile-nav-toggle"
-            
-            (click)="close($event)"
-            *ngIf="toggle"
-          ></i>
+          <i class="bi bi-list mobile-nav-toggle " (click)="nav($event)" *ngIf="!toggle"></i>
+          <i class="bi bi-x mobile-nav-toggle" (click)="close($event)" *ngIf="toggle"></i>
         </nav>
       </div>
     </div>

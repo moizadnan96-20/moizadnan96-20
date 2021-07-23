@@ -8,24 +8,7 @@
   width: 100%;
 }
 
-/*@media (max-width: 1490px) {
-  #links-tab {
-    height: auto !important;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
 
-
-  }
-
-
-}*/
-
-/* @media (max-width: 950px) {
-  #first-img {
-    height: 417px !important;
-  }
-
-} */
 
 @media (max-width: 550px) {
   .first-padding-right {
@@ -80,17 +63,10 @@
   width: 100%;
 }
 
-/*@media (max-width: 1490px) {
-  #links-tab {
-    height: auto !important;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
 
 
-  }
 
 
-}*/
 
 
 @media (max-width: 550px) {
@@ -159,14 +135,7 @@
     padding-top: 25px;
     padding-bottom:30px
 }
-/*.backgroundColor{
-  background-image: url(/assets/carsole/TECHNOLOGY\ 1920\ ×\ 750.svg);
-  height:80vh;
- max-width: 100vw;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size:cover;
-}*/
+
 .mobileView{
   width: 100%;
  

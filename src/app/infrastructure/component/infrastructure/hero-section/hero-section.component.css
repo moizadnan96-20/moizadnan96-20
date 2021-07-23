@@ -13,19 +13,7 @@
   width: 100%;
 }
 
-/* @media (max-width: 1200px) {
-  #first-img {
-    height: 357px !important;
-  }
 
-} */
-
-/* @media (max-width: 1010px) {
-  #first-img {
-    height: 417px !important;
-  }
-
-} */
 
 @media (max-width: 550px) {
   .first-padding-right {
@@ -33,13 +21,6 @@
   }
 }
 
-/*@media (max-width: 835px) {
-  #links-tab{
-    height: auto !important;
-    padding-bottom: 3px !important;
-    padding-top: 3px !important;
-  }
-}*/
 
 .first-padding-right {
   padding-right: 80px;
@@ -76,7 +57,7 @@
 
 }
 
-/*   */
+
 @media  (max-width:1270px){
   #first-img{
    height: 100%;
