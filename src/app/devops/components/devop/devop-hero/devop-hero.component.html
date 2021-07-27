@@ -17,6 +17,12 @@
 
   <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)" *ngIf="!width">
     <div class="social-links">
+      <a
+      (click)="scroll('#DevOps')"
+      class=" align-middle right-line linksTopPadding"
+    >
+      <h5>DevOps</h5>
+    </a>
       
       <a
         (click)="scroll('#CloudMigration')"
@@ -69,6 +75,7 @@
     <h4 class="pb-3" >Topics</h4>
     <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
      
+      <option value="#DevOps"  >DevOps</option>
       <option value="#CloudMigration"  >Cloud Migration</option>
       <option value="#AIOpsDevOps" >AI Ops</option>
       <option value="#kuberneties" > Managed Cloud Services</option>
