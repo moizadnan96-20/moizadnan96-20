@@ -10,13 +10,14 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { InfoSectionComponent } from './components/info-section/info-section.component';
 import { TechnologyUpdatesComponent } from './technology-updates.component';
 import { TechnologyQuestionsComponent } from './components/technology-questions/technology-questions.component';
+import { TechnologyworkSectionComponent } from './components/technologywork-section/technologywork-section.component';
 
 
 
 
 
 @NgModule({
-  declarations: [HeroSectionComponent, InfoSectionComponent, TechnologyUpdatesComponent, TechnologyQuestionsComponent, ],
+  declarations: [HeroSectionComponent, InfoSectionComponent, TechnologyUpdatesComponent, TechnologyQuestionsComponent, TechnologyworkSectionComponent, ],
   imports: [
     CommonModule,
     TechnologyUpdatesRoutingModule,

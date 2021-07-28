@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener, Input } from '@angular/core';
 declare const scrollTOEl: any;
+import * as AOS from 'aos';
 @Component({
   selector: 'app-info-section',
   templateUrl: './info-section.component.html',
@@ -23,9 +24,15 @@ export class InfoSectionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    {
+      AOS.init();
+    }
+    console.log(AOS);
+  
     this.linkTab = document.getElementById("links-tab");
     this.linkTabOfset = this.linkTab?.offsetTop;
     this.header = document.getElementById("header")?.offsetHeight;
+   
   }
 
   scroll(el: any) {
