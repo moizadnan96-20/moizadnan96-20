@@ -36,10 +36,12 @@
               "node_modules/font-awesome/css/font-awesome.css",
               "src/assets/bootstrap-icons/bootstrap-icons.css",
               "src/assets/boxicons/css/boxicons.min.css",
-              "./node_modules/intl-tel-input/build/css/intlTelInput.css"
+              "./node_modules/intl-tel-input/build/css/intlTelInput.css",
+              "node_modules/aos/dist/aos.css"
             ],
             "scripts": [
-              "src/assets/js/main.js"
+              "src/assets/js/main.js",
+              "node_modules/aos/dist/aos.js"
             ]
           },
           "configurations": {

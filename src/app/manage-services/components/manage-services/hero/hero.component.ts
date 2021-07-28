@@ -35,13 +35,13 @@ export class HeroComponent implements OnInit {
     if (window.pageYOffset  > 500) {
      this.element  = document.getElementById('links-tab');
      this.element.classList.add('sticky');
-     console.log(this.element);
+     
      
      
     } else {
       this.element  = document.getElementById('links-tab');
      this.element.classList.remove('sticky');
-     console.log(this.element);
+     
     }
   }
 

@@ -14,7 +14,9 @@
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
-
+.services .icon-box:hover{
+  box-shadow: 0 4px 4px 0 #929191, 0 4px 4px 0 #929191;
+}
 .services .icon-box .icon {
   margin: 0 auto;
   display: flex;
