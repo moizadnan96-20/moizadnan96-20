@@ -1,6 +1,6 @@
-.first-div {
+/*.first-div {
   background-color: #E4E4E4;
-}
+}*/
 
 .first-h1 {
  
@@ -113,13 +113,19 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 1366px) and (min-width: 1000px) {
+/*@media only screen and (max-width: 1366px) and (min-width: 1000px) {
   #image-width {
-   /* height: auto;*/
+    height: auto;
    height: 412px;
+  
+   
+
+
   }
 
-}
+}*/
+
+
 
 /*          for clients        */
 /*#cliens {
