@@ -1,5 +1,5 @@
-<div class="row" *ngIf="!width">
-  <div class="col-lg-1">
+<div class="row" *ngIf="!width" data-aos="zoom-in-up">
+  <div class="col-lg-1" >
     <a style="font-weight: bold; padding-left: 15px">Filter by:</a>
   </div>
 
@@ -17,7 +17,7 @@
     </span>
   </div>
 </div>
-<div class="row" *ngIf="width">
+<div class="row" *ngIf="width" data-aos="zoom-in-up">
 
 
   <div class="col-lg-12">
@@ -34,7 +34,7 @@
   </div>
 </div>
 
-<div class="row mt-5" style="background-color: #f1f1f1" *ngFor="let project of filterData">
+<div class="row mt-5" style="background-color: #F8F9FA" *ngFor="let project of filterData" data-aos="zoom-in-up">
   <div class="col-3">
     <img [src]="project.image" alt="" class="image fluid" style="width: 100%" />
   </div>

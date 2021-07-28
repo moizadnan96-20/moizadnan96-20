@@ -1,7 +1,7 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import projectsData from '../data/data';
 declare const scrollTOEl: any;
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-technology-page',
   templateUrl: './technology-page.component.html',
@@ -35,6 +35,8 @@ export class TechnologyPageComponent implements OnInit {
     } else {
       this.width = false;
     }
+    AOS.init();
+    console.log(AOS.init());
   }
   scroll(el: any) {
     scrollTOEl(el);
