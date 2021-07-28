@@ -40,9 +40,9 @@ export class HeroSectionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.linkTab = document.getElementById("links-tab");
+    /*this.linkTab = document.getElementById("links-tab");
     this.linkTabOfset = this.linkTab?.offsetTop;
-    this.header = document.getElementById("header")?.offsetHeight;
+    this.header = document.getElementById("header")?.offsetHeight;*/
     if (window.innerWidth <= 1100) {
       this.width = true;
     } else {
