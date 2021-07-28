@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-devop-info-section',
   templateUrl: './devop-info-section.component.html',
@@ -10,6 +10,9 @@ export class DevopInfoSectionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    {
+      AOS.init();
+    }
+    console.log(AOS);
   }
-
 }

@@ -1,5 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-question-section',
   templateUrl: './question-section.component.html',
@@ -52,6 +52,8 @@ export class QuestionSectionComponent implements OnInit {
     // this.bb=document.getElementById("BB");
     // this.bbOffset=this.bb?.offsetTop;
     // this.bbOffset+=this.header;
+    AOS.init();
+    console.log(AOS.init());
   }
 
 }
