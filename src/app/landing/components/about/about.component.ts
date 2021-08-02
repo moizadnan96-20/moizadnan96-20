@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     AOS.init();
-    console.log(AOS.init());
+    
   }
 
 }

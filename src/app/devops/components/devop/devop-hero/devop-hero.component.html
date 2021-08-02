@@ -18,20 +18,20 @@
   <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)" *ngIf="!width">
     <div class="social-links">
       <a
-      (click)="scroll('#DevOps')"
+      (click)="scroll('DevOps')"
       class=" align-middle right-line linksTopPadding"
     >
       <h5>DevOps</h5>
     </a>
       
       <a
-        (click)="scroll('#CloudMigration')"
+        (click)="scroll('CloudMigration')"
         class=" align-middle linksTopPadding"
       >
         <h5>Cloud Migration</h5>
       </a>
       <a
-        (click)="scroll('#AIOpsDevOps')"
+        (click)="scroll('AIOpsDevOps')"
         class="left-line align-middle right-line linksTopPadding"
       >
         <h5>AI Ops</h5>
@@ -39,30 +39,30 @@
 
       <a class="dropdown1" ngbDropdown>
         <a class="align-middle linksTopPadding">
-          <h5 ngbDropdownToggle (click)="scroll('#ManagedCloudServices')">
+          <h5 ngbDropdownToggle (click)="scroll('ManagedCloudServices')">
             Managed Cloud Services
           </h5>
         </a>
         <div class="" ngbDropdownMenu>
           <a
             ngbDropdownItem
-            (click)="scroll('#kuberneties')"
+            (click)="scroll('kuberneties')"
             style="padding-left: 10px !important"
             ngbDropdownItem
             ><h5 style="color: black">Kuberneties</h5></a
           >
-          <a ngbDropdownItem (click)="scroll('#AWS')"
+          <a ngbDropdownItem (click)="scroll('AWS')"
             ><h5 style="color: black">AWS</h5></a
           >
-          <a ngbDropdownItem (click)="scroll('#GCP')"
+          <a ngbDropdownItem (click)="scroll('GCP')"
             ><h5 style="color: black">GCP</h5></a
           >
-          <a ngbDropdownItem (click)="scroll('#IBM')"
+          <a ngbDropdownItem (click)="scroll('IBM')"
             ><h5 style="color: black">IBM cloud</h5></a
           >
         </div>
       </a>
-      <a (click)="scroll('#PP')" class="left-line align-middle linksTopPadding">
+      <a (click)="scroll('PP')" class="left-line align-middle linksTopPadding">
        
         <h5 class="third-h5">Perception IT As Your Partner</h5>
       </a>
@@ -75,15 +75,15 @@
     <h4 class="pb-3" >Topics</h4>
     <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
      
-      <option value="#DevOps"  >DevOps</option>
-      <option value="#CloudMigration"  >Cloud Migration</option>
-      <option value="#AIOpsDevOps" >AI Ops</option>
-      <option value="#kuberneties" > Managed Cloud Services</option>
-      <option value="#kuberneties">Kuberneties</option>
-      <option value="#AWS">AWS</option>
-      <option value="#GCP">GCP</option>
-      <option value="#IBM">IBM cloud</option>
-      <option value="#PP">Perception IT As Your Partner</option>
+      <option value="DevOps"  >DevOps</option>
+      <option value="CloudMigration"  >Cloud Migration</option>
+      <option value="AIOpsDevOps" >AI Ops</option>
+      <option value="kuberneties" > Managed Cloud Services</option>
+      <option value="kuberneties">Kuberneties</option>
+      <option value="AWS">AWS</option>
+      <option value="GCP">GCP</option>
+      <option value="IBM">IBM cloud</option>
+      <option value="PP">Perception IT As Your Partner</option>
     </select>
   </div>
 

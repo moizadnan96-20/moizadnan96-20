@@ -10,9 +10,20 @@ export class InfoSectionComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    //   {
+    //     AOS.init();
+    //     console.log(AOS);
+    //   }
+    //   AOS.refresh();
+    //   console.log(AOS.refresh());
     {
-      AOS.init();
+      AOS.init({
+        offset: 100,
+        duration: 700,
+        easing: 'ease-out-quad',
+        once: !0,
+      });
+      window.addEventListener('load', AOS.refresh);
     }
-    console.log(AOS);
   }
 }

@@ -50,6 +50,8 @@ export class HeroSectionComponent implements OnInit {
 
   scroll(el: any) {
     scrollTOEl(el);
+    console.log(el);
+    
   }
   activeRoute(c: any) {
     scrollTOEl(c.target.value);

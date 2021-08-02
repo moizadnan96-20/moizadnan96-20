@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import {
   Component,
   EventEmitter,
@@ -39,7 +40,7 @@ export class AboutHeroComponent implements OnInit {
     }
   }
 
-  constructor() {}
+  constructor(private _vps: ViewportScroller) {}
 
   ngOnInit(): void {
     if (window.innerWidth <= 1100) {
@@ -50,11 +51,11 @@ export class AboutHeroComponent implements OnInit {
   }
 
   scroll(el: any) {
-    scrollTOEl(el);
-    this.childevent.emit(el);
+    this._vps.scrollToAnchor(el);
+    this.childevent.emit(el)
   }
   activeRoute(c: any) {
-    scrollTOEl(c.target.value);
-    this.childevent.emit(c.target.value);
+    this._vps.scrollToAnchor(c.target.value);
+    this.childevent.emit(c.target.value)
   }
 }

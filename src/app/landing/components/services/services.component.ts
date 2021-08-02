@@ -11,7 +11,7 @@ export class ServicesComponent implements OnInit {
 
   ngOnInit(): void {
     AOS.init();
-    console.log(AOS.init());
+    
   }
 
 }
