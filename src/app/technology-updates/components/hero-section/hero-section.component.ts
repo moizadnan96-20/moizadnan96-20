@@ -23,7 +23,7 @@ export class HeroSectionComponent implements OnInit {
   }
   @Output() public childevent=new EventEmitter()
   @HostListener('window:scroll', ['$event'])
-  onWindowScroll(e:any){
+  onWindowScroll(_e:any){
     if (window.pageYOffset  > 500) {
      this.element  = document.getElementById('links-tab');
      this.element.classList.add('sticky');
@@ -38,7 +38,7 @@ export class HeroSectionComponent implements OnInit {
   }
 
 
-  constructor(private _vps: ViewportScroller) { }
+  constructor() { }
 
   ngOnInit(): void {
     /*this.linkTab = document.getElementById("links-tab");
@@ -49,14 +49,16 @@ export class HeroSectionComponent implements OnInit {
     } else {
       this.width = false;
     }
+   //this._vps.setOffset([0, 0]);
   }
 
   scroll(el: any) {
-    this._vps.scrollToAnchor(el);
+    scrollTOEl(el);
+    
     this.childevent.emit(el)
   }
   activeRoute(c: any) {
-    this._vps.scrollToAnchor(c.target.value);
+    scrollTOEl(c.target.value);
     this.childevent.emit(c.target.value)
   }
 }

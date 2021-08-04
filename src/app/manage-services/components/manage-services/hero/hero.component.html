@@ -14,41 +14,41 @@
   <div class="social-links">
     <a class="dropdown1" ngbDropdown>
       <a class="align-middle linksTopPadding">
-        <h5 ngbDropdownToggle (click)="scroll('#ManagedCloudServices')">
+        <h5 ngbDropdownToggle (click)="scroll('ManagedCloudServices')">
           Our Services
         </h5>
       </a>
       <div class="" ngbDropdownMenu>
         <a
           ngbDropdownItem
-          (click)="scroll('AIOPs')"
+          (click)="scroll('#AIOPs')"
           style="padding-left: 13px !important"
           ngbDropdownItem
           ><h5 style="color: black">AIOps</h5></a
         >
-        <a ngbDropdownItem (click)="scroll('DCM')"
+        <a ngbDropdownItem (click)="scroll('#DCM')"
           ><h5 style="color: black">DevOps and Cloud Migration</h5></a
         >
-        <a ngbDropdownItem (click)="scroll('ISM')"
+        <a ngbDropdownItem (click)="scroll('#ISM')"
           ><h5 style="color: black">
             IT Service Management & Infrastructure Monitoring
           </h5></a
         >
 
-        <a ngbDropdownItem (click)="scroll('InfrastructureServices')"
+        <a ngbDropdownItem (click)="scroll('#InfrastructureServices')"
           ><h5 style="color: black">Infrastructure Services</h5></a
         >
       </div>
     </a>
     <a
-      (click)="scroll('CB')"
+      (click)="scroll('#CB')"
       class="left-line align-middle pointer linksTopPadding"
       id="abc"
     >
       <h5 class="third-h5">Business Benefits</h5>
     </a>
     <a
-      (click)="scroll('PP')"
+      (click)="scroll('#PP')"
       class="left-line pointer align-middle linksTopPadding"
       id="abc"
     >
@@ -63,12 +63,12 @@
     <h4 class="pb-3" >Topics</h4>
     <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
      
-      <option value="AIOPs"  >AIOps</option>
-      <option value="DCM" >DevOps and Cloud Migration</option>
-      <option value="ISM" > IT Service Management & Infrastructure Monitoring</option>
-      <option value="InfrastructureServices">Infrastructure Services</option>
-      <option value="CB">Business Benefits</option>
-      <option value="PP">Perception IT As Your Partner</option>
+      <option value="#AIOPs"  >AIOps</option>
+      <option value="#DCM" >DevOps and Cloud Migration</option>
+      <option value="#ISM" > IT Service Management & Infrastructure Monitoring</option>
+      <option value="#InfrastructureServices">Infrastructure Services</option>
+      <option value="#CB">Business Benefits</option>
+      <option value="#PP">Perception IT As Your Partner</option>
     </select>
   </div>
 

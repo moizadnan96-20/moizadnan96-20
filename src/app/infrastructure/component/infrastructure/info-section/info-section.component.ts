@@ -21,17 +21,18 @@ export class InfoSectionComponent implements OnInit {
   }
 
   constructor() { 
-    AOS.init();
-    console.log(AOS.init());
+   
+   
   }
 
   ngOnInit(): void {
-    this.linkTab = document.getElementById("links-tab");
-    this.linkTabOfset = this.linkTab?.offsetTop;
-    this.header = document.getElementById("header")?.offsetHeight;
+    //this.linkTab = document.getElementById("links-tab");
+    //this.linkTabOfset = this.linkTab?.offsetTop;
+    //this.header = document.getElementById("header")?.offsetHeight;
+    AOS.init();
   }
 
-  scroll(el: any) {
-    scrollTOEl(el);
-  }
+ // scroll(el: any) {
+   // scrollTOEl(el);
+  //}
 }

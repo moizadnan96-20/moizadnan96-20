@@ -12,7 +12,7 @@ export class DevopInfoSectionComponent implements OnInit {
   ngOnInit(): void {
     {
       AOS.init();
-    }
-    console.log(AOS);
+     // console.log(AOS.init());
+}
   }
 }

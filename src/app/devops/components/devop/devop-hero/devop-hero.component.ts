@@ -13,6 +13,7 @@ export class DevopHeroComponent implements OnInit {
   element:any
   public innerWidth: any;
   public width = false;
+ 
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     if (window.innerWidth <= 1100) {
@@ -38,7 +39,7 @@ export class DevopHeroComponent implements OnInit {
   }
 
 
-  constructor (private _vps: ViewportScroller) { }
+  constructor () { }
 
   ngOnInit(): void {
     // this.linkTab = document.getElementById("links-tab");
@@ -51,12 +52,13 @@ export class DevopHeroComponent implements OnInit {
     }
   }
   scroll(el: any) {
-    // scrollTOEl(el);
-    this._vps.scrollToAnchor(el);
+    scrollTOEl(el);
+    //this._vps.scrollToAnchor(el);
+
     this.childevent.emit(el)
   }
   activeRoute(c: any) {
-    this._vps.scrollToAnchor(c.target.value);
+    scrollTOEl(c.target.value);
     this.childevent.emit(c.target.value)
   }
 

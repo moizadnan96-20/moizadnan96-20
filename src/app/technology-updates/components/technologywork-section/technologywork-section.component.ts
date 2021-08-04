@@ -12,9 +12,7 @@ export class TechnologyworkSectionComponent implements OnInit {
   ngOnInit(): void {
     {
       AOS.init();
-    }
-    console.log(AOS);
-  }
   }
 
-
+  }
+}

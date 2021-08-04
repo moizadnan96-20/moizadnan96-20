@@ -25,25 +25,25 @@
           </h5>
         </a>
         <div class="" ngbDropdownMenu>
-          <a ngbDropdownItem (click)="scroll('AIOPs')" style="padding-left: 10px !important" ngbDropdownItem>
+          <a ngbDropdownItem (click)="scroll('#AIOPs')" style="padding-left: 10px !important" ngbDropdownItem>
             <h5 style="color: black">AIOps</h5>
           </a>
-          <a ngbDropdownItem (click)="scroll('IT')">
+          <a ngbDropdownItem (click)="scroll('#IOT')">
             <h5 style="color: black">Internet of Things</h5>
           </a>
-          <a ngbDropdownItem (click)="scroll('DevOps')">
+          <a ngbDropdownItem (click)="scroll('#DevOps')">
             <h5 style="color: black">DevOps</h5>
           </a>
 
-          <a ngbDropdownItem (click)="scroll('Observability')">
+          <a ngbDropdownItem (click)="scroll('#Observability')">
             <h5 style="color: black">Observability</h5>
           </a>
         </div>
       </a>
-      <a (click)="scroll('tech-text')" class="left-line align-middle" id="abc">
+      <a (click)="scroll('#tech-text')" class="left-line align-middle" id="abc">
         <h5 class="third-h5">Technology </h5>
       </a>
-      <a (click)="scroll('PP')" class="left-line align-middle">
+      <a (click)="scroll('#PP')" class="left-line align-middle">
        
         
         <h5 class="third-h5">Perception IT As Your Partner</h5>
@@ -61,12 +61,12 @@
     <h4 class="pb-3" >Topics</h4>
     <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
      
-      <option value="AIOPs"  >AIOps</option>
-      <option value="IT" >Internet of Things</option>
-      <option value="DevOps" > DevOps</option>
-      <option value="Observability">Observability</option>
-      <option value="tech-text">Technology</option>
-      <option value="PP">Perception IT As Your Partner</option>
+      <option value="#AIOPs"  >AIOps</option>
+      <option value="#IOT" >Internet of Things</option>
+      <option value="#DevOps" > DevOps</option>
+      <option value="#Observability">Observability</option>
+      <option value="#tech-text">Technology</option>
+      <option value="#PP">Perception IT As Your Partner</option>
     </select>
   </div>
 

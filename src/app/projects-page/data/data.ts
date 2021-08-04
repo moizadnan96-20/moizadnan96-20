@@ -3,8 +3,8 @@ var projectsData = [
   {
     industry: 'System Integrator',
     softwareProducts: 'IBM Tivoli Monitoring (ITM)',
-    technologies: ['IBM DB-2', 'Regex'],
-    client: 'Orb Data',
+    technologies: ['IBM DB-2', ' Regex'],
+    client: 'Orb Data', 
     title: 'Helios Tower Africa (HTA)\nClaranet (CLUK)',
     summary:
       'ITM/ITNM Integrate ITM software and agents Integrate TDW (Tivoli Data warehouse) Manage and Integrate ITNM software along with nodes Creation of Alerts on IBM different servers Managing and Customizing alerts as per clients need Upgrades of ITM agents Daily Health checks of the system. ',
@@ -14,7 +14,7 @@ var projectsData = [
   {
     industry: 'System Integrator',
     softwareProducts: 'IBM Tivoli Network Monitoring (ITNM)',
-    technologies: ['SNMP' , 'WebSphere'],
+    technologies: ['SNMP' , ' WebSphere'],
     client: 'Orb Data',
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), ITNM',
     summary: 'Manage and Integrate ITNM software along with nodes',
@@ -34,7 +34,7 @@ var projectsData = [
   {
     industry: 'System Integrator',
     softwareProducts: 'Netcool Omnibus, Impact, NOI',
-    technologies: ['Perl', 'Shell', 'Java', 'SQL', 'IBM DB-2'],
+    technologies: ['Perl', ' Shell', ' Java', ' SQL', ' IBM DB-2'],
     client: 'Orb Data',
     title: 'Helios Tower Africa (HTA), Claranet (CLUK), Netcool Omnibus',
     summary: 'Integration of Netcool Omnibus Installation and configuration of different Probes Support and service for existing infrastructure, Netcool Operations insight Integration and Support of NOI',
@@ -45,7 +45,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Cognos and Birt',
-    technologies: ['IBM DB-2', 'SQL'],
+    technologies: ['IBM DB-2', ' SQL'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -56,7 +56,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Tivoli Monitoring (ITM)',
-    technologies: ['Tivoli Datawarehouse', 'IBM DB-2'],
+    technologies: ['Tivoli Data warehouse', ' IBM DB-2'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM Tivoli Monitoring (ITM)',
     summary:
@@ -67,7 +67,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'Netcool Omnibus',
-    technologies: ['Websphere', 'IBM DB-2', 'Perl', 'Shell', 'Java', 'Impact'],
+    technologies: ['Websphere', ' IBM DB-2', ' Perl', ' Shell', ' Java', ' Impact'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -78,7 +78,7 @@ var projectsData = [
   {
     industry: 'Telecommunication',
     softwareProducts: 'IBM Service Desk',
-    technologies: ['Websphere', 'IBM DB-2', 'Java', 'Python', 'Perl'],
+    technologies: ['Websphere', ' IBM DB-2', ' Java', ' Python', ' Perl'],
     client: 'Jazz – Pakistan Mobile Communication Limited (PMCL)',
     title: 'IBM OSS Support and Consultancy',
     summary:
@@ -93,7 +93,7 @@ var projectsData = [
     client: 'Ibrahim Fibres',
     title: 'Hardware Server Service Level Agreement',
     summary:
-      'Ibrahim Fibres is hosting their critical business application on Lenovo Servers. Since these servers are out of warranty and support. Therefore,they requested to provide hardware support service of these 48 servers including preventive maintenance, fix packs patch upgrades or ant other hardware level issue like RAM, Hard Drives, Network Card o Motherboard and other associated issues.',
+      'Ibrahim Fibres is hosting their critical business application on Lenovo Servers. Since these servers are out of warranty and support. Therefore, they requested to provide hardware support service of these 48 servers including preventive maintenance, fix packs patch upgrades or ant other hardware level issue like RAM, Hard Drives, Network Card o Motherboard and other associated issues.',
     image: '../../../../../../assets/img/project-3.svg',
     route: '/more/more-industry',
   },
@@ -101,7 +101,7 @@ var projectsData = [
   {
     industry: 'Public Service',
     softwareProducts: 'Property Management Software',
-    technologies: ['Angular', 'Ionic', 'Firebase'],
+    technologies: ['Angular', ' Ionic', ' Firebase'],
     client: 'RentiD Limited',
     title: 'Property management software and letting agency services for residential landlords, property managers and tenants.',
     summary:
@@ -113,7 +113,7 @@ var projectsData = [
   {
     industry: 'Financial Services',
     softwareProducts: 'Advance Industry Metrics',
-    technologies: ['Firebase', 'Flutter', 'MySql', 'Redis', 'Angular', 'Sequelize', 'Node.Js', 'FCM cloud', 'RSA Encryption'],
+    technologies: ['Firebase', ' Flutter', ' MySql', ' Redis', ' Angular', ' Sequelize', ' Node.Js', ' FCM cloud', ' RSA Encryption'],
     client: 'Dominic Clover',
     title: 'Advance Industry Metrics for Law Firms',
     summary:
@@ -125,7 +125,7 @@ var projectsData = [
   {
     industry: 'Information Technology',
     softwareProducts: 'Ops Alert',
-    technologies: ['Angular', 'Java Spring Framework',' Hibernate', 'PostgreSQL', 'PrimeNg',' LDAP', 'OAuth 2', 'Rest Client', 'Kafka ', 'Cassandra ', 'Jenkins ', 'Kubernetes ', 'Node '],
+    technologies: ['Angular', ' Java Spring Framework',' Hibernate', ' PostgreSQL', ' PrimeNg',' LDAP', ' OAuth 2', ' Rest Client', ' Kafka ', ' Cassandra ', ' Jenkins ', ' Kubernetes ', ' Node '],
     client: 'Orb Data',
     title: 'Ops Alert',
     summary:

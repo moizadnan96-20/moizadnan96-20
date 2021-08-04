@@ -15,7 +15,7 @@
 
   <div class="links-tab padding-left third border-bottom-1" id="links-tab" style="right: 0;"
     (scroll)="onWindowScroll($event)" *ngIf="!width">
-    <div class="social-links">
+    <div class="social-links ">
 
       <a class="dropdown1" ngbDropdown>
         <a class="align-middle linksTopPadding">
@@ -24,23 +24,23 @@
           </h5>
         </a>
         <div class="" ngbDropdownMenu>
-          <a ngbDropdownItem (click)="scroll('SAS')" style="padding-left: 10px !important" ngbDropdownItem>
+          <a ngbDropdownItem (click)="scroll('#SAS')" style="padding-left: 10px !important">
             <h5 style="color: black">Servers and Storage</h5>
           </a>
-          <a ngbDropdownItem (click)="scroll('NAS')">
+          <a ngbDropdownItem (click)="scroll('#NAS')">
             <h5 style="color: black">Network and Security</h5>
           </a>
-          <a ngbDropdownItem (click)="scroll('ES')">
+          <a ngbDropdownItem (click)="scroll('#ES')">
             <h5 style="color: black">Enterprise System</h5>
           </a>
 
-          <a ngbDropdownItem (click)="scroll('IOT')">
+          <a ngbDropdownItem (click)="scroll('#IOT')">
             <h5 style="color: black">IOT</h5>
           </a>
         </div>
       </a>
 
-      <a (click)="scroll('PP')" class="left-line align-middle">
+      <a (click)="scroll('#PP')" class="left-line align-middle">
 
 
         <h5 class="third-h5">Perception IT As Your Partner</h5>
@@ -72,11 +72,11 @@
     <h4 class="pb-3">Topics</h4>
     <select class=" form-select " aria-label="Default select example" (change)="activeRoute($event)">
 
-      <option value="SAS">Servers and Storage</option>
-      <option value="NAS">Network and Security</option>
-      <option value="ES">Enterprise System</option>
-      <option value="IOT">IOT</option>
-      <option value="PP">Perception IT As Your Partner</option>
+      <option value="#SAS">Servers and Storage</option>
+      <option value="#NAS">Network and Security</option>
+      <option value="#ES">Enterprise System</option>
+      <option value="#IOT">IOT</option>
+      <option value="#PP">Perception IT As Your Partner</option>
     </select>
   </div>
 </div>

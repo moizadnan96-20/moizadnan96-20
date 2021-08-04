@@ -1,4 +1,3 @@
-import { ViewportScroller } from '@angular/common';
 import { Component, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 
 declare const scrollTOEl: any;
@@ -40,7 +39,7 @@ export class HeroSectionComponent implements OnInit {
     }
   }
 
-  constructor(private _vps: ViewportScroller) { }
+  constructor() { }
 
   ngOnInit(): void {
     // this.linkTab = document.getElementById("links-tab");
@@ -55,11 +54,14 @@ export class HeroSectionComponent implements OnInit {
   }
 
   scroll(el: any) {
-    this._vps.scrollToAnchor(el);
+    scrollTOEl(el);
+
     this.childevent.emit(el)
+    
   }
   activeRoute(c: any) {
-    this._vps.scrollToAnchor(c.target.value);
+    scrollTOEl(c.target.value);
     this.childevent.emit(c.target.value)
+   
   }
 }

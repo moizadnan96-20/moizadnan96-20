@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit, HostListener, Input } from '@angular/core';
 declare const scrollTOEl: any;
 import * as AOS from 'aos';
@@ -21,21 +22,27 @@ export class InfoSectionComponent implements OnInit {
     }
   }
 
-  constructor() { }
+  constructor(private _vps: ViewportScroller) { }
 
   ngOnInit(): void {
     {
       AOS.init();
     }
-    console.log(AOS);
+    
   
-    this.linkTab = document.getElementById("links-tab");
-    this.linkTabOfset = this.linkTab?.offsetTop;
-    this.header = document.getElementById("header")?.offsetHeight;
+    //this.linkTab = document.getElementById("links-tab");
+    //this.linkTabOfset = this.linkTab?.offsetTop;
+    //this.header = document.getElementById("header")?.offsetHeight;
    
   }
 
-  scroll(el: any) {
+ scroll(el: any) {
     scrollTOEl(el);
+    
+    
+  }
+  activeRoute(c: any) {
+    scrollTOEl(c.target.value);
+    
   }
 }
