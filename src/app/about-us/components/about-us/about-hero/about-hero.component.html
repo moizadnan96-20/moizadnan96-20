@@ -31,19 +31,19 @@
       <div class="links-tab padding-left third border-bottom-1" id="links-tab" (scroll)="onWindowScroll($event)"
       *ngIf="!width">
       <div class="social-links">
-        <a (click)="scroll('SM')" class="align-middle">
+        <a (click)="scroll('#SM')" class="align-middle">
           <h5 class="third-h5">Systems Management</h5>
         </a>
-        <a (click)="scroll('DevOps')" class="left-line align-middle linksTopPadding">
+        <a (click)="scroll('#DevOps')" class="left-line align-middle linksTopPadding">
           <h5 class="third-h5"> DevOps</h5>
         </a>
-        <a (click)="scroll('SD')" class="left-line align-middle linksTopPadding">
+        <a (click)="scroll('#SD')" class="left-line align-middle linksTopPadding">
           <h5 class="third-h5"> Service Desk</h5>
         </a>
-        <a (click)="scroll('CM')" class="left-line align-middle linksTopPadding">
+        <a (click)="scroll('#CM')" class="left-line align-middle linksTopPadding">
           <h5 class="third-h5"> Cloud Migration</h5>
         </a>
-        <a (click)="scroll('PP')" class="left-line align-middle">
+        <a (click)="scroll('#PP')" class="left-line align-middle">
           <!--<h5 class="third-h5">Why Partner With Perception IT</h5>-->
           <h5 class="third-h5">Perception IT As Your Partner</h5>
         </a>
@@ -74,11 +74,11 @@
       <h4 class="pb-3" >Topics</h4>
       <select class=" form-select" aria-label="Default select example"  (change)="activeRoute($event)">
        
-        <option value="SM"  >Systems Management</option>
-        <option value="DevOps" >DevOps</option>
-        <option value="SD" > Service Desk</option>
-        <option value="CM">Cloud Migration</option>
-        <option value="PP">Perception IT As Your Partner</option>
+        <option value="#SM"  >Systems Management</option>
+        <option value="#DevOps" >DevOps</option>
+        <option value="#SD" > Service Desk</option>
+        <option value="#CM">Cloud Migration</option>
+        <option value="#PP">Perception IT As Your Partner</option>
       </select>
     </div>
   

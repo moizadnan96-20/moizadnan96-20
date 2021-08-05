@@ -40,7 +40,7 @@ export class AboutHeroComponent implements OnInit {
     }
   }
 
-  constructor(private _vps: ViewportScroller) {}
+  constructor() {}
 
   ngOnInit(): void {
     if (window.innerWidth <= 1100) {
@@ -51,11 +51,11 @@ export class AboutHeroComponent implements OnInit {
   }
 
   scroll(el: any) {
-    this._vps.scrollToAnchor(el);
+    scrollTOEl(el);
     this.childevent.emit(el)
   }
   activeRoute(c: any) {
-    this._vps.scrollToAnchor(c.target.value);
+    scrollTOEl(c.target.value);
     this.childevent.emit(c.target.value)
   }
 }
